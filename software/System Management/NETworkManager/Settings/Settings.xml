@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SettingsInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <WelcomeDialog_Show>false</WelcomeDialog_Show>
+  <Version>2024.12.31.0</Version>
+  <General_ApplicationList>
+    <ApplicationInfo>
+      <Name>Dashboard</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>true</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>NetworkInterface</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>WiFi</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>IPScanner</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>PortScanner</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>PingMonitor</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>Traceroute</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>DNSLookup</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>RemoteDesktop</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>PowerShell</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>PuTTY</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>AWSSessionManager</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>TigerVNC</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>WebConsole</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>SNMP</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>SNTPLookup</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>DiscoveryProtocol</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>WakeOnLAN</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>Whois</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>IPGeolocation</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>SubnetCalculator</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>BitCalculator</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>Lookup</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>Connections</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>Listeners</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+    <ApplicationInfo>
+      <Name>ARPTable</Name>
+      <IsVisible>true</IsVisible>
+      <IsDefault>false</IsDefault>
+    </ApplicationInfo>
+  </General_ApplicationList>
+  <General_BackgroundJobInterval>5</General_BackgroundJobInterval>
+  <General_ThreadPoolAdditionalMinThreads>512</General_ThreadPoolAdditionalMinThreads>
+  <General_HistoryListEntries>10</General_HistoryListEntries>
+  <Window_ConfirmClose>false</Window_ConfirmClose>
+  <Window_MinimizeInsteadOfTerminating>false</Window_MinimizeInsteadOfTerminating>
+  <Window_MultipleInstances>false</Window_MultipleInstances>
+  <Window_MinimizeToTrayInsteadOfTaskbar>false</Window_MinimizeToTrayInsteadOfTaskbar>
+  <TrayIcon_AlwaysShowIcon>false</TrayIcon_AlwaysShowIcon>
+  <SplashScreen_Enabled>true</SplashScreen_Enabled>
+  <Appearance_Theme>Dark</Appearance_Theme>
+  <Appearance_Accent>Lime</Appearance_Accent>
+  <Appearance_UseCustomTheme>false</Appearance_UseCustomTheme>
+  <Appearance_PowerShellModifyGlobalProfile>false</Appearance_PowerShellModifyGlobalProfile>
+  <Network_UseCustomDNSServer>false</Network_UseCustomDNSServer>
+  <Network_ResolveHostnamePreferIPv4>true</Network_ResolveHostnamePreferIPv4>
+  <Status_ShowWindowOnNetworkChange>true</Status_ShowWindowOnNetworkChange>
+  <Status_WindowCloseTime>10</Status_WindowCloseTime>
+  <Autostart_StartMinimizedInTray>false</Autostart_StartMinimizedInTray>
+  <HotKey_ShowWindowEnabled>false</HotKey_ShowWindowEnabled>
+  <HotKey_ShowWindowKey>79</HotKey_ShowWindowKey>
+  <HotKey_ShowWindowModifier>3</HotKey_ShowWindowModifier>
+  <Update_CheckForUpdatesAtStartup>true</Update_CheckForUpdatesAtStartup>
+  <Update_CheckForPreReleases>false</Update_CheckForPreReleases>
+  <Experimental_EnableExperimentalFeatures>false</Experimental_EnableExperimentalFeatures>
+  <Profiles_LastSelected>Default</Profiles_LastSelected>
+  <ExpandApplicationView>true</ExpandApplicationView>
+  <Dashboard_PublicIPv4Address>1.1.1.1</Dashboard_PublicIPv4Address>
+  <Dashboard_PublicIPv6Address>2606:4700:4700::1111</Dashboard_PublicIPv6Address>
+  <Dashboard_CheckPublicIPAddress>true</Dashboard_CheckPublicIPAddress>
+  <Dashboard_UseCustomPublicIPv4AddressAPI>false</Dashboard_UseCustomPublicIPv4AddressAPI>
+  <Dashboard_UseCustomPublicIPv6AddressAPI>false</Dashboard_UseCustomPublicIPv6AddressAPI>
+  <Dashboard_CheckIPApiIPGeolocation>false</Dashboard_CheckIPApiIPGeolocation>
+  <Dashboard_CheckIPApiDNSResolver>false</Dashboard_CheckIPApiDNSResolver>
+  <NetworkInterface_InterfaceId>{6A37DD0D-1516-473A-AD41-71B912923EC0}</NetworkInterface_InterfaceId>
+  <NetworkInterface_ExpandProfileView>true</NetworkInterface_ExpandProfileView>
+  <NetworkInterface_ProfileWidth>250</NetworkInterface_ProfileWidth>
+  <NetworkInterface_ExportFileType>Csv</NetworkInterface_ExportFileType>
+  <WiFi_Show2dot4GHzNetworks>true</WiFi_Show2dot4GHzNetworks>
+  <WiFi_Show5GHzNetworks>true</WiFi_Show5GHzNetworks>
+  <WiFi_Show6GHzNetworks>true</WiFi_Show6GHzNetworks>
+  <WiFi_AutoRefreshEnabled>false</WiFi_AutoRefreshEnabled>
+  <WiFi_AutoRefreshTime>
+    <Value>30</Value>
+    <TimeUnit>Second</TimeUnit>
+  </WiFi_AutoRefreshTime>
+  <WiFi_ExportFileType>Csv</WiFi_ExportFileType>
+  <IPScanner_ShowAllResults>false</IPScanner_ShowAllResults>
+  <IPScanner_ICMPTimeout>4000</IPScanner_ICMPTimeout>
+  <IPScanner_ICMPAttempts>2</IPScanner_ICMPAttempts>
+  <IPScanner_ICMPBuffer>32</IPScanner_ICMPBuffer>
+  <IPScanner_HostHistory />
+  <IPScanner_ResolveHostname>true</IPScanner_ResolveHostname>
+  <IPScanner_PortScanEnabled>true</IPScanner_PortScanEnabled>
+  <IPScanner_PortScanPorts>22; 53; 80; 139; 389; 636; 443; 445; 3389</IPScanner_PortScanPorts>
+  <IPScanner_PortScanTimeout>4000</IPScanner_PortScanTimeout>
+  <IPScanner_NetBIOSEnabled>true</IPScanner_NetBIOSEnabled>
+  <IPScanner_NetBIOSTimeout>4000</IPScanner_NetBIOSTimeout>
+  <IPScanner_ResolveMACAddress>false</IPScanner_ResolveMACAddress>
+  <IPScanner_CustomCommands>
+    <CustomCommandInfo>
+      <ID>896f7be5-a4fe-4e3e-b9d8-cca6b02616c7</ID>
+      <Name>Edge</Name>
+      <FilePath>cmd.exe</FilePath>
+      <Arguments>/c start microsoft-edge:http://$$ipaddress$$/</Arguments>
+    </CustomCommandInfo>
+    <CustomCommandInfo>
+      <ID>82006bdf-8258-4558-9cfb-e434a34dff18</ID>
+      <Name>Edge (https)</Name>
+      <FilePath>cmd.exe</FilePath>
+      <Arguments>/c start microsoft-edge:https://$$ipaddress$$/</Arguments>
+    </CustomCommandInfo>
+    <CustomCommandInfo>
+      <ID>fa2d0f79-55bc-4c37-8d51-91b2489c5fe7</ID>
+      <Name>Windows Explorer (c$)</Name>
+      <FilePath>explorer.exe</FilePath>
+      <Arguments>\\$$ipaddress$$\c$</Arguments>
+    </CustomCommandInfo>
+  </IPScanner_CustomCommands>
+  <IPScanner_MaxHostThreads>256</IPScanner_MaxHostThreads>
+  <IPScanner_MaxPortThreads>5</IPScanner_MaxPortThreads>
+  <IPScanner_ExpandProfileView>true</IPScanner_ExpandProfileView>
+  <IPScanner_ProfileWidth>250</IPScanner_ProfileWidth>
+  <IPScanner_ExportFileType>Csv</IPScanner_ExportFileType>
+  <PortScanner_HostHistory />
+  <PortScanner_PortHistory />
+  <PortScanner_PortProfiles>
+    <PortProfileInfo>
+      <Name>DNS (via TCP)</Name>
+      <Ports>53</Ports>
+    </PortProfileInfo>
+    <PortProfileInfo>
+      <Name>NTP (via TCP)</Name>
+      <Ports>123</Ports>
+    </PortProfileInfo>
+    <PortProfileInfo>
+      <Name>Webserver</Name>
+      <Ports>80; 443</Ports>
+    </PortProfileInfo>
+    <PortProfileInfo>
+      <Name>Webserver (Other)</Name>
+      <Ports>80; 443; 8080; 8443</Ports>
+    </PortProfileInfo>
+    <PortProfileInfo>
+      <Name>Remote access</Name>
+      <Ports>22; 23; 3389; 5900</Ports>
+    </PortProfileInfo>
+    <PortProfileInfo>
+      <Name>Mailserver</Name>
+      <Ports>25; 110; 143; 465; 587; 993; 995</Ports>
+    </PortProfileInfo>
+    <PortProfileInfo>
+      <Name>Filetransfer</Name>
+      <Ports>20-21; 22; 989-990; 2049</Ports>
+    </PortProfileInfo>
+    <PortProfileInfo>
+      <Name>Database</Name>
+      <Ports>1433-1434; 1521; 1830; 3306; 5432</Ports>
+    </PortProfileInfo>
+    <PortProfileInfo>
+      <Name>SMB</Name>
+      <Ports>139; 445</Ports>
+    </PortProfileInfo>
+    <PortProfileInfo>
+      <Name>LDAP</Name>
+      <Ports>389; 636</Ports>
+    </PortProfileInfo>
+    <PortProfileInfo>
+      <Name>HTTP proxy</Name>
+      <Ports>3128</Ports>
+    </PortProfileInfo>
+  </PortScanner_PortProfiles>
+  <PortScanner_ResolveHostname>true</PortScanner_ResolveHostname>
+  <PortScanner_ShowAllResults>false</PortScanner_ShowAllResults>
+  <PortScanner_Timeout>4000</PortScanner_Timeout>
+  <PortScanner_MaxHostThreads>5</PortScanner_MaxHostThreads>
+  <PortScanner_MaxPortThreads>256</PortScanner_MaxPortThreads>
+  <PortScanner_ExpandProfileView>true</PortScanner_ExpandProfileView>
+  <PortScanner_ProfileWidth>250</PortScanner_ProfileWidth>
+  <PortScanner_ExportFileType>Csv</PortScanner_ExportFileType>
+  <PingMonitor_HostHistory />
+  <PingMonitor_Buffer>32</PingMonitor_Buffer>
+  <PingMonitor_DontFragment>true</PingMonitor_DontFragment>
+  <PingMonitor_Timeout>4000</PingMonitor_Timeout>
+  <PingMonitor_TTL>64</PingMonitor_TTL>
+  <PingMonitor_WaitTime>1000</PingMonitor_WaitTime>
+  <PingMonitor_ExpandHostView>false</PingMonitor_ExpandHostView>
+  <PingMonitor_ExportFileType>Csv</PingMonitor_ExportFileType>
+  <PingMonitor_ExpandProfileView>true</PingMonitor_ExpandProfileView>
+  <PingMonitor_ProfileWidth>250</PingMonitor_ProfileWidth>
+  <Traceroute_HostHistory />
+  <Traceroute_MaximumHops>30</Traceroute_MaximumHops>
+  <Traceroute_Timeout>4000</Traceroute_Timeout>
+  <Traceroute_Buffer>32</Traceroute_Buffer>
+  <Traceroute_ResolveHostname>true</Traceroute_ResolveHostname>
+  <Traceroute_CheckIPApiIPGeolocation>false</Traceroute_CheckIPApiIPGeolocation>
+  <Traceroute_ExpandProfileView>true</Traceroute_ExpandProfileView>
+  <Traceroute_ProfileWidth>250</Traceroute_ProfileWidth>
+  <Traceroute_ExportFileType>Csv</Traceroute_ExportFileType>
+  <DNSLookup_HostHistory />
+  <DNSLookup_DNSServers>
+    <DNSServerConnectionInfoProfile>
+      <Servers />
+      <UseWindowsDNSServer>true</UseWindowsDNSServer>
+    </DNSServerConnectionInfoProfile>
+    <DNSServerConnectionInfoProfile>
+      <Name>Cloudflare</Name>
+      <Servers>
+        <ServerConnectionInfo>
+          <Server>1.1.1.1</Server>
+          <Port>53</Port>
+          <TransportProtocol>Udp</TransportProtocol>
+        </ServerConnectionInfo>
+        <ServerConnectionInfo>
+          <Server>1.0.0.1</Server>
+          <Port>53</Port>
+          <TransportProtocol>Udp</TransportProtocol>
+        </ServerConnectionInfo>
+      </Servers>
+      <UseWindowsDNSServer>false</UseWindowsDNSServer>
+    </DNSServerConnectionInfoProfile>
+    <DNSServerConnectionInfoProfile>
+      <Name>DNS.Watch</Name>
+      <Servers>
+        <ServerConnectionInfo>
+          <Server>84.200.69.80</Server>
+          <Port>53</Port>
+          <TransportProtocol>Udp</TransportProtocol>
+        </ServerConnectionInfo>
+        <ServerConnectionInfo>
+          <Server>84.200.70.40</Server>
+          <Port>53</Port>
+          <TransportProtocol>Udp</TransportProtocol>
+        </ServerConnectionInfo>
+      </Servers>
+      <UseWindowsDNSServer>false</UseWindowsDNSServer>
+    </DNSServerConnectionInfoProfile>
+    <DNSServerConnectionInfoProfile>
+      <Name>Google Public DNS</Name>
+      <Servers>
+        <ServerConnectionInfo>
+          <Server>8.8.8.8</Server>
+          <Port>53</Port>
+          <TransportProtocol>Udp</TransportProtocol>
+        </ServerConnectionInfo>
+        <ServerConnectionInfo>
+          <Server>8.8.4.4</Server>
+          <Port>53</Port>
+          <TransportProtocol>Udp</TransportProtocol>
+        </ServerConnectionInfo>
+      </Servers>
+      <UseWindowsDNSServer>false</UseWindowsDNSServer>
+    </DNSServerConnectionInfoProfile>
+    <DNSServerConnectionInfoProfile>
+      <Name>Level3</Name>
+      <Servers>
+        <ServerConnectionInfo>
+          <Server>209.244.0.3</Server>
+          <Port>53</Port>
+          <TransportProtocol>Udp</TransportProtocol>
+        </ServerConnectionInfo>
+        <ServerConnectionInfo>
+          <Server>209.244.0.4</Server>
+          <Port>53</Port>
+          <TransportProtocol>Udp</TransportProtocol>
+        </ServerConnectionInfo>
+      </Servers>
+      <UseWindowsDNSServer>false</UseWindowsDNSServer>
+    </DNSServerConnectionInfoProfile>
+    <DNSServerConnectionInfoProfile>
+      <Name>Verisign</Name>
+      <Servers>
+        <ServerConnectionInfo>
+          <Server>64.6.64.6</Server>
+          <Port>53</Port>
+          <TransportProtocol>Udp</TransportProtocol>
+        </ServerConnectionInfo>
+        <ServerConnectionInfo>
+          <Server>64.6.65.6</Server>
+          <Port>53</Port>
+          <TransportProtocol>Udp</TransportProtocol>
+        </ServerConnectionInfo>
+      </Servers>
+      <UseWindowsDNSServer>false</UseWindowsDNSServer>
+    </DNSServerConnectionInfoProfile>
+  </DNSLookup_DNSServers>
+  <DNSLookup_SelectedDNSServer>
+    <Servers />
+    <UseWindowsDNSServer>true</UseWindowsDNSServer>
+  </DNSLookup_SelectedDNSServer>
+  <DNSLookup_QueryClass>IN</DNSLookup_QueryClass>
+  <DNSLookup_ShowOnlyMostCommonQueryTypes>true</DNSLookup_ShowOnlyMostCommonQueryTypes>
+  <DNSLookup_QueryType>ANY</DNSLookup_QueryType>
+  <DNSLookup_AddDNSSuffix>true</DNSLookup_AddDNSSuffix>
+  <DNSLookup_UseCustomDNSSuffix>false</DNSLookup_UseCustomDNSSuffix>
+  <DNSLookup_Recursion>true</DNSLookup_Recursion>
+  <DNSLookup_UseCache>false</DNSLookup_UseCache>
+  <DNSLookup_UseTCPOnly>false</DNSLookup_UseTCPOnly>
+  <DNSLookup_Retries>3</DNSLookup_Retries>
+  <DNSLookup_Timeout>2</DNSLookup_Timeout>
+  <DNSLookup_ExpandProfileView>true</DNSLookup_ExpandProfileView>
+  <DNSLookup_ProfileWidth>250</DNSLookup_ProfileWidth>
+  <DNSLookup_ExportFileType>Csv</DNSLookup_ExportFileType>
+  <RemoteDesktop_HostHistory />
+  <RemoteDesktop_AdjustScreenAutomatically>false</RemoteDesktop_AdjustScreenAutomatically>
+  <RemoteDesktop_UseCurrentViewSize>true</RemoteDesktop_UseCurrentViewSize>
+  <RemoteDesktop_UseFixedScreenSize>false</RemoteDesktop_UseFixedScreenSize>
+  <RemoteDesktop_ScreenWidth>1280</RemoteDesktop_ScreenWidth>
+  <RemoteDesktop_ScreenHeight>768</RemoteDesktop_ScreenHeight>
+  <RemoteDesktop_UseCustomScreenSize>false</RemoteDesktop_UseCustomScreenSize>
+  <RemoteDesktop_CustomScreenWidth>0</RemoteDesktop_CustomScreenWidth>
+  <RemoteDesktop_CustomScreenHeight>0</RemoteDesktop_CustomScreenHeight>
+  <RemoteDesktop_ColorDepth>32</RemoteDesktop_ColorDepth>
+  <RemoteDesktop_Port>3389</RemoteDesktop_Port>
+  <RemoteDesktop_EnableCredSspSupport>true</RemoteDesktop_EnableCredSspSupport>
+  <RemoteDesktop_AuthenticationLevel>2</RemoteDesktop_AuthenticationLevel>
+  <RemoteDesktop_EnableGatewayServer>false</RemoteDesktop_EnableGatewayServer>
+  <RemoteDesktop_GatewayServerBypassLocalAddresses>true</RemoteDesktop_GatewayServerBypassLocalAddresses>
+  <RemoteDesktop_GatewayServerLogonMethod>Any</RemoteDesktop_GatewayServerLogonMethod>
+  <RemoteDesktop_GatewayServerShareCredentialsWithRemoteComputer>true</RemoteDesktop_GatewayServerShareCredentialsWithRemoteComputer>
+  <RemoteDesktop_AudioRedirectionMode>PlayOnThisComputer</RemoteDesktop_AudioRedirectionMode>
+  <RemoteDesktop_AudioCaptureRedirectionMode>DoNotRecord</RemoteDesktop_AudioCaptureRedirectionMode>
+  <RemoteDesktop_KeyboardHookMode>OnTheRemoteComputer</RemoteDesktop_KeyboardHookMode>
+  <RemoteDesktop_RedirectClipboard>true</RemoteDesktop_RedirectClipboard>
+  <RemoteDesktop_RedirectDevices>false</RemoteDesktop_RedirectDevices>
+  <RemoteDesktop_RedirectDrives>false</RemoteDesktop_RedirectDrives>
+  <RemoteDesktop_RedirectPorts>false</RemoteDesktop_RedirectPorts>
+  <RemoteDesktop_RedirectSmartCards>false</RemoteDesktop_RedirectSmartCards>
+  <RemoteDesktop_RedirectPrinters>false</RemoteDesktop_RedirectPrinters>
+  <RemoteDesktop_PersistentBitmapCaching>false</RemoteDesktop_PersistentBitmapCaching>
+  <RemoteDesktop_ReconnectIfTheConnectionIsDropped>false</RemoteDesktop_ReconnectIfTheConnectionIsDropped>
+  <RemoteDesktop_NetworkConnectionType>DetectAutomatically</RemoteDesktop_NetworkConnectionType>
+  <RemoteDesktop_DesktopBackground>false</RemoteDesktop_DesktopBackground>
+  <RemoteDesktop_FontSmoothing>false</RemoteDesktop_FontSmoothing>
+  <RemoteDesktop_DesktopComposition>false</RemoteDesktop_DesktopComposition>
+  <RemoteDesktop_ShowWindowContentsWhileDragging>false</RemoteDesktop_ShowWindowContentsWhileDragging>
+  <RemoteDesktop_MenuAndWindowAnimation>false</RemoteDesktop_MenuAndWindowAnimation>
+  <RemoteDesktop_VisualStyles>false</RemoteDesktop_VisualStyles>
+  <RemoteDesktop_ExpandProfileView>true</RemoteDesktop_ExpandProfileView>
+  <RemoteDesktop_ProfileWidth>250</RemoteDesktop_ProfileWidth>
+  <PowerShell_HostHistory />
+  <PowerShell_ApplicationFilePath>C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</PowerShell_ApplicationFilePath>
+  <PowerShell_Command>Set-Location ~</PowerShell_Command>
+  <PowerShell_ExecutionPolicy>RemoteSigned</PowerShell_ExecutionPolicy>
+  <PowerShell_ExpandProfileView>true</PowerShell_ExpandProfileView>
+  <PowerShell_ProfileWidth>250</PowerShell_ProfileWidth>
+  <PuTTY_HostHistory />
+  <PuTTY_DefaultConnectionMode>SSH</PuTTY_DefaultConnectionMode>
+  <PuTTY_Profile>NETworkManager</PuTTY_Profile>
+  <PuTTY_EnableSessionLog>false</PuTTY_EnableSessionLog>
+  <PuTTY_LogMode>SessionLog</PuTTY_LogMode>
+  <PuTTY_LogPath>C:\Users\clovm\AppData\Local\NETworkManager\PuTTY_Log</PuTTY_LogPath>
+  <PuTTY_LogFileName>&amp;H_&amp;Y-&amp;M-&amp;D_&amp;T.log</PuTTY_LogFileName>
+  <PuTTY_SerialLineHistory />
+  <PuTTY_PortHistory />
+  <PuTTY_BaudHistory />
+  <PuTTY_UsernameHistory />
+  <PuTTY_PrivateKeyFileHistory />
+  <PuTTY_ProfileHistory />
+  <PuTTY_ExpandProfileView>true</PuTTY_ExpandProfileView>
+  <PuTTY_ProfileWidth>250</PuTTY_ProfileWidth>
+  <PuTTY_SerialLine>COM1</PuTTY_SerialLine>
+  <PuTTY_SSHPort>22</PuTTY_SSHPort>
+  <PuTTY_TelnetPort>23</PuTTY_TelnetPort>
+  <PuTTY_BaudRate>9600</PuTTY_BaudRate>
+  <PuTTY_RloginPort>513</PuTTY_RloginPort>
+  <PuTTY_RawPort>23</PuTTY_RawPort>
+  <AWSSessionManager_EnableSyncInstanceIDsFromAWS>false</AWSSessionManager_EnableSyncInstanceIDsFromAWS>
+  <AWSSessionManager_AWSProfiles>
+    <AWSProfileInfo>
+      <IsEnabled>false</IsEnabled>
+      <Profile>default</Profile>
+      <Region>eu-central-1</Region>
+    </AWSProfileInfo>
+    <AWSProfileInfo>
+      <IsEnabled>false</IsEnabled>
+      <Profile>default</Profile>
+      <Region>us-east-1</Region>
+    </AWSProfileInfo>
+  </AWSSessionManager_AWSProfiles>
+  <AWSSessionManager_SyncOnlyRunningInstancesFromAWS>true</AWSSessionManager_SyncOnlyRunningInstancesFromAWS>
+  <AWSSessionManager_ApplicationFilePath>C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</AWSSessionManager_ApplicationFilePath>
+  <AWSSessionManager_InstanceIDHistory />
+  <AWSSessionManager_ProfileHistory />
+  <AWSSessionManager_RegionHistory />
+  <AWSSessionManager_ExpandProfileView>true</AWSSessionManager_ExpandProfileView>
+  <AWSSessionManager_ProfileWidth>250</AWSSessionManager_ProfileWidth>
+  <TigerVNC_HostHistory />
+  <TigerVNC_PortHistory />
+  <TigerVNC_ExpandProfileView>true</TigerVNC_ExpandProfileView>
+  <TigerVNC_ProfileWidth>250</TigerVNC_ProfileWidth>
+  <TigerVNC_Port>5900</TigerVNC_Port>
+  <WebConsole_UrlHistory />
+  <WebConsole_ExpandProfileView>true</WebConsole_ExpandProfileView>
+  <WebConsole_ProfileWidth>250</WebConsole_ProfileWidth>
+  <WebConsole_ShowAddressBar>true</WebConsole_ShowAddressBar>
+  <SNMP_HostHistory />
+  <SNMP_OidHistory />
+  <SNMP_OidProfiles>
+    <SNMPOIDProfileInfo>
+      <Name>HOST-RESOURCES-MIB</Name>
+      <OID>.1.3.6.1.2.1.25</OID>
+      <Mode>Walk</Mode>
+    </SNMPOIDProfileInfo>
+    <SNMPOIDProfileInfo>
+      <Name>IF-MIB</Name>
+      <OID>.1.3.6.1.2.1.2</OID>
+      <Mode>Walk</Mode>
+    </SNMPOIDProfileInfo>
+    <SNMPOIDProfileInfo>
+      <Name>IP-MIB</Name>
+      <OID>.1.3.6.1.2.1.4</OID>
+      <Mode>Walk</Mode>
+    </SNMPOIDProfileInfo>
+    <SNMPOIDProfileInfo>
+      <Name>Linux - Interface names</Name>
+      <OID>.1.3.6.1.2.1.2.2.1.2</OID>
+      <Mode>Walk</Mode>
+    </SNMPOIDProfileInfo>
+    <SNMPOIDProfileInfo>
+      <Name>Linux - Load (1, 5, 15 min)</Name>
+      <OID>.1.3.6.1.4.1.2021.10.1.3.1; .1.3.6.1.4.1.2021.10.1.3.2; .1.3.6.1.4.1.2021.10.1.3.3</OID>
+      <Mode>Get</Mode>
+    </SNMPOIDProfileInfo>
+    <SNMPOIDProfileInfo>
+      <Name>Linux - Memory (Swap size, total RAM, RAM used, RAM free)</Name>
+      <OID>.1.3.6.1.4.1.2021.4.3.0; .1.3.6.1.4.1.2021.4.5.0; .1.3.6.1.4.1.2021.4.6.0; .1.3.6.1.4.1.2021.4.11.0</OID>
+      <Mode>Get</Mode>
+    </SNMPOIDProfileInfo>
+    <SNMPOIDProfileInfo>
+      <Name>Linux - SNMP uptime</Name>
+      <OID>.1.3.6.1.2.1.1.3.0</OID>
+      <Mode>Get</Mode>
+    </SNMPOIDProfileInfo>
+    <SNMPOIDProfileInfo>
+      <Name>Linux - System uptime</Name>
+      <OID>.1.3.6.1.2.1.25.1.1.0</OID>
+      <Mode>Get</Mode>
+    </SNMPOIDProfileInfo>
+    <SNMPOIDProfileInfo>
+      <Name>SNMPv2-MIB (system)</Name>
+      <OID>.1.3.6.1.2.1.1</OID>
+      <Mode>Walk</Mode>
+    </SNMPOIDProfileInfo>
+    <SNMPOIDProfileInfo>
+      <Name>TCP-MIB</Name>
+      <OID>.1.3.6.1.2.1.6</OID>
+      <Mode>Walk</Mode>
+    </SNMPOIDProfileInfo>
+    <SNMPOIDProfileInfo>
+      <Name>UDP-MIB</Name>
+      <OID>.1.3.6.1.2.1.7</OID>
+      <Mode>Walk</Mode>
+    </SNMPOIDProfileInfo>
+    <SNMPOIDProfileInfo>
+      <Name>UCD-SNMP-MIB</Name>
+      <OID>.1.3.6.1.4.1.2021</OID>
+      <Mode>Walk</Mode>
+    </SNMPOIDProfileInfo>
+  </SNMP_OidProfiles>
+  <SNMP_Timeout>60000</SNMP_Timeout>
+  <SNMP_WalkMode>WithinSubtree</SNMP_WalkMode>
+  <SNMP_Port>161</SNMP_Port>
+  <SNMP_Mode>Walk</SNMP_Mode>
+  <SNMP_Version>V2C</SNMP_Version>
+  <SNMP_Security>AuthPriv</SNMP_Security>
+  <SNMP_AuthenticationProvider>SHA1</SNMP_AuthenticationProvider>
+  <SNMP_PrivacyProvider>AES</SNMP_PrivacyProvider>
+  <SNMP_ExpandProfileView>true</SNMP_ExpandProfileView>
+  <SNMP_ProfileWidth>250</SNMP_ProfileWidth>
+  <SNMP_ExportFileType>Csv</SNMP_ExportFileType>
+  <SNTPLookup_SNTPServers>
+    <ServerConnectionInfoProfile>
+      <Name>Cloudflare</Name>
+      <Servers>
+        <ServerConnectionInfo>
+          <Server>time.cloudflare.com</Server>
+          <Port>123</Port>
+          <TransportProtocol>Tcp</TransportProtocol>
+        </ServerConnectionInfo>
+      </Servers>
+    </ServerConnectionInfoProfile>
+    <ServerConnectionInfoProfile>
+      <Name>Google Public NTP</Name>
+      <Servers>
+        <ServerConnectionInfo>
+          <Server>time.google.com</Server>
+          <Port>123</Port>
+          <TransportProtocol>Tcp</TransportProtocol>
+        </ServerConnectionInfo>
+        <ServerConnectionInfo>
+          <Server>time1.google.com</Server>
+          <Port>123</Port>
+          <TransportProtocol>Tcp</TransportProtocol>
+        </ServerConnectionInfo>
+        <ServerConnectionInfo>
+          <Server>time2.google.com</Server>
+          <Port>123</Port>
+          <TransportProtocol>Tcp</TransportProtocol>
+        </ServerConnectionInfo>
+        <ServerConnectionInfo>
+          <Server>time3.google.com</Server>
+          <Port>123</Port>
+          <TransportProtocol>Tcp</TransportProtocol>
+        </ServerConnectionInfo>
+        <ServerConnectionInfo>
+          <Server>time4.google.com</Server>
+          <Port>123</Port>
+          <TransportProtocol>Tcp</TransportProtocol>
+        </ServerConnectionInfo>
+      </Servers>
+    </ServerConnectionInfoProfile>
+    <ServerConnectionInfoProfile>
+      <Name>Microsoft</Name>
+      <Servers>
+        <ServerConnectionInfo>
+          <Server>time.windows.com</Server>
+          <Port>123</Port>
+          <TransportProtocol>Tcp</TransportProtocol>
+        </ServerConnectionInfo>
+      </Servers>
+    </ServerConnectionInfoProfile>
+    <ServerConnectionInfoProfile>
+      <Name>pool.ntp.org</Name>
+      <Servers>
+        <ServerConnectionInfo>
+          <Server>0.pool.ntp.org</Server>
+          <Port>123</Port>
+          <TransportProtocol>Tcp</TransportProtocol>
+        </ServerConnectionInfo>
+        <ServerConnectionInfo>
+          <Server>1.pool.ntp.org</Server>
+          <Port>123</Port>
+          <TransportProtocol>Tcp</TransportProtocol>
+        </ServerConnectionInfo>
+        <ServerConnectionInfo>
+          <Server>2.pool.ntp.org</Server>
+          <Port>123</Port>
+          <TransportProtocol>Tcp</TransportProtocol>
+        </ServerConnectionInfo>
+        <ServerConnectionInfo>
+          <Server>3.pool.ntp.org</Server>
+          <Port>123</Port>
+          <TransportProtocol>Tcp</TransportProtocol>
+        </ServerConnectionInfo>
+      </Servers>
+    </ServerConnectionInfoProfile>
+  </SNTPLookup_SNTPServers>
+  <SNTPLookup_SelectedSNTPServer>
+    <Servers />
+  </SNTPLookup_SelectedSNTPServer>
+  <SNTPLookup_Timeout>4000</SNTPLookup_Timeout>
+  <SNTPLookup_ExportFileType>Csv</SNTPLookup_ExportFileType>
+  <DiscoveryProtocol_Protocol>LldpCdp</DiscoveryProtocol_Protocol>
+  <DiscoveryProtocol_Duration>60</DiscoveryProtocol_Duration>
+  <DiscoveryProtocol_ExportFileType>Csv</DiscoveryProtocol_ExportFileType>
+  <WakeOnLAN_Port>9</WakeOnLAN_Port>
+  <WakeOnLan_MACAddressHistory />
+  <WakeOnLan_BroadcastHistory />
+  <WakeOnLAN_ExpandProfileView>true</WakeOnLAN_ExpandProfileView>
+  <WakeOnLAN_ProfileWidth>250</WakeOnLAN_ProfileWidth>
+  <Whois_DomainHistory />
+  <Whois_ExpandProfileView>true</Whois_ExpandProfileView>
+  <Whois_ProfileWidth>250</Whois_ProfileWidth>
+  <Whois_ExportFileType>Txt</Whois_ExportFileType>
+  <IPGeolocation_HostHistory />
+  <IPGeolocation_ExpandProfileView>true</IPGeolocation_ExpandProfileView>
+  <IPGeolocation_ProfileWidth>250</IPGeolocation_ProfileWidth>
+  <IPGeolocation_ExportFileType>Csv</IPGeolocation_ExportFileType>
+  <SubnetCalculator_Calculator_SubnetHistory>
+    <string>192.168.1.2/24</string>
+  </SubnetCalculator_Calculator_SubnetHistory>
+  <SubnetCalculator_Subnetting_SubnetHistory />
+  <SubnetCalculator_Subnetting_NewSubnetmaskHistory />
+  <SubnetCalculator_Subnetting_ExportFileType>Csv</SubnetCalculator_Subnetting_ExportFileType>
+  <SubnetCalculator_WideSubnet_Subnet1 />
+  <SubnetCalculator_WideSubnet_Subnet2 />
+  <BitCalculator_InputHistory />
+  <BitCalculator_Unit>Bytes</BitCalculator_Unit>
+  <BitCalculator_Notation>Binary</BitCalculator_Notation>
+  <BitCalculator_ExportFileType>Csv</BitCalculator_ExportFileType>
+  <Lookup_OUI_SearchHistory />
+  <Lookup_OUI_ExportFileType>Csv</Lookup_OUI_ExportFileType>
+  <Lookup_Port_SearchHistory />
+  <Lookup_Port_ExportFileType>Csv</Lookup_Port_ExportFileType>
+  <Connections_AutoRefreshEnabled>false</Connections_AutoRefreshEnabled>
+  <Connections_AutoRefreshTime>
+    <Value>30</Value>
+    <TimeUnit>Second</TimeUnit>
+  </Connections_AutoRefreshTime>
+  <Connections_ExportFileType>Csv</Connections_ExportFileType>
+  <Listeners_AutoRefreshEnabled>false</Listeners_AutoRefreshEnabled>
+  <Listeners_AutoRefreshTime>
+    <Value>30</Value>
+    <TimeUnit>Second</TimeUnit>
+  </Listeners_AutoRefreshTime>
+  <Listeners_ExportFileType>Csv</Listeners_ExportFileType>
+  <ARPTable_AutoRefreshEnabled>false</ARPTable_AutoRefreshEnabled>
+  <ARPTable_AutoRefreshTime>
+    <Value>30</Value>
+    <TimeUnit>Second</TimeUnit>
+  </ARPTable_AutoRefreshTime>
+  <ARPTable_ExportFileType>Csv</ARPTable_ExportFileType>
+</SettingsInfo>

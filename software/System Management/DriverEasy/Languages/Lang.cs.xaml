@@ -1,0 +1,868 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!--Common-->
+    <sys:String x:Key="Free">Zdarma</sys:String>
+    <sys:String x:Key="Pro">Pro</sys:String>
+    <sys:String x:Key="ProAvailable">Profesionální funkce</sys:String>
+    <sys:String x:Key="Professional">Professional</sys:String>
+    <sys:String x:Key="Revision">Revize</sys:String>
+    <sys:String x:Key="Name">Název</sys:String>
+    <sys:String x:Key="Version">Verze</sys:String>
+    <sys:String x:Key="Manufacturer">Výrobce</sys:String>
+    <sys:String x:Key="Size">Velikost</sys:String>
+    <sys:String x:Key="Copyright">Autorská práva © {0}, Easeware. Všechna práva vyhrazena.</sys:String>
+    <sys:String x:Key="ContactAdmin">Došlo k chybě aplikace. Obraťte se na správce ...</sys:String>
+    <sys:String x:Key="Oops">Jejda!</sys:String>
+    <sys:String x:Key="About">O ?</sys:String>
+    <sys:String x:Key="Yes">Ano</sys:String>
+    <sys:String x:Key="No">Ne</sys:String>
+    <sys:String x:Key="OK">OK</sys:String>
+    <sys:String x:Key="Cancel">Zrušit</sys:String>
+    <sys:String x:Key="YouMustRestart">Aby se změny projevily, musíte restartovat počítač.</sys:String>
+    <sys:String x:Key="RestoreNeedRestart">Je třeba restartovat počítač, aby se změny projevily.</sys:String>
+    <sys:String x:Key="RestartNowInfo">Chcete počítač restartovat nyní?</sys:String>
+    <sys:String x:Key="YesRestartNow">Ano, restartovat nyní</sys:String>
+    <sys:String x:Key="NoRestartLater">Ne, restartovat později</sys:String>
+    <sys:String x:Key="NeedRestart">* {0} Aktualizované ovladače potřebují restart aby se projevily.</sys:String>
+    <sys:String x:Key="MustRestart">Aby byla(y) aktualizace ovladače(ů) účinná(é), je nutné restartovat počítač.</sys:String>
+    <sys:String x:Key="CreatingRestorePoint">Vytvoření bodu obnovení ...</sys:String>
+    <sys:String x:Key="InstallDriver">Nainstalované ovladače</sys:String>
+    <sys:String x:Key="DriverInstallSuccessfully">Líbí se vám tento ovladač úspěšně nainstalován?</sys:String>
+    <sys:String x:Key="DriverInstallSuccessfullyDesc">Prosím, postupujte podle pokynů na obrazovce pro instalaci ovladače. Klikněte na „Ano“ Po dokončení instalace.</sys:String>
+    <sys:String x:Key="ClickYesAfterInstallation">Po dokončení instalace klikněte na Ano.</sys:String>
+    <sys:String x:Key="InstallingDriver">Instalace ovladačů, postupujte podle pokynů na obrazovce pro dokončení instalace.</sys:String>
+    <sys:String x:Key="OpenFileLocation">Otevřít umístění souboru</sys:String>
+    <sys:String x:Key="Delete">Odstranit</sys:String>
+    <!--Main Page-->
+    <sys:String x:Key="Upgrade">Vylepšeno</sys:String>
+    <sys:String x:Key="RegisterNow">Register Now</sys:String>
+    <sys:String x:Key="UpToDate">Nejnovější</sys:String>
+    <sys:String x:Key="ProblemDriver">{0} Zařízení mají nové ovladače</sys:String>
+    <sys:String x:Key="ProblemOneDriver">{0} Zařízení má nové ovladače</sys:String>
+    <sys:String x:Key="Unchecked">Nekontrolovaný</sys:String>
+    <sys:String x:Key="ScanNeeded">Je nutné skenování</sys:String>
+    <sys:String x:Key="Never">Nikdy</sys:String>
+    <sys:String x:Key="LastScan">Poslední Sken</sys:String>
+    <sys:String x:Key="YearAgo">{0} rok (s) před</sys:String>
+    <sys:String x:Key="MonthAgo">{0} měsíc (s) před</sys:String>
+    <sys:String x:Key="WeekAgo">{0} týden (s) před</sys:String>
+    <sys:String x:Key="DayAgo">{0} den (s) před</sys:String>
+    <sys:String x:Key="HourAgo">{0} hodina (s) před</sys:String>
+    <sys:String x:Key="MinuteAgo">{0} minuta(s) před</sys:String>
+    <sys:String x:Key="SecondAgo">{0} sekund/a(s) před</sys:String>
+    <sys:String x:Key="ScanNow">Skenovat Nyní</sys:String>
+    <sys:String x:Key="Congratulations">Gratulujeme!</sys:String>
+    <sys:String x:Key="AllDriverUpToDateMain">Všechny vaše ovladače jsou aktuální</sys:String>
+    <sys:String x:Key="KeepSmoothly">Up-to-date drivers keep your PC run smoothly.</sys:String>
+    <sys:String x:Key="ClickScanNow">Click Scan Now button to check if all your drivers are up-to-date.</sys:String>
+    <sys:String x:Key="MissingDriverDesc">Zařízení s chybějícími ovladači:</sys:String>
+    <sys:String x:Key="OutdateDriverDesc">Zařízení se zastaralými ovladači:</sys:String>
+    <sys:String x:Key="CertigiedByMicrosoft">Certifikováno Microsoft WHQL</sys:String>
+    <sys:String x:Key="VerifiedByDriverEasy">Ověřeno programem Driver Easy</sys:String>
+    <sys:String x:Key="VerifiedByDriverEasyShow">Ověřeno programem Driver Easy</sys:String>
+    <sys:String x:Key="CertigiedByMicrosoftTest">Prošlo testy Microsoft WHQL</sys:String>
+    <!--Scanning Page-->
+    <sys:String x:Key="Scanning">Skenování</sys:String>
+    <sys:String x:Key="AccessingDataBase">Přístup k databázi.Prosím, čekejte…</sys:String>
+    <!--Download Page-->
+    <sys:String x:Key="ScanAgain">Skenovat znovu</sys:String>
+    <sys:String x:Key="UpToDateDriver">Nejnovější ovladač</sys:String>
+    <sys:String x:Key="UpToDateDriverEx">Nejnovější ovladače</sys:String>
+    <sys:String x:Key="DriverNeedToUpdated">Device(s) Need Updated Drivers</sys:String>
+    <sys:String x:Key="MissingDriver">Missing Driver(s):</sys:String>
+    <sys:String x:Key="OutdatedDriver">Outdated Driver(s):</sys:String>
+    <sys:String x:Key="UnpluggedDriver">Odpojené ovladače zařízení:</sys:String>
+    <sys:String x:Key="DevicesMissingDriver">Přístroje s chybějícími ovladači(s)</sys:String>
+    <sys:String x:Key="DevicesMissingDriverEx">Přístroje s chybějícími ovladači(s)</sys:String>
+    <sys:String x:Key="DevicesOutdatedDriver">Zařízení se zastaralým ovladačem</sys:String>
+    <sys:String x:Key="DevicesOutdatedDriverEx">Zařízení se zastaralými ovladači</sys:String>
+    <sys:String x:Key="UnpluggedDevice">Odpojený zařízení(s)</sys:String>
+    <sys:String x:Key="UnpluggedDeviceEx">Odpojený zařízení(s)</sys:String>
+    <sys:String x:Key="UnpluggedDesc">*Vaše ovladače odpojení zařízení nebudou nainstalovány nebo aktualizovány, pokud připojíte je do, nebo budou vždy uvedeny zde. Pokud se zobrazí výzva s „žádným zařízením detekován“ během instalace, prosím, připojte své zařízení, a pak se do instalovat znovu.</sys:String>
+    <sys:String x:Key="UpdateAll">Aktualizovat vše</sys:String>
+    <sys:String x:Key="Features">Funkce</sys:String>
+    <sys:String x:Key="Tools">Nástroje</sys:String>
+    <sys:String x:Key="Installed">Nainstalovány/o</sys:String>
+    <sys:String x:Key="Available">K dispozici</sys:String>
+    <sys:String x:Key="Downloaded">Stáhnout</sys:String>
+    <sys:String x:Key="DriverCertifiedMiscrosoft">Tento ovladač splnil testovací proces Windows Hardware Quality Labs (WHQL) společnosti Microsoft a je certifikován jako kompatibilní s vaší verzí Windows.</sys:String>
+    <sys:String x:Key="DriverCertifiedDE">Tento ovladač splnil přísný interní testovací proces Driver Easy, aby se zajistilo, že je bezpečný, zabezpečený a stabilní.</sys:String>
+    <sys:String x:Key="DriverCertifiedLearnMore">Zjistěte více…</sys:String>
+    <!--Downloading - Single Driver Page-->
+    <sys:String x:Key="Updating">Aktualizovat/ce</sys:String>
+    <sys:String x:Key="Downloading">Stahování</sys:String>
+    <!--Driver Information Page-->
+    <sys:String x:Key="DriverInfo">Driver informace</sys:String>
+    <sys:String x:Key="Description">Popis</sys:String>
+    <sys:String x:Key="PreviousDriver">Předchozí ovladač</sys:String>
+    <sys:String x:Key="CurrentDriver">Aktuální Driver</sys:String>
+    <sys:String x:Key="DriverName">Jméno Driveru</sys:String>
+    <sys:String x:Key="DriverProvider">Poskytovatel Driveru</sys:String>
+    <sys:String x:Key="DriverDate">Driver Datum</sys:String>
+    <sys:String x:Key="DriverVersion">Driver verze</sys:String>
+    <sys:String x:Key="DeviceInfo">Informace o zařízení</sys:String>
+    <sys:String x:Key="HardwareIds">Hardware IDS</sys:String>
+    <sys:String x:Key="CompatibleIds">Kompatibilní s IDS</sys:String>
+    <sys:String x:Key="Back">Zpět</sys:String>
+    <!--Hardware Information Page-->
+    <sys:String x:Key="HardwareInfoShort">Hardwarové informace</sys:String>
+    <sys:String x:Key="HardwareInfo">Hardware Information</sys:String>
+    <sys:String x:Key="OverView">Přehled/Informace/</sys:String>
+    <sys:String x:Key="CPU">Procesor</sys:String>
+    <!--2070511,tommy,The English word Mainboard is changed to Motherboard-->
+    <sys:String x:Key="Mainboard">Základní deska</sys:String>
+    <sys:String x:Key="Memory">Paměť</sys:String>
+    <sys:String x:Key="Spd">SPD</sys:String>
+    <sys:String x:Key="Graphics">Grafika</sys:String>
+    <!--Hardware Information - OverView-->
+    <sys:String x:Key="Machine">Stroj</sys:String>
+    <sys:String x:Key="OperationSystem">Operační systém</sys:String>
+    <sys:String x:Key="VideoCard">Grafické karty/a</sys:String>
+    <sys:String x:Key="Monitor">Monitory</sys:String>
+    <sys:String x:Key="HardDisk">Hard Disk</sys:String>
+    <sys:String x:Key="NetworkCard">Síťová karta</sys:String>
+    <!--Hardware Information - CPU -->
+    <sys:String x:Key="Cores">Jádra</sys:String>
+    <sys:String x:Key="Threads">Vlákna</sys:String>
+    <sys:String x:Key="Processor">Procesor</sys:String>
+    <sys:String x:Key="CodeName">Označení</sys:String>
+    <sys:String x:Key="TDP">TDP</sys:String>
+    <sys:String x:Key="Package">Patice</sys:String>
+    <sys:String x:Key="Technology">Technologie</sys:String>
+    <sys:String x:Key="CoreVoltage">Napětí jádra</sys:String>
+    <sys:String x:Key="Specification">Specifikace</sys:String>
+    <sys:String x:Key="Family">Rodina</sys:String>
+    <sys:String x:Key="ExtFamily">Ext. Rodina</sys:String>
+    <sys:String x:Key="Model">Model</sys:String>
+    <sys:String x:Key="ExtModel">Ext. Model</sys:String>
+    <sys:String x:Key="Stepping">Zintenzivnění</sys:String>
+    <sys:String x:Key="Instructions">Instrukce</sys:String>
+    <sys:String x:Key="Clocks">Hodiny</sys:String>
+    <sys:String x:Key="CoreSpeed">Rychlost jádra</sys:String>
+    <sys:String x:Key="Multiplier">Násobitel</sys:String>
+    <sys:String x:Key="BusSpeed">Rychlost sběrnice</sys:String>
+    <sys:String x:Key="QPILink">QPILink</sys:String>
+    <sys:String x:Key="Cache">Mezipamět/i</sys:String>
+    <sys:String x:Key="L1Data">L1 dat</sys:String>
+    <sys:String x:Key="L1Inst">L1 Inst</sys:String>
+    <sys:String x:Key="Level">Úroveň</sys:String>
+    <sys:String x:Key="ExportBtn">Uložit jako (*.txt)</sys:String>
+    <sys:String x:Key="UpgradePROSaveHardwareInfo">K uložení informací o hardwaru potřebujete verzi Pro</sys:String>
+    <sys:String x:Key="SaveHardwareInfo">Uložit informace o hardwaru</sys:String>
+    <sys:String x:Key="AllDriversCertified">Všechny ovladače certifikovány</sys:String>
+    <!--Hardware Information - Mainboard-->
+    <sys:String x:Key="Chipset">Čipová sada</sys:String>
+    <sys:String x:Key="SouthBridge">Southbridge</sys:String>
+    <sys:String x:Key="LPCIO">LPCIO</sys:String>
+    <sys:String x:Key="BIOS">BIOS</sys:String>
+    <sys:String x:Key="Brand">Značka</sys:String>
+    <sys:String x:Key="Date">Datum</sys:String>
+    <sys:String x:Key="GraphicInterface">Grafické rozhraní</sys:String>
+    <sys:String x:Key="TransferRate">Přenosová rychlost</sys:String>
+    <sys:String x:Key="MaxSupported">Max. podporována/o</sys:String>
+    <!--Hardware Information - Memory-->
+    <sys:String x:Key="General">Všeobecné</sys:String>
+    <sys:String x:Key="Type">Typ</sys:String>
+    <sys:String x:Key="Channel">Kanál#</sys:String>
+    <sys:String x:Key="DCMode">Režim DC</sys:String>
+    <sys:String x:Key="NBFrequency">NB frekvence</sys:String>
+    <sys:String x:Key="Timings">Časování</sys:String>
+    <sys:String x:Key="DRAMFrequency">DRAM frekvence</sys:String>
+    <sys:String x:Key="FSBDRAM">FSB: paměť DRAM</sys:String>
+    <sys:String x:Key="CASLatency">CAS# Zpoždění (CL)</sys:String>
+    <sys:String x:Key="RAStoCASDelay">RAS# to CAS# Delay (tRCD)</sys:String>
+    <sys:String x:Key="RASPrecharge">RAS# Precharge (tRP)</sys:String>
+    <sys:String x:Key="CycleTime">Cyklus času (regionu Trás)</sys:String>
+    <sys:String x:Key="BankCycleTime">Banka Cyklus čas (TRC)</sys:String>
+    <sys:String x:Key="CommandRate">Příkaz Hodnotit (CR)</sys:String>
+    <!--Hardware Information - Spd-->
+    <sys:String x:Key="BandWidth">Šířka pásma</sys:String>
+    <sys:String x:Key="PartNumber">Číslo dílu</sys:String>
+    <sys:String x:Key="Profile">Profil</sys:String>
+    <sys:String x:Key="SpdFrequency">Frekvence</sys:String>
+    <sys:String x:Key="SpdCASLatency">CAS# Zpoždění</sys:String>
+    <sys:String x:Key="SpdRAStoCAS">RAS# to CAS#</sys:String>
+    <sys:String x:Key="SpdRASPrecharge">RAS# Precharge</sys:String>
+    <sys:String x:Key="SpdCycleTime">Cyklus času</sys:String>
+    <sys:String x:Key="SpdBankCycleTime">Banka Cyklus čas</sys:String>
+    <!--Hardware Information - Graphics-->
+    <sys:String x:Key="GPU">Grafický procesor</sys:String>
+    <sys:String x:Key="Core">Jádro</sys:String>
+    <sys:String x:Key="Shader">Shader</sys:String>
+    <sys:String x:Key="BusWidth">Šířka sběrnice</sys:String>
+    <!--Feedback Page-->
+    <sys:String x:Key="Feedback">Zpětná-vazba</sys:String>
+    <sys:String x:Key="Support">Podpora</sys:String>
+    <sys:String x:Key="HavingProblemWithDE">Máte problém s Driver Easy?</sys:String>
+    <sys:String x:Key="CheckoutHelpPage">Podívejte se na naši stránku Nápověda</sys:String>
+    <sys:String x:Key="FeedbackContent" xml:space="preserve">Budeme rádi, když nás kontaktujete. Pošlete nám prosím svou zpětnou vazbu nebo doporučení. Pokud máte problém s Driver Easy, sdělte nám podrobnosti.
+ &#13;
+Co nejdříve se vám ozveme (do 2 pracovních dní, pokud máte plnou verzi Pro).
+</sys:String>
+    <sys:String x:Key="ShortSummary">Krátké shrnutí</sys:String>
+    <sys:String x:Key="AttachFile">Přiložit soubor</sys:String>
+    <sys:String x:Key="SendYour">Pošlete nám své</sys:String>
+    <sys:String x:Key="MayTakeMins">(Toto může trvat 1–3 min.)</sys:String>
+    <sys:String x:Key="YourEmail">Vaše e-mailová adresa</sys:String>
+    <sys:String x:Key="EnterEmail">Prosím, zadejte svůj e-mail.</sys:String>
+    <sys:String x:Key="Export">Exportovat</sys:String>
+    <sys:String x:Key="SystemInfo">systémové informace</sys:String>
+    <sys:String x:Key="Submit">Odeslat/Předložit</sys:String>
+    <!--Settings - General-->
+    <sys:String x:Key="Settings">Nastavení</sys:String>
+    <sys:String x:Key="ResetSettings">Resetovat nastavení</sys:String>
+    <sys:String x:Key="Language">Jazyk</sys:String>
+    <sys:String x:Key="Scan">Skenovat</sys:String>
+    <sys:String x:Key="HelpImprove">Pomoci zlepšit Driver Easy</sys:String>
+    <sys:String x:Key="Save">Uložit</sys:String>
+    <!--Settings - Backup & Restore-->
+    <sys:String x:Key="BackupRestore">Obnovení &amp; zálohy</sys:String>
+    <sys:String x:Key="BackupTo">Záloha:</sys:String>
+    <sys:String x:Key="Browse">Procházet...</sys:String>
+    <!--Settings - Internet Connection-->
+    <sys:String x:Key="InternetConnection">Připojení k internetu</sys:String>
+    <sys:String x:Key="DefaultBrowserSettings">Použít výchozí nastavení prohlížeèe</sys:String>
+    <sys:String x:Key="ProxyServer">Použít proxy server</sys:String>
+    <sys:String x:Key="Address">Adresa</sys:String>
+    <sys:String x:Key="Port">Port</sys:String>
+    <sys:String x:Key="UserName">Uživatelské jméno</sys:String>
+    <sys:String x:Key="Password">Heslo</sys:String>
+    <sys:String x:Key="Test">Testovat</sys:String>
+    <!--Settings - System Restore-->
+    <sys:String x:Key="AutoCreateRestore">Automaticky vytvoøit bod obnovení pøed instalací ovladaèù
+    </sys:String>
+    <sys:String x:Key="SystemRestore">Obnovení systému</sys:String>
+    <!--Settings - Hidden Device-->
+    <sys:String x:Key="HiddenDevice">skrytý zařízení</sys:String>
+    <sys:String x:Key="ShowHiddenDevices">Zobrazit skryté zařízení</sys:String>
+    <sys:String x:Key="Empty">Prázdný</sys:String>
+    <!--Settings - Scheduled Task-->
+    <sys:String x:Key="ScheduledTask">Naplánované úlohy</sys:String>
+    <!--Activation Page-->
+    <sys:String x:Key="UpdateDriversOneByOne">Aktualizace ovladačů Jeden za druhým</sys:String>
+    <sys:String x:Key="DownloadDriversOneByOne">Stahovat ovladače jeden po druhém</sys:String>
+    <sys:String x:Key="OneClickUpdateAll">Jedno kliknutí aktualizuje všechny ovladače</sys:String>
+    <sys:String x:Key="HighSpeed">Vysoká rychlost stahování</sys:String>
+    <sys:String x:Key="AutoCreateRestorePoint">Automaticky vytvořit bod obnovení</sys:String>
+    <sys:String x:Key="Uninstall">Odinstalovat/ní</sys:String>
+    <sys:String x:Key="DriverUninstall">Odinstalovat ovladač/e</sys:String>
+    <sys:String x:Key="ExpertTechSupport">Podpora expertem Technicka</sys:String>
+    <sys:String x:Key="EnterLicense">Prosím, zadejte svůj licenční klíč:</sys:String>
+    <sys:String x:Key="EnterYourLicense">Zadat licenční klíč</sys:String>
+    <sys:String x:Key="Example">Např...</sys:String>
+    <!--Activating-->
+    <sys:String x:Key="ActivatingWait">Aktivace probíhá, čekejte prosím...</sys:String>
+    <sys:String x:Key="RollingbackWait">Probíhá návrat zpět, čekejte prosím...</sys:String>
+    <sys:String x:Key="PleaseWait">Prosím, čekejte...</sys:String>
+    <!--Leading to Registration Page-->
+    <sys:String x:Key="ProVersion">Pro verze</sys:String>
+    <sys:String x:Key="FreeVersion">Zdarma verze</sys:String>
+    <!--Upgrade Now Page-->
+    <sys:String x:Key="OneClick">Aktualizovat všechny ovladače jedním kliknutím</sys:String>
+    <sys:String x:Key="Done">Hotovo</sys:String>
+    <!--Download Successfully Page-->
+    <sys:String x:Key="DownloadedSuccessfully">Stahování dokončeno!</sys:String>
+    <sys:String x:Key="AutoInstallRecommended">Automaticky nainstalujte (doporučeno)</sys:String>
+    <sys:String x:Key="ManuallyInstall">Nainstalovat ručně</sys:String>
+    <sys:String x:Key="LearnHow">Přečtěte si, jak ...</sys:String>
+    <sys:String x:Key="ClickHere">Kliknìte zde</sys:String>
+    <sys:String x:Key="Continue">Pokračovat</sys:String>
+    <!--Create Restore Point Page-->
+    <sys:String x:Key="CreateASystemRestorePoint">Vytvořit bod obnovení systému</sys:String>
+    <sys:String x:Key="CreateASystemRestorePointDesc1">Vytvořit systém obnovení před pokračováním byste měli   .</sys:String>
+    <sys:String x:Key="CreateASystemRestorePointDesc2">Pak, pokud některý z vašich nových ovladačů způsobuje problémy s operačním systémem Windows, můžete pouze vrátit zpět do bodu obnovení, aniž byste museli ztrácet žádné údaje.</sys:String>
+    <sys:String x:Key="AutoCreateRecommended">Automaticky vytvořit (doporučeno)</sys:String>
+    <sys:String x:Key="AutoCreateRecommendedDesc">Upgrade na ovladač Easy Pro automaticky vytvoří bod obnovení pouze jedním kliknutím.</sys:String>
+    <sys:String x:Key="ManuallyCreate">Ručně vytvořit</sys:String>
+    <sys:String x:Key="ManuallyCreateDesc">Již jsem vytvořil bod obnovení.</sys:String>
+    <sys:String x:Key="DonotRemind">Znovu mi to nepřipomínejte.</sys:String>
+    <!--About Us Page-->
+    <sys:String x:Key="FreeForPerson">Zdarma pro osobní použití</sys:String>
+    <sys:String x:Key="SpeedLimited">Speed Limited</sys:String>
+    <sys:String x:Key="LicenseKey">Licenční klíč</sys:String>
+    <sys:String x:Key="RemainingDay">Zbývající dny</sys:String>
+    <!--Tools - Driver Backup-->
+    <sys:String x:Key="DriverBackup">Zálohování ovladačů</sys:String>
+    <sys:String x:Key="DriverBackupDesc">Můžete zálohovat vaše ovladače do určité složky a zálohu kdykoliv použít pro obnovu ovladačů.</sys:String>
+    <sys:String x:Key="DriverDetail">Podrobnosti Driver</sys:String>
+    <!--Tools - Driver Restore-->
+    <sys:String x:Key="DriverRestore">Obnovit ovladače</sys:String>
+    <sys:String x:Key="DriverRestoreDesc">Můžete obnovit předchozí verze ovladače v případě, že nový ovladač způsobuje problémy. Pro použití této funkce musíte mít zálohu předchozí verze ovladače.</sys:String>
+    <sys:String x:Key="BrowseFile">Klepnete na tlačítko Procházet a vyberte zálohu a konkrétní ovladače, které chcete obnovit</sys:String>
+    <!--Tools - Driver Uninstall-->
+    <sys:String x:Key="DriverUninstallDesc">Některé ovladače nelze odinstalovat z technických důvodů</sys:String>
+    <!--Tools - Offline Scan-->
+    <sys:String x:Key="OfflineScan">Offline skenování</sys:String>
+    <sys:String x:Key="OfflineScanFile">Soubor Skenovat v režimu offline</sys:String>
+    <sys:String x:Key="OfflineScanDesc">Pokud máte problém s ovladačem síťové karty, můžete použít tuto funkci pro snadné stažení jeho nejnovější verze.</sys:String>
+    <sys:String x:Key="DoOfflineScan">Offline skenování (na poèítaèi bez pøipojení k internetu)</sys:String>
+    <sys:String x:Key="UploadOfflineScan">Nahrát soubor s výsledkem offline skenování (na počítači s připojením k internetu)</sys:String>
+    <sys:String x:Key="HowToOfflineScan">Nevím jak na to</sys:String>
+    <sys:String x:Key="SaveOfflineScanResult">Uložit výsledek offline skenování do:</sys:String>
+    <sys:String x:Key="NetworkDrivers">Síťové ovladače</sys:String>
+    <sys:String x:Key="Download">Stažení</sys:String>
+    <sys:String x:Key="ErrorDuringOfflineSaving">Během off-line úspory skenování souboru došlo k chybě.</sys:String>
+    <!--Prompt Message - Hide this Update-->
+    <sys:String x:Key="HideUpdate">Skrýt tuto aktualizaci/e</sys:String>
+    <sys:String x:Key="HideUpdateTitle">Skrýt tuto aktualizaci?</sys:String>
+    <sys:String x:Key="SureWantHide">Jste si jisti, že chcete skrýt tuto aktualizaci?</sys:String>
+    <sys:String x:Key="NewUpdateWillShow">Pokud je k dispozici nová aktualizace, bude se zobrazovat znovu.</sys:String>
+    <!--Prompt Message - Show Hidden Devices-->
+    <sys:String x:Key="SureWantShow">Jste si jisti, že chcete zobrazit skrytá zařízení?</sys:String>
+    <sys:String x:Key="HiddenShowAgain">Všechny skryté zařízení se opět zobrazí.</sys:String>
+    <!--Prompt Message - Language-->
+    <sys:String x:Key="ConfigFileNoExist">Konfigurační soubor neexistuje.</sys:String>
+    <sys:String x:Key="NeedProvideAdminPerform">Budete muset poskytnout oprávnění správce k provedení této akce</sys:String>
+    <sys:String x:Key="ContinueComplete">Klepněte na tlačítko pokračovat k dokončení této operace</sys:String>
+    <!--Prompt Message - Feedback Information-->
+    <sys:String x:Key="Information">Informace</sys:String>
+    <sys:String x:Key="ExportSuccessful">Export je úspěšný</sys:String>
+    <sys:String x:Key="ExportCancelled">Export je zrušen</sys:String>
+    <sys:String x:Key="ExportCancelledDesc">Vaše zpětná vazba nebude odeslána.</sys:String>
+    <sys:String x:Key="SystemInfoExportSuccessfully">Systémové informace úspěšně exportovány.</sys:String>
+    <sys:String x:Key="ErrorDuringFeedback">Došlo k chybě při odesílání zpětné vazby.</sys:String>
+    <sys:String x:Key="FeedbackSuccessfully">Vaše zpětná vazba byla úspěšně odeslána.</sys:String>
+    <sys:String x:Key="EnterValidEmail">Zadejte prosím platnou e-mailovou adresu do vašeho e-mailového pole.</sys:String>
+    <sys:String x:Key="EnterValidSubject">Vyplňte prosím pole Předmět. Předmět nemůže být delší než {0} znaků.</sys:String>
+    <sys:String x:Key="EnterValidDesc">Prosím, vyplňte pole Popis. Popis nemůže být delší než {0} znaků.</sys:String>
+    <sys:String x:Key="EnterValidAttachement">Připevňovací neexistuje nebo velikost přesahuje limit 10MB.</sys:String>
+    <sys:String x:Key="SettingSaved">Nastavení bylo uloženo.</sys:String>
+    <!--Prompt Message - 503 Error-->
+    <sys:String x:Key="503Error">Příliš mnoho připojení z vaší sítě, zkuste to znovu, nebo zavřete Driver verze Easy zdarma na jiném počítači ve stejné síti.
+Upgradovat na Driver Easy verzi Professional.
+Podrobnosti o výjimce</sys:String>
+    <!--Prompt Message - Scan Error-->
+    <sys:String x:Key="ScanProblem">Problém skenování</sys:String>
+    <sys:String x:Key="ErrorDuringScanning">Během testu došlo k chybě.</sys:String>
+    <!--Prompt Message - Offline Scan-->
+    <sys:String x:Key="SpecifySaveLocation">Prosím, zadejte umístění, kde se soubor uloží</sys:String>
+    <sys:String x:Key="OfflineFileSaved">Soubor v režimu offline skenování byl uložen.</sys:String>
+    <sys:String x:Key="CopyOfflineFile">Prosím, zkopírujte soubor s výsledkem offline skenování do počítače s přístupem k internetu a následně použijte nástroj Offline skenování a funkci Nahrát soubor s výsledkem offline skenování.</sys:String>
+    <sys:String x:Key="OpenSaveFolder">Zobrazit ve složce</sys:String>
+    <sys:String x:Key="SpecifiedFileNoExist">Uvedený soubor neexistuje.</sys:String>
+    <sys:String x:Key="ErrorDuringDownload">Během stahování ovladačů došlo k chybě</sys:String>
+    <sys:String x:Key="ErrorDuringUpdate">Během aktualizace došlo k chybě (chybám)</sys:String>
+    <sys:String x:Key="ErrorDuringDownloadOfflineScan">Při stahování došlo k chybě</sys:String>
+    <sys:String x:Key="DriverDownloadError">Chyba stažení ovladače (ovladačů)</sys:String>
+    <sys:String x:Key="DriverInstallError">Chyba instalace ovladače (ovladačů)</sys:String>
+    <sys:String x:Key="ToHelpBySendReport">Vygenerovali jsme chybovou zprávu, kterou nám můžete odeslat. Pomůžete nám tím zlepšovat vaše zkušenosti.</sys:String>
+    <sys:String x:Key="SendReport">Odeslat zprávu</sys:String>
+    <!--Prompt Message - Summary-->
+    <sys:String x:Key="Summary">Přehled/Souhrn</sys:String>
+    <sys:String x:Key="ErrorDuringInstall">Během instalace ovladače došlo k chybě.</sys:String>
+    <!--Prompt Message - Activating-->
+    <sys:String x:Key="InvalidKey">Neplatná syntaxe licenční klíč</sys:String>
+    <sys:String x:Key="InvalidKeyDesc">Ujistěte se, že jste zadali všechny znaky s pomlčkou "-".</sys:String>
+    <sys:String x:Key="ErrorDueToNet">Došlo k chybě komunikace během aktivace</sys:String>
+    <sys:String x:Key="ErrorDueToNetDesc">zkontrolujte připojení k internetu.</sys:String>
+    <sys:String x:Key="ErrorDuringActivation">Během aktivace došlo k chybě</sys:String>
+    <sys:String x:Key="ActivateSuccessfully">Gratulujeme!
+Jste aktivovali Driver Easy Professional verzi úspěšně!</sys:String>
+    <sys:String x:Key="ActivateSuccessfullyDesc">Jste aktivovali Driver Easy Professional verzi úspěšně!</sys:String>
+    <sys:String x:Key="Help">Pomoc</sys:String>
+    <sys:String x:Key="Register">Register</sys:String>
+    <!--Dialog - Download-->
+    <sys:String x:Key="Backup">Zálohovat</sys:String>
+    <sys:String x:Key="BackingUpDriver">Zálohování ovladače...</sys:String>
+    <!--Dialog - Backup Progress-->
+    <sys:String x:Key="BackupComplete">Zálohování bylo úspěšně dokončeno.</sys:String>
+    <sys:String x:Key="BackupError">Při zálohování ovladače došlo k chybě</sys:String>
+    <sys:String x:Key="Backuping">Zálohování...</sys:String>
+    <sys:String x:Key="Completed">Hotovo/Dokončeno ({0})</sys:String>
+    <sys:String x:Key="CompressIn">Komprimace zálohy do složky</sys:String>
+    <sys:String x:Key="SpecifyDriverUpdate">Vyberte ovladače pro aktualizaci</sys:String>
+    <!--Dialog - Driver Details-->
+    <sys:String x:Key="DriverType">Typ Driveru:</sys:String>
+    <!--Page - Tools-->
+    <sys:String x:Key="ErrorDetails">Detaily chyby</sys:String>
+    <sys:String x:Key="Install">Instalovat</sys:String>
+    <sys:String x:Key="OpenBackupFolder">Otevřít zálohu složky.</sys:String>
+    <sys:String x:Key="Previous">Předchozí</sys:String>
+    <sys:String x:Key="Current">Current</sys:String>
+    <sys:String x:Key="ReportError">Oznámit chybu</sys:String>
+    <sys:String x:Key="Restore">Obnovit</sys:String>
+    <sys:String x:Key="Send">Send</sys:String>
+    <sys:String x:Key="SpecifyDriver">Uveďte prosím driver k  obnovení.</sys:String>
+    <!--Page - Tools - Driver Uninstall-->
+    <sys:String x:Key="Activate">Aktivovat</sys:String>
+    <sys:String x:Key="ConfirmUpdate">Nejnovější {0} Verze. {1} je k dispozici, byste chtěli stáhnout a nainstalovat nyní?</sys:String>
+    <sys:String x:Key="Update">Aktualizovat</sys:String>
+    <sys:String x:Key="UpdateTab">Aktualizovat</sys:String>
+    <sys:String x:Key="UpdateError">Při stahování došlo k chybě</sys:String>
+    <sys:String x:Key="AllDriverUpToDateHeader">Všechny ovladače v počítači jsou nejnovější!</sys:String>
+    <!--Dialog - Scanning Problem Reporting-->
+    <sys:String x:Key="BackupFileExist">Indikátor {0} existuje. Chtěli byste ji nahradit?</sys:String>
+    <sys:String x:Key="DeleteErrorTitle">Problém s odstraněním</sys:String>
+    <sys:String x:Key="DownloadError">Během stahování ovladačů došlo k chybě</sys:String>
+    <sys:String x:Key="SpecifyBackupDriver">Vyberte ovladač, který chcete zálohovat.</sys:String>
+    <sys:String x:Key="SpecifyBackupFolder">Zadejte složku pro uložení záložních ovladačů.</sys:String>
+    <sys:String x:Key="SystemDriver">Systémové ovladače</sys:String>
+    <sys:String x:Key="UnplugDriver">Ovladače odpojených zařízení</sys:String>
+    <sys:String x:Key="EmptyRestoreFile">V tomto souboru zip nejsou žádné záložní ovladače.</sys:String>
+    <sys:String x:Key="InputPort">Zadejte platné číslo portu.</sys:String>
+    <sys:String x:Key="InputAddress" xml:space="preserve">Zadejte prosím platnou adresu.
+(Například www.proxyserver.com nebo 192.168.0.1)</sys:String>
+    <sys:String x:Key="InvalidAddress">Neplatná adresa</sys:String>
+    <sys:String x:Key="InvalidPort">Neplatné číslo portu</sys:String>
+    <sys:String x:Key="RestoreError">Při obnovování ovladače došlo k chybě</sys:String>
+    <sys:String x:Key="RestoreFileNotExist">Zadaný soubor neexistuje. Zadejte soubor zip, ve kterém jsou uloženy záložní soubory.</sys:String>
+    <sys:String x:Key="SpecifyDriverToUninstall">Vyberte prosím ovladač k odinstalování.</sys:String>
+    <sys:String x:Key="SpecifyRestoreFile">Please specify the Zip file where the backup files are stored.</sys:String>
+    <sys:String x:Key="TestConnection">Test připojení</sys:String>
+    <sys:String x:Key="TestFailure">Testovací připojení bylo neúspěšné.</sys:String>
+    <sys:String x:Key="TestSuccess">Testovací připojení bylo úspěšné.</sys:String>
+    <sys:String x:Key="UninstallError">Při odinstalování ovladače došlo k chybě</sys:String>
+    <sys:String x:Key="RestartRequired">Je vyžadován restart</sys:String>
+    <!--Page - Tools - Hardware Info-->
+    <sys:String x:Key="Overview">Přehled</sys:String>
+    <!--Dialog - DriverInstall-->
+    <sys:String x:Key="InstallSucceed">install succeed.</sys:String>
+    <sys:String x:Key="Upload">Nahrát</sys:String>
+    <!--Page - Create Restore-->
+    <sys:String x:Key="CreateRestorePoint">Vytvořit bod obnovení</sys:String>
+    <sys:String x:Key="Driver">Ovladač</sys:String>
+    <sys:String x:Key="Drivers">Ovladače</sys:String>
+    <sys:String x:Key="NewVersion">Novější verze Driver Easy je nyní k dispozici:</sys:String>
+    <sys:String x:Key="WhatsNew">Co je nového?</sys:String>
+    <!--Renew-->
+    <sys:String x:Key="Get10XFasterSpeed">Získat až 10násobnou rychlostí rychlosti stahování</sys:String>
+    <sys:String x:Key="RenewNow">Obnovit nyní</sys:String>
+    <sys:String x:Key="EnterNewLicense">Zadat nový licenční klíč</sys:String>
+    <sys:String x:Key="NotFindInfFile">Nelze najít soubor INF a instalační program pro Driver</sys:String>
+    <sys:String x:Key="SystemProtection">Ochrana systému</sys:String>
+    <sys:String x:Key="Reminder">Připomínka</sys:String>
+    <sys:String x:Key="PlaySound">Přehrát zvuk po aktualizaci ovladačel</sys:String>
+    <sys:String x:Key="ShareDE">Sdílej Driver Easy</sys:String>
+    <sys:String x:Key="Share">Sdílet</sys:String>
+    <!--General-Update Source-->
+    <sys:String x:Key="UpdateSource">Zdroj aktualizací</sys:String>
+    <sys:String x:Key="GetDriverFromDriverEasy">Získat ovladaèe z certifikované Driver Easy Database</sys:String>
+    <sys:String x:Key="GetDriverFromWindowsUpdate">Získat ovladače z webu Windows Update</sys:String>
+    <sys:String x:Key="ViewDetails">Zobrazit podrobnosti</sys:String>
+    <sys:String x:Key="Pause">Pauza/Pozastavit</sys:String>
+    <!--add 20170306-->
+    <!--Activation interface-->
+    <sys:String x:Key="DriverUpdatesAvailable">Aktualizace ovladačů vyžaduje:</sys:String>
+    <sys:String x:Key="PROFeaturesDesc">Pro verze Driver Easy masivně šetří čas. Můžete aktualizovat všechny vaše ovladače pouze jedním kliknutím, získáte vyšší rychlost stahování ovladače a mnohem více …</sys:String>
+    <sys:String x:Key="AlreadyHaveALicense">Již mám licenční klíč?</sys:String>
+    <sys:String x:Key="ActiveProNow">Aktivujte Pro nyní</sys:String>
+    <sys:String x:Key="UpgradeToPRO">Upgradovat na Pro verzi</sys:String>
+    <sys:String x:Key="GetPro">Získejte verzi Pro</sys:String>
+    <!--Boot interface-->
+    <sys:String x:Key="NeedPROToUpdateAll">Potřebujete Pro verzi
+pro aktualizuje všechny ovladačů/če</sys:String>
+    <sys:String x:Key="NeedProToBackup">Potřebujete Pro verzi
+zálohu ovladačů</sys:String>
+    <sys:String x:Key="NeedPROToRestore">Potřebujete Pro verzi
+pro obnovení ovladačů/če</sys:String>
+    <sys:String x:Key="NeedPROToUninstall">Potřebujete Pro verzi
+odinstalovat ovladač/e</sys:String>
+    <sys:String x:Key="NeedPROToAutoCreateRestorePoint">Potřebujete Pro verzi
+na Automaticky Vytvoření bodu obnovení</sys:String>
+    <sys:String x:Key="NeedPROToDownloadSpeed">You need the Pro version to Download Speed</sys:String>
+    <sys:String x:Key="NeedPROToAutoInstallDriver">Potřebujete Pro verzi
+aby automaticky nainstalujte ovladače</sys:String>
+    <sys:String x:Key="NeedPROToRenew">You need the Pro version to Software Renew</sys:String>
+    <sys:String x:Key="NeedPROToViewUpdateHistory">Potřebujete verzi Pro k zobrazení historie aktualizace</sys:String>
+    <sys:String x:Key="FreeVersionDesc" xml:space="preserve">Používáte bezplatnou verzi Driver Easy.&#10;To vám umožní aktualizovat ovladače jeden po druhém.</sys:String>
+    <sys:String x:Key="PurposeOfUpgradeToPRO">Chcete-li ušetřit čas a aktualizovat všechny potřebné ovladače najednou - s pouhým 1 kliknutím - budete muset provést upgrade na Pro verzi Driver Easy.</sys:String>
+    <!--Renewal interface-->
+    <sys:String x:Key="TimeToRenew">Čas pro obnovu vaší licence</sys:String>
+    <sys:String x:Key="RenewDesc">Váš Driver Easy Pro licence vypršela. Obnovte nyní znovu využít všech našich skvělých profesionálními funkcemi ...</sys:String>
+    <sys:String x:Key="RenewAlready">Obnovená už? Reaktivovat Pro nyní.</sys:String>
+    <!--Select the driver installation interface-->
+    <sys:String x:Key="WantInstallAutomatically">Yes. I want to save more time by installing drivers automatically.</sys:String>
+    <sys:String x:Key="WantInstalMyself">No, thanks. I will manually install the driver by myself.</sys:String>
+    <!--Like us interface-->
+    <sys:String x:Key="ShareWithFriends">Řekněte svým kamarádům</sys:String>
+    <sys:String x:Key="SharingIsCaringDesc">Kolik vašich kamarádů má problémy s počítačem. Pokud vám Driver Easy funguje, proč se o to nepodělit? Budou vás za to milovat!</sys:String>
+    <sys:String x:Key="ShareOnFacebook">Sdílet na Facebooku</sys:String>
+    <sys:String x:Key="ShareOnTwitter">Sdílet na Twitteru</sys:String>
+    <sys:String x:Key="SharedAlready">Už jste nás sdíleli</sys:String>
+    <sys:String x:Key="FollowOnFacebook">Sledujte nás na Facebooku</sys:String>
+    <sys:String x:Key="LikeUs">Jaký jsme my?</sys:String>
+    <!--Gift interface-->
+    <sys:String x:Key="GetMyPresent">Zde je dárek</sys:String>
+    <sys:String x:Key="WhoElseWantFreeGuidebook">Windows se nespustí? Opravte je ZDARMA!</sys:String>
+    <sys:String x:Key="GuidebookDesc">Pokud vaše PC nenastartujte do Windows, nepropadejte panice! Napsali jsme příručku, která přesně tento problém vyřeší. Chcete-li získat kopii ZDARMA, jednoduše nás sdílejte na Facebooku.</sys:String>
+    <sys:String x:Key="WantFreeGuidebook1">Ano, chci</sys:String>
+    <sys:String x:Key="FreeUpper">ZDARMA</sys:String>
+    <sys:String x:Key="WantFreeGuidebook2">Guidebook.</sys:String>
+    <sys:String x:Key="WantBuyGuidebook">Ne, díky. Budu to kupovat za $ 9,95.</sys:String>
+    <!--Single installation interface-->
+    <sys:String x:Key="Get10XSpeed">Získat až 10násobnou rychlostí rychlosti stahování</sys:String>
+    <sys:String x:Key="Get10XSpeedDesc">Přestat ztrácet čas na pomalý proces stahování. Upgradovat na Driver Easy verzi Pro dostat až 10násobnou rychlostí rychlosti stahování. Pak můžete stáhnout a aktualizovat ovladače okamžitě.</sys:String>
+    <!--end 20170306-->
+    <sys:String x:Key="DeviceNumber">{0} Zařízení(s)</sys:String>
+    <sys:String x:Key="NeedUpdatedDrivers">Potřebujete aktualizované ovladače</sys:String>
+    <sys:String x:Key="UninstallFailed">Odinstalování ovladače se nezdařilo.</sys:String>
+    <sys:String x:Key="ReportMissDetectedDrivers">Nahlásit neuvedený ovladač</sys:String>
+    <sys:String x:Key="ImproveTranslation">Zlepšit překlad</sys:String>
+    <!--add 20170331 for hardware info-->
+    <sys:String x:Key="OverviewDesc">Vytvořit přehled o hardwaru.</sys:String>
+    <sys:String x:Key="CpuDesc">Získejte podrobné informace o CPU.</sys:String>
+    <sys:String x:Key="MainboardDesc">Získejte podrobné informace o základní desce.</sys:String>
+    <sys:String x:Key="MemoryDesc">Získejte podrobný/é Informace o paměti</sys:String>
+    <sys:String x:Key="GraphicsDesc">Získejte podrobné informace o grafice.</sys:String>
+    <!--Create restore point Window-->
+    <sys:String x:Key="CreatingARestorePoint">Vytvoření bodu obnovení ...</sys:String>
+    <sys:String x:Key="OneDayOneRestorePointDesc">Ovladač Easy vytvoří pouze bod obnovy jednou denně. Může to trvat nějakou dobu, pokud je soubor ovladače velký. Oceňujeme vaši trpělivost.</sys:String>
+    <sys:String x:Key="OneDayOneRestorePoint">V jeden den bude vytvořen pouze jeden bod obnovení</sys:String>
+    <!--20170712,add for new Update process-->
+    <sys:String x:Key="InstallYourDriverDesc1">Nyní je čas nainstalovat ovladač (y)</sys:String>
+    <sys:String x:Key="InstallYourDriverDesc2">Můžete to udělat ručně, což může trvat až hodinu, nebo můžete přejít na Driver Easy Pro a dělat to jen jedním kliknutím.</sys:String>
+    <sys:String x:Key="DownloadYourDriver">Stáhněte si ovladače(y)</sys:String>
+    <sys:String x:Key="InstallYourDriver">Nainstalovat ovladače(y)</sys:String>
+    <sys:String x:Key="BeforeUpdate">Před aktualizací:</sys:String>
+    <sys:String x:Key="Step0CreateRestorePoint">Vytvořit bod obnovení</sys:String>
+    <sys:String x:Key="UpdateProcess">Proces aktualizace:</sys:String>
+    <sys:String x:Key="Step1DownloadDriver">Stáhnout ovladače(y)</sys:String>
+    <sys:String x:Key="Step2InstallDriver">Instalace ovladače(y)</sys:String>
+    <!--20170828,add report bug-->
+    <sys:String x:Key="ReportBug">Nahlásit chybu</sys:String>
+    <!--20170928,tommy,add -->
+    <sys:String x:Key="RestoreSuccessfully">{0} byl úspěšně obnoven.</sys:String>
+    <sys:String x:Key="KBytes">kB</sys:String>
+    <sys:String x:Key="MBytes">MB</sys:String>
+    <sys:String x:Key="Bytes">Bajty</sys:String>
+    <!--20180821,ryan,add -->
+    <sys:String x:Key="step_1">Krok 1</sys:String>
+    <sys:String x:Key="step_2">Krok 2</sys:String>
+    <sys:String x:Key="step_3">Krok 3</sys:String>
+    <sys:String x:Key="Reset_Connection">Resetovat připojení</sys:String>
+    <sys:String x:Key="SettingBackupTo">Záloha</sys:String>
+    <sys:String x:Key="InvalidProxy">Driver Easy se nemůže připojit k zadanému proxy serveru. Změňte nastavení internetového připojení a zkuste to znovu.</sys:String>
+    <sys:String x:Key="CheckBackupLength">Zadaná cesta je příliš dlouhá nebo obsahuje neplatné znaky. Můžete zkusit místo s kratší cestou nebo přejmenovat složku a odstranit tyto neplatné znaky.</sys:String>
+    <sys:String x:Key="ResetAllSettingsDesc">Chcete resetovat všechna nastavení na výchozí hodnoty?</sys:String>
+    <sys:String x:Key="ResetSettingsConnection">Chcete resetovat všechna nastavení internetového připojení na výchozí hodnoty?</sys:String>
+    <sys:String x:Key="BackupPathNeedAdministrator" xml:space="preserve">Nemáte oprávnění zadat ukládání na tomto místě jako cestu pro zálohování.
+        
+Chcete místo toho uložit do složky Dokumenty?</sys:String>
+    <sys:String x:Key="UpdatingYourDrivers">Aktualizace vašich ovladačů</sys:String>
+    <sys:String x:Key="drive_status_downloading">STAHOVÁNÍ</sys:String>
+    <sys:String x:Key="drive_status_installing">INSTALACE</sys:String>
+    <sys:String x:Key="drive_status_queued">VE FRONTĚ</sys:String>
+    <sys:String x:Key="eula">EULA</sys:String>
+    <sys:String x:Key="privacy_policy">Zásady ochrany soukromých údajů</sys:String>
+    <sys:String x:Key="CompletedUpToDate">Nejnovější</sys:String>
+    <sys:String x:Key="UpdateYourDrivers">Aktualizujte své ovladače –</sys:String>
+    <sys:String x:Key="AvailableNumber">dostupné: {0}</sys:String>
+    <sys:String x:Key="UpdateYourAvailableDrivers">Aktualizujte své ovladače – dostupné: {0}</sys:String>
+    <sys:String x:Key="DriverMissing">Ovladač chybí</sys:String>
+    <sys:String x:Key="DriverOutdated">Ovladač je zastaralý</sys:String>
+    <sys:String x:Key="DeviceUnplugged">Zařízení je odpojeno</sys:String>
+    <sys:String x:Key="DriverUpdateHistory">Historie aktualizace ovladačů</sys:String>
+    <sys:String x:Key="HavenotUpdateAnyDriver">Neaktualizovali jste žádný ovladač.</sys:String>
+    <sys:String x:Key="OnlyDisplayLastThirtyHistory">Je zobrazeno &lt;Foreground1&gt;30&lt;/Foreground1&gt; položek.</sys:String>
+    <sys:String x:Key="UpdateHistoryMayIncludeOtherSoftwareRecord">Historie aktualizací ovladače může obsahovat ovladače aktualizované jiným softwarem.</sys:String>
+    <sys:String x:Key="ExportLastRecord">Exportovat poslední záznam (*.txt)</sys:String>
+    <sys:String x:Key="VersionHistory">Historie verzí</sys:String>
+    <sys:String x:Key="OldVersion">Stará verze:</sys:String>
+    <sys:String x:Key="PreviousVersion">Předchozí verze:</sys:String>
+    <sys:String x:Key="CurrentVersion">Aktuální verze:</sys:String>
+    <sys:String x:Key="CancelUpdateTitle">Zrušit aktualizaci?</sys:String>
+    <sys:String x:Key="QuitDriverEasy">Ukončit Driver Easy?</sys:String>
+    <sys:String x:Key="SureCancelUpdate">Opravdu chcete zrušit aktualizaci?</sys:String>
+    <sys:String x:Key="UpdateCannotStopDuringInstallation">Poznámka: Aktualizaci nelze zastavit během instalace, abychom zabránili poškození počítače.</sys:String>
+    <sys:String x:Key="FailedToSendFeedback">Odeslání zprávy se nezdařilo.</sys:String>
+    <!--20200518, add for new feedback-->
+    <sys:String x:Key="TechnicalSupport">Technická podpora</sys:String>
+    <sys:String x:Key="DescribeYourProblem">Popište svůj problém</sys:String>
+    <sys:String x:Key="SubmitTicket">Odeslat požadavek na podporu</sys:String>
+    <sys:String x:Key="ItTakeTime1">Může trvat 2 až 3 minuty, než shromáždíme vaše</sys:String>
+    <sys:String x:Key="ItTakeTime2">po odeslání formuláře.</sys:String>
+    <sys:String x:Key="WeAlsoCollectYour">Shromažďujeme také vaše</sys:String>
+    <sys:String x:Key="ForDebuggingAndTroubleShooting">za účelem ladění a odstraňování problémů.</sys:String>
+    <sys:String x:Key="ItTakeTimePleaseWait">Může to trvat 2–3 minuty, počkejte prosím...</sys:String>
+    <sys:String x:Key="LoadingPleaseWait">Načítání, čekejte prosím...</sys:String>
+    <sys:String x:Key="UpgradeUpperCase">Upgradovat</sys:String>
+    <sys:String x:Key="ToDePro">na verzi Driver Easy Pro</sys:String>
+    <sys:String x:Key="ActivateProNow">Aktivovat verzi Pro nyní</sys:String>
+    <sys:String x:Key="LostMyKey">Ztratil(a) jsem klíč…</sys:String>
+    <sys:String x:Key="DeProRequired">Požadavky programu Driver Easy Pro</sys:String>
+    <sys:String x:Key="ProFeatureOneClickUpdateAll">Aktualizujte všechny ovladače jedním kliknutím. A mnohem více…</sys:String>
+    <sys:String x:Key="ProFeatureSaveYourHardwareInfo">Uložte informace o hardwaru do počítače. A mnohem více…</sys:String>
+    <sys:String x:Key="ProFeatureBackupDriver">Zálohujte ovladače a mnohem více…</sys:String>
+    <sys:String x:Key="ProFeatureRestoreDriver">Obnovte ovladače ze zálohy a mnohem více…</sys:String>
+    <sys:String x:Key="ProFeatureUninstallDriver">Odinstalujte ovladače a mnohem více…</sys:String>
+    <sys:String x:Key="ProFeatureCreateRestorePoint">Automaticky vytvářejte před aktualizací bod obnovení. A mnohem více…</sys:String>
+    <sys:String x:Key="ProFeatureInstallDriverAutomatically">Automaticky instalujte ovladače a mnohem více…</sys:String>
+    <sys:String x:Key="ProFeatureViewDriverUpdateHistory">Zobrazte historii aktualizace ovladačů a mnohem více…</sys:String>
+    <sys:String x:Key="ProFeatureExportDriverUpdateHistory">Export historie aktualizací ovladače a mnohem více...</sys:String>
+    <sys:String x:Key="ProFeatureUpdateLatestVersion">Automatické aktualizace nejnovější verzi a mnohem více...</sys:String>
+    <sys:String x:Key="FeatureDetectAllDriver">Detekuje všechny chybějící, zastaralé a nesprávné ovladače</sys:String>
+    <sys:String x:Key="FeatureAllDriverCertified">Všechny ovladače jsou certifikované a přímo od výrobce</sys:String>
+    <sys:String x:Key="FeatureDownaloadOneATime">Stahuje si ovladače postupně</sys:String>
+    <sys:String x:Key="FeatureInstallOneATime">Instaluje ovladače postupně</sys:String>
+    <sys:String x:Key="FeatureDownloadAndInstallOneClick">Stahuje a instaluje VŠECHNY ovladače jedním kliknutím</sys:String>
+    <sys:String x:Key="FeatureFreeSupport">Bezplatná technická podpora pro PC</sys:String>
+    <sys:String x:Key="FeatureHighSpeed">Stahuje ovladače vysokou rychlostí</sys:String>
+    <sys:String x:Key="FeatureCreateRestorePoint">Automaticky vytváří body obnovení</sys:String>
+    <sys:String x:Key="FeatureBackupAndRestore">Zálohuje a obnovuje ovladače</sys:String>
+    <sys:String x:Key="FeatureUninstallDriver">Odinstaluje ovladače</sys:String>
+    <sys:String x:Key="FeatureViewUpdateHistory">Zobrazuje historii aktualizace ovladačů</sys:String>
+    <sys:String x:Key="FeatureExportHardwareInfo">Exportuje informace o hardwaru</sys:String>
+    <sys:String x:Key="FeatureKeepDriverUpdate">Udržuje program Drive Easy automaticky aktualizovaný</sys:String>
+    <sys:String x:Key="UpgradeDePro">Provést upgrade programu na Driver Easy Pro</sys:String>
+    <sys:String x:Key="BuyPro">Zakoupit verzi Pro</sys:String>
+    <sys:String x:Key="BuyFeatureUpdateAllDriverOneClick">Aktualizujte všechny ovladače jedním kliknutím</sys:String>
+    <sys:String x:Key="BuyFeatureUpdateDriverOneATime">Aktualizujte ovladače postupně</sys:String>
+    <sys:String x:Key="BuyFeatureInstallDriverAutomatically">Automaticky instalujte ovladače</sys:String>
+    <sys:String x:Key="BuyFeatureDownloadOneATime">Stáhněte si ovladače postupně</sys:String>
+    <sys:String x:Key="BuyNow">KOUPIT NYNÍ</sys:String>
+    <sys:String x:Key="AlreadyBoughtIt">Již jste si koupili program?</sys:String>
+    <sys:String x:Key="EnterLicenseToActivate">Zadejte licenční klíč a aktivujte verzi Pro. </sys:String>
+    <sys:String x:Key="NoNeedToReinstall">(Program není nutné přeinstalovávat.)</sys:String>
+    <sys:String x:Key="FiftyPercentOff">50% SLEVA</sys:String>
+    <!--20210317, tommy, add for settings-->
+    <sys:String x:Key="ManageSettings">Spravujte svá nastavení Driver Easy.</sys:String>
+    <sys:String x:Key="ResetAllSettings">Resetovat všechna nastavení</sys:String>
+    <!--settings gernal-->
+    <sys:String x:Key="ForBetterReadabilityLanguage">Z důvodu lepší čitelnosti se písmo po přepnutí jazyka může změnit.</sys:String>
+    <sys:String x:Key="DateFormat">Date format</sys:String>
+    <sys:String x:Key="ChooseDataFormat">Choose the date format you’d like to use with Driver Easy.</sys:String>
+    <sys:String x:Key="SkipPermissionReminder">Přeskočit připomenutí oprávnění</sys:String>
+    <sys:String x:Key="GrantDEAdministratorWhenLaunched">Při spuštění udělit softwaru Driver Easy oprávnění administrátora.</sys:String>
+    <sys:String x:Key="ScanDevicesAutomatically">Automaticky vyhledávat zařízení</sys:String>
+    <sys:String x:Key="ScanWhenDELaunched">Vyhledávejte zařízení svého počítače automaticky, když je spuštěný Driver Easy.</sys:String>
+    <sys:String x:Key="RunDEAutomatically">Spouštět Driver Easy automaticky</sys:String>
+    <sys:String x:Key="RunDEWhenStarts">Spustit Driver Easy po spuštění počítače.</sys:String>
+    <sys:String x:Key="On">Spuštěno</sys:String>
+    <sys:String x:Key="Off">Zastaveno</sys:String>
+    <sys:String x:Key="HelpImproveNew">Pomáhat vylepšovat Driver Easy</sys:String>
+    <sys:String x:Key="ShareInfo">Sdílet informace o mém hardwaru.</sys:String>
+    <sys:String x:Key="ShareInfoFirst">Pokud vyberte toto zaškrtávací políčko, souhlasíte, že s námi budete sdílet své systémové informace. Nedělejte si starosti. Nezahrnuje to vaše soubory ani žádné osobní informace. Pouze zařízení, ovladače a chyby. Všechna data jsou anonymní, uchovávána zabezpečeně a je s nimi nakládáno důvěrně. Další informace naleznete v našich</sys:String>
+    <sys:String x:Key="ShareInfoFirstNew">Nedělejte si starosti. Nezahrnuje to vaše soubory ani žádné osobní informace. Pouze zařízení, ovladače a chyby. Všechna data jsou anonymní, uchovávána zabezpečeně a je s nimi nakládáno důvěrně. Další informace naleznete v našich</sys:String>
+    <!--cs 特殊，这部分只有句号-->
+    <sys:String x:Key="ShareInfoLast">.</sys:String>
+    <!--settings restore point-->
+    <sys:String x:Key="RestorePoints">Body obnovení</sys:String>
+    <sys:String x:Key="RestorePointsTab">Body obnovení</sys:String>
+    <sys:String x:Key="RestorePointsDesc">Bod obnovení je záloha celého systému v určité době. Driver Easy automaticky vytváří před aktualizací ovladačů bod obnovení. Pokud aktualizace ovladače způsobí problémy, můžete systém vrátit zpět do stavu před aktualizací.</sys:String>
+    <sys:String x:Key="CreateRestorePointBeforeInstall">Vytvořit před instalací ovladačů automaticky bod obnovení.</sys:String>
+    <sys:String x:Key="CreateOneEachDay">Driver Easy nevytvoří více než jeden bod obnovení za den.</sys:String>
+    <sys:String x:Key="RestoreYourSystem">Obnovit systém</sys:String>
+    <sys:String x:Key="YouCanRevert">Pomocí Obnovení systému můžete vrátit počítač do předchozího bodu obnovení</sys:String>
+    <sys:String x:Key="TurnOnSystemProtection">Zapnout ochranu systému</sys:String>
+    <sys:String x:Key="DEWillCreateNoMoreThanOneEachDay">Driver Easy před instalací ovladačů automaticky vytvoří bod obnovení. Každý den vytvoří maximálně jeden bod obnovení.</sys:String>
+    <sys:String x:Key="MaxDiskSpace">Maximální místo na disku je pro tuto funkci nastaveno alespoň na 5 %.</sys:String>
+    <!--settings hidden devices-->
+    <sys:String x:Key="HiddenDevices">Skrytá zařízení</sys:String>
+    <sys:String x:Key="HiddenDevicesDesc">Skryté zařízení nebude vyhledáváno ohledně aktualizace ovladače, pokud ho neodkryjete nebo není vydána novější verze jeho ovladače.</sys:String>
+    <sys:String x:Key="AllHiddenDevicesList">Zde jsou uvedena všechna vaše skrytá zařízení</sys:String>
+    <!--settings scheduled scans-->
+    <sys:String x:Key="ScheduledScans">Plánované skenování</sys:String>
+    <sys:String x:Key="ScheduledScansDesc">Driver Easy můžete naplánovat, aby vyhledával váš počítač v určitou dobu podle vámi zadané frekvence.</sys:String>
+    <sys:String x:Key="ScheduledScansEnable">Povolit plánovač automatického vyhledávání</sys:String>
+    <sys:String x:Key="CurrentScheduledScanTime">Aktuální plánovaná doba skenování:</sys:String>
+    <sys:String x:Key="Change">Změnit</sys:String>
+    <!--tools backup-->
+    <sys:String x:Key="BackupToNew">Zálohovat do</sys:String>
+    <sys:String x:Key="BackupFollowingDrivers">Zálohovat následující ovladače</sys:String>
+    <sys:String x:Key="BackupNew">Zálohovat</sys:String>
+    <!--download page: more button-->
+    <sys:String x:Key="ViewDriverDetails">Zobrazit podrobnosti o ovladači</sys:String>
+    <sys:String x:Key="DeleteDownloadedDriver">Odstranit stažený ovladač</sys:String>
+    <sys:String x:Key="RollbackToPreviousDriver">Vrátit zpět předchozí ovladač</sys:String>
+    <sys:String x:Key="UninstallDriver">Odinstalovat ovladač</sys:String>
+    <sys:String x:Key="DonotShowUpdateAgain">Tuto aktualizaci již nezobrazovat</sys:String>
+    <!--driver detail page-->
+    <sys:String x:Key="DriverUpdateDetails">Podrobnosti o aktualizaci ovladače</sys:String>
+    <sys:String x:Key="AnUpdateAvailableForYour">Je k dispozici aktualizace pro: {0}.</sys:String>
+    <sys:String x:Key="SuggestedUpdate">Doporučená aktualizace</sys:String>
+    <sys:String x:Key="CurrentDriverNew">Aktuální ovladač</sys:String>
+    <sys:String x:Key="AvailableDriver">Dostupný ovladač</sys:String>
+    <sys:String x:Key="Provider">Poskytovatel</sys:String>
+    <!--key Date and Name already had before!-->
+    <sys:String x:Key="Compatability">Kompatibilita</sys:String>
+    <sys:String x:Key="YourDeviceHardwareIds">Vaše zařízení má tato ID hardwaru:</sys:String>
+    <sys:String x:Key="AvailableCompatibleHardwareIds">Dostupný ovladač je kompatibilní s těmito ID hardwaru:</sys:String>
+    <!--new dialog tips-->
+    <!--20210302, tommy, add for uninstall driver-->
+    <sys:String x:Key="UninstallSuccessfully" xml:space="preserve">{0} byl úspěšně odinstalován.</sys:String>
+    <!--20210112, tommy, add for rollback driver-->
+    <sys:String x:Key="Rollback">Vrátit zpět</sys:String>
+    <sys:String x:Key="RollbackFaild">Vrácení změn se nezdařilo, chybový kód: { } {0}</sys:String>
+    <sys:String x:Key="NoItemsToRollback">Žádné položky pro vrácení změn</sys:String>
+    <sys:String x:Key="RolledBack">Změny vráceny</sys:String>
+    <sys:String x:Key="SureRollback" xml:space="preserve">Opravdu chcete vrátit zpět dříve nainstalované ovladače?</sys:String>
+    <sys:String x:Key="RollbackWarning" xml:space="preserve">Pokud vrátíte zpět tento ovladač, související zařízení mohou přestat fungovat.</sys:String>
+    <sys:String x:Key="RollbackSuccessfully" xml:space="preserve">{0} se vrátil(a) zpět</sys:String>
+    <sys:String x:Key="ProFeatureRollbackDrivers">Vrátit zpět ovladače, a mnohem více…</sys:String>
+    <sys:String x:Key="FeatureRollbackDrivers">Vrátit zpět ovladače</sys:String>
+    <!--20230425, tommy, add for common prompt, Information and Done already have-->
+    <sys:String x:Key="Success">Úspěch!</sys:String>
+    <sys:String x:Key="Error">Chyba</sys:String>
+    <sys:String x:Key="ActionFailed">Akce se nezdařila</sys:String>
+    <sys:String x:Key="Attention">Pozor</sys:String>
+    <sys:String x:Key="Copy">Kopírovat</sys:String>
+    <sys:String x:Key="Copied">Zkopírováno!</sys:String>
+    <!--20230504, tommy, add for feedback-->
+    <sys:String x:Key="InvalidEmailAddress">Neplatná e-mailová adresa</sys:String>
+    <sys:String x:Key="InvalidAttachment">Neplatná příloha</sys:String>
+    <!--20230504, tommy, add for update UI-->
+    <sys:String x:Key="UninstallThisDriver">Odinstalovat tento ovladač?</sys:String>
+    <sys:String x:Key="UninstallThisDriverDesc">Pokud tento ovladač odinstalujete, související zařízení nemusejí fungovat.</sys:String>
+    <sys:String x:Key="SureUninstallThisDriver">Opravdu chcete odinstalovat tento ovladač?</sys:String>
+    <sys:String x:Key="SystemInformation">Systémové informace</sys:String>
+    <sys:String x:Key="FailedToSave">Uložení se nezdařilo</sys:String>
+    <sys:String x:Key="PermissionRequired">Vyžadováno oprávnění</sys:String>
+    <sys:String x:Key="FileNameAlreadyExists">Soubor s názvem „{0}“ již existuje.</sys:String>
+    <sys:String x:Key="WantToReplace">Chcete jej nahradit?</sys:String>
+
+    <sys:String x:Key="Menu">Nabídka</sys:String>
+    <sys:String x:Key="PerformsBestIfKeepUpToDate">Driver Easy funguje nejlépe, pokud je průběžně aktualizován.</sys:String>
+    <sys:String x:Key="SureCancelUpdateLatestVersion">Opravdu chcete zrušit tuto aktualizaci na nejnovější verzi Driver Easy?</sys:String>
+    <sys:String x:Key="UnableCheckUpdate">Nelze zkontrolovat aktualizaci</sys:String>
+    <sys:String x:Key="TimeoutAndCheckNetworkAgain">Vypršel časový limit připojení. Zkontrolujte síť a zkuste to znovu.</sys:String>
+    <sys:String x:Key="CheckNetworkAndTryAgain">Zkontrolujte síť. Pokud používáte firewall nebo proxy server, zakažte jej a zkuste to znovu.</sys:String>
+    <sys:String x:Key="Retry">Zkusit znovu</sys:String>
+    <sys:String x:Key="AlreadyLatestVersion">Aktuální verze {0} je již nejnovější verzí.</sys:String>
+    <sys:String x:Key="UpgradeToKeepLatestVersionAutomatically">Aktualizujte na Driver Easy Pro, abyste automaticky používali nejnovější verzi.</sys:String>
+    <sys:String x:Key="NewVersionDriverEasyAvailable">K dispozici je nová verze Driver Easy</sys:String>
+    <sys:String x:Key="LatestVersionAvailable">K dispozici je nejnovější verze Driver Easy (verze {0}).</sys:String>
+    <sys:String x:Key="UpdatingDriverEasy">Aktualizace Driver Easy...</sys:String>
+    <sys:String x:Key="UpdatingDriverEasyToVersion">Aktualizace Driver Easy na verzi {0}.</sys:String>
+    <sys:String x:Key="AboutMinuteRemaining">Zbývá asi 1 minuta</sys:String>
+    <sys:String x:Key="DownloadingDriverEasySetup">Stahování souboru DriverEasy_Setup.exe</sys:String>
+    <sys:String x:Key="UpdateNow">Aktualizovat</sys:String>
+
+    <sys:String x:Key="Missing">Chybějící</sys:String>
+    <sys:String x:Key="Outdated">Zastaralé</sys:String>
+    <sys:String x:Key="Unplugged">Odpojené</sys:String>
+    <sys:String x:Key="Stop">ZASTAVIT</sys:String>
+
+    <sys:String x:Key="DeviceErr">zařízení bylo odpojeno.</sys:String>
+    <sys:String x:Key="PrinterErr">tiskárna byla odpojena.</sys:String>
+
+    <sys:String x:Key="IdentifyOfflineDrivers">Zjistěte, jaké ovladače potřebuje váš offline počítač</sys:String>
+    <sys:String x:Key="DownloadDriversOnAnotherComputer">Stáhněte si tyto ovladače do jiného počítače</sys:String>
+    <sys:String x:Key="DEIdentifyDriversNeedAccessInternet">Driver Easy zkontroluje tento počítač. Aby mohl identifikovat ovladače,
+musí mít přístup k internetu.</sys:String>
+    <sys:String x:Key="WhereWantToSaveScanResult">Kam chcete uložit výsledky kontroly?</sys:String>
+    <sys:String x:Key="WhereDidSaveOfflineScanFile">Kam jste uložili soubor offline kontroly, kdy jste jej zkopírovali do tohoto počítače?</sys:String>
+    <sys:String x:Key="WhenCopyiedToThisComputer">kdy jste jej zkopírovali do tohoto počítače?</sys:String>
+    <sys:String x:Key="BuyProNow">Koupit verzi Pro</sys:String>
+    <sys:String x:Key="ChooseLocation">Vybrat umístění</sys:String>
+    <sys:String x:Key="OfflineScanFileSaved">Soubor offline kontroly uložen</sys:String>
+    <sys:String x:Key="NowCopyOfflineScanFile">Nyní zkopírujte {0} do počítače, který je připojen k internetu. Poté na něm spusťte Driver Easy a vyberte 
+Nástroje > Offline kontrola > KROK 2.</sys:String>
+    <sys:String x:Key="GoToFile">Přejít do souboru</sys:String>
+    <sys:String x:Key="CheckForUpdates">Zkontrolovat aktualizace</sys:String>
+    <sys:String x:Key="CheckingForUpdates">Probíhá kontrola aktualizací...</sys:String>
+    <sys:String x:Key="LinkToWebPage">Užitečné odkazy</sys:String>
+    <sys:String x:Key="WriteAReview">Napsat hodnocení</sys:String>
+    <sys:String x:Key="SettingsWillSaveAutomatically">Po úpravě nastavení se změny automaticky uloží.</sys:String>
+    <sys:String x:Key="RestorePointTurnOnNote">Pokud je toto nastavení zapnuté, mějte na paměti následující:</sys:String>
+    <sys:String x:Key="RestorePointMakeSureTurnOn">Zkontrolujte, že jste zapnuli ochranu systému a maximální prostor na disku je nastaven nejméně na 5 %.</sys:String>
+    <sys:String x:Key="Undo">Vrátit zpět</sys:String>
+    <sys:String x:Key="NeedsAccessInternet">Zde jsou ovladače, které váš další počítač potřebuje pro přístup k internetu.</sys:String>
+    <sys:String x:Key="DownloadAll">Stáhnout vše</sys:String>
+    <sys:String x:Key="DriversDownloaded">Stažené ovladače</sys:String>
+    <sys:String x:Key="NowCopyDriversToNoInternet">Nyní je zkopírujte do počítače, který nemá přístup k internetu. 
+Pak je na tento počítač nainstalujte podle pokynů uvedených</sys:String>
+    <sys:String x:Key="Here">zde…</sys:String>
+    <sys:String x:Key="GoToDrivers">Přejít na ovladače</sys:String>
+    <sys:String x:Key="AutoSaving">Provádějí se změny</sys:String>
+    <sys:String x:Key="ChangesHaveBeenSaved">Změny byly uloženy.</sys:String>
+    <sys:String x:Key="MoreActions">Další akce</sys:String>
+    <sys:String x:Key="ScanShort">Skenovat</sys:String>
+    <sys:String x:Key="UpdateShort">Aktualizovat</sys:String>
+    <sys:String x:Key="HardwareShort">Hardware</sys:String>
+    <sys:String x:Key="ToolsShort">Nástroje</sys:String>
+    <sys:String x:Key="AllItemsAreDisplayed">Všechny položky jsou zobrazeny</sys:String>
+    <sys:String x:Key="HowToUninstallDE">Jak odinstalovat Driver Easy</sys:String>
+    <sys:String x:Key="AllDriversAreDownloaded">Všechny ovladače byly staženy</sys:String>
+    <sys:String x:Key="InstalledViaDE">Tento ovladač byl nainstalován pomocí softwaru Driver Easy.</sys:String>
+    <sys:String x:Key="SuccessfullyInstalled">Úspěšně nainstalováno</sys:String>
+    <sys:String x:Key="SuccessfullyRolledBack">Úspěšně vráceno zpět</sys:String>
+    <sys:String x:Key="FailedToInstall">Instalace se nezdařila</sys:String>
+    <sys:String x:Key="ShowPassword">Zobrazit heslo</sys:String>
+    <sys:String x:Key="HidePassword">Skrýt heslo</sys:String>
+    <sys:String x:Key="TurnOn">Zapnout</sys:String>
+    <sys:String x:Key="TurnOff">Vypnout</sys:String>
+    <sys:String x:Key="Minimize">Minimalizovat</sys:String>
+    <sys:String x:Key="Close">Zavřít</sys:String>
+    <sys:String x:Key="LetUsKnowWhyRollingBack">Dejte nám vědět, proč vracíte ovladač zpět:</sys:String>
+    <sys:String x:Key="TheDriverNotWorkForDevice">Tento ovladač na mém zařízení nefunguje</sys:String>
+    <sys:String x:Key="PreviousVersionIsMoreReliable">Předchozí verze ovladače je spolehlivější</sys:String>
+    <sys:String x:Key="OtherReason">Jiný důvod</sys:String>
+    <sys:String x:Key="AgreeSendRollbackLog">Byla vygenerována zpráva o ovladači, která nám pomůže vylepšit software Driver Easy. Zaškrtnutím tohoto políčka souhlasíte s odesláním zprávy.</sys:String>
+    <sys:String x:Key="PaymentMethodRequired">Je vyžadována platební metoda. Po skončení zkušebního období vám budeme účtovat X ročně. Kdykoli to můžete zrušit.</sys:String>
+    <sys:String x:Key="PaymentMethodRequiredShort">Je vyžadována platební metoda.</sys:String>
+    <sys:String x:Key="NotReadyToUpgrade">Nejste připraveni na upgrade?</sys:String>
+    <sys:String x:Key="StartSevenDayTrial">Vyzkoušejte 7denní zkušební verzi</sys:String>
+    <sys:String x:Key="AvailableInPaidVersion">Dostupné v placené verzi</sys:String>
+    <sys:String x:Key="Allow">Povolit</sys:String>
+    <sys:String x:Key="NotAllow">Nepovolit</sys:String>
+    <sys:String x:Key="ScheduledTasks">Naplánované úlohy</sys:String>
+    <sys:String x:Key="InstallationDate">Datum instalace:</sys:String>
+    <sys:String x:Key="ActivateAndUpdate">Aktivovat &amp; Aktualizovat</sys:String>
+    <sys:String x:Key="OfferingSevenDayFreeTrial">Nabízíme 7denní bezplatnou zkušební verzi, abyste měli jistotu, že vám Driver Easy bude vyhovovat. Po uplynutí zkušební doby budete moci Driver Easy nadále používat, když si předplatíte software.</sys:String>
+    <sys:String x:Key="GetFiftyOffDiscount">Počkejte, pokud na verzi Pro přejdete nyní, získáte 50% slevu!</sys:String>
+    <sys:String x:Key="SevenDayPlan">7denní tarif</sys:String>
+    <sys:String x:Key="OneYearPlan">Roční tarif</sys:String>
+    <sys:String x:Key="OnePC">1 PC</sys:String>
+    <sys:String x:Key="ThreePCs">3 PC</sys:String>
+    <sys:String x:Key="StartTrial">Zahájit zkoušku</sys:String>
+    <sys:String x:Key="ComputersPerLicense">Počítače na licenci</sys:String>
+    <sys:String x:Key="ViewAllVersionOfTheDriver">Zobrazit všechny verze tohoto ovladače</sys:String>
+    <sys:String x:Key="ViewAllDriverVersions">Zobrazit všechny verze ovladače</sys:String>
+    <sys:String x:Key="HugeDriverDatabase">Obrovská databáze ovladačů</sys:String>
+    <sys:String x:Key="RecordsForThisDevice">Záznamy pro toto zařízení</sys:String>
+    <sys:String x:Key="Compatible">Kompatibilní</sys:String>
+    <sys:String x:Key="TotalRecordsInDatabase">Celkový počet záznamů v databázi programu Driver Easy</sys:String>
+    <sys:String x:Key="RecordsIncludingDriversForWin7OrNewer">Záznamy, včetně ovladačů pro systém Windows 7 nebo novější</sys:String>
+    <sys:String x:Key="DriversCompatibleWithYourSystem">Ovladače kompatibilní s vaším systémem</sys:String>
+    <sys:String x:Key="ReleaseDate">Datum vydání</sys:String>
+    <sys:String x:Key="Action">Akce</sys:String>
+    <sys:String x:Key="InstallOutdatedDriver">Instalujete zastaralý ovladač?</sys:String>
+    <sys:String x:Key="InstallOutdatedDriverDesc">Po instalaci tohoto ovladače bude nejnovější verze přesunuta do vašich skrytých zařízení, dokud nebude vydána novější verze. Pokud nainstalujete zastaralý ovladač, související zařízení nemusejí fungovat.</sys:String>
+    <sys:String x:Key="SureWantToContinue">Opravdu chcete pokračovat?</sys:String>
+    <sys:String x:Key="AboutLegal" xml:space="preserve">Tento software je určen pouze pro legální použití pro účely kopírování podle platných autorských zákonů. Jakékoli kopírování bez povolení od držitelů autorských práv je podle platných autorských zákonů nezákonné. Uživatelé jsou podle platných zákonů odpovědní za trestní a občanskoprávní sankce za nezákonné kopírování.
+        
+Externí knihovny a přispěvatelé:
+
+7-Zip
+Igor Pavlov
+7z.dll: GNU LGPL + omezení unRAR</sys:String>
+    <sys:String x:Key="Loading">Načítání</sys:String>
+    <sys:String x:Key="OnlyKeepOneDownloadedDriver">Zachováváme pouze jeden stažený ovladač.</sys:String>
+    <sys:String x:Key="Status">Stav</sys:String>
+    <sys:String x:Key="Installing">Instalace</sys:String>
+    <sys:String x:Key="SorrySomethingWentWrongHere">Promiňte, tady se něco pokazilo...</sys:String>
+    <sys:String x:Key="WeNotifiedAndWillTakeALookShortly">Byli jsme o této chybě informováni a brzy se na ni podíváme.</sys:String>
+    <sys:String x:Key="Trial">Zkušební období</sys:String>
+    <sys:String x:Key="TrialEnd">Zkušební období skončilo</sys:String>
+    <sys:String x:Key="TrialDayLeft">zbývající počet dní</sys:String>
+    <sys:String x:Key="TrialTitleWelcome">Vítejte v bezplatném zkušebním období!</sys:String>
+    <sys:String x:Key="TrialTitleEndSoon">Zkušební období brzy skončí!</sys:String>
+    <sys:String x:Key="TrialTitleEnd">Bezplatné zkušební období skončilo.</sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine1Left">Doufáme, že se vám testovací verze líbila a rozhodnete se zůstat s námi. Podívejte se na naši </sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine1UserManual">uživatelskou příručku</sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine1Right"> a objevte všechny funkce verze Pro.</sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine2">Po skončení zkušebního období vám budeme automaticky účtovat předplatné. Nejprve vám však pošleme e-mail, abychom vám to připomněli.</sys:String>
+    <sys:String x:Key="TrialTipUnsubscribeLeft">Kdykoli jej můžete zrušit kliknutím na položku </sys:String>
+    <sys:String x:Key="TrialTipUnsubscribe">Odhlásit</sys:String>
+    <sys:String x:Key="TrialTipUnsubscribeRight">.</sys:String>
+    <sys:String x:Key="TrialTipPricingPlans">Objevte další cenové tarify</sys:String>
+    <sys:String x:Key="TrialContentEnd">Doufáme, že se vám zkušební období líbí. Zahajte předplatné a udržujte svůj počítač v nejlepším stavu s nejnovějšími ovladači!</sys:String>
+    <sys:String x:Key="Hour">HOD.</sys:String>
+    <sys:String x:Key="Min">MIN.</sys:String>
+    <sys:String x:Key="Second">S</sys:String>
+    <sys:String x:Key="FreeSupport">Bezplatná podpora</sys:String>
+    <sys:String x:Key="FreeSupportTip">100% experti na PC</sys:String>
+    <sys:String x:Key="RiskFree">Bez rizika</sys:String>
+    <sys:String x:Key="RiskFreeTip">30denní vrácení peněz</sys:String>
+    <sys:String x:Key="StartSubscription">Zahájit předplatné</sys:String>
+    <sys:String x:Key="Search">Hledat</sys:String>
+    <sys:String x:Key="Theme">Téma</sys:String>
+    <sys:String x:Key="ThemeDesc">Změňte vzhled rozhraní Driver Easy.</sys:String>
+    <sys:String x:Key="SystemProtectionDesc">Driver Easy poskytuje funkci bodu obnovení k ochraně vašeho systému. Bod obnovení je záloha nastavení a souborů vašeho systému. Pokud po aktualizaci ovladače dojde k problémům, můžete tuto funkci použít k bezpečnému návratu systému do dřívějšího časového bodu.</sys:String>
+    <sys:String x:Key="GameDepd">Skenovat závislosti hry</sys:String>
+    <sys:String x:Key="GameDepdDesc">Když provádíte skenování ovladačů, Driver Easy prohledá nezbytné knihovny a závislosti pro hry, aby se ujistil, že jsou správně detekovány a aktualizovány.</sys:String>
+    <sys:String x:Key="RegisteredToSteamUser">Registrován jako uživatel Steam</sys:String>
+    <sys:String x:Key="Hide">Skrýt</sys:String>
+    <sys:String x:Key="Show">Zobrazit</sys:String>
+    <sys:String x:Key="Exit">Ukončit</sys:String>
+    <sys:String x:Key="Or">nebo</sys:String>
+</ResourceDictionary>

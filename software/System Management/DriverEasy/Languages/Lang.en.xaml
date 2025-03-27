@@ -1,0 +1,873 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!--Common-->
+    <sys:String x:Key="Free">Free</sys:String>
+    <sys:String x:Key="Pro">Pro</sys:String>
+    <sys:String x:Key="ProAvailable">Pro features</sys:String>
+    <sys:String x:Key="Professional">Professional</sys:String>
+    <sys:String x:Key="Revision">Revision</sys:String>
+    <sys:String x:Key="Name">Name</sys:String>
+    <sys:String x:Key="Version">Version</sys:String>
+    <sys:String x:Key="Manufacturer">Manufacturer</sys:String>
+    <sys:String x:Key="Size">Size</sys:String>
+    <sys:String x:Key="Copyright">Copyright © {0}, Easeware. All rights reserved.</sys:String>
+    <sys:String x:Key="ContactAdmin">An application error occurred. Please contact the administrator...</sys:String>
+    <sys:String x:Key="Oops">Oops!</sys:String>
+    <sys:String x:Key="About">About</sys:String>
+    <sys:String x:Key="Yes">Yes</sys:String>
+    <sys:String x:Key="No">No</sys:String>
+    <sys:String x:Key="OK">OK</sys:String>
+    <sys:String x:Key="Cancel">Cancel</sys:String>
+    <sys:String x:Key="YouMustRestart">You must restart your computer for the changes to take effect.</sys:String>
+    <sys:String x:Key="RestoreNeedRestart">You need to restart your computer for the changes to take effect.</sys:String>
+    <sys:String x:Key="RestartNowInfo">Do you want to restart your computer now?</sys:String>
+    <sys:String x:Key="YesRestartNow">Yes, restart now</sys:String>
+    <sys:String x:Key="NoRestartLater">No, restart later</sys:String>
+    <sys:String x:Key="MustRestart">You must restart your computer for the following driver update(s) to take effect.</sys:String>
+    <sys:String x:Key="CreatingRestorePoint">Creating Restore Point...</sys:String>
+    <sys:String x:Key="InstallDriver">Installed Device Drivers</sys:String>
+    <sys:String x:Key="DriverInstallSuccessfully">Did this driver install successfully?</sys:String>
+    <sys:String x:Key="DriverInstallSuccessfullyDesc">Please follow the on-screen instructions to install the driver.</sys:String>
+    <sys:String x:Key="ClickYesAfterInstallation">Click Yes after the installation finished.</sys:String>
+    <sys:String x:Key="InstallingDriver">Installing driver, please follow the screen instruction to complete the installation.</sys:String>
+    <sys:String x:Key="OpenFileLocation">Open file location</sys:String>
+    <sys:String x:Key="Delete">Delete</sys:String>
+    <!--Main Page-->
+    <sys:String x:Key="Upgrade">Upgrade</sys:String>
+    <sys:String x:Key="RegisterNow">Register Now</sys:String>
+    <sys:String x:Key="UpToDate">Up-to-Date</sys:String>
+    <sys:String x:Key="ProblemDriver">{0} Devices have New Drivers</sys:String>
+    <sys:String x:Key="ProblemOneDriver">{0} Device has New Drivers</sys:String>
+    <sys:String x:Key="Unchecked">Unchecked</sys:String>
+    <sys:String x:Key="ScanNeeded">Scan needed</sys:String>
+    <sys:String x:Key="Never">Never</sys:String>
+    <sys:String x:Key="LastScan">Last scan</sys:String>
+    <sys:String x:Key="YearAgo">{0} year(s) ago</sys:String>
+    <sys:String x:Key="MonthAgo">{0} month(s) ago</sys:String>
+    <sys:String x:Key="WeekAgo">{0} week(s) ago</sys:String>
+    <sys:String x:Key="DayAgo">{0} day(s) ago</sys:String>
+    <sys:String x:Key="HourAgo">{0} hour(s) ago</sys:String>
+    <sys:String x:Key="MinuteAgo">{0} minute(s) ago</sys:String>
+    <sys:String x:Key="SecondAgo">{0} second(s) ago</sys:String>
+    <sys:String x:Key="ScanNow">Scan Now</sys:String>
+    <sys:String x:Key="Congratulations">Congratulations!</sys:String>
+    <sys:String x:Key="AllDriverUpToDateMain">All your drivers are up to date</sys:String>
+    <sys:String x:Key="KeepSmoothly">Up-to-date drivers keep your PC run smoothly.</sys:String>
+    <sys:String x:Key="ClickScanNow">Click Scan Now button to check if all your drivers are up-to-date.</sys:String>
+    <sys:String x:Key="MissingDriverDesc">Devices with missing drivers:</sys:String>
+    <sys:String x:Key="OutdateDriverDesc">Devices with outdated drivers:</sys:String>
+    <sys:String x:Key="CertigiedByMicrosoft">CERTIFIED BY MICROSOFT WHQL</sys:String>
+    <sys:String x:Key="VerifiedByDriverEasy">VERIFIED BY DRIVER EASY</sys:String>
+    <sys:String x:Key="VerifiedByDriverEasyShow">Verified by Driver Easy</sys:String>
+    <sys:String x:Key="CertigiedByMicrosoftTest">Passed Microsoft WHQL Tests</sys:String>
+    <!--Scanning Page-->
+    <sys:String x:Key="Scanning">Scanning</sys:String>
+    <sys:String x:Key="AccessingDataBase">Accessing Database. Please wait…</sys:String>
+    <!--Download Page-->
+    <sys:String x:Key="ScanAgain">Scan Again</sys:String>
+    <sys:String x:Key="UpToDateDriver">Up-to-Date driver(s)</sys:String>
+    <sys:String x:Key="UpToDateDriverEx">Up-to-Date drivers</sys:String>
+    <sys:String x:Key="DriverNeedToUpdated">Device(s) Available for Update</sys:String>
+    <sys:String x:Key="MissingDriver">Missing Drivers:</sys:String>
+    <sys:String x:Key="OutdatedDriver">Outdated Drivers:</sys:String>
+    <sys:String x:Key="UnpluggedDriver">Unplugged Device Drivers:</sys:String>
+    <sys:String x:Key="DevicesMissingDriver">Devices with missing drivers</sys:String>
+    <sys:String x:Key="DevicesMissingDriverEx">Devices with missing drivers</sys:String>
+    <sys:String x:Key="DevicesOutdatedDriver">Devices with outdated drivers</sys:String>
+    <sys:String x:Key="DevicesOutdatedDriverEx">Devices with outdated drivers</sys:String>
+    <sys:String x:Key="UnpluggedDevice">Unplugged devices</sys:String>
+    <sys:String x:Key="UnpluggedDeviceEx">Unplugged devices</sys:String>
+    <sys:String x:Key="UnpluggedDesc">Your unplugged device drivers will not be installed or updated unless you plug them in, or they will always be listed here. If prompted with "no device detected" during the install, please plug your devices out and then in to install again.</sys:String>
+    <sys:String x:Key="UpdateAll">Update All</sys:String>
+    <sys:String x:Key="Features">Features</sys:String>
+    <sys:String x:Key="Tools">Tools</sys:String>
+    <sys:String x:Key="Installed">Installed</sys:String>
+    <sys:String x:Key="Available">Available</sys:String>
+    <sys:String x:Key="Downloaded">Downloaded</sys:String>
+    <sys:String x:Key="DriverCertifiedMiscrosoft">This driver has passed Microsoft's Windows Hardware Quality Labs (WHQL) testing process, and is certified by Microsoft as compatible with your version of Windows.</sys:String>
+    <sys:String x:Key="DriverCertifiedDE">This driver has passed Driver Easy's rigorous internal testing process to ensure it's safe, secure and stable.</sys:String>
+    <sys:String x:Key="DriverCertifiedLearnMore">Learn more…</sys:String>
+    <!--Downloading - Single Driver Page-->
+    <sys:String x:Key="Updating">Updating</sys:String>
+    <sys:String x:Key="Downloading">Downloading</sys:String>
+    <!--Driver Information Page-->
+    <sys:String x:Key="DriverInfo">Driver Information</sys:String>
+    <sys:String x:Key="Description">Description</sys:String>
+    <sys:String x:Key="PreviousDriver">Previous driver</sys:String>
+    <sys:String x:Key="CurrentDriver">Current driver</sys:String>
+    <sys:String x:Key="DriverName">Driver Name</sys:String>
+    <sys:String x:Key="DriverProvider">Driver Provider</sys:String>
+    <sys:String x:Key="DriverDate">Driver Date</sys:String>
+    <sys:String x:Key="DriverVersion">Driver Version</sys:String>
+    <sys:String x:Key="DeviceInfo">Device Information</sys:String>
+    <sys:String x:Key="Back">Back</sys:String>
+    <!--Hardware Information Page-->
+    <sys:String x:Key="HardwareInfoShort">Hardware Information</sys:String>
+    <sys:String x:Key="HardwareInfo">Hardware Information</sys:String>
+    <sys:String x:Key="OverView">Overview</sys:String>
+    <sys:String x:Key="CPU">CPU</sys:String>
+    <!--2070511,tommy,英语的Mainboard暂时改为Motherboard-->
+    <sys:String x:Key="Mainboard">Motherboard</sys:String>
+    <sys:String x:Key="Memory">Memory</sys:String>
+    <sys:String x:Key="Spd">SPD</sys:String>
+    <sys:String x:Key="Graphics">Graphics</sys:String>
+    <!--Hardware Information - OverView-->
+    <sys:String x:Key="Machine">Machine</sys:String>
+    <sys:String x:Key="OperationSystem">Operating System</sys:String>
+    <sys:String x:Key="VideoCard">Video Cards</sys:String>
+    <sys:String x:Key="Monitor">Monitors</sys:String>
+    <sys:String x:Key="HardDisk">Hard Disk</sys:String>
+    <sys:String x:Key="NetworkCard">Network Card</sys:String>
+    <!--Hardware Information - CPU -->
+    <sys:String x:Key="Cores">Cores</sys:String>
+    <sys:String x:Key="Threads">Threads</sys:String>
+    <sys:String x:Key="Processor">Processor</sys:String>
+    <sys:String x:Key="CodeName">Code Name</sys:String>
+    <sys:String x:Key="TDP">TDP</sys:String>
+    <sys:String x:Key="Package">Package</sys:String>
+    <sys:String x:Key="Technology">Technology</sys:String>
+    <sys:String x:Key="CoreVoltage">Core Voltage</sys:String>
+    <sys:String x:Key="Specification">Specification</sys:String>
+    <sys:String x:Key="Family">Family</sys:String>
+    <sys:String x:Key="ExtFamily">Ext. Family</sys:String>
+    <sys:String x:Key="Model">Model</sys:String>
+    <sys:String x:Key="ExtModel">Ext. Model</sys:String>
+    <sys:String x:Key="Stepping">Stepping</sys:String>
+    <sys:String x:Key="Instructions">Instructions</sys:String>
+    <sys:String x:Key="Clocks">Clocks</sys:String>
+    <sys:String x:Key="CoreSpeed">Core Speed</sys:String>
+    <sys:String x:Key="Multiplier">Multiplier</sys:String>
+    <sys:String x:Key="BusSpeed">Bus Speed</sys:String>
+    <sys:String x:Key="QPILink">QPILink</sys:String>
+    <sys:String x:Key="Cache">Cache</sys:String>
+    <sys:String x:Key="L1Data">L1 Data</sys:String>
+    <sys:String x:Key="L1Inst">L1 Inst</sys:String>
+    <sys:String x:Key="Level">Level</sys:String>
+    <sys:String x:Key="ExportBtn">Save as (*.txt)</sys:String>
+    <sys:String x:Key="UpgradePROSaveHardwareInfo">You need the Pro version to Save Hardware Info</sys:String>
+    <sys:String x:Key="SaveHardwareInfo">Save Hardware Info</sys:String>
+    <sys:String x:Key="AllDriversCertified">All Drivers Certified</sys:String>
+    <!--Hardware Information - Mainboard-->
+    <sys:String x:Key="Chipset">Chipset</sys:String>
+    <sys:String x:Key="SouthBridge">Southbridge</sys:String>
+    <sys:String x:Key="LPCIO">LPCIO</sys:String>
+    <sys:String x:Key="BIOS">BIOS</sys:String>
+    <sys:String x:Key="Brand">Brand</sys:String>
+    <sys:String x:Key="Date">Date</sys:String>
+    <sys:String x:Key="GraphicInterface">Graphic Interface</sys:String>
+    <sys:String x:Key="TransferRate">Transfer Rate</sys:String>
+    <sys:String x:Key="MaxSupported">Max. Supported</sys:String>
+    <!--Hardware Information - Memory-->
+    <sys:String x:Key="General">General</sys:String>
+    <sys:String x:Key="Type">Type</sys:String>
+    <sys:String x:Key="Channel">Channel#</sys:String>
+    <sys:String x:Key="DCMode">DC Mode</sys:String>
+    <sys:String x:Key="NBFrequency">NB Frequency</sys:String>
+    <sys:String x:Key="Timings">Timings</sys:String>
+    <sys:String x:Key="DRAMFrequency">DRAM Frequency</sys:String>
+    <sys:String x:Key="FSBDRAM">FSB: DRAM</sys:String>
+    <sys:String x:Key="CASLatency">CAS# Latency (CL)</sys:String>
+    <sys:String x:Key="RAStoCASDelay">RAS# to CAS# Delay (tRCD)</sys:String>
+    <sys:String x:Key="RASPrecharge">RAS# Precharge (tRP)</sys:String>
+    <sys:String x:Key="CycleTime">Cycle Time (tRAS)</sys:String>
+    <sys:String x:Key="BankCycleTime">Bank Cycle Time (tRC)</sys:String>
+    <sys:String x:Key="CommandRate">Command Rate (CR)</sys:String>
+    <!--Hardware Information - Spd-->
+    <sys:String x:Key="BandWidth">Bandwidth</sys:String>
+    <sys:String x:Key="PartNumber">Part Number</sys:String>
+    <sys:String x:Key="Profile">Profile</sys:String>
+    <sys:String x:Key="SpdFrequency">Frequency</sys:String>
+    <sys:String x:Key="SpdCASLatency">CAS# Latency</sys:String>
+    <sys:String x:Key="SpdRAStoCAS">RAS# to CAS#</sys:String>
+    <sys:String x:Key="SpdRASPrecharge">RAS# Precharge</sys:String>
+    <sys:String x:Key="SpdCycleTime">Cycle Time</sys:String>
+    <sys:String x:Key="SpdBankCycleTime">Bank Cycle Time</sys:String>
+    <!--Hardware Information - Graphics-->
+    <sys:String x:Key="GPU">GPU</sys:String>
+    <sys:String x:Key="Core">Core</sys:String>
+    <sys:String x:Key="Shader">Shader</sys:String>
+    <sys:String x:Key="BusWidth">Bus Width</sys:String>
+    <!--Feedback Page-->
+    <sys:String x:Key="Feedback">Feedback</sys:String>
+    <sys:String x:Key="Support">Support</sys:String>
+    <sys:String x:Key="HavingProblemWithDE">Having a problem with Driver Easy?</sys:String>
+    <sys:String x:Key="CheckoutHelpPage">Check out our Help page</sys:String>
+    <!--&#13;&#13;如果使用换行符不行，就直接空行即可-->
+    <sys:String x:Key="FeedbackContent" xml:space="preserve">We'd love to hear from you. Please send us your feedback or suggestions, or if you're having a problem with Driver Easy, send us the details.
+
+We'll get back to you ASAP (within 2 working days if you have the full Pro version.)</sys:String>
+
+    <sys:String x:Key="ShortSummary">A short summary</sys:String>
+    <sys:String x:Key="AttachFile">Attach file</sys:String>
+    <sys:String x:Key="SendYour">Send your</sys:String>
+    <sys:String x:Key="MayTakeMins">(This may take 1-3 mins.)</sys:String>
+    <sys:String x:Key="YourEmail" xml:space="preserve">Your email address</sys:String>
+    <sys:String x:Key="EnterEmail">Please enter your email.</sys:String>
+    <sys:String x:Key="SystemInfo">system information</sys:String>
+    <!--Settings - General-->
+    <sys:String x:Key="Settings">Settings</sys:String>
+    <sys:String x:Key="ResetSettings">Reset Settings</sys:String>
+    <sys:String x:Key="ResetAllSettingsDesc">Do you want to reset all your settings to default?</sys:String>
+    <sys:String x:Key="ResetSettingsConnection" xml:space="preserve">Do you want to reset all your Internet connection &#10;settings to default?</sys:String>
+    <sys:String x:Key="Language">Language</sys:String>
+    <sys:String x:Key="Scan">Scan</sys:String>
+    <sys:String x:Key="Save">Save</sys:String>
+    <!--Settings - Backup & Restore-->
+    <sys:String x:Key="BackupRestore">Backup &amp; Restore</sys:String>
+    <sys:String x:Key="Browse">Browse...</sys:String>
+    <!--Settings - Internet Connection-->
+    <sys:String x:Key="InternetConnection">Internet Connection</sys:String>
+    <sys:String x:Key="DefaultBrowserSettings">Use the default browser settings</sys:String>
+    <sys:String x:Key="ProxyServer">Use a proxy server</sys:String>
+    <sys:String x:Key="Address">Address</sys:String>
+    <sys:String x:Key="Port">Port</sys:String>
+    <sys:String x:Key="UserName">User Name</sys:String>
+    <sys:String x:Key="Password">Password</sys:String>
+    <sys:String x:Key="Test">Test</sys:String>
+    <!--Settings - System Restore-->
+    <sys:String x:Key="AutoCreateRestore">Automatically create a Restore Point before I install drivers.
+    </sys:String>
+    <sys:String x:Key="SystemRestore">System Restore</sys:String>
+    <sys:String x:Key="ShowHiddenDevices">Show Hidden Devices</sys:String>
+    <sys:String x:Key="Empty">Empty</sys:String>
+    <!--Settings - Scheduled Task-->
+    <sys:String x:Key="ScheduledTask">Scheduled Task</sys:String>
+    <!--Activation Page-->
+    <sys:String x:Key="UpdateDriversOneByOne">Update Drivers One-by-One</sys:String>
+    <sys:String x:Key="DownloadDriversOneByOne">Download Drivers One-by-One</sys:String>
+    <sys:String x:Key="OneClickUpdateAll">One Click to Update All Drivers</sys:String>
+    <sys:String x:Key="HighSpeed">High Speed Download</sys:String>
+    <sys:String x:Key="AutoCreateRestorePoint">Automatically Create Restore Point</sys:String>
+    <sys:String x:Key="Uninstall">Uninstall</sys:String>
+    <sys:String x:Key="DriverUninstall">Driver Uninstall</sys:String>
+    <sys:String x:Key="ExpertTechSupport">Expert Tech Support</sys:String>
+    <sys:String x:Key="EnterYourLicense">Enter your license key</sys:String>
+    <sys:String x:Key="Example">e.g.</sys:String>
+    <!--Activating-->
+    <sys:String x:Key="ActivatingWait">Activating, please wait...</sys:String>
+    <sys:String x:Key="RollingbackWait">Rolling back, please wait...</sys:String> 
+    <sys:String x:Key="PleaseWait">Please wait...</sys:String>
+    <!--Leading to Registration Page-->
+    <sys:String x:Key="ProVersion">Pro version</sys:String>
+    <sys:String x:Key="FreeVersion">Free version</sys:String>
+    <sys:String x:Key="Done">Done!</sys:String>
+    <!--Download Successfully Page-->
+    <sys:String x:Key="DownloadedSuccessfully">Downloaded Successfully</sys:String>
+    <sys:String x:Key="AutoInstallRecommended">Automatically Install (Recommended)</sys:String>
+    <sys:String x:Key="ManuallyInstall">Manually Install</sys:String>
+    <sys:String x:Key="LearnHow">Learn how...</sys:String>
+    <sys:String x:Key="ClickHere">Click Here</sys:String>
+    <sys:String x:Key="Continue">Continue</sys:String>
+    <!--Create Restore Point Page-->
+    <sys:String x:Key="CreateASystemRestorePoint">Create a system restore point</sys:String>
+    <sys:String x:Key="CreateASystemRestorePointDesc1">Before continuing, you should create a system restore point.</sys:String>
+    <sys:String x:Key="CreateASystemRestorePointDesc2">Then if one of your new drivers causes problems with Windows, you can just roll back to the restore point without losing any data.</sys:String>
+    <sys:String x:Key="AutoCreateRecommended">Automatically Create (Recommended)</sys:String>
+    <sys:String x:Key="AutoCreateRecommendedDesc">Upgrade to Driver Easy Pro to automatically create a restore point with just 1 click.</sys:String>
+    <sys:String x:Key="ManuallyCreate">Manually Create</sys:String>
+    <sys:String x:Key="ManuallyCreateDesc">I've already created a restore point.</sys:String>
+    <sys:String x:Key="DonotRemind">Don’t remind me again.</sys:String>
+    <!--About Us Page-->
+    <sys:String x:Key="FreeForPerson">FREE for Personal Use</sys:String>
+    <sys:String x:Key="SpeedLimited">Speed Limited</sys:String>
+    <sys:String x:Key="LicenseKey">License Key</sys:String>
+    <sys:String x:Key="RemainingDay">Remaining Days</sys:String>
+    <!--Tools - Driver Backup-->
+    <sys:String x:Key="DriverBackup">Driver Backup</sys:String>
+    <sys:String x:Key="DriverBackupDesc">You can back up all of your drivers to a specific folder, and use the backup version to restore drivers.</sys:String>
+    <sys:String x:Key="DriverDetail">Driver details</sys:String>
+    <!--Tools - Driver Restore-->
+    <sys:String x:Key="DriverRestore">Driver Restore</sys:String>
+    <sys:String x:Key="DriverRestoreDesc">Restore drivers to an earlier version if the new drivers have problems. Before using this feature, you need to have backup drivers first.</sys:String>
+    <sys:String x:Key="BrowseFile">Click the Browse button to select the driver you want to restore</sys:String>
+    <!--Tools - Driver Uninstall-->
+    <sys:String x:Key="DriverUninstallDesc">Some drivers cannot be uninstalled due to technical reason.</sys:String>
+    <!--Tools - Offline Scan-->
+    <sys:String x:Key="OfflineScan">Offline Scan</sys:String>
+    <sys:String x:Key="OfflineScanFile">Offline Scan File</sys:String>
+    <sys:String x:Key="OfflineScanDesc">If you're having any problems with your network driver, you can use this feature to download the latest network driver easily.</sys:String>
+    <sys:String x:Key="DoOfflineScan">Offline Scan (on the computer without Internet access)</sys:String>
+    <sys:String x:Key="UploadOfflineScan">Upload Offline Scan File (on the computer with Internet access)</sys:String>
+    <sys:String x:Key="HowToOfflineScan">Don’t know how to do it?</sys:String>
+    <sys:String x:Key="SaveOfflineScanResult">Save offline scan result to:</sys:String>
+    <sys:String x:Key="NetworkDrivers">Network drivers</sys:String>
+    <sys:String x:Key="Download">Download</sys:String>
+    <sys:String x:Key="ErrorDuringOfflineSaving">An error occurred during offline scan file saving.</sys:String>
+    <!--Prompt Message - Hide this Update-->
+    <sys:String x:Key="HideUpdate">Hide this Update</sys:String>
+    <sys:String x:Key="HideUpdateTitle">Hide this Update?</sys:String>
+    <sys:String x:Key="SureWantHide">Do you want to hide this update?</sys:String>
+    <sys:String x:Key="NewUpdateWillShow" xml:space="preserve">It will show up again when new update is available. You can unhide it via Settings > Hidden Devices.</sys:String>
+    <!--Prompt Message - Show Hidden Devices-->
+    <sys:String x:Key="SureWantShow">Are you sure you want to show hidden devices?</sys:String>
+    <sys:String x:Key="HiddenShowAgain">Selected devices will be shown again.</sys:String>
+    <!--Prompt Message - Language-->
+    <sys:String x:Key="ConfigFileNoExist">Configuration file does not exist.</sys:String>
+    <sys:String x:Key="NeedProvideAdminPerform">You will need to provide administrator permission to perform this action.</sys:String>
+    <sys:String x:Key="ContinueComplete">&#10; Click Continue to complete this operation.</sys:String>
+    <!--Prompt Message - Feedback Information-->
+    <sys:String x:Key="Information">Information</sys:String>
+    <sys:String x:Key="ExportSuccessful">Export is successful</sys:String>
+    <sys:String x:Key="ExportCancelled">Export cancelled</sys:String>
+    <sys:String x:Key="ExportCancelledDesc">Your feedback won’t be sent.</sys:String>
+    <sys:String x:Key="SystemInfoExportSuccessfully">System Information is exported successfully.</sys:String>
+    <sys:String x:Key="ErrorDuringFeedback">An error occurs while sending feedback.</sys:String>
+    <sys:String x:Key="FeedbackSuccessfully">Your feedback has been sent successfully.</sys:String>
+    <sys:String x:Key="EnterValidEmail">Please enter a valid email address in Your Email field.</sys:String>
+    <sys:String x:Key="EnterValidSubject">The short summary field must be less than {0} characters.</sys:String>
+    <sys:String x:Key="EnterValidDesc">Please fill in Description field. Description cannot be longer than {0} characters.</sys:String>
+    <sys:String x:Key="EnterValidAttachement">The attachment does not exist or the size exceeds the 10MB limit.</sys:String>
+    <sys:String x:Key="SettingSaved">All settings have been reset.</sys:String>
+    <!--Prompt Message - 503 Error-->
+    <sys:String x:Key="503Error">Too many connections from your network, please try again, or Close Driver Easy Free version on another computer on the same network. Upgrade to Driver Easy Professional version. Exception Details:</sys:String>
+    <!--Prompt Message - Scan Error-->
+    <sys:String x:Key="ScanProblem">Scan Problem</sys:String>
+    <sys:String x:Key="ErrorDuringScanning">An error occurred while scanning</sys:String>
+    <!--Prompt Message - Offline Scan-->
+    <sys:String x:Key="SpecifySaveLocation">Please specify the location where file are saved.</sys:String>
+    <sys:String x:Key="OfflineFileSaved">Offline scan file has been saved.</sys:String>
+    <sys:String x:Key="CopyOfflineFile">Please copy the offline scan file to the computer with Internet access. Then run Driver Easy, go to Tools > Offline Scan and select "Upload Offline Scan File" on that computer to download the latest network drivers.</sys:String>
+    <sys:String x:Key="OpenSaveFolder">Open save folder</sys:String>
+    <sys:String x:Key="SpecifiedFileNoExist">Specified file does not exist.</sys:String>
+    <sys:String x:Key="ErrorDuringDownload">An error occurred while downloading driver(s)</sys:String>
+    <sys:String x:Key="ErrorDuringUpdate">Error(s) occurred during update</sys:String>
+    <sys:String x:Key="ErrorDuringDownloadOfflineScan">An error occurred while downloading</sys:String>
+    <sys:String x:Key="DriverDownloadError">Driver(s) download error</sys:String>
+    <sys:String x:Key="DriverInstallError">Driver(s) install error</sys:String>
+    <sys:String x:Key="ToHelpBySendReport">To help us improve your experience, we have generated an error report for you to send us.</sys:String>
+    <sys:String x:Key="SendReport">Send report</sys:String>
+    <!--Prompt Message - Summary-->
+    <sys:String x:Key="Summary">Summary</sys:String>
+    <sys:String x:Key="ErrorDuringInstall">An error occurred while installing driver(s)</sys:String>
+    <!--Prompt Message - Activating-->
+    <sys:String x:Key="InvalidKey">Invalid license key format</sys:String>
+    <sys:String x:Key="InvalidKeyDesc">Please make sure you have entered all characters with hyphen "-".</sys:String>
+    <sys:String x:Key="ErrorDueToNet">A communication error occurred during activate</sys:String>
+    <sys:String x:Key="ErrorDueToNetDesc">please check your internet connection.</sys:String>
+    <sys:String x:Key="ErrorDuringActivation">An error occurred during activation</sys:String>
+    <sys:String x:Key="ActivateSuccessfully">Congratulations! You have activated Driver Easy Professional successfully!</sys:String>
+    <sys:String x:Key="ActivateSuccessfullyDesc">You have activated Driver Easy Professional successfully!</sys:String>
+    <!--Page - Main-->
+    <sys:String x:Key="Help">Help</sys:String>
+    <!--Dialog-->
+    <sys:String x:Key="Register">Register</sys:String>
+    <!--Dialog - Download-->
+    <sys:String x:Key="Backup">Back up</sys:String>
+    <sys:String x:Key="BackingUpDriver">Backing up driver...</sys:String> 
+    <!--Dialog - Backup Progress-->
+    <sys:String x:Key="BackupComplete">The backup completed successfully.</sys:String>
+    <sys:String x:Key="BackupError">An error occurred during driver backup</sys:String>
+    <!--Page - Tools - Driver Restore-->
+    <sys:String x:Key="Backuping">Backing up...</sys:String>
+    <!--Dialog - Checking Device-->
+    <sys:String x:Key="Completed">Completed ({0})</sys:String>
+    <!--Dialog - Download All-->
+    <sys:String x:Key="CompressIn">Compressing drivers in</sys:String>
+    <sys:String x:Key="CompressInDescribe">Please wait while we compress your driver file. It may take a few minutes if it's large.</sys:String>
+    <sys:String x:Key="SpecifyDriverUpdate">Please select drivers to update.</sys:String>
+    <!--Dialog - Driver Details-->
+    <sys:String x:Key="DriverType">Driver Type:</sys:String>
+    <!--Page - Tools-->
+    <sys:String x:Key="ErrorDetails">Error details</sys:String>
+    <sys:String x:Key="Install">Install</sys:String>
+    <sys:String x:Key="OpenBackupFolder">Open backup folder.</sys:String>
+    <sys:String x:Key="Previous">Previous</sys:String>
+    <sys:String x:Key="Current">Current</sys:String>
+    <sys:String x:Key="ReportError">Report Error</sys:String>
+    <sys:String x:Key="Restore">Restore</sys:String>
+    <!--Dialog - Shutdown-->
+    <sys:String x:Key="Send">Send</sys:String>
+    <sys:String x:Key="SpecifyDriver">Please specify a driver to restore.</sys:String>
+    <!--Page - Tools - Driver Uninstall-->
+    <sys:String x:Key="Activate">Activate</sys:String>
+    <!--Dialog - Register-->
+    <sys:String x:Key="ConfirmUpdate">The latest {0} Ver.{1} is available, would you like to download and install it now?</sys:String>
+    <!--Dialog - Register Prompt-->
+    <sys:String x:Key="Update">Update</sys:String>
+    <sys:String x:Key="UpdateTab">Update</sys:String>
+    <sys:String x:Key="UpdateError">An error occurred while downloading</sys:String>
+    <sys:String x:Key="AllDriverUpToDateHeader">All drivers on your computer are up-to-date!</sys:String>
+    <!--Dialog - Scanning Problem Reporting-->
+    <sys:String x:Key="BackupFileExist">The {0} has existed. Would you like to replace it?</sys:String>
+    <sys:String x:Key="DeleteErrorTitle">Deleting Problem</sys:String>
+    <sys:String x:Key="DownloadError">An error occurred while downloading driver</sys:String>
+    <sys:String x:Key="SpecifyBackupDriver">Please select the driver you want to backup.</sys:String>
+    <sys:String x:Key="SpecifyBackupFolder">Please specify a folder to save backup drivers.</sys:String>
+    <sys:String x:Key="SystemDriver">System Device Drivers</sys:String>
+    <sys:String x:Key="UnplugDriver">Unplugged Device Drivers</sys:String>
+    <sys:String x:Key="EmptyRestoreFile">There are no backup drivers in this zip file.</sys:String>
+    <sys:String x:Key="InputPort">Please enter a valid port number.</sys:String>
+    <sys:String x:Key="InputAddress" xml:space="preserve">Please enter a valid address. 
+(Such as www.proxyserver.com or 192.168.0.1)</sys:String>
+    <sys:String x:Key="InvalidAddress">Invalid Address</sys:String>
+    <sys:String x:Key="InvalidPort">Invalid Port Number</sys:String>
+    <sys:String x:Key="RestoreError">An error occurred during driver restore</sys:String>
+    <sys:String x:Key="RestoreFileNotExist">Specified file does not exist. Please specify the Zip file where the backup files are stored.</sys:String>
+    <sys:String x:Key="SpecifyDriverToUninstall">Please specify a driver to uninstall.</sys:String>
+    <sys:String x:Key="SpecifyRestoreFile">Please specify the Zip file where the backup files are stored.</sys:String>
+    <sys:String x:Key="TestConnection">Test Connection</sys:String>
+    <sys:String x:Key="TestFailure">Test connection failure.</sys:String>
+    <sys:String x:Key="TestSuccess">Test connection success.</sys:String>
+    <sys:String x:Key="UninstallError">An error occurred during driver uninstall</sys:String>
+    <sys:String x:Key="RestartRequired">Restart Required</sys:String>
+    <!--Page - Tools - Hardware Info-->
+    <sys:String x:Key="Overview">Overview</sys:String>
+    <!--Dialog - DriverInstall-->
+    <sys:String x:Key="InstallSucceed">install succeed.</sys:String>
+    <sys:String x:Key="Upload">Upload</sys:String>
+    <!--Page - Create Restore-->
+    <sys:String x:Key="CreateRestorePoint">Create a Restore Point</sys:String>
+    <!--Page - Scan -Main-->
+    <sys:String x:Key="Driver">Driver</sys:String>
+    <sys:String x:Key="Drivers">Drivers</sys:String>
+    <!-- page - SystemUpdate -->
+    <sys:String x:Key="NewVersion">A newer version of Driver Easy is available:</sys:String>
+    <sys:String x:Key="WhatsNew">What's New</sys:String>
+    <!--Renew-->
+    <sys:String x:Key="Get10XFasterSpeed">Get 10X Faster Download Speed</sys:String>
+    <sys:String x:Key="RenewNow">Renew Now</sys:String>
+    <sys:String x:Key="EnterNewLicense">Enter New License Key</sys:String>
+    <sys:String x:Key="NotFindInfFile">Could not find the .inf file or installation program for the driver.</sys:String>
+    <sys:String x:Key="SystemProtection">System Protection</sys:String>
+    <sys:String x:Key="Reminder">Reminder</sys:String>
+    <sys:String x:Key="PlaySound">Play sound after you update drivers.</sys:String>
+    <sys:String x:Key="ShareDE">Share Driver Easy</sys:String>
+    <sys:String x:Key="Share">Share</sys:String>
+    <!--General-Update Source-->
+    <sys:String x:Key="UpdateSource">Update Source</sys:String>
+    <sys:String x:Key="GetDriverFromDriverEasy">Get driver software from certified Driver Easy database</sys:String>
+    <sys:String x:Key="GetDriverFromWindowsUpdate">Get driver software from Windows Update</sys:String>
+    <sys:String x:Key="ViewDetails">View Details</sys:String>
+    <sys:String x:Key="Pause">Pause</sys:String>
+    <!--add 20170306-->
+    <!--Activation interface-->
+    <sys:String x:Key="DriverUpdatesAvailable">Driver updates available:</sys:String>
+    <sys:String x:Key="PROFeaturesDesc">The Pro version of Driver Easy is a massive time-saver. You can update all your drivers with just one click, get faster driver download speeds and a whole lot more...</sys:String>
+    <sys:String x:Key="AlreadyHaveALicense">Already have a license key?</sys:String>
+    <sys:String x:Key="ActiveProNow">Activate Pro now</sys:String>
+    <sys:String x:Key="UpgradeToPRO">Upgrade to Pro</sys:String>
+    <sys:String x:Key="GetPro">Get Pro</sys:String>
+    <!--Boot interface-->
+    <sys:String x:Key="NeedPROToUpdateAll">You need the Pro version to Update All</sys:String>
+    <sys:String x:Key="NeedProToBackup">You need the Pro version to Backup Driver</sys:String>
+    <sys:String x:Key="NeedPROToRestore">You need the Pro version to Restore Driver</sys:String>
+    <sys:String x:Key="NeedPROToUninstall">You need the Pro version to Uninstall Driver</sys:String>
+    <sys:String x:Key="NeedPROToAutoCreateRestorePoint">You need the Pro version to 
+Automatically Create a Restore Point</sys:String>
+    <sys:String x:Key="NeedPROToDownloadSpeed">You need the Pro version to Download Speed</sys:String>
+    <sys:String x:Key="NeedPROToAutoInstallDriver">You need the Pro version 
+to Automatically Install the Driver</sys:String>
+    <sys:String x:Key="NeedPROToRenew">You need the Pro version to Software Renew</sys:String>
+    <sys:String x:Key="NeedPROToViewUpdateHistory">You need the Pro version to view update history</sys:String>
+    <sys:String x:Key="FreeVersionDesc" xml:space="preserve">You’re using the free version of Driver Easy.&#10;It allows you to download your drivers one at a time.</sys:String>
+    <sys:String x:Key="PurposeOfUpgradeToPRO">To save time and update all available drivers at once - with just 1 click - you’ll need to upgrade to the Pro version of Driver Easy.</sys:String>
+    <!--Renewal interface-->
+    <sys:String x:Key="TimeToRenew">Time to renew your license</sys:String>
+    <sys:String x:Key="RenewDesc">Your Driver Easy Pro license has expired. Renew now to once again take advantage of all our great Pro features...</sys:String>
+    <sys:String x:Key="RenewAlready">Renewed already? Re-activate Pro now.</sys:String>
+    <!--Select the driver installation interface-->
+    <sys:String x:Key="WantInstallAutomatically">Upgrade to Driver Easy to automatically install my driver(s) with 1 click.</sys:String>
+    <sys:String x:Key="WantInstalMyself">I'll manually install my driver(s).</sys:String>
+    <!--Like us interface-->
+    <sys:String x:Key="ShareWithFriends">Tell your friends</sys:String>
+    <sys:String x:Key="SharingIsCaringDesc">How many of your friends have computer problems? If Driver Easy worked for you, it can work for them, so why not share? They’ll love you for it!</sys:String>
+    <sys:String x:Key="ShareOnFacebook">Share On Facebook</sys:String>
+    <sys:String x:Key="ShareOnTwitter">Share On Twitter</sys:String>
+    <sys:String x:Key="SharedAlready">Shared already?</sys:String>
+    <sys:String x:Key="FollowOnFacebook">Follow us on facebook</sys:String>
+    <sys:String x:Key="LikeUs">Like Us</sys:String>
+    <!--Gift interface-->
+    <sys:String x:Key="GetMyPresent">Here's a gift</sys:String>
+    <sys:String x:Key="WhoElseWantFreeGuidebook">Windows won't start? Fix it for FREE!</sys:String>
+    <sys:String x:Key="GuidebookDesc">If your PC won't boot into Windows, don't panic! We've written a guidebook to resolve exactly this problem. To get your FREE copy, just share us on Facebook.</sys:String>
+    <sys:String x:Key="WantFreeGuidebook1">Yes, I want the</sys:String>
+    <sys:String x:Key="FreeUpper">FREE</sys:String>
+    <sys:String x:Key="WantFreeGuidebook2">guidebook!</sys:String>
+    <sys:String x:Key="WantBuyGuidebook">No, thanks. I'll buy it for $9.95.</sys:String>
+    <!--Single installation interface-->
+    <sys:String x:Key="Get10XSpeed">Get 10X Faster Download Speed</sys:String>
+    <sys:String x:Key="Get10XSpeedDesc">Stop wasting time on slow download process. Upgrade to Driver Easy Pro version to get 10X Faster Download Speed. Then you can download and update the driver instantly.</sys:String>
+    <!--end 20170306-->
+    <sys:String x:Key="DeviceNumber">{0} Device(s)</sys:String>
+    <sys:String x:Key="NeedUpdatedDrivers">Available for Update</sys:String>
+    <sys:String x:Key="UninstallFailed">Failed to uninstall driver.</sys:String>
+    <sys:String x:Key="ReportMissDetectedDrivers">Report Unlisted Driver</sys:String>
+    <sys:String x:Key="ImproveTranslation">Improve Translation</sys:String>
+    <!--add 20170331 for hardware info-->
+    <sys:String x:Key="OverviewDesc">Take an overview of the hardware info.</sys:String>
+    <sys:String x:Key="CpuDesc">Get the detailed information about CPU.</sys:String>
+    <sys:String x:Key="MainboardDesc">Get the detailed information about Motherboard.</sys:String>
+    <sys:String x:Key="MemoryDesc">Get the detailed information about Memory.</sys:String>
+    <sys:String x:Key="GraphicsDesc">Get the detailed information about Graphics.</sys:String>
+    <!--Create restore point Window-->
+    <sys:String x:Key="CreatingARestorePoint">Creating a restore point...</sys:String>
+    <sys:String x:Key="OneDayOneRestorePointDesc">Driver Easy creates a restore point once a day only. It may take some time if the driver file is large. We appreciate your patience.
+    </sys:String>
+    <sys:String x:Key="OneDayOneRestorePoint">Only one restore point will be created in a day.</sys:String>
+    <!--20170712,add for new Update process-->
+    <sys:String x:Key="InstallYourDriverDesc1">Now it's time to install your driver(s)</sys:String>
+    <sys:String x:Key="InstallYourDriverDesc2">You can do this manually, which can take up to an hour, or you can upgrade to Driver Easy Pro and do it with just 1 click.</sys:String>
+    <sys:String x:Key="DownloadYourDriver">Download your driver(s)</sys:String>
+    <sys:String x:Key="InstallYourDriver">Install your driver(s)</sys:String>
+    <sys:String x:Key="BeforeUpdate">Before Update:</sys:String>
+    <sys:String x:Key="Step0CreateRestorePoint">Create restore point</sys:String>
+    <sys:String x:Key="UpdateProcess">Update Process:</sys:String>
+    <sys:String x:Key="Step1DownloadDriver">Download driver(s)</sys:String>
+    <sys:String x:Key="Step2InstallDriver">Install driver(s)</sys:String>
+    <!--20170828,add report bug-->
+    <sys:String x:Key="ReportBug">Report Bugs</sys:String>
+    <!--20170828,add for show renew price-->
+    <sys:String x:Key="ShowRenewPrice1">Was</sys:String>
+    <sys:String x:Key="ShowRenewPrice2">now just {0}.</sys:String>
+    <!--20170928,tommy,add -->
+    <sys:String x:Key="RestoreSuccessfully">{0} has been restored successfully.</sys:String>
+    <sys:String x:Key="KBytes">KBytes</sys:String>
+    <sys:String x:Key="MBytes">MBytes</sys:String>
+    <sys:String x:Key="Bytes">Bytes</sys:String>
+    <!--20180821,ryan,add -->
+    <sys:String x:Key="step_1">Step 1</sys:String>
+    <sys:String x:Key="step_2">Step 2</sys:String>
+    <sys:String x:Key="step_3">Step 3</sys:String>
+    <sys:String x:Key="Reset_Connection">Reset Connection</sys:String>
+    <sys:String x:Key="InvalidProxy">Driver Easy cannot connect to the specified proxy server. Please change your Internet connection settings and try again.</sys:String>
+    <sys:String x:Key="CheckBackupLength">The specified path would be too long or contain invalid characters. You can try a location with a shorter path or rename the folder to remove those invalid characters.</sys:String>
+    <sys:String x:Key="SettingBackupTo">Back up to</sys:String>
+    <sys:String x:Key="BackupPathNeedAdministrator" xml:space="preserve">You don’t have permission to save in this location.
+        
+Would you like to save in the Documents folder instead?</sys:String>
+    <sys:String x:Key="UpdatingYourDrivers">Updating your driver(s)</sys:String>
+    <sys:String x:Key="drive_status_downloading">DOWNLOADING</sys:String>
+    <sys:String x:Key="drive_status_queued">QUEUED</sys:String>
+    <sys:String x:Key="drive_status_installing">INSTALLING</sys:String>
+    <!--20180929,ryan,add -->
+    <sys:String x:Key="eula">EULA</sys:String>
+    <sys:String x:Key="privacy_policy">Privacy Policy</sys:String>
+    <sys:String x:Key="CompletedUpToDate">UPDATED</sys:String>
+    <sys:String x:Key="UpdateYourDrivers">Update your drivers:</sys:String>
+    <sys:String x:Key="AvailableNumber">{0} available</sys:String>
+    <sys:String x:Key="UpdateYourAvailableDrivers">Update your drivers: {0} available</sys:String>
+    <sys:String x:Key="DriverMissing">Driver missing</sys:String>
+    <sys:String x:Key="DriverOutdated">Driver outdated</sys:String>
+    <sys:String x:Key="DeviceUnplugged">Device unplugged</sys:String>
+    <sys:String x:Key="DriverUpdateHistory">Driver Update History</sys:String>
+    <sys:String x:Key="HavenotUpdateAnyDriver">You haven't updated any driver.</sys:String>
+    <sys:String x:Key="OnlyDisplayLastThirtyHistory">Only the last &lt;Foreground1&gt;30&lt;/Foreground1&gt; items are displayed.</sys:String>
+    <sys:String x:Key="UpdateHistoryMayIncludeOtherSoftwareRecord">Driver update history may include drivers updated by other software.</sys:String>
+    <sys:String x:Key="ExportLastRecord">Export last record (*.txt)</sys:String>
+    <sys:String x:Key="VersionHistory">Version History</sys:String>
+    <sys:String x:Key="OldVersion">Old Version:</sys:String>
+    <sys:String x:Key="PreviousVersion">Previous version:</sys:String>
+    <sys:String x:Key="CurrentVersion">Current version:</sys:String>
+    <sys:String x:Key="CancelUpdateTitle">Cancel Update?</sys:String>
+    <sys:String x:Key="QuitDriverEasy">Quit Driver Easy?</sys:String>
+    <sys:String x:Key="SureCancelUpdate">Are you sure you want to cancel?</sys:String>
+    <sys:String x:Key="UpdateCannotStopDuringInstallation">To avoid possible damage to your system, updates being installed cannot be stopped.</sys:String>
+    <sys:String x:Key="FailedToSendFeedback">Failed to send message</sys:String>
+    <sys:String x:Key="TechnicalSupport">Technical Support</sys:String>
+    <sys:String x:Key="DescribeYourProblem">Describe your problem</sys:String>
+    <sys:String x:Key="SubmitTicket">Submit ticket</sys:String>
+    <sys:String x:Key="ItTakeTime1">It may take 2-3 minutes to collect your</sys:String>
+    <sys:String x:Key="ItTakeTime2">after you submit the form.</sys:String>
+    <sys:String x:Key="WeAlsoCollectYour">We also collect your</sys:String>
+    <sys:String x:Key="ForDebuggingAndTroubleShooting">for debugging and troubleshooting.</sys:String>
+    <sys:String x:Key="ItTakeTimePleaseWait">It may take 2-3 minutes, please wait...</sys:String>
+    <sys:String x:Key="LoadingPleaseWait">Loading, please wait...</sys:String>
+    <sys:String x:Key="UpgradeUpperCase">UPGRADE</sys:String>
+    <sys:String x:Key="ToDePro">to Driver Easy Pro</sys:String>
+    <sys:String x:Key="ActivateProNow">Activate Pro now</sys:String>
+    <sys:String x:Key="LostMyKey">I lost my key...</sys:String>
+    <sys:String x:Key="DeProRequired">Driver Easy Pro Required</sys:String>
+    <sys:String x:Key="ProFeatureOneClickUpdateAll">Update all your drivers with 1 click. And much more...</sys:String>
+    <sys:String x:Key="ProFeatureSaveYourHardwareInfo">Save your hardware information onto your computer. And much more...</sys:String>
+    <sys:String x:Key="ProFeatureBackupDriver">Back up your drivers, and much more...</sys:String>
+    <sys:String x:Key="ProFeatureRestoreDriver">Restore your drivers from a backup, and much more...</sys:String>
+    <sys:String x:Key="ProFeatureUninstallDriver">Uninstall your drivers, and much more...</sys:String>
+    <sys:String x:Key="ProFeatureCreateRestorePoint">Automatically create a restore point before update. And much more...</sys:String>
+    <sys:String x:Key="ProFeatureInstallDriverAutomatically">Install your drivers automatically, and much more...</sys:String>
+    <sys:String x:Key="ProFeatureViewDriverUpdateHistory">View your driver update history, and much more...</sys:String>
+    <sys:String x:Key="ProFeatureExportDriverUpdateHistory">Export driver update history, and much more...</sys:String>
+    <sys:String x:Key="ProFeatureUpdateLatestVersion">Update the latest version automatically, and much more...</sys:String>
+    <sys:String x:Key="FeatureDetectAllDriver">Detects all missing, outdated &amp; mismatched drivers</sys:String>
+    <sys:String x:Key="FeatureAllDriverCertified">All drivers certified, and direct from manufacturer</sys:String>
+    <sys:String x:Key="FeatureDownaloadOneATime">Download drivers one at a time</sys:String>
+    <sys:String x:Key="FeatureInstallOneATime">Install drivers one at a time</sys:String>
+    <sys:String x:Key="FeatureDownloadAndInstallOneClick">Download &amp; install ALL drivers with 1 click</sys:String>
+    <sys:String x:Key="FeatureFreeSupport">Free PC tech support</sys:String>
+    <sys:String x:Key="FeatureHighSpeed">High-speed driver download</sys:String>
+    <sys:String x:Key="FeatureCreateRestorePoint">Automatically create restore points</sys:String>
+    <sys:String x:Key="FeatureBackupAndRestore">Backup &amp; restore drivers</sys:String>
+    <sys:String x:Key="FeatureUninstallDriver">Uninstall drivers</sys:String>
+    <sys:String x:Key="FeatureViewUpdateHistory">View driver update history</sys:String>
+    <sys:String x:Key="FeatureExportHardwareInfo">Export hardware information</sys:String>
+    <sys:String x:Key="FeatureKeepDriverUpdate">Keep Driver Easy updated automatically</sys:String>
+    <sys:String x:Key="UpgradeDePro">Upgrade Driver Easy Pro</sys:String>
+    <sys:String x:Key="BuyPro">Buy Pro</sys:String>
+    <sys:String x:Key="BuyFeatureUpdateAllDriverOneClick">Update all drivers with 1 click</sys:String>
+    <sys:String x:Key="BuyFeatureUpdateDriverOneATime">Update drivers one at a time</sys:String>
+    <sys:String x:Key="BuyFeatureInstallDriverAutomatically">Automatically install drivers</sys:String>
+    <sys:String x:Key="BuyFeatureDownloadOneATime">Download drivers one at a time</sys:String>
+    <sys:String x:Key="BuyNow">BUY NOW</sys:String>
+    <sys:String x:Key="AlreadyBoughtIt">Already bought it?</sys:String>
+    <sys:String x:Key="EnterLicenseToActivate">Enter your license key to activate Pro.</sys:String>
+    <sys:String x:Key="NoNeedToReinstall">(No need to reinstall.)</sys:String>
+    <sys:String x:Key="FiftyPercentOff">50% OFF</sys:String>
+    <!--20210317, tommy, add for settings-->
+    <sys:String x:Key="ManageSettings">Manage your Driver Easy settings.</sys:String>
+    <sys:String x:Key="ResetAllSettings">Reset All Settings</sys:String>
+    <!--settings gernal-->
+    <sys:String x:Key="ForBetterReadabilityLanguage">For better readability, the font may change when you switch the language.</sys:String>
+    <sys:String x:Key="DateFormat">Date format</sys:String>
+    <sys:String x:Key="ChooseDataFormat">Choose the date format you’d like to use with Driver Easy.</sys:String>
+    <sys:String x:Key="SkipPermissionReminder">Skip permission reminder</sys:String>
+    <sys:String x:Key="GrantDEAdministratorWhenLaunched">Grant Driver Easy Administrator privileges when launched.</sys:String>
+    <sys:String x:Key="ScanDevicesAutomatically">Scan devices automatically</sys:String>
+    <sys:String x:Key="ScanWhenDELaunched">Scan your computer's devices automatically when Driver Easy is launched.</sys:String>
+    <sys:String x:Key="RunDEAutomatically">Run Driver Easy automatically</sys:String>
+    <sys:String x:Key="RunDEWhenStarts">Run Driver Easy automatically when your computer starts.</sys:String>
+    <sys:String x:Key="On">On</sys:String>
+    <sys:String x:Key="Off">Off</sys:String>
+    <sys:String x:Key="HelpImproveNew">Help Improve Driver Easy</sys:String>
+    <sys:String x:Key="ShareInfo">Share my hardware information.</sys:String>
+    <sys:String x:Key="ShareInfoFirst">If you select this checkbox, you agree to share your system information with us. Don't worry, this does not include your files or any personal information. Just devices, drivers and errors. All data is anonymous, and it is stored securely and treated confidentially. See our</sys:String>
+    <sys:String x:Key="ShareInfoFirstNew">Don't worry, this does not include your files or any personal information. Just devices, drivers and errors. All data is anonymous, and it is stored securely and treated confidentially. See our</sys:String>
+    <sys:String x:Key="ShareInfoLast">for more information.</sys:String>
+    <!--settings restore point-->
+    <sys:String x:Key="RestorePoints">Restore Points</sys:String>
+    <sys:String x:Key="RestorePointsTab">Restore Points</sys:String>
+    <sys:String x:Key="RestorePointsDesc">A restore point is a backup of your entire system as it was at a particular point in time. Driver Easy can automatically create a restore point before updating your drivers, so if a driver update causes problems, you can roll back to the system as it was before the update.</sys:String>
+    <sys:String x:Key="CreateRestorePointBeforeInstall">Create a restore point automatically before installing drivers.</sys:String>
+    <sys:String x:Key="CreateOneEachDay">Driver Easy creates no more than one restore point each day.</sys:String>
+    <sys:String x:Key="RestoreYourSystem">Restore Your System</sys:String>
+    <sys:String x:Key="YouCanRevert">You can revert your computer to a previous restore point with System Restore.</sys:String>
+    <sys:String x:Key="TurnOnSystemProtection">Turn on system protection</sys:String>
+    <sys:String x:Key="DEWillCreateNoMoreThanOneEachDay">Driver Easy will create a restore point automatically before installing drivers. It creates no more than one restore point each day.</sys:String>
+    <sys:String x:Key="MaxDiskSpace">The max disk space for it is set to 5% at least. </sys:String>
+    <!--settings hidden devices-->
+    <sys:String x:Key="HiddenDevices">Hidden Devices</sys:String>
+    <sys:String x:Key="HiddenDevicesDesc">A hidden device won't be scanned for a driver update unless you un-hide it or a newer version of the hidden device's driver is released.</sys:String>
+    <sys:String x:Key="AllHiddenDevicesList">All your hidden devices are listed here</sys:String>
+    <!--settings scheduled scans-->
+    <sys:String x:Key="ScheduledScans">Scheduled Scans</sys:String>
+    <sys:String x:Key="ScheduledScansDesc">You can schedule Driver Easy to scan your computer at a time and frequency that you choose.</sys:String>
+    <sys:String x:Key="ScheduledScansEnable">Enable the automatic scan scheduler</sys:String>
+    <sys:String x:Key="CurrentScheduledScanTime">Current scheduled scan time:</sys:String>
+    <sys:String x:Key="Change">Change</sys:String>
+    <!--tools backup-->
+    <sys:String x:Key="BackupToNew">Back up to</sys:String>
+    <sys:String x:Key="BackupFollowingDrivers">Back up the following drivers</sys:String>
+    <sys:String x:Key="BackupNew">Back up</sys:String>
+    <!--download page: more button-->
+    <sys:String x:Key="ViewDriverDetails">View driver details</sys:String>
+    <sys:String x:Key="DeleteDownloadedDriver">Delete downloaded driver</sys:String>
+    <sys:String x:Key="RollbackToPreviousDriver">Roll back to previous driver</sys:String>
+    <sys:String x:Key="UninstallDriver">Uninstall driver</sys:String>
+    <sys:String x:Key="DonotShowUpdateAgain">Don’t show this update again</sys:String>
+    <!--driver detail page-->
+    <sys:String x:Key="DriverUpdateDetails">Driver update details</sys:String>
+    <sys:String x:Key="AnUpdateAvailableForYour">An update is available for your {0}</sys:String>
+    <sys:String x:Key="SuggestedUpdate">Suggested update</sys:String>
+    <sys:String x:Key="CurrentDriverNew">Current driver</sys:String>
+    <sys:String x:Key="AvailableDriver">Available driver</sys:String>
+    <sys:String x:Key="Provider">Provider</sys:String>
+    <!--key Date and Name already had before!-->
+    <sys:String x:Key="Compatability">Compatibility</sys:String>
+    <sys:String x:Key="YourDeviceHardwareIds">Your device has these hardware IDs:</sys:String>
+    <sys:String x:Key="AvailableCompatibleHardwareIds">This device also contains these compatible IDs:</sys:String>
+    <!--new dialog tips-->
+    <!--20210302, tommy, add for uninstall driver-->
+    <sys:String x:Key="UninstallSuccessfully" xml:space="preserve">{0} has been uninstalled successfully.</sys:String>
+    <!--20210112, tommy, add for rollback driver-->
+    <sys:String x:Key="Rollback">Roll back</sys:String>
+    <sys:String x:Key="RollbackFaild">Roll back failed, error code: {0}</sys:String>
+    <sys:String x:Key="NoItemsToRollback">No items to Roll back</sys:String>
+    <sys:String x:Key="RolledBack">Rolled Back</sys:String>
+    <sys:String x:Key="SureRollback" xml:space="preserve">Are you sure you want to roll back to the previously installed drivers?</sys:String>
+    <sys:String x:Key="RollbackWarning" xml:space="preserve">The related devices may not work if you roll back this driver.</sys:String>
+    <sys:String x:Key="RollbackSuccessfully" xml:space="preserve">{0} has been rolled back successfully.</sys:String>
+    <sys:String x:Key="ProFeatureRollbackDrivers">Roll back your drivers, and much more...</sys:String>
+    <sys:String x:Key="FeatureRollbackDrivers">Roll back drivers</sys:String>
+    <sys:String x:Key="HowToUninstallDE">How to Uninstall Driver Easy</sys:String>
+    <!--20230425, tommy, add for common prompt, Information and Done already have-->
+    <sys:String x:Key="Success">Success!</sys:String>
+    <sys:String x:Key="Error">Error</sys:String>
+    <sys:String x:Key="ActionFailed">Action Failed</sys:String>
+    <sys:String x:Key="Attention">Attention</sys:String>
+    <sys:String x:Key="Copy">Copy</sys:String>
+    <sys:String x:Key="Copied">Copied!</sys:String>
+    <!--20230504, tommy, add for feedback-->
+    <sys:String x:Key="InvalidEmailAddress">Invalid Email Address</sys:String>
+    <sys:String x:Key="InvalidAttachment">Invalid Attachment</sys:String>
+    <!--20230504, tommy, add for update UI-->
+    <sys:String x:Key="UninstallThisDriver">Uninstall this driver?</sys:String>
+    <sys:String x:Key="UninstallThisDriverDesc">The related devices may not work if you uninstall this driver.</sys:String>
+    <sys:String x:Key="SureUninstallThisDriver">Are you sure you want to uninstall this driver?</sys:String>
+    <sys:String x:Key="SystemInformation">System Information</sys:String>
+    <sys:String x:Key="FailedToSave">Failed to save</sys:String>
+    <sys:String x:Key="PermissionRequired">Permission Required</sys:String>
+    <sys:String x:Key="FileNameAlreadyExists">A file named "{0}" already exists.</sys:String>
+    <sys:String x:Key="WantToReplace">Do you want to replace it?</sys:String>
+
+    <sys:String x:Key="Menu">Menu</sys:String>
+    <sys:String x:Key="PerformsBestIfKeepUpToDate">Driver Easy performs best if kept up to date.</sys:String>
+    <sys:String x:Key="SureCancelUpdateLatestVersion">Are you sure you want to cancel this update to the latest version of Driver Easy?</sys:String>
+    <sys:String x:Key="UnableCheckUpdate">Unable to check for updates</sys:String>
+    <sys:String x:Key="TimeoutAndCheckNetworkAgain">Connection timed out. Please check your network and try again.</sys:String>
+    <sys:String x:Key="CheckNetworkAndTryAgain">Please check your network. If you are using a firewall or a proxy, disable it and try again.</sys:String>
+    <sys:String x:Key="Retry">Retry</sys:String>
+    <sys:String x:Key="AlreadyLatestVersion">Current version {0} is already the latest version.</sys:String>
+    <sys:String x:Key="UpgradeToKeepLatestVersionAutomatically">Upgrade Driver Easy Pro to keep the latest version automatically.</sys:String>
+    <sys:String x:Key="NewVersionDriverEasyAvailable">New version of Driver Easy available</sys:String>
+    <sys:String x:Key="LatestVersionAvailable">The latest version of Driver Easy is available (version {0}).</sys:String>
+    <sys:String x:Key="UpdatingDriverEasy">Updating Driver Easy...</sys:String>
+    <sys:String x:Key="UpdatingDriverEasyToVersion">Updating to version {0} of Driver Easy.</sys:String>
+    <sys:String x:Key="AboutMinuteRemaining">About 1 minute remaining</sys:String>
+    <sys:String x:Key="DownloadingDriverEasySetup">Downloading DriverEasy_Setup.exe</sys:String>
+    <sys:String x:Key="UpdateNow">Update Now</sys:String>
+
+    <sys:String x:Key="Missing">Missing</sys:String>
+    <sys:String x:Key="Outdated">Outdated</sys:String>
+    <sys:String x:Key="Unplugged">Unplugged</sys:String>
+    <sys:String x:Key="Stop">STOP</sys:String>
+
+    <sys:String x:Key="DeviceErr">the device was unplugged.</sys:String>
+    <sys:String x:Key="PrinterErr">the printer was unplugged.</sys:String>
+
+    <sys:String x:Key="IdentifyOfflineDrivers">Identify what drivers your offline computer needs</sys:String>
+    <sys:String x:Key="DownloadDriversOnAnotherComputer">Download those drivers on another computer</sys:String>
+    <sys:String x:Key="DEIdentifyDriversNeedAccessInternet" xml:space="preserve">Driver Easy will scan this computer to identify the drivers
+it needs to access the internet.</sys:String>
+    <sys:String x:Key="WhereWantToSaveScanResult">Where do you want to save the scan results?</sys:String>
+    <sys:String x:Key="WhereDidSaveOfflineScanFile">Where did you save the offline scan file, when you copied it to this computer?</sys:String>
+    <sys:String x:Key="WhenCopyiedToThisComputer">when you copied it to this computer?</sys:String>
+    <sys:String x:Key="BuyProNow">Buy Pro now</sys:String>
+    <sys:String x:Key="ChooseLocation">Choose Location</sys:String>
+    <sys:String x:Key="OfflineScanFileSaved">Offline scan file saved</sys:String>
+    <sys:String x:Key="NowCopyOfflineScanFile" xml:space="preserve">Now copy {0} to a computer that has internet access. Then, on that computer, run Driver Easy, and  select 
+Tools > Offline Scan > STEP 2.</sys:String>
+    <sys:String x:Key="GoToFile">Go to file</sys:String>
+    <sys:String x:Key="CheckForUpdates">Check for Updates</sys:String>
+    <sys:String x:Key="CheckingForUpdates">Checking for updates...</sys:String>
+    <sys:String x:Key="LinkToWebPage">Useful Links</sys:String>
+    <sys:String x:Key="WriteAReview">Write a Review</sys:String>
+    <sys:String x:Key="SettingsWillSaveAutomatically">When you adjust the settings, changes will be saved automatically.</sys:String>
+    <sys:String x:Key="RestorePointTurnOnNote">If this setting is turned on, please note that:</sys:String>
+    <sys:String x:Key="RestorePointMakeSureTurnOn">Make sure you've turned on system protection and the max disk space for it is set to 5% at least.</sys:String>
+    <sys:String x:Key="Undo">Undo</sys:String>
+    <sys:String x:Key="NeedsAccessInternet">Here are the drivers your other computer needs to access the internet.</sys:String>
+    <sys:String x:Key="DownloadAll">Download All</sys:String>
+    <sys:String x:Key="DriversDownloaded">Drivers downloaded</sys:String>
+    <sys:String x:Key="NowCopyDriversToNoInternet">Now copy them to the computer that has no internet access. 
+Then install them on that computer, as explained</sys:String>
+    <sys:String x:Key="Here">here…</sys:String>
+    <sys:String x:Key="GoToDrivers">Go to drivers</sys:String>
+    <sys:String x:Key="AutoSaving">Applying Changes</sys:String>
+    <sys:String x:Key="ChangesHaveBeenSaved">Changes have been saved.</sys:String>
+    <sys:String x:Key="MoreActions">More actions</sys:String>
+    <sys:String x:Key="ScanShort">Scan</sys:String>
+    <sys:String x:Key="UpdateShort">Update</sys:String>
+    <sys:String x:Key="HardwareShort">Hardware</sys:String>
+    <sys:String x:Key="ToolsShort">Tools</sys:String>
+    <sys:String x:Key="AllItemsAreDisplayed">All items are displayed</sys:String>
+    <sys:String x:Key="TechnicianLicenseExpired">This is an expired Technician license. To activate, use a new Technician key or buy a Home/Business license.</sys:String>
+    <sys:String x:Key="LicenseNotActivatedOnThisComputer">It seems Driver Easy Pro is not activated on this computer. Click Yes will use one of your PC licenses if it’s a new computer.</sys:String>
+    <sys:String x:Key="WantToActivate">Are you sure you want to activate?</sys:String>
+    <sys:String x:Key="WantToBuyNow">Do you want to buy now?</sys:String>
+    <sys:String x:Key="PleaseContactSupport">Please contact our technical support.</sys:String>
+    <sys:String x:Key="ContactSupport">Contact support</sys:String>
+    <sys:String x:Key="YesActivateNow">Yes, activate now</sys:String>
+    <sys:String x:Key="NoThanks">No, thanks</sys:String>
+    <sys:String x:Key="ActivationFailed">Activation Failed</sys:String>
+    <sys:String x:Key="AllDriversAreDownloaded">All drivers are downloaded</sys:String>
+    <sys:String x:Key="InstalledViaDE">This driver is installed via Driver Easy</sys:String>
+    <sys:String x:Key="SuccessfullyInstalled">Successfully installed</sys:String>
+    <sys:String x:Key="SuccessfullyRolledBack">Successfully rolled back</sys:String>
+    <sys:String x:Key="FailedToInstall">Failed to install</sys:String>
+    <sys:String x:Key="ShowPassword">Show password</sys:String>
+    <sys:String x:Key="HidePassword">Hide password</sys:String>
+    <sys:String x:Key="TurnOn">Turn on</sys:String>
+    <sys:String x:Key="TurnOff">Turn off</sys:String>
+    <sys:String x:Key="Minimize">Minimize</sys:String>
+    <sys:String x:Key="Close">Close</sys:String>
+    <sys:String x:Key="LetUsKnowWhyRollingBack">Let us know why you’re rolling back:</sys:String>
+    <sys:String x:Key="TheDriverNotWorkForDevice">This driver doesn’t work for my device</sys:String>
+    <sys:String x:Key="PreviousVersionIsMoreReliable">The previous version of the driver is more reliable</sys:String>
+    <sys:String x:Key="OtherReason">Other reason</sys:String>
+    <sys:String x:Key="AgreeSendRollbackLog">A driver report has been generated to help us improve Driver Easy. By checking this box you agree to send us the report.</sys:String>
+    <sys:String x:Key="PaymentMethodRequired">Payment method required. You’ll be billed X/year when trial ends. Cancel anytime.</sys:String>
+    <sys:String x:Key="PaymentMethodRequiredShort">Payment method required.</sys:String>
+    <sys:String x:Key="NotReadyToUpgrade">Not ready to upgrade?</sys:String>
+    <sys:String x:Key="StartSevenDayTrial">Start 7-day trial</sys:String>
+    <sys:String x:Key="AvailableInPaidVersion">Available in paid version</sys:String>
+    <sys:String x:Key="Allow">Allow</sys:String>
+    <sys:String x:Key="NotAllow">Not allow</sys:String>
+    <sys:String x:Key="ScheduledTasks">Scheduled Tasks</sys:String>
+    <sys:String x:Key="InstallationDate">Installation date:</sys:String>
+    <sys:String x:Key="ActivateAndUpdate">Activate &amp; Update</sys:String>
+    <sys:String x:Key="OfferingSevenDayFreeTrial">We’re offering a 7-day free trial so you can be sure Driver Easy is right for you. You can continue to use Driver Easy after your trial period by renewing the software.</sys:String>
+    <sys:String x:Key="GetFiftyOffDiscount">Wait, if you Go Pro now, you will get a 50% off discount!</sys:String>
+    <sys:String x:Key="SevenDayPlan">7-day Plan</sys:String>
+    <sys:String x:Key="OneYearPlan">1 Year Plan</sys:String>
+    <sys:String x:Key="OnePC">1 PC</sys:String>
+    <sys:String x:Key="ThreePCs">3 PCs</sys:String>
+    <sys:String x:Key="StartTrial">Start Trial</sys:String>
+    <sys:String x:Key="ComputersPerLicense">Computers per license</sys:String>
+    <sys:String x:Key="ViewAllVersionOfTheDriver">View all versions of this driver</sys:String>
+    <sys:String x:Key="ViewAllDriverVersions">View all driver versions</sys:String>
+    <sys:String x:Key="HugeDriverDatabase">Huge driver database</sys:String>
+    <sys:String x:Key="RecordsForThisDevice">Records for this device</sys:String>
+    <sys:String x:Key="Compatible">Compatible</sys:String>
+    <sys:String x:Key="TotalRecordsInDatabase">Total records in Driver Easy database</sys:String>
+    <sys:String x:Key="RecordsIncludingDriversForWin7OrNewer">Records including drivers for Windows 7 or newer</sys:String>
+    <sys:String x:Key="DriversCompatibleWithYourSystem">Drivers compatible with your system</sys:String>
+    <sys:String x:Key="ReleaseDate">Release Date</sys:String>
+    <sys:String x:Key="Action">Action</sys:String>
+    <sys:String x:Key="InstallOutdatedDriver">Install an outdated driver?</sys:String>
+    <sys:String x:Key="InstallOutdatedDriverDesc">After installing this driver, the latest version will be move to your hidden devices until a more recent version is released. Also, this device may not work if you install an outdated driver.</sys:String>
+    <sys:String x:Key="SureWantToContinue">Are you sure you want to continue?</sys:String>
+    <sys:String x:Key="AboutLegal" xml:space="preserve">This software is only for the purpose of legal use of duplication under the current copyright laws. Any duplication without permission by copyright owners is illegal under the current copyright laws. Users are liable for criminal and civil penalty under the current law for illegal duplication.
+        
+External Libraries and Contributors:
+
+7-Zip
+Igor Pavlov
+7z.dll: GNU LGPL + unRAR restriction</sys:String>
+    <sys:String x:Key="Loading">Loading</sys:String>
+    <sys:String x:Key="OnlyKeepOneDownloadedDriver">We only keep one downloaded driver.</sys:String>
+    <sys:String x:Key="Status">Status</sys:String>
+    <sys:String x:Key="Installing">Installing</sys:String>
+    <sys:String x:Key="SorrySomethingWentWrongHere">Sorry, something went wrong here...</sys:String>
+    <sys:String x:Key="WeNotifiedAndWillTakeALookShortly">We’ve been notified about this issue and we’ll take a look at it shortly.</sys:String>
+    <sys:String x:Key="Trial">Trial</sys:String>
+    <sys:String x:Key="TrialEnd">Trial Ended</sys:String>
+    <sys:String x:Key="TrialDayLeft">Days Left</sys:String>
+    <sys:String x:Key="TrialTitleWelcome">Welcome to Your Free Trial!</sys:String>
+    <sys:String x:Key="TrialTitleEndSoon">Your trial is ending soon!</sys:String>
+    <sys:String x:Key="TrialTitleEnd">Your free trial has ended.</sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine1Left">We hope you enjoy your test-spin and decide to stick with us. You can check out our </sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine1UserManual">User Manual</sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine1Right"> to discover all the Pro features.</sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine2">When your trial ends, you will be billed automatically for your subscription. Before that, we’ll send an email to remind you.</sys:String>
+    <sys:String x:Key="TrialTipUnsubscribeLeft">You can cancel at any time by clicking </sys:String>
+    <sys:String x:Key="TrialTipUnsubscribe">Unsubscribe</sys:String>
+    <sys:String x:Key="TrialTipUnsubscribeRight">.</sys:String>
+    <sys:String x:Key="TrialTipPricingPlans">Discover more pricing plans</sys:String>
+    <sys:String x:Key="TrialContentEnd">We hope you enjoy your trial. Start subscription to keep your computer at its best shape with the latest drivers!</sys:String>
+    <sys:String x:Key="Hour">HOURS</sys:String>
+    <sys:String x:Key="Min">MINUTES</sys:String>
+    <sys:String x:Key="Second">SECONDS</sys:String>
+    <sys:String x:Key="FreeSupport">Free Support</sys:String>
+    <sys:String x:Key="FreeSupportTip">100% PC Experts</sys:String>
+    <sys:String x:Key="RiskFree">Risk Free</sys:String>
+    <sys:String x:Key="RiskFreeTip">30 Day Money Back</sys:String>
+    <sys:String x:Key="StartSubscription">Start Subscription</sys:String>
+    <sys:String x:Key="Search">Search</sys:String>
+    <sys:String x:Key="Theme">Theme</sys:String>
+    <sys:String x:Key="ThemeDesc">Change the appearance of Driver Easy.</sys:String>
+    <sys:String x:Key="SystemProtectionDesc">Driver Easy provides a restore point feature to protect your system. A restore point is a backup of your system settings and files. If issues occur after a driver update, you can use this feature to safely return the system to an earlier point in time.</sys:String>
+    <sys:String x:Key="GameDepd">Scan for game dependencies</sys:String>
+    <sys:String x:Key="GameDepdDesc">When you perform a driver scan, Driver Easy will scan for essential libraries and dependencies for games to ensure they are detected and updated.</sys:String>
+    <sys:String x:Key="RegisteredToSteamUser">Registered to Steam user</sys:String>
+    <sys:String x:Key="Hide">Hide</sys:String>
+    <sys:String x:Key="Show">Show</sys:String>
+    <sys:String x:Key="Exit">Exit</sys:String>
+    <sys:String x:Key="Or">or</sys:String>
+</ResourceDictionary>

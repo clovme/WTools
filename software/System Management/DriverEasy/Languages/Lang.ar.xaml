@@ -1,0 +1,877 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <!--Common-->
+    <sys:String x:Key="Free">حر</sys:String>
+    <sys:String x:Key="Pro">محترف</sys:String>
+    <sys:String x:Key="ProAvailable">ميزات احترافية</sys:String>
+    <sys:String x:Key="Professional">Professional</sys:String>
+    <sys:String x:Key="Revision">التنقيح</sys:String>
+    <sys:String x:Key="Name">الاسم</sys:String>
+    <sys:String x:Key="Version">الاصدار</sys:String>
+    <sys:String x:Key="Manufacturer">المنتج</sys:String>
+    <sys:String x:Key="Size">حجم</sys:String>
+    <sys:String x:Key="Copyright">حقوق الطبع والنشر © {0} ، Easeware. جميع الحقوق محفوظه ترجمة اليزيد للحاسبات.</sys:String>
+    <sys:String x:Key="ContactAdmin">حدث خطأ في التطبيق.
+ الرجاء الاتصال بالمسؤول...</sys:String>
+    <sys:String x:Key="Oops">عذرًا!</sys:String>
+    <sys:String x:Key="About">حول</sys:String>
+    <sys:String x:Key="Yes">نعم</sys:String>
+    <sys:String x:Key="No">لا</sys:String>
+    <sys:String x:Key="OK">موافق</sys:String>
+    <sys:String x:Key="Cancel">الغاء الامر</sys:String>
+    <sys:String x:Key="YouMustRestart">يجب إعادة تشغيل الكمبيوتر حتى تصبح التغييرات سارية المفعول.</sys:String>
+    <sys:String x:Key="RestoreNeedRestart">تحتاج الى اعاده تشغيل الحاسوب لكي تدخل التغييرات حيز التنفيذ.</sys:String>
+    <sys:String x:Key="RestartNowInfo">هل تريد اعاده تشغيل الحاسوب الان ؟</sys:String>
+    <sys:String x:Key="YesRestartNow">نعم، أعد التشغيل الآن</sys:String>
+    <sys:String x:Key="NoRestartLater">لا، أعد التشغيل لاحقاً</sys:String>
+    <sys:String x:Key="NeedRestart">* {0} التعريفات المحدثة تحتاج الى اعاده تشغيل لتاخذ حيز التنفيذ.</sys:String>
+    <sys:String x:Key="MustRestart">يجب إعادة تشغيل الكمبيوتر ليصبح تحديث (تحديثات) المشغل التالي ساري المفعول.</sys:String>
+    <sys:String x:Key="CreatingRestorePoint">يتم الان انشاء نقطه استعاده...</sys:String>
+    <sys:String x:Key="InstallDriver">تثبيت التعريف</sys:String>
+    <sys:String x:Key="DriverInstallSuccessfully">هل تم تثبيت التعريف هذا بنجاح ؟</sys:String>
+    <sys:String x:Key="DriverInstallSuccessfullyDesc">الرجاء اتباع الإرشادات التي تظهر على الشاشة لتثبيت التعريف. انقر فوق "نعم" بعد انتهاء التثبيت.</sys:String>
+    <sys:String x:Key="ClickYesAfterInstallation">انقر فوق نعم بعد انتهاء التثبيت.</sys:String>
+    <sys:String x:Key="InstallingDriver">تثبيت التعريف، رجاء اتبع اوامر الشاشة لاكمال التثبيت.</sys:String>
+    <sys:String x:Key="OpenFileLocation">افتح موقع الملف</sys:String>
+    <sys:String x:Key="Delete">حذف</sys:String>
+    <!--Main Page-->
+    <sys:String x:Key="Upgrade">تطوير</sys:String>
+    <sys:String x:Key="RegisterNow">Register Now</sys:String>
+    <sys:String x:Key="UpToDate">محدثه</sys:String>
+    <sys:String x:Key="ProblemDriver">الاجهزه لديها تعريفات جديد{0}</sys:String>
+    <sys:String x:Key="ProblemOneDriver">جهاز واحد لديه تعريفات جديد{0}</sys:String>
+    <sys:String x:Key="Unchecked">غير مفحوص</sys:String>
+    <sys:String x:Key="ScanNeeded">يلزم إجراء الفحص</sys:String>
+    <sys:String x:Key="Never">مطلقًا</sys:String>
+    <sys:String x:Key="LastScan">اخر فحص</sys:String>
+    <sys:String x:Key="YearAgo">قبل {0} سنوات</sys:String>
+    <sys:String x:Key="MonthAgo">قبل {0} أشهر</sys:String>
+    <sys:String x:Key="WeekAgo">قبل {0} أسابيع</sys:String>
+    <sys:String x:Key="DayAgo">قبل {0} أيام</sys:String>
+    <sys:String x:Key="HourAgo">قبل {0} ساعة</sys:String>
+    <sys:String x:Key="MinuteAgo">قبل {0} دقائق</sys:String>
+    <sys:String x:Key="SecondAgo">قبل {0} ثوان</sys:String>
+    <sys:String x:Key="ScanNow">افحص الان</sys:String>
+    <sys:String x:Key="Congratulations">تهانينا!</sys:String>
+    <sys:String x:Key="AllDriverUpToDateMain">جميع برامج التشغيل لديك مُحدّثة</sys:String>
+    <sys:String x:Key="KeepSmoothly">Up-to-date drivers keep your PC run smoothly.</sys:String>
+    <sys:String x:Key="ClickScanNow">Click Scan Now button to check if all your drivers are up-to-date.</sys:String>
+    <sys:String x:Key="MissingDriverDesc">الأجهزة التي بها برنامج تشغيل مفقود (برامج تشغيل مفقودة):</sys:String>
+    <sys:String x:Key="OutdateDriverDesc">الأجهزة المزودة ببرنامج تشغيل قديم (برامج تشغيل قديمة):</sys:String>
+    <sys:String x:Key="CertigiedByMicrosoft">معتمد من مايكروسوفت WHQL</sys:String>
+    <sys:String x:Key="VerifiedByDriverEasy">تم التحقق منه بواسطة Driver Easy</sys:String>
+    <sys:String x:Key="VerifiedByDriverEasyShow">تم التحقق منه بواسطة Driver Easy</sys:String>
+    <sys:String x:Key="CertigiedByMicrosoftTest">اجتاز اختبارات WHQL في مايكروسوفت</sys:String>
+    <!--Scanning Page-->
+    <sys:String x:Key="Scanning">مسح</sys:String>
+    <sys:String x:Key="AccessingDataBase">الوصول الى قاعدة البيانات.</sys:String>
+    <!--Download Page-->
+    <sys:String x:Key="ScanAgain">فحص مرة اخرى</sys:String>
+    <sys:String x:Key="UpToDateDriver">التعريفات المحدثة</sys:String>
+    <sys:String x:Key="UpToDateDriverEx">التعريفات المحدثة</sys:String>
+    <sys:String x:Key="DriverNeedToUpdated">Device(s) Need Updated Drivers</sys:String>
+    <sys:String x:Key="MissingDriver">Missing Driver(s):</sys:String>
+    <sys:String x:Key="OutdatedDriver">Outdated Driver(s):</sys:String>
+    <sys:String x:Key="UnpluggedDriver">برنامج (برامج) تشغيل الجهاز غير موصول:</sys:String>
+    <sys:String x:Key="DevicesMissingDriver">الاجهزة التي بها تعريفات مفقودة</sys:String>
+    <sys:String x:Key="DevicesMissingDriverEx">الاجهزة التي بها تعريفات مفقودة</sys:String>
+    <sys:String x:Key="DevicesOutdatedDriver">الاجهزة التي تحتوي على تعريفات قديمة</sys:String>
+    <sys:String x:Key="DevicesOutdatedDriverEx">الاجهزة التي تحتوي على تعريفات قديمة</sys:String>
+    <sys:String x:Key="UnpluggedDevice">الاجهزة الغير موصولة</sys:String>
+    <sys:String x:Key="UnpluggedDeviceEx">الاجهزة الغير موصولة</sys:String>
+    <sys:String x:Key="UnpluggedDesc">* لن يتم تثبيت تعريف الجهاز الغير موصول او تحديثها الا اذا قمت بتوصيلها، او ستكون مدرجة هنا دائما. اذا طلبت مع "لم يكتشف اي جهاز" اثناء التثبيت، يرجى توصيل اجهزتك ومن ثم التثبيت مرة اخرى.</sys:String>
+    <sys:String x:Key="UpdateAll">تحديث الكل</sys:String>
+    <sys:String x:Key="Features">لميزات</sys:String>
+    <sys:String x:Key="Tools">ادوات</sys:String>
+    <sys:String x:Key="Installed">مثبت</sys:String>
+    <sys:String x:Key="Available">متوفر</sys:String>
+    <sys:String x:Key="Downloaded">محمل</sys:String>
+    <sys:String x:Key="DriverCertifiedMiscrosoft">لقد اجتاز برنامج التشغيل هذا عملية اختبار مختبرات جودة أجهزة ميكروسوفت ويندوز (WHQL)، وهو معتمد من قبل ميكروسوفت حيث أنه متوافق مع إصدار ويندوز لديك.</sys:String>
+    <sys:String x:Key="DriverCertifiedDE">لقد اجتاز برنامج التشغيل هذا عملية اختبار داخلية صارمة من قبل Driver Easy لضمان أنه سليم وآمن ومستقر.</sys:String>
+    <sys:String x:Key="DriverCertifiedLearnMore">معرفة المزيد…</sys:String>
+    <!--Downloading - Single Driver Page-->
+    <sys:String x:Key="Updating">تحديث</sys:String>
+    <sys:String x:Key="Downloading">التحميل</sys:String>
+    <!--Driver Information Page-->
+    <sys:String x:Key="DriverInfo">معلومات التعريف</sys:String>
+    <sys:String x:Key="Description">الوصف</sys:String>
+    <sys:String x:Key="PreviousDriver">برنامج التشغيل السابق</sys:String>
+    <sys:String x:Key="CurrentDriver">التعريف الحالي</sys:String>
+    <sys:String x:Key="DriverName">اسم التعريف</sys:String>
+    <sys:String x:Key="DriverProvider">مجهز التعريف</sys:String>
+    <sys:String x:Key="DriverDate">تأريخ التعريف</sys:String>
+    <sys:String x:Key="DriverVersion">نسخة التعريف</sys:String>
+    <sys:String x:Key="DeviceInfo">معلومات الجهاز</sys:String>
+    <sys:String x:Key="HardwareIds">معرفات الاجهزة</sys:String>
+    <sys:String x:Key="CompatibleIds">معرفات  متوافقة</sys:String>
+    <sys:String x:Key="Back">للخلف</sys:String>
+    <!--Hardware Information Page-->
+    <sys:String x:Key="HardwareInfoShort">معلومات الاجهزة</sys:String>
+    <sys:String x:Key="HardwareInfo">Hardware Information</sys:String>
+    <sys:String x:Key="OverView">نظرة عامة</sys:String>
+    <sys:String x:Key="CPU">وحدة المعالجة المركزية</sys:String>
+    <!--2070511,tommy,英语的Mainboard暂时改为Motherboard-->
+    <sys:String x:Key="Mainboard">اللوحة الام</sys:String>
+    <sys:String x:Key="Memory">الذاكرة</sys:String>
+    <sys:String x:Key="Spd">SPD</sys:String>
+    <sys:String x:Key="Graphics">الرسومات</sys:String>
+    <!--Hardware Information - OverView-->
+    <sys:String x:Key="Machine">الماكنة</sys:String>
+    <sys:String x:Key="OperationSystem">نظام التشغيل</sys:String>
+    <sys:String x:Key="VideoCard">بطاقات الفيديو</sys:String>
+    <sys:String x:Key="Monitor">شاشة العرض.</sys:String>
+    <sys:String x:Key="HardDisk">القرص الصلب</sys:String>
+    <sys:String x:Key="NetworkCard">بطاقة الشبكة</sys:String>
+    <!--Hardware Information - CPU -->
+    <sys:String x:Key="Cores">الصميم</sys:String>
+    <sys:String x:Key="Threads">الخيوط</sys:String>
+    <sys:String x:Key="Processor">المعالج</sys:String>
+    <sys:String x:Key="CodeName">الاسم الرمزي</sys:String>
+    <sys:String x:Key="TDP">TDP</sys:String>
+    <sys:String x:Key="Package">الرزمة</sys:String>
+    <sys:String x:Key="Technology">التقنية</sys:String>
+    <sys:String x:Key="CoreVoltage">الفولطية الرئيسية</sys:String>
+    <sys:String x:Key="Specification">المواصفات</sys:String>
+    <sys:String x:Key="Family">العائلة</sys:String>
+    <sys:String x:Key="ExtFamily">تحويلة. العائلة</sys:String>
+    <sys:String x:Key="Model">النموذج</sys:String>
+    <sys:String x:Key="ExtModel">تحويلة. النموذج</sys:String>
+    <sys:String x:Key="Stepping">الخطوة</sys:String>
+    <sys:String x:Key="Instructions">الأوامر</sys:String>
+    <sys:String x:Key="Clocks">الساعات</sys:String>
+    <sys:String x:Key="CoreSpeed">السرعة الرئيسية</sys:String>
+    <sys:String x:Key="Multiplier">المضاعفة</sys:String>
+    <sys:String x:Key="BusSpeed">سرعة الناقل</sys:String>
+    <sys:String x:Key="QPILink">رابط QPI</sys:String>
+    <sys:String x:Key="Cache">الذاكرة الوسيطة</sys:String>
+    <sys:String x:Key="L1Data">L1 بيانات</sys:String>
+    <sys:String x:Key="L1Inst">L1 تثبيت</sys:String>
+    <sys:String x:Key="Level">المستوى</sys:String>
+    <sys:String x:Key="ExportBtn">حفظ باسم (* .txt)</sys:String>
+    <sys:String x:Key="UpgradePROSaveHardwareInfo">تحتاج إلى النسخة الاحترافية Pro لحفظ معلومات الجهاز</sys:String>
+    <sys:String x:Key="SaveHardwareInfo">حفظ معلومات الأجهزة</sys:String>
+    <sys:String x:Key="AllDriversCertified">كل برامج التشغيل معتمدة</sys:String>
+    <!--Hardware Information - Mainboard-->
+    <sys:String x:Key="Chipset">شرائح</sys:String>
+    <sys:String x:Key="SouthBridge">جسر جنوبي</sys:String>
+    <sys:String x:Key="LPCIO">LPCIO</sys:String>
+    <sys:String x:Key="BIOS">السير الذاتية</sys:String>
+    <sys:String x:Key="Brand">الصنف</sys:String>
+    <sys:String x:Key="Date">التأريخ</sys:String>
+    <sys:String x:Key="GraphicInterface">واجهة الرسومات</sys:String>
+    <sys:String x:Key="TransferRate">نسبة النقل</sys:String>
+    <sys:String x:Key="MaxSupported">اقصى. دعم</sys:String>
+    <!--Hardware Information - Memory-->
+    <sys:String x:Key="General">عام</sys:String>
+    <sys:String x:Key="Type">النوع</sys:String>
+    <sys:String x:Key="Channel">رقم القناة</sys:String>
+    <sys:String x:Key="DCMode">وضع التيار المستمر</sys:String>
+    <sys:String x:Key="NBFrequency">تردد شريحة الجسر الشمالي</sys:String>
+    <sys:String x:Key="Timings">التوقيتات</sys:String>
+    <sys:String x:Key="DRAMFrequency">تردد ذاكرة الوصول العشوائي الديناميكية</sys:String>
+    <sys:String x:Key="FSBDRAM">واجهة النظام الأمامية: ذاكرة DRAM</sys:String>
+    <sys:String x:Key="CASLatency">زمن استجابة عنوان العمود (CL)</sys:String>
+    <sys:String x:Key="RAStoCASDelay">التأخير في فتح صف والوصول إلى عمود (tRCD)</sys:String>
+    <sys:String x:Key="RASPrecharge">تأخير الشحن المسبق للصف (tRP)</sys:String>
+    <sys:String x:Key="CycleTime">وقت الدورة (tRAS)</sys:String>
+    <sys:String x:Key="BankCycleTime">عدد الدورات التي يستغرقها الصف لإكمال دورة كاملة (tRC)</sys:String>
+    <sys:String x:Key="CommandRate">معدل الأوامر (CR)</sys:String>
+    <!--Hardware Information - Spd-->
+    <sys:String x:Key="BandWidth">النطاق الترددي</sys:String>
+    <sys:String x:Key="PartNumber">رقم الجزء</sys:String>
+    <sys:String x:Key="Profile">الملف الشخصي</sys:String>
+    <sys:String x:Key="SpdFrequency">التردد</sys:String>
+    <sys:String x:Key="SpdCASLatency">زمن استجابة عنوان العمود</sys:String>
+    <sys:String x:Key="SpdRAStoCAS">tRCD</sys:String>
+    <sys:String x:Key="SpdRASPrecharge">tRP</sys:String>
+    <sys:String x:Key="SpdCycleTime">وقت الدورة</sys:String>
+    <sys:String x:Key="SpdBankCycleTime">tRC</sys:String>
+    <!--Hardware Information - Graphics-->
+    <sys:String x:Key="GPU">GPU</sys:String>
+    <sys:String x:Key="Core">الصميم</sys:String>
+    <sys:String x:Key="Shader">تظليل</sys:String>
+    <sys:String x:Key="BusWidth">عرض الناقل</sys:String>
+    <!--Feedback Page-->
+    <sys:String x:Key="Feedback">التعليقات</sys:String>
+    <sys:String x:Key="Support">الدعم</sys:String>
+    <sys:String x:Key="HavingProblemWithDE">هل لديك مشكلة في Driver Easy؟</sys:String>
+    <sys:String x:Key="CheckoutHelpPage">شاهد صفحة المساعدة على موقعنا</sys:String>
+    <sys:String x:Key="FeedbackContent" xml:space="preserve">نود أن نسمع رأيك. من فضلك أرسل لنا آراءك ومقترحاتك، أو إذا كنت تعاني من مشكلة في Driver Easy فأرسل لنا تفاصيل هذه المشكلة.
+ &#13;
+سنرد عليك في أقرب وقت ممكن (خلال يومي عمل إن كنت تملك الإصدار الكامل المدفوع).
+</sys:String>
+    <sys:String x:Key="ShortSummary">ملخص قصير</sys:String>
+    <sys:String x:Key="AttachFile">إرفاق ملف</sys:String>
+    <sys:String x:Key="SendYour">أرسل</sys:String>
+    <sys:String x:Key="MayTakeMins">(قد تستغرق هذه العملية 1-3 دقائق)</sys:String>
+    <sys:String x:Key="YourEmail">عنوان بريدك الإلكتروني</sys:String>
+    <sys:String x:Key="EnterEmail">الرجاء ادخل بريدك الاكتروني</sys:String>
+    <sys:String x:Key="Export">التصدير</sys:String>
+    <sys:String x:Key="SystemInfo">معلومات النظام</sys:String>
+    <sys:String x:Key="Submit">عرض</sys:String>
+    <!--Settings - General-->
+    <sys:String x:Key="Settings">الاعدادات</sys:String>
+    <sys:String x:Key="ResetSettings">اعادة الاعدادات</sys:String>
+    <sys:String x:Key="Language">لغة</sys:String>
+    <sys:String x:Key="Scan">فحص</sys:String>
+    <sys:String x:Key="HelpImprove">مساعده في تحسين برنامج المحرك السهل</sys:String>
+    <sys:String x:Key="Save">حفظ</sys:String>
+    <!--Settings - Backup & Restore-->
+    <sys:String x:Key="BackupRestore">استرجاع البيانات</sys:String>
+    <sys:String x:Key="BackupTo">النسخ الاحتياطي ل:</sys:String>
+    <sys:String x:Key="Browse">استعراض...</sys:String>
+    <!--Settings - Internet Connection-->
+    <sys:String x:Key="InternetConnection">اتصال بالانترنت</sys:String>
+    <sys:String x:Key="DefaultBrowserSettings">استخدام اعدادات المستعرض الافتراضية</sys:String>
+    <sys:String x:Key="ProxyServer">استخدام خادم الوكيل</sys:String>
+    <sys:String x:Key="Address">عنوان</sys:String>
+    <sys:String x:Key="Port">منفذ</sys:String>
+    <sys:String x:Key="UserName">اسم المستخدم</sys:String>
+    <sys:String x:Key="Password">كلمة السر</sys:String>
+    <sys:String x:Key="Test">اختبار</sys:String>
+    <!--Settings - System Restore-->
+    <sys:String x:Key="AutoCreateRestore">انشاء نقطه استعاده تلقائيا قبل تثبيت التعريفات
+    </sys:String>
+    <sys:String x:Key="SystemRestore">استعادة النظام</sys:String>
+    <!--Settings - Hidden Device-->
+    <sys:String x:Key="HiddenDevice">الاجهزة المخفية</sys:String>
+    <sys:String x:Key="ShowHiddenDevices">اظهار الاجهزه المخفية</sys:String>
+    <sys:String x:Key="Empty">فارغ</sys:String>
+    <!--Settings - Scheduled Task-->
+    <sys:String x:Key="ScheduledTask">المهمة المجدولة</sys:String>
+    <!--Activation Page-->
+    <sys:String x:Key="UpdateDriversOneByOne">تحديث التعريفات واحدا تلو الاخر</sys:String>
+    <sys:String x:Key="DownloadDriversOneByOne">نزِّل برامج التشغيل واحداً تلو الآخر</sys:String>
+    <sys:String x:Key="OneClickUpdateAll">بنقرة واحدة لتحديث كافة التعريفات</sys:String>
+    <sys:String x:Key="HighSpeed">سرعة تحميل عالية</sys:String>
+    <sys:String x:Key="AutoCreateRestorePoint">انشاء نقطة استعادة تلقائيا</sys:String>
+    <sys:String x:Key="Uninstall">الغاء التثبيت</sys:String>
+    <sys:String x:Key="DriverUninstall">الغاء تثبيت التعريف</sys:String>
+    <sys:String x:Key="ExpertTechSupport">دعم تقنية الخبير</sys:String>
+    <sys:String x:Key="EnterLicense">يرجى ادخال مفتاح ترخيصك:</sys:String>
+    <sys:String x:Key="EnterYourLicense">أدخل مفتاح الترخيص</sys:String>
+    <sys:String x:Key="Example">على سبيل المثال</sys:String>
+    <!--Activating-->
+    <sys:String x:Key="ActivatingWait">ار التنشيط، يرجى الانتظار...</sys:String>
+    <sys:String x:Key="RollingbackWait">جارٍ التراجع، يرجى الانتظار...</sys:String>
+    <sys:String x:Key="PleaseWait">ارجو الانتظار...</sys:String>
+    <!--Leading to Registration Page-->
+    <sys:String x:Key="ProVersion">اصدار محترف</sys:String>
+    <sys:String x:Key="FreeVersion">اصدار مجاني</sys:String>
+    <!--Upgrade Now Page-->
+    <sys:String x:Key="OneClick">تحديث جميع برامج التشغيل بنقرة واحدة</sys:String>
+    <sys:String x:Key="Done">تم</sys:String>
+    <!--Download Successfully Page-->
+    <sys:String x:Key="DownloadedSuccessfully">تم التنزيل بنجاح</sys:String>
+    <sys:String x:Key="AutoInstallRecommended">تثبيت تلقائيا (مستحسن)</sys:String>
+    <sys:String x:Key="ManuallyInstall">تثبيت يدويا</sys:String>
+    <sys:String x:Key="LearnHow">تعلم كيف...</sys:String>
+    <sys:String x:Key="ClickHere">انقر هنا</sys:String>
+    <sys:String x:Key="Continue">استمر</sys:String>
+    <!--Create Restore Point Page-->
+    <sys:String x:Key="CreateASystemRestorePoint">انشاء نقطه استعاده النظام</sys:String>
+    <sys:String x:Key="CreateASystemRestorePointDesc1">قبل المتابعة ، يجب انشاء نقطه استعاده النظام.</sys:String>
+    <sys:String x:Key="CreateASystemRestorePointDesc2">ثم إذا كان احد التعريفات الجديدة يسبب مشاكل مع وندوز ، يمكنك فقط استرجاع نقطه الاستعادة بدون فقدان ايه بيانات.</sys:String>
+    <sys:String x:Key="AutoCreateRecommended">انشاء تلقائي (مستحسن)</sys:String>
+    <sys:String x:Key="AutoCreateRecommendedDesc">الترقية الى برنامج تشغيل سهل للمحترفين تلقائيا لانشاء نقطه استعاده بنقره واحده فقط.</sys:String>
+    <sys:String x:Key="ManuallyCreate">انشاء يدوي</sys:String>
+    <sys:String x:Key="ManuallyCreateDesc">لقد قمت بالفعل بإنشاء نقطة استعادة.</sys:String>
+    <sys:String x:Key="DonotRemind">لا تذكرني مجددا</sys:String>
+    <!--About Us Page-->
+    <sys:String x:Key="FreeForPerson">مجانا للاستعمال الشخصي</sys:String>
+    <sys:String x:Key="SpeedLimited">السرعة محدودة</sys:String>
+    <sys:String x:Key="LicenseKey">مفتاح الرخصة</sys:String>
+    <sys:String x:Key="RemainingDay">الايام المتبقية</sys:String>
+    <!--Tools - Driver Backup-->
+    <sys:String x:Key="DriverBackup">نسخ احتياطي للتعريف</sys:String>
+    <sys:String x:Key="DriverBackupDesc">يمكنك اجراء نسخ احتياطي لكافة تعريفاتك إلى مجلد معين ، واستخدام اصدار النسخ الاحتياطي لاستعاده التعريفات.</sys:String>
+    <sys:String x:Key="DriverDetail">تفاصيل التعريف</sys:String>
+    <!--Tools - Driver Restore-->
+    <sys:String x:Key="DriverRestore">استعاده التعريف</sys:String>
+    <sys:String x:Key="DriverRestoreDesc">استعادة التعريفات الى الاصدار السابق من التعريفات الجديدة التي لديهم مشاكل. قبل استخدام هذه الميزة، تحتاج الى برامج تشغيل النسخ الاحتياطي اولا</sys:String>
+    <sys:String x:Key="BrowseFile">انقر علي زر استعراض لتحديد التعريف الذي تريد استعادته</sys:String>
+    <!--Tools - Driver Uninstall-->
+    <sys:String x:Key="DriverUninstallDesc">ملاحظة: لا يمكن الغاء تثبيت بعض التعريفات بسبب السبب التقني.</sys:String>
+    <!--Tools - Offline Scan-->
+    <sys:String x:Key="OfflineScan">فحص دون اتصال</sys:String>
+    <sys:String x:Key="OfflineScanFile">ملف الفحص غير متصل</sys:String>
+    <sys:String x:Key="OfflineScanDesc">اذا كنت تواجه مشكلة مع برنامج تشغيل الشبكة، يمكنك استخدام هذه الميزة لتحميل احدث تعريف الشبكة بسهولة.</sys:String>
+    <sys:String x:Key="DoOfflineScan">فحص غير متصل (على الحاسوب دون الاتصال بالانترنت)</sys:String>
+    <sys:String x:Key="UploadOfflineScan">تحميل ملف الفحص  بلا اتصال (على الحاسوب المزود بالانترنت)</sys:String>
+    <sys:String x:Key="HowToOfflineScan">لا اعرف كيف نفعل ذلك؟</sys:String>
+    <sys:String x:Key="SaveOfflineScanResult">حفظ نتيجة الفحص دون اتصال الى:</sys:String>
+    <sys:String x:Key="NetworkDrivers">تعريفات الشبكة</sys:String>
+    <sys:String x:Key="Download">تحميل</sys:String>
+    <sys:String x:Key="ErrorDuringOfflineSaving">حدث خطا اثناء حفظ ملف الفحص دون اتصال.</sys:String>
+    <!--Prompt Message - Hide this Update-->
+    <sys:String x:Key="HideUpdate">اخفاء هذا التحديث</sys:String>
+    <sys:String x:Key="HideUpdateTitle">هل تريد إخفاء هذا التحديث؟</sys:String>
+    <sys:String x:Key="SureWantHide">هل تريد بالتاكيد اخفاء هذا التحديث ؟</sys:String>
+    <sys:String x:Key="NewUpdateWillShow">إذا كان التحديث الجديد متوفرا ، فانه سيظهر مره اخرى.</sys:String>
+    <!--Prompt Message - Show Hidden Devices-->
+    <sys:String x:Key="SureWantShow">هل تريد بالتاكيد عرض اجهزة مخفية؟</sys:String>
+    <sys:String x:Key="HiddenShowAgain">سيتم عرض جميع الاجهزة المخفية مرة اخرى.</sys:String>
+    <!--Prompt Message - Language-->
+    <sys:String x:Key="ConfigFileNoExist">ملف التكوين غير موجود.</sys:String>
+    <sys:String x:Key="NeedProvideAdminPerform">ستحتاج الى توفير اذن المسؤول لتنفيذ هذا الاجراء.</sys:String>
+    <sys:String x:Key="ContinueComplete">انقر فوق متابعه لاكمال هذه العملية.</sys:String>
+    <!--Prompt Message - Feedback Information-->
+    <sys:String x:Key="Information">معلومات</sys:String>
+    <sys:String x:Key="ExportSuccessful">التصدير ناجح</sys:String>
+    <sys:String x:Key="ExportCancelled">تم الغاء التصدير. لن يتم ارسال تعليقاتك.</sys:String>
+    <sys:String x:Key="ExportCancelledDesc">لن تُرسل ملاحظاتك.</sys:String>
+    <sys:String x:Key="SystemInfoExportSuccessfully">تم تصدير معلومات النظام بنجاح.</sys:String>
+    <sys:String x:Key="ErrorDuringFeedback">حدث خطأ اثناء ارسال التعليقات.</sys:String>
+    <sys:String x:Key="FeedbackSuccessfully">تم ارسال تعليقاتك بنجاح.</sys:String>
+    <sys:String x:Key="EnterValidEmail">الرجاء ادخال عنوان بريد الكتروني صالح في حقل بريدك الالكتروني.</sys:String>
+    <sys:String x:Key="EnterValidSubject">يرجى ملء حقل الموضوع. لا يمكن أن يزيد طول الموضوع عن {0} حرفا.</sys:String>
+    <sys:String x:Key="EnterValidDesc">يرجى ملء حقل الوصف. لا يمكن ان يكون الوصف اطول من {0} حرفا.</sys:String>
+    <sys:String x:Key="EnterValidAttachement">المرفق غير موجود او يتجاوز حجم الحد المسموح به وهو 10 م ب.</sys:String>
+    <sys:String x:Key="SettingSaved">تم حفظ الاعداد.</sys:String>
+    <!--Prompt Message - 503 Error-->
+    <sys:String x:Key="503Error">عدد كبير جدا من الاتصالات في شبكتك، يرجى المحاولة مرة اخرى، او اغلاق برنامج ا Driver Easy Free الاصدار على حاسوب اخر على نفس الشبكة.
+الترقية الى برنامج  Driver Easy  الاصدار المحترف.
+تفاصيل الاستثناء:</sys:String>
+    <!--Prompt Message - Scan Error-->
+    <sys:String x:Key="ScanProblem">مشاكل الفحص</sys:String>
+    <sys:String x:Key="ErrorDuringScanning">حدث خطا اثناء الفحص</sys:String>
+    <!--Prompt Message - Offline Scan-->
+    <sys:String x:Key="SpecifySaveLocation">الرجاء تحديد الموقع الذي يتم فيه حفظ الملف.</sys:String>
+    <sys:String x:Key="OfflineFileSaved">تم حفظ ملف الفحص دون اتصال.</sys:String>
+    <sys:String x:Key="CopyOfflineFile">الرجاء نسخ ملف الفحص دون اتصال الى الحاسوب الذي لديه وصول بالانترنت ، ثم استخدم برنامج التشغيل غير المتصل بالفحص لتحميل ملف الفحص دون اتصال ، وذلك لتحميل برامج التشغيل لهذا الحاسوب.</sys:String>
+    <sys:String x:Key="OpenSaveFolder">افتح مجلد الحفظ</sys:String>
+    <sys:String x:Key="SpecifiedFileNoExist">الملف المحدد غير موجود.</sys:String>
+    <sys:String x:Key="ErrorDuringDownload">حدث خطا اثناء تحميل التعريف</sys:String>
+    <sys:String x:Key="ErrorDuringUpdate">حدث خطأ (أخطاء) أثناء التحديث</sys:String>
+    <sys:String x:Key="ErrorDuringDownloadOfflineScan">حدث خطأ أثناء التنزيل</sys:String>
+    <sys:String x:Key="DriverDownloadError">خطأ في تنزيل التعريف (التعريفات)</sys:String>
+    <sys:String x:Key="DriverInstallError">خطأ في تثبيت التعريف (التعريفات)</sys:String>
+    <sys:String x:Key="ToHelpBySendReport">للمساعدة في تحسين تجربتك، أنشئنا تقرير خطأ لإرساله إلينا.</sys:String>
+    <sys:String x:Key="SendReport">إرسال التقرير</sys:String>
+    <!--Prompt Message - Summary-->
+    <sys:String x:Key="Summary">موجز</sys:String>
+    <sys:String x:Key="ErrorDuringInstall">حدث خطا اثناء تثبيت التعريف.</sys:String>
+    <!--Prompt Message - Activating-->
+    <sys:String x:Key="InvalidKey">بنية مفتاح الترخيص باطلة</sys:String>
+    <sys:String x:Key="InvalidKeyDesc">يرجى التاكد من ادخال جميع الاحرف مع الشرطة "-".</sys:String>
+    <sys:String x:Key="ErrorDueToNet">حدث خطأ في الاتصال اثناء التنشيط، يرجى التحقق من اتصالك بالانترنت.</sys:String>
+    <sys:String x:Key="ErrorDueToNetDesc">يُرجى التحقق من اتصالك بالإنترنت.</sys:String>
+    <sys:String x:Key="ErrorDuringActivation">حدث خطأ أثناء التنشيط</sys:String>
+    <sys:String x:Key="ActivateSuccessfully">تهانينا!
+لقد قمت بتنشيط برنامج المشغل السهل المحترف بنجاح!</sys:String>
+    <sys:String x:Key="ActivateSuccessfullyDesc">لقد قمت بتنشيط برنامج المشغل السهل المحترف بنجاح!</sys:String>
+    <!--Page - Settings-->
+    <sys:String x:Key="Help">التعليمات</sys:String>
+    <sys:String x:Key="Register">Register</sys:String>
+    <sys:String x:Key="Backup">النسخ الاحتياطي</sys:String>
+    <sys:String x:Key="BackingUpDriver">جارٍ النسخ الاحتياطي لبرنامج التشغيل...</sys:String>
+    <sys:String x:Key="BackupComplete">تم اكمال النسخ الاحتياطي بنجاح.</sys:String>
+    <sys:String x:Key="BackupError">حدث خطأ أثناء النسخ الاحتياطي لبرنامج التشغيل</sys:String>
+    <sys:String x:Key="Backuping">النسخ الاحتياطي...</sys:String>
+    <!--Dialog - Checking Device-->
+    <sys:String x:Key="Completed">{0} مكتمل</sys:String>
+    <!--Dialog - Download All-->
+    <sys:String x:Key="CompressIn">ضغط التعريفات في...</sys:String>
+    <sys:String x:Key="SpecifyDriverUpdate">الرجاء تحديد التعريفات للتحديث</sys:String>
+    <!--Dialog - Driver Details-->
+    <sys:String x:Key="DriverType">نوع التعريف</sys:String>
+    <!--Page - Tools-->
+    <sys:String x:Key="ErrorDetails">تفاصيل الخطأ</sys:String>
+    <sys:String x:Key="Install">ثبت</sys:String>
+    <sys:String x:Key="OpenBackupFolder">فتح مجلد النسخ الاحتياطي.</sys:String>
+    <sys:String x:Key="Previous">السابق</sys:String>
+    <sys:String x:Key="Current">Current</sys:String>
+    <sys:String x:Key="ReportError">الإبلاغ عن خطأ</sys:String>
+    <sys:String x:Key="Restore">استعادة</sys:String>
+    <sys:String x:Key="Send">Send</sys:String>
+    <sys:String x:Key="SpecifyDriver">الرجاء تحديد التعريف للاستعادة.</sys:String>
+    <!--Page - Tools - Driver Uninstall-->
+    <sys:String x:Key="Activate">تفعيل</sys:String>
+    <!--Dialog - Register-->
+    <sys:String x:Key="ConfirmUpdate">حدث {0}. {1} متوفر، هل ترغب في تنزيله وتثبيته الان؟</sys:String>
+    <!--Dialog - Register Prompt-->
+    <sys:String x:Key="Update">تحديث</sys:String>
+    <sys:String x:Key="UpdateTab">تحديث</sys:String>
+    <sys:String x:Key="UpdateError">حدث خطأ أثناء التنزيل</sys:String>
+    <sys:String x:Key="AllDriverUpToDateHeader">!كل التعريفات على حاسوبك هي محدثه</sys:String>
+    <!--Dialog - Scanning Problem Reporting-->
+    <sys:String x:Key="BackupFileExist">وقد وجد {0}. هل تريد استبداله ؟</sys:String>
+    <sys:String x:Key="DeleteErrorTitle">جارٍ حذف المشكلة</sys:String>
+    <sys:String x:Key="DownloadError">حدث خطأ أثناء تنزيل برنامج التشغيل</sys:String>
+    <sys:String x:Key="SpecifyBackupDriver">يُرجى تحديد برنامج التشغيل الذي تريد عمل نسخة احتياطية منه.</sys:String>
+    <sys:String x:Key="SpecifyBackupFolder">يُرجى تحديد مجلد لحفظ النسخ الاحتياطية من برامج تشغيل.</sys:String>
+    <sys:String x:Key="SystemDriver">تعريفات النظام</sys:String>
+    <sys:String x:Key="UnplugDriver">افصل تعريفات الاجهزة</sys:String>
+    <sys:String x:Key="EmptyRestoreFile">لا توجد نسخ احتياطية من برامج التشغيل في هذا الملف المضغوط.</sys:String>
+    <sys:String x:Key="InputPort">يُرجى إدخال رقم منفذ صحيح:</sys:String>
+    <sys:String x:Key="InputAddress" xml:space="preserve">يرجى إدخال عنوان صالح.
+(مثل www.proxyserver.com أو 192.168.0.1)</sys:String>
+    <sys:String x:Key="InvalidAddress">عنوان غير صالح</sys:String>
+    <sys:String x:Key="InvalidPort">رقم منفذ غير صالح</sys:String>
+    <sys:String x:Key="RestoreError">حدث خطأ أثناء استعادة برنامج التشغيل</sys:String>
+    <sys:String x:Key="RestoreFileNotExist">الملف المحدد غير موجود. يُرجى تحديد الملف المضغوط حيث تُخزّن ملفات النسخ الاحتياطي.</sys:String>
+    <sys:String x:Key="SpecifyDriverToUninstall">يرجى تحديد التعريف لالغاء تثبيتة.</sys:String>
+    <sys:String x:Key="SpecifyRestoreFile">يُرجى تحديد الملف المضغوط حيث تُخزّن ملفات النسخ الاحتياطي.</sys:String>
+    <sys:String x:Key="TestConnection">اختبار الاتصال</sys:String>
+    <sys:String x:Key="TestFailure">فشل اختبار الاتصال.</sys:String>
+    <sys:String x:Key="TestSuccess">نجاح اختبار الاتصال.</sys:String>
+    <sys:String x:Key="UninstallError">حدث خطأ أثناء إلغاء تثبيت برنامج التشغيل</sys:String>
+    <sys:String x:Key="RestartRequired">إعادة التشغيل مطلوبة</sys:String>
+    <!--Page - Tools - Hardware Info-->
+    <sys:String x:Key="Overview">نظرة عامة</sys:String>
+    <!--Dialog - DriverInstall-->
+    <sys:String x:Key="InstallSucceed">تم التثبيت بنجاح: </sys:String>
+    <sys:String x:Key="Upload">تحميل</sys:String>
+    <!--Page - Create Restore-->
+    <sys:String x:Key="CreateRestorePoint">إنشاء نقطة استعادة</sys:String>
+    <!--Page - Scan -Main-->
+    <sys:String x:Key="Driver">برنامج تشغيل</sys:String>
+    <sys:String x:Key="Drivers">برامج تشغيل</sys:String>
+    <!-- page - SystemUpdate -->
+    <sys:String x:Key="NewVersion">يتوفر اصدار احدث  Driver Easy:</sys:String>
+    <sys:String x:Key="WhatsNew">ما هو الجديد</sys:String>
+    <!--Renew-->
+    <sys:String x:Key="Get10XFasterSpeed">الحصول علي اسرع سرعه تحميل ب10مرات</sys:String>
+    <sys:String x:Key="RenewNow">التجديد الان</sys:String>
+    <sys:String x:Key="EnterNewLicense">ادخل مفتاح ترخيص جديد</sys:String>
+    <sys:String x:Key="NotFindInfFile">لا يستطيع ان يجد inf برنامج التثبيت او الملف للتعريف.</sys:String>
+    <sys:String x:Key="SystemProtection">حماية النظام</sys:String>
+    <sys:String x:Key="Reminder">تذكير</sys:String>
+    <sys:String x:Key="PlaySound">تشغيل الصوت بعد تحديث التعريفات.</sys:String>
+    <sys:String x:Key="ShareDE">مشاركه  Driver Easy</sys:String>
+    <sys:String x:Key="Share">مشاركة</sys:String>
+    <!--General-Update Source-->
+    <sys:String x:Key="UpdateSource">تحديث المصدر</sys:String>
+    <sys:String x:Key="GetDriverFromDriverEasy">احصل على التعريف من قاعدة بيانات برنامج المحرك السهل المعتمدة</sys:String>
+    <sys:String x:Key="GetDriverFromWindowsUpdate">الحصول على التعريف من تحديث ويندوز</sys:String>
+    <sys:String x:Key="ViewDetails">عرض التفاصيل</sys:String>
+    <sys:String x:Key="Pause">مهلة</sys:String>
+    <!--add 20170306-->
+    <!--Activation interface-->
+    <sys:String x:Key="DriverUpdatesAvailable">تحديثات التعريفات المطلوبة:</sys:String>
+    <sys:String x:Key="PROFeaturesDesc">النسخة من محرك سهل المحترف هي ضخمة الوقت التوقف.
+ يمكنك تحديث كل ما تبذلونه من التعريفات بنقرة واحدة فقط، والحصول على اسرع سرعة تحميل التعريف والكثير الكثير ...</sys:String>
+    <sys:String x:Key="AlreadyHaveALicense">هل لديك مفتاح ترخيص؟</sys:String>
+    <sys:String x:Key="ActiveProNow">تنشيط المحترف الان</sys:String>
+    <sys:String x:Key="UpgradeToPRO">الترقية الى المحترف</sys:String>
+    <sys:String x:Key="GetPro">الحصول على الإصدار Pro</sys:String>
+    <!--Boot interface-->
+    <sys:String x:Key="NeedPROToUpdateAll">تحتاج نسخة المحترف
+لتحديث الكل</sys:String>
+    <sys:String x:Key="NeedProToBackup">تحتاج نسخة المحترف
+الى نسخ احتياطي للتعريف</sys:String>
+    <sys:String x:Key="NeedPROToRestore">تحتاج نسخة المحترف
+لاعادة التعريف</sys:String>
+    <sys:String x:Key="NeedPROToUninstall">تحتاج نسخة المحترف
+لفحص التعريف</sys:String>
+    <sys:String x:Key="NeedPROToAutoCreateRestorePoint">تحتاج نسخة المحترف
+لانشاء نقطة استعادة تلقائيا</sys:String>
+    <sys:String x:Key="NeedPROToDownloadSpeed">You need the Pro version to Download Speed</sys:String>
+    <sys:String x:Key="NeedPROToAutoInstallDriver">تحتاج نسخة المحترف
+لتثبيت التعريف تلقائيا</sys:String>
+    <sys:String x:Key="NeedPROToRenew">You need the Pro version to Software Renew</sys:String>
+    <sys:String x:Key="NeedPROToViewUpdateHistory">تحتاج إلى الإصدار Pro لعرض سجل التحديثات</sys:String>
+    <sys:String x:Key="FreeVersionDesc" xml:space="preserve">انت تستخدم نسخة مجانية من برنامج المحرك سهلة
+انها تسمح لك بتحديث تعريفاتك في وقت واحد.</sys:String>
+    <sys:String x:Key="PurposeOfUpgradeToPRO">لتوفير الوقت وتحديث كل التعريفات المطلوبة في ان واحد - بنقرة واحدة فقط - ستحتاج الى الترقية الى الاصدار المحترف من المحرك السهل.</sys:String>
+    <!--Renewal interface-->
+    <sys:String x:Key="TimeToRenew">حان الوقت لتجديد ترخيصك</sys:String>
+    <sys:String x:Key="RenewDesc">انتهت صلاحية رخصة Driver Easy Pro. تجديد الان مرة اخرى للاستفادة من جميع ميزات محترف كبيرة لدينا ...</sys:String>
+    <sys:String x:Key="RenewAlready">تجديد بالفعل؟ اعادة تنشيط محترف الان.</sys:String>
+    <!--Select the driver installation interface-->
+    <sys:String x:Key="WantInstallAutomatically">Yes. I want to save more time by installing drivers automatically.</sys:String>
+    <sys:String x:Key="WantInstalMyself">No, thanks. I will manually install the driver by myself.</sys:String>
+    <!--Like us interface-->
+    <sys:String x:Key="ShareWithFriends">أخبر أصدقاءك</sys:String>
+    <sys:String x:Key="SharingIsCaringDesc">كم صديقًا لديك يعاني من مشاكل مع حاسوبه؟ إن كان Driver Easy قد أفادك، فقد يفيدهم كذلك، فلماذا لا تشاركه معهم؟ سيشكرونك على هذا الصنيع!</sys:String>
+    <sys:String x:Key="ShareOnFacebook">مشاركة على الفيس بوك</sys:String>
+    <sys:String x:Key="ShareOnTwitter">مشاركة على تويتر</sys:String>
+    <sys:String x:Key="SharedAlready">مشترك بالفعل ؟</sys:String>
+    <sys:String x:Key="FollowOnFacebook">تابعنا على الفيس بوك</sys:String>
+    <sys:String x:Key="LikeUs">مثلنا</sys:String>
+    <!--gift interface-->
+    <sys:String x:Key="GetMyPresent">هدية لك</sys:String>
+    <sys:String x:Key="WhoElseWantFreeGuidebook">نظام الويندوز لا يقلع؟ أصلحه مجانًا!</sys:String>
+    <sys:String x:Key="GuidebookDesc">إن كان نظام الويندوز لا يقلع على جهازك الحاسوب، فلا تفزع! ألفنا كتيب تعليمات لحل هذه المشكلة بالتحديد. ولتحصل على نسختك المجانية من هذا الكتيب، فقط شارك صفحتنا على فيسبوك.</sys:String>
+    <!--20170905,tommy,Since Arabic is read from right to left, the translation of the paragraphs needs to be careful-->
+    <sys:String x:Key="WantFreeGuidebook1">الدليل</sys:String>
+    <sys:String x:Key="FreeUpper">المجاني.</sys:String>
+    <sys:String x:Key="WantFreeGuidebook2">نعم ، اريد</sys:String>
+    <sys:String x:Key="WantBuyGuidebook">لا، شكرا. ساشتريه ل د9.95</sys:String>
+    <!--Single installation interface-->
+    <sys:String x:Key="Get10XSpeed">الحصول علي اسرع سرعه تحميل ب10مرات</sys:String>
+    <sys:String x:Key="Get10XSpeedDesc">وقف اضاعه الوقت على بطء عمليه التحميل.  الترقية الى الاصدار اDriver Easy Pro الحصول على اسرع سرعه التحميل ب10مرات. ثم يمكنك تحميل وتحديث التعريف علي الفور.</sys:String>
+    <!--end 20170306-->
+    <sys:String x:Key="DeviceNumber">{0} الاجهزة</sys:String>
+    <sys:String x:Key="NeedUpdatedDrivers">التعريفات بحاجة للتحديث</sys:String>
+    <sys:String x:Key="UninstallFailed">فشل إلغاء تثبيت برنامج التشغيل.</sys:String>
+    <sys:String x:Key="ReportMissDetectedDrivers">الإبلاغ عن برنامج تشغيل غير مدرج</sys:String>
+    <sys:String x:Key="ImproveTranslation">تحسين الترجمة</sys:String>
+    <!--add 20170331 for hardware info-->
+    <sys:String x:Key="OverviewDesc">Take an overview of the hardware info.</sys:String>
+    <sys:String x:Key="CpuDesc">الحصول على معلومات مفصلة حول وحدة المعالجة المركزية</sys:String>
+    <sys:String x:Key="MainboardDesc">لحصول على معلومات مفصلة حول اللوحة الأم</sys:String>
+    <sys:String x:Key="MemoryDesc">الحصول على معلومات مفصلة حول الذاكرة</sys:String>
+    <sys:String x:Key="GraphicsDesc">الحصول على معلومات مفصلة حول الرسومات</sys:String>
+    <!--Create restore point Window-->
+    <sys:String x:Key="CreatingARestorePoint">تم الان انشاء نقطة استعادة</sys:String>
+    <sys:String x:Key="OneDayOneRestorePointDesc">يتم الان انشاء نقطه استعاده...
+الرجاء فهم ان برنامج التشغيل السهل فقط انشاء نقطه استعاده في يوم واحد. قد يستغرق ذلك بعض الوقت اذا كان ملف التعريف كبيرا. ارجوك كن صبورا</sys:String>
+    <sys:String x:Key="OneDayOneRestorePoint">سيتم إنشاء نقطة استعادة واحدة فقط في يوم واحد.</sys:String>
+    <!--20170712,add for new Update process-->
+    <sys:String x:Key="InstallYourDriverDesc1">الان حان الوقت لتثبيت تعريفاتك</sys:String>
+    <sys:String x:Key="InstallYourDriverDesc2">يمكنك القيام بذلك يدويا ، والتي يمكن ان يستغرق ما يصلا الى ساعة ، او يمكنك الترقية الى سائق سهل المحترف والقيام بذلك مع مجرد نقره واحده.</sys:String>
+    <sys:String x:Key="DownloadYourDriver">تحميل التعريفات</sys:String>
+    <sys:String x:Key="InstallYourDriver">تثبيت التعريفات</sys:String>
+    <sys:String x:Key="BeforeUpdate">قبل التحديث:</sys:String>
+    <sys:String x:Key="Step0CreateRestorePoint">انشاء نقطه استعاده</sys:String>
+    <sys:String x:Key="UpdateProcess">عمليه التحديث:</sys:String>
+    <sys:String x:Key="Step1DownloadDriver">تحميل التعريفات</sys:String>
+    <sys:String x:Key="Step2InstallDriver">تثبيت التعريفات</sys:String>
+    <!--20170828,add report bug-->
+    <sys:String x:Key="ReportBug">تقرير الشوائب</sys:String>
+    <!--20170928,tommy,add -->
+    <sys:String x:Key="RestoreSuccessfully">تمت استعادة {0} بنجاح.</sys:String>
+    <sys:String x:Key="KBytes">KBytes</sys:String>
+    <sys:String x:Key="MBytes">MBytes</sys:String>
+    <sys:String x:Key="Bytes">Bytes</sys:String>
+    <!--20180821,ryan,add -->
+    <sys:String x:Key="step_1">1 خطوة</sys:String>
+    <sys:String x:Key="step_2">2 خطوة</sys:String>
+    <sys:String x:Key="step_3">3 خطوة</sys:String>
+    <sys:String x:Key="Reset_Connection">إعادة الاتصال</sys:String>
+    <sys:String x:Key="SettingBackupTo">النسخ الاحتياطي ل</sys:String>
+    <sys:String x:Key="InvalidProxy">لم يتمكن Driver Easy من الاتصال بالخادم المحدد. يُرجى تغيير إعدادات اتصالك بالإنترنت والمحاولة مجدداً.</sys:String>
+    <sys:String x:Key="CheckBackupLength">قد يكون المسار المحدد طويلاً أو يحتوي على أحرف غير صحيحة. يُرجى المحاولة بموقع بمسار أقصر أو إعادة تسمية المجلد للتخلص من الأحرف غير الصحيحة.</sys:String>
+    <sys:String x:Key="ResetAllSettingsDesc">هل ترغب في إعادة جميع الإعدادات لديك للإعدادات الافتراضية؟</sys:String>
+    <sys:String x:Key="ResetSettingsConnection">هل ترغب في إعادة تهيئة جميع إعدادات الإنترنت لديك للإعدادات الافتراضية؟</sys:String>
+    <sys:String x:Key="BackupPathNeedAdministrator" xml:space="preserve">ليس لديك إذن للحفظ في هذا الموقع كمسار للنسخ الاحتياطي.
+        
+هل ترغب في الحفظ في مجلد المستندات بدلاً من ذلك؟</sys:String>
+    <sys:String x:Key="UpdatingYourDrivers">جاري تحديث الأجهزة</sys:String>
+    <sys:String x:Key="drive_status_downloading">جاري التنزيل</sys:String>
+    <sys:String x:Key="drive_status_installing">جاري التثبيت</sys:String>
+    <sys:String x:Key="drive_status_queued">قيد الانتظار</sys:String>
+    <sys:String x:Key="eula">ترخيص المستخدم النهائي</sys:String>
+    <sys:String x:Key="privacy_policy">سياسة الخصوصية</sys:String>
+    <sys:String x:Key="CompletedUpToDate">محدثه</sys:String>
+    <sys:String x:Key="UpdateYourDrivers">تحديث برامج التشغيل لديك:</sys:String>
+    <sys:String x:Key="AvailableNumber">المتاح {0}</sys:String>
+    <sys:String x:Key="UpdateYourAvailableDrivers">تحديث برامج التشغيل لديك: المتاح {0}</sys:String>
+    <sys:String x:Key="DriverMissing">محرك الأقراص مفقود</sys:String>
+    <sys:String x:Key="DriverOutdated">برنامج التشغيل قديم</sys:String>
+    <sys:String x:Key="DeviceUnplugged">تم إلغاء توصيل الجهاز</sys:String>
+    <sys:String x:Key="DriverUpdateHistory">سجل تحديثات برنامج التشغيل</sys:String>
+    <sys:String x:Key="HavenotUpdateAnyDriver">لم تحدّث أيًا من برامج التشغيل.</sys:String>
+    <sys:String x:Key="OnlyDisplayLastThirtyHistory">لا يُعرض سوى &lt;Foreground1&gt;30&lt;/Foreground1&gt; عنصرًا فقط.</sys:String>
+    <sys:String x:Key="UpdateHistoryMayIncludeOtherSoftwareRecord">قد يتضمن سجل تحديث التعريف تعريفات حُدثت بواسطة برامج أخرى.</sys:String>
+    <sys:String x:Key="ExportLastRecord">تصدير آخر سجل (*.txt)</sys:String>
+    <sys:String x:Key="VersionHistory">سجل الإصدارات</sys:String>
+    <sys:String x:Key="OldVersion">الإصدار القديم:</sys:String>
+    <sys:String x:Key="PreviousVersion">الإصدار السابق:</sys:String>
+    <sys:String x:Key="CurrentVersion">الإصدار الحالي:</sys:String>
+    <sys:String x:Key="CancelUpdateTitle">هل تريد إلغاء التحديث؟</sys:String>
+    <sys:String x:Key="QuitDriverEasy">هل ترغب في إنهاء Driver Easy؟</sys:String>
+    <sys:String x:Key="SureCancelUpdate">هل ترغب بالتأكيد في إلغاء التحديث؟</sys:String>
+    <sys:String x:Key="UpdateCannotStopDuringInstallation">ملاحظة: لتفادي التلف المحتمل لجهاز الكمبيوتر، يتعذر إيقاف التحديث في أثناء التثبيت.</sys:String>
+    <sys:String x:Key="FailedToSendFeedback">فشل إرسال رسالتك.</sys:String>
+    <!--20200518, add for new feedback-->
+    <sys:String x:Key="TechnicalSupport">الدعم التقني</sys:String>
+    <sys:String x:Key="DescribeYourProblem">صف مشكلتك</sys:String>
+    <sys:String x:Key="SubmitTicket">قدم التذكرة</sys:String>
+    <sys:String x:Key="ItTakeTime1">بعد أن تقدم الاستمارة</sys:String>
+    <sys:String x:Key="ItTakeTime2">قد يستغرق الأمر 3-2 دقيقة لجمع</sys:String>
+    <sys:String x:Key="WeAlsoCollectYour">نحن نجمع أيضًا</sys:String>
+    <sys:String x:Key="ForDebuggingAndTroubleShooting">لتصحيح الأخطاء واستكشاف الأخطاء وإصلاحها.</sys:String>
+    <sys:String x:Key="ItTakeTimePleaseWait">قد يستغرق الأمر 2-3 دقائق، يُرجى الانتظار...</sys:String>
+    <sys:String x:Key="LoadingPleaseWait">جارٍ التحميل، يُرجى الانتظار...</sys:String>
+    <sys:String x:Key="UpgradeUpperCase">ترقية</sys:String>
+    <sys:String x:Key="ToDePro">إلى Driver Easy Pro</sys:String>
+    <sys:String x:Key="ActivateProNow">تفعيل النسخة الاحترافية الآن</sys:String>
+    <sys:String x:Key="LostMyKey">فقدت مفتاح المنتج...</sys:String>
+    <sys:String x:Key="DeProRequired">يطلب حساب Driver Easy Pro</sys:String>
+    <sys:String x:Key="ProFeatureOneClickUpdateAll">حدث كل سواقاتك بنقرة واحدة. والمزيد من الوظائف الأخرى...</sys:String>
+    <sys:String x:Key="ProFeatureSaveYourHardwareInfo">احفظ معلومات مكونات جهازك في الكمبيوتر. والمزيد من الوظائف الأخرى...</sys:String>
+    <sys:String x:Key="ProFeatureBackupDriver">اصنع نسخًا احتياطية من سواقاتك، والمزيد من الوظائف الأخرى...</sys:String>
+    <sys:String x:Key="ProFeatureRestoreDriver">استعد سواقاتك من النسخ الاحتياطية، والمزيد من الوظائف الأخرى...</sys:String>
+    <sys:String x:Key="ProFeatureUninstallDriver">قم بإزالة تثبيت سواقاتك، والمزيد من الوظائف الأخرى...</sys:String>
+    <sys:String x:Key="ProFeatureCreateRestorePoint">قم بإنشاء نقطة استعادة تلقائيًا قبل التحديث. والمزيد من الوظائف الأخرى...</sys:String>
+    <sys:String x:Key="ProFeatureInstallDriverAutomatically">قم بتثبيت سواقاتك تلقائيًا، والمزيد من الوظائف الأخرى...</sys:String>
+    <sys:String x:Key="ProFeatureViewDriverUpdateHistory">شاهد تاريخ تحديث سواقاتك، والمزيد من الوظائف الأخرى...</sys:String>
+    <sys:String x:Key="ProFeatureExportDriverUpdateHistory">تصدير سجل تحديث برنامج التشغيل، وغير ذلك الكثير...</sys:String>
+    <sys:String x:Key="ProFeatureUpdateLatestVersion">تحديث تلقائي للإصدار الأخير، وغير ذلك الكثير...</sys:String>
+    <sys:String x:Key="FeatureDetectAllDriver">احذف كل السواقات المفقودة أو القديمة أو غير المتوافقة</sys:String>
+    <sys:String x:Key="FeatureAllDriverCertified">كل السواقات مرخصة، ومباشرة من المصنع</sys:String>
+    <sys:String x:Key="FeatureDownaloadOneATime">قم بتنزيل كل سواقة بشكل منفرد</sys:String>
+    <sys:String x:Key="FeatureInstallOneATime">قم بتثبيت كل سواقة بشكل منفرد</sys:String>
+    <sys:String x:Key="FeatureDownloadAndInstallOneClick">قم بتنزيل وتثبيت جميع السواقات بنقرة واحدة</sys:String>
+    <sys:String x:Key="FeatureFreeSupport">دعم تقني مجاني للحاسوب المحمول</sys:String>
+    <sys:String x:Key="FeatureHighSpeed">تنزيل عالي السرعة للسواقة</sys:String>
+    <sys:String x:Key="FeatureCreateRestorePoint">قم بإنشاء نقاط استعادة تلقائيًا</sys:String>
+    <sys:String x:Key="FeatureBackupAndRestore">تخزين السواقات احتياطيًا واستعادتها</sys:String>
+    <sys:String x:Key="FeatureUninstallDriver">إلغاء تثبيت السواقات</sys:String>
+    <sys:String x:Key="FeatureViewUpdateHistory">مشاهدة تاريخ تحديث السواقة</sys:String>
+    <sys:String x:Key="FeatureExportHardwareInfo">تصدير معلومات مكونات الجهاز</sys:String>
+    <sys:String x:Key="FeatureKeepDriverUpdate">اسمح ل Driver Easy بالتحديث تلقائيًا</sys:String>
+    <sys:String x:Key="UpgradeDePro">تحديث Driver Easy Pro</sys:String>
+    <sys:String x:Key="BuyPro">اشتر النسخة الاحترافية</sys:String>
+    <sys:String x:Key="BuyFeatureUpdateAllDriverOneClick">حدث جميع السواقات بنقرة واحدة</sys:String>
+    <sys:String x:Key="BuyFeatureUpdateDriverOneATime">حدث السواقات بشكل منفرد</sys:String>
+    <sys:String x:Key="BuyFeatureInstallDriverAutomatically">تثبيت السواقات تلقائيًا</sys:String>
+    <sys:String x:Key="BuyFeatureDownloadOneATime">تنزيل السواقات بشكل منفرد</sys:String>
+    <sys:String x:Key="BuyNow">اشتر الآن</sys:String>
+    <sys:String x:Key="AlreadyBoughtIt">هل اشتريت بالفعل؟</sys:String>
+    <sys:String x:Key="EnterLicenseToActivate">أدخل مفتاح الرخصة لتفعيل النسخة الاحترافية. </sys:String>
+    <sys:String x:Key="NoNeedToReinstall">(لا حاجة لإعادة التثبيت.)</sys:String>
+    <sys:String x:Key="FiftyPercentOff">حسم 50%</sys:String>
+    <!--20210317, tommy, add for settings-->
+    <sys:String x:Key="ManageSettings">إدارة إعدادات Driver Easy.</sys:String>
+    <sys:String x:Key="ResetAllSettings">إعادة ضبط جميع الإعدادات</sys:String>
+    <!--settings gernal-->
+    <sys:String x:Key="ForBetterReadabilityLanguage">للحصول على قراءة أفضل، قد يتغير الخط عند تغيير اللغة.</sys:String>
+    <sys:String x:Key="DateFormat">Date format</sys:String>
+    <sys:String x:Key="ChooseDataFormat">Choose the date format you’d like to use with Driver Easy.</sys:String>
+    <sys:String x:Key="SkipPermissionReminder">تخطي تذكير الأذونات</sys:String>
+    <sys:String x:Key="GrantDEAdministratorWhenLaunched">منح صلاحيات المسؤول لبرنامج Driver Easy عند التشغيل.</sys:String>
+    <sys:String x:Key="ScanDevicesAutomatically">فحص الأجهزة تلقائيًا</sys:String>
+    <sys:String x:Key="ScanWhenDELaunched">فحص أجهزة الكمبيوتر تلقائيًا عند بدء تشغيل Driver Easy.</sys:String>
+    <sys:String x:Key="RunDEAutomatically">تشغيل Driver Easy تلقائيًا</sys:String>
+    <sys:String x:Key="RunDEWhenStarts">تشغيل Driver Easy تلقائياً عند بدء تشغيل جهاز الكمبيوتر.</sys:String>
+    <sys:String x:Key="On">تشغيل</sys:String>
+    <sys:String x:Key="Off">إيقاف</sys:String>
+    <sys:String x:Key="HelpImproveNew">المساعدة في تحسين Driver Easy</sys:String>
+    <sys:String x:Key="ShareInfo">مشاركة معلومات أجهزتي.</sys:String>
+    <sys:String x:Key="ShareInfoFirst">إذا حددت مربع التأشير هذا، فأنت توافق على مشاركة بيانات نظامك معنا. لا تقلق، لا يشمل ذلك ملفاتك أو أي بيانات شخصية. فقط الأجهزة، والمُشغلات، والأخطاء. جميع البيانات مجهولة الهوية، ويتم تخزينها بأمان ويتم التعامل معها بسرية. يمكنك الاطلاع على</sys:String>
+    <sys:String x:Key="ShareInfoFirstNew">إذا حددت مربع التأشير هذا، فأنت توافق على مشاركة بيانات نظامك معنا. لا تقلق، لا يشمل ذلك ملفاتك أو أي بيانات شخصية. فقط الأجهزة، والمُشغلات، والأخطاء. جميع البيانات مجهولة الهوية، ويتم تخزينها بأمان ويتم التعامل معها بسرية. يمكنك الاطلاع على</sys:String>
+    <sys:String x:Key="ShareInfoLast">الخاصة بنا للمزيد من المعلومات.</sys:String>
+    <!--settings restore point-->
+    <sys:String x:Key="RestorePoints">نقاط الاستعادة</sys:String>
+    <sys:String x:Key="RestorePointsTab">نقاط الاستعادة</sys:String>
+    <sys:String x:Key="RestorePointsDesc">نقاط الاستعادة هي حفظ نسخة احتياطية لكامل نظامك كما كان عليه في نقطة زمنية معينة. يُمكن لتطبيق Driver Easy تلقائياً إنشاء نقطة استعادة قبل تحديث مُشغلات الجهات، لذلك إذا تسبب أحد المُشغلات في مشكلة، يمكنك إعادة النظام إلى ما كان عليه قبل التحديث.</sys:String>
+    <sys:String x:Key="CreateRestorePointBeforeInstall">إنشاء نقطة استعادة تلقائيًا قبل تثبيت برامج التشغيل.</sys:String>
+    <sys:String x:Key="CreateOneEachDay">لا ينشئ Driver Easy أكثر من نقطة استعادة واحدة كل يوم.</sys:String>
+    <sys:String x:Key="RestoreYourSystem">استعادة نظامك</sys:String>
+    <sys:String x:Key="YouCanRevert">يمكنك استعادة جهاز الكمبيوتر إلى نقطة استعادة سابقة مع "استعادة النظام".</sys:String>
+    <sys:String x:Key="TurnOnSystemProtection">تشغيل خاصية حماية النظام</sys:String>
+    <sys:String x:Key="DEWillCreateNoMoreThanOneEachDay">سيُنشئ Driver Easy نقطة استعادة تلقائيًا قبل تثبيت التعريفات. لا يُنشئ أكثر من نقطة استعادة واحدة كل يوم.</sys:String>
+    <sys:String x:Key="MaxDiskSpace">الحد الأقصى لمساحة القرص المخصص له هو 5٪ على الأقل.</sys:String>
+    <!--settings hidden devices-->
+    <sys:String x:Key="HiddenDevices">الأجهزة المخفية</sys:String>
+    <sys:String x:Key="HiddenDevicesDesc">لن يتم فحص الجهاز المخفي فيما بتعلق بتحديث برامج التشغيل ما لم تقم بإلغاء إخفائه أو إصدار نسخة أحدث من برنامج التشغيل.</sys:String>
+    <sys:String x:Key="AllHiddenDevicesList">جميع أجهزتك المخفية مدرجة هنا</sys:String>
+    <!--settings scheduled scans-->
+    <sys:String x:Key="ScheduledScans">عمليات المسح المجدولة</sys:String>
+    <sys:String x:Key="ScheduledScansDesc">يمكنك جدولة Driver Easy لفحص جهاز الكمبيوتر في وقت معين ومتكرر من اختيارك.</sys:String>
+    <sys:String x:Key="ScheduledScansEnable">تمكين جدولة الفحص التلقائي</sys:String>
+    <sys:String x:Key="CurrentScheduledScanTime">وقت المسح المجدول الحالي</sys:String>
+    <sys:String x:Key="Change">تغيير</sys:String>
+    <!--tools backup-->
+    <sys:String x:Key="BackupToNew">إجراء النسخ الاحتياطي إلى</sys:String>
+    <sys:String x:Key="BackupFollowingDrivers">نسخة احتياطية للمُشغلات التالية</sys:String>
+    <sys:String x:Key="BackupNew">نسخة احتياطية</sys:String>
+    <!--download page: more button-->
+    <sys:String x:Key="ViewDriverDetails">عرض بيانات المُشغل</sys:String>
+    <sys:String x:Key="DeleteDownloadedDriver">حذف مُشغل تم تحميله</sys:String>
+    <sys:String x:Key="RollbackToPreviousDriver">العودة إلى المُشغل السابق</sys:String>
+    <sys:String x:Key="UninstallDriver">إزالة تثبيت مُشغل</sys:String>
+    <sys:String x:Key="DonotShowUpdateAgain">لا تعرض هذا التحديث مرة أخرى</sys:String>
+    <!--driver detail page-->
+    <sys:String x:Key="DriverUpdateDetails">بيانات تحديث المُشغل</sys:String>
+    <sys:String x:Key="AnUpdateAvailableForYour">{0} هناك تحديث متاح من أجلك</sys:String>
+    <sys:String x:Key="SuggestedUpdate">التحديث المقترح</sys:String>
+    <sys:String x:Key="CurrentDriverNew">المُشغل الحالي</sys:String>
+    <sys:String x:Key="AvailableDriver">المُشغل المتاح</sys:String>
+    <sys:String x:Key="Provider">مزود الخدمة</sys:String>
+    <!--key Date and Name already had before!-->
+    <sys:String x:Key="Compatability">التوافق</sys:String>
+    <sys:String x:Key="YourDeviceHardwareIds">جهازك به مُعرفات الأجهزة التالية:</sys:String>
+    <sys:String x:Key="AvailableCompatibleHardwareIds">يحتوي هذا الجهاز كذلك على المعرفات المتوافقة التالية:</sys:String>
+    <!--new dialog tips-->
+    <!--20210302, tommy, add for uninstall driver-->
+    <sys:String x:Key="UninstallSuccessfully" xml:space="preserve">تم إزالة تثبيت {0} بنجاح.</sys:String>
+    <!--20210112, tommy, add for rollback driver-->
+    <sys:String x:Key="Rollback">الإعادة</sys:String>
+    <sys:String x:Key="RollbackFaild">تعذّر التراجع، رمز الخطأ: {0}</sys:String>
+    <sys:String x:Key="NoItemsToRollback">لا توجد عناصر للتراجع عنها</sys:String>
+    <sys:String x:Key="RolledBack">تم التراجع</sys:String>
+    <sys:String x:Key="SureRollback" xml:space="preserve">هل أنت متأكد من رغبتك في العودة إلى المُشغلات سابقة التثبيت؟</sys:String>
+    <sys:String x:Key="RollbackWarning" xml:space="preserve">قد تتوقف الأجهزة ذات الصلة في العمل إذا قمت بإعادة هذا المُشغل.</sys:String>
+    <sys:String x:Key="RollbackSuccessfully" xml:space="preserve">تم إعادة {0} بنجاح.</sys:String>
+    <sys:String x:Key="ProFeatureRollbackDrivers">إعادة مُشغلاتك، والمزيد ....</sys:String>
+    <sys:String x:Key="FeatureRollbackDrivers">إعادة مُشغلاتك</sys:String>
+    <!--20230425, tommy, add for common prompt, Information and Done already have-->
+    <sys:String x:Key="Success">تم بنجاح!</sys:String>
+    <sys:String x:Key="Error">خطأ</sys:String>
+    <sys:String x:Key="ActionFailed">فشل الإجراء</sys:String>
+    <sys:String x:Key="Attention">تنبيه</sys:String>
+    <sys:String x:Key="Copy">نسخ</sys:String>
+    <sys:String x:Key="Copied">تم النسخ!</sys:String>
+    <!--20230504, tommy, add for feedback-->
+    <sys:String x:Key="InvalidEmailAddress">عنوان البريد الإلكتروني غير صالح</sys:String>
+    <sys:String x:Key="InvalidAttachment">مرفق غير صالح</sys:String>
+    <!--20230504, tommy, add for update UI-->
+    <sys:String x:Key="UninstallThisDriver">هل تريد إلغاء تثبيت برنامج التشغيل هذا؟</sys:String>
+    <sys:String x:Key="UninstallThisDriverDesc">قد لا تعمل الأجهزة ذات الصلة إذا ألغيت تثبيت برنامج التشغيل هذا.</sys:String>
+    <sys:String x:Key="SureUninstallThisDriver">هل أنت متأكد أنك تريد إلغاء تثبيت برنامج التشغيل هذا؟</sys:String>
+    <sys:String x:Key="SystemInformation">معلومات النظام</sys:String>
+    <sys:String x:Key="FailedToSave">تعذّر الحفظ</sys:String>
+    <sys:String x:Key="PermissionRequired">الإذن مطلوب</sys:String>
+    <sys:String x:Key="FileNameAlreadyExists">يوجد ملف باسم "{0}" فعلًا.</sys:String>
+    <sys:String x:Key="WantToReplace">هل تريد استبداله؟</sys:String>
+
+    <sys:String x:Key="Menu">القائمة</sys:String>
+    <sys:String x:Key="PerformsBestIfKeepUpToDate">يعمل Driver Easy بشكل أفضل عند تحديثه بشكل مستمر.</sys:String>
+    <sys:String x:Key="SureCancelUpdateLatestVersion">هل أنت متأكد أنك تريد استبدال هذا التحديث بأحدث إصدار من Driver Easy؟</sys:String>
+    <sys:String x:Key="UnableCheckUpdate">التحقق من وجود تحديث</sys:String>
+    <sys:String x:Key="TimeoutAndCheckNetworkAgain">انتهت مهلة الاتصال. يرجى التحقق من شبكتك والمحاولة مرة أخرى.</sys:String>
+    <sys:String x:Key="CheckNetworkAndTryAgain">يُرجى التحقق من شبكتك والمحاولة مرة أخرى. إذا كنت تستخدم جدار حماية أو خادم وكيل، عطِّله وحاول مرة أخرى.</sys:String>
+    <sys:String x:Key="Retry">إعادة المحاولة</sys:String>
+    <sys:String x:Key="AlreadyLatestVersion">الإصدار الحالي {0} هو فعلًا أحدث إصدار.</sys:String>
+    <sys:String x:Key="UpgradeToKeepLatestVersionAutomatically">قم بترقية Driver Easy Pro للاحتفاظ بأحدث إصدار تلقائيًا.</sys:String>
+    <sys:String x:Key="NewVersionDriverEasyAvailable">يتوفر إصدار جديد من Driver Easy</sys:String>
+    <sys:String x:Key="LatestVersionAvailable">يتوفر أحدث إصدار من Driver Easy (الإصدار {0}).</sys:String>
+    <sys:String x:Key="UpdatingDriverEasy">جارٍ تحديث Driver Easy...</sys:String>
+    <sys:String x:Key="UpdatingDriverEasyToVersion">جارٍ التحديث إلى الإصدار {0} من Driver Easy.</sys:String>
+    <sys:String x:Key="AboutMinuteRemaining">بقي حوالي دقيقة واحدة</sys:String>
+    <sys:String x:Key="DownloadingDriverEasySetup">جارٍ تنزيل DriverEasy_Setup.exe</sys:String>
+    <sys:String x:Key="UpdateNow">تحديث الآن</sys:String>
+
+    <sys:String x:Key="Missing">مفقود</sys:String>
+    <sys:String x:Key="Outdated">قديم</sys:String>
+    <sys:String x:Key="Unplugged">غير موصول</sys:String>
+    <sys:String x:Key="Stop">إيقاف</sys:String>
+
+    <sys:String x:Key="DeviceErr">فُصل الجهاز.</sys:String>
+    <sys:String x:Key="PrinterErr">لم تكن الطابعة موصولة.</sys:String>
+
+    <sys:String x:Key="IdentifyOfflineDrivers">حدد برامج التشغيل التي يحتاجها الكمبيوتر لديك في وضع عدم الاتصال بالإنترنت</sys:String>
+    <sys:String x:Key="DownloadDriversOnAnotherComputer">نزّل برامج التشغيل هذه على كمبيوتر آخر</sys:String>
+    <sys:String x:Key="DEIdentifyDriversNeedAccessInternet">سيفحص Driver Easy هذا الكمبيوتر لتحديد برامج التشغيل
+يحتاج إلى الاتصال بالإنترنت.</sys:String>
+    <sys:String x:Key="WhereWantToSaveScanResult">أين تريد حفظ نتائج الفحص؟</sys:String>
+    <sys:String x:Key="WhereDidSaveOfflineScanFile">متى نسخته إلى هذا الكمبيوتر؟أين حفظت ملف الفحص في وضع عدم الاتصال بالإنترنت</sys:String>
+    <sys:String x:Key="WhenCopyiedToThisComputer">متى نسخته إلى هذا الكمبيوتر؟</sys:String>
+    <sys:String x:Key="BuyProNow">اشترِ الإصدار الاحترافي الآن</sys:String>
+    <sys:String x:Key="ChooseLocation">اختر الموقع</sys:String>
+    <sys:String x:Key="OfflineScanFileSaved">تم حفظ ملف الفحص دون اتصال بالإنترنت</sys:String>
+    <sys:String x:Key="NowCopyOfflineScanFile">انسخ الآن {0} إلى جهاز كمبيوتر متصل بالإنترنت. ثم شغّل Driver Easy على هذا الكمبيوتر، وحدد 
+الأدوات > الفحص دون اتصال بالإنترنت > الخطوة 2.</sys:String>
+    <sys:String x:Key="GoToFile">الانتقال إلى الملف</sys:String>
+    <sys:String x:Key="CheckForUpdates">التحقق من وجود تحديثات</sys:String>
+    <sys:String x:Key="CheckingForUpdates">جارٍ التحقق من وجود تحديثات...</sys:String>
+    <sys:String x:Key="LinkToWebPage">الروابط المفيدة</sys:String>
+    <sys:String x:Key="WriteAReview">اكتب مراجعة</sys:String>
+    <sys:String x:Key="SettingsWillSaveAutomatically">ستُحفظ التغييرات تلقائيًا عند ضبط الإعدادات.</sys:String>
+    <sys:String x:Key="RestorePointTurnOnNote">يُرجى ملاحظة ما يلي عند تشغيل هذا الإعداد:</sys:String>
+    <sys:String x:Key="RestorePointMakeSureTurnOn">تأكد من تشغيل حماية النظام وتعيين الحد الأقصى لمساحة القرص المخصصة له على 5% على الأقل.</sys:String>
+    <sys:String x:Key="Undo">تراجُع</sys:String>
+    <sys:String x:Key="NeedsAccessInternet">فيما يلي برامج التشغيل التي يحتاجها الكمبيوتر الآخر للاتصال بالإنترنت.</sys:String>
+    <sys:String x:Key="DownloadAll">تنزيل الكل</sys:String>
+    <sys:String x:Key="DriversDownloaded">تم تنزيل برامج التشغيل</sys:String>
+    <sys:String x:Key="NowCopyDriversToNoInternet">انسخها الآن إلى الكمبيوتر الذي لا يمكنه الاتصال بالإنترنت. 
+ثم ثبتها على هذا الكمبيوتر، كما هو موضح</sys:String>
+    <sys:String x:Key="Here">هنا...</sys:String>
+    <sys:String x:Key="GoToDrivers">انتقل إلى برامج التشغيل</sys:String>
+    <sys:String x:Key="AutoSaving">جارٍ تطبيق التغييرات</sys:String>
+    <sys:String x:Key="ChangesHaveBeenSaved">تم حفظ التغييرات.</sys:String>
+    <sys:String x:Key="MoreActions">المزيد من الإجراءات</sys:String>
+    <sys:String x:Key="ScanShort">فحص</sys:String>
+    <sys:String x:Key="UpdateShort">تحديث</sys:String>
+    <sys:String x:Key="HardwareShort">الاجهزة</sys:String>
+    <sys:String x:Key="ToolsShort">ادوات</sys:String>
+    <sys:String x:Key="AllItemsAreDisplayed">يتم عرض كل العناصر</sys:String>
+    <sys:String x:Key="HowToUninstallDE">كيفية إلغاء تثبيت Driver Easy</sys:String>
+    <sys:String x:Key="AllDriversAreDownloaded">تم تنزيل جميع التعريفات</sys:String>
+    <sys:String x:Key="InstalledViaDE">ثُبت هذا التعريف عبر Driver Easy</sys:String>
+    <sys:String x:Key="SuccessfullyInstalled">نجح التثبيت</sys:String>
+    <sys:String x:Key="SuccessfullyRolledBack">تم التراجع بنجاح</sys:String>
+    <sys:String x:Key="FailedToInstall">فشل التثبيت</sys:String>
+    <sys:String x:Key="ShowPassword">إظهار كلمة المرور</sys:String>
+    <sys:String x:Key="HidePassword">إخفاء كلمة المرور</sys:String>
+    <sys:String x:Key="TurnOn">بدء التشغيل</sys:String>
+    <sys:String x:Key="TurnOff">إيقاف التشغيل</sys:String>
+    <sys:String x:Key="Minimize">تصغير</sys:String>
+    <sys:String x:Key="Close">إغلاق</sys:String>
+    <sys:String x:Key="LetUsKnowWhyRollingBack">أخبرنا عن سبب التراجع:</sys:String>
+    <sys:String x:Key="TheDriverNotWorkForDevice">لا يعمل هذا التعريف على جهازي</sys:String>
+    <sys:String x:Key="PreviousVersionIsMoreReliable">الإصدار السابق من التعريف معتمد أكثر</sys:String>
+    <sys:String x:Key="OtherReason">سبب آخر</sys:String>
+    <sys:String x:Key="AgreeSendRollbackLog">أُنشئ تقرير التعريف لمساعدتنا على تحسين Driver Easy. من خلال تحديد هذا المربع، فإنك توافق على إرسال التقرير إلينا.</sys:String>
+    <sys:String x:Key="PaymentMethodRequired">طريقة الدفع مطلوبة. عند انتهاء الفترة التجريبية، سيُحصل مبلغ X سنويًا. يمكنك إلغاء الاشتراك في أي وقت.</sys:String>
+    <sys:String x:Key="PaymentMethodRequiredShort">طريقة الدفع مطلوبة.</sys:String>
+    <sys:String x:Key="NotReadyToUpgrade">غير جاهز للترقية؟</sys:String>
+    <sys:String x:Key="StartSevenDayTrial">ابدأ الإصدار التجريبي لمدة 7 أيام</sys:String>
+    <sys:String x:Key="AvailableInPaidVersion">متوفر في النسخة المدفوعة</sys:String>
+    <sys:String x:Key="Allow">السماح</sys:String>
+    <sys:String x:Key="NotAllow">عدم السماح</sys:String>
+    <sys:String x:Key="ScheduledTasks">المهمة المجدولة</sys:String>
+    <sys:String x:Key="InstallationDate">تاريخ التثبيت:</sys:String>
+    <sys:String x:Key="ActivateAndUpdate">تفعيل &amp; تحديث</sys:String>
+    <sys:String x:Key="OfferingSevenDayFreeTrial">نحن نقدم لك نسخة تجريبية مجانية لمدة 7 أيام حتى تتمكن من التأكد من أن برنامج Driver Easy مناسب لك. يمكنك الاستمرار في استخدام برنامج Driver Easy بعد الفترة التجريبية من خلال تجديد البرنامج.</sys:String>
+    <sys:String x:Key="GetFiftyOffDiscount">انتظر، إذا كنت تستخدم Go Pro الآن، فستحصل على خصم 50%!</sys:String>
+    <sys:String x:Key="SevenDayPlan">خطة لمدة 7 أيام</sys:String>
+    <sys:String x:Key="OneYearPlan">خطة لمدة عام</sys:String>
+    <sys:String x:Key="OnePC">جهاز كمبيوتر واحد</sys:String>
+    <sys:String x:Key="ThreePCs">3 أجهزة كمبيوتر</sys:String>
+    <sys:String x:Key="StartTrial">ابدأ النسخة التجريبية</sys:String>
+    <sys:String x:Key="ComputersPerLicense">أجهزة الكمبيوتر لكل ترخيص</sys:String>
+    <sys:String x:Key="ViewAllVersionOfTheDriver">عرض جميع إصدارات برنامج التشغيل هذا</sys:String>
+    <sys:String x:Key="ViewAllDriverVersions">عرض جميع إصدارات برامج التشغيل</sys:String>
+    <sys:String x:Key="HugeDriverDatabase">قاعدة بيانات ضخمة لبرامج التشغيل</sys:String>
+    <sys:String x:Key="RecordsForThisDevice">سجلات هذا الجهاز</sys:String>
+    <sys:String x:Key="Compatible">متوافق</sys:String>
+    <sys:String x:Key="TotalRecordsInDatabase">إجمالي السجلات في قاعدة بيانات برنامج Driver Easy</sys:String>
+    <sys:String x:Key="RecordsIncludingDriversForWin7OrNewer">السجلات بما في ذلك برامج التشغيل لنظام التشغيل ويندوز 7 أو الأحدث منه</sys:String>
+    <sys:String x:Key="DriversCompatibleWithYourSystem">برامج تشغيل متوافقة مع نظامك</sys:String>
+    <sys:String x:Key="ReleaseDate">تاريخ الإصدار</sys:String>
+    <sys:String x:Key="Action">الإجراء</sys:String>
+    <sys:String x:Key="InstallOutdatedDriver">هل تريد تثبيت برنامج تشغيل قديم؟</sys:String>
+    <sys:String x:Key="InstallOutdatedDriverDesc">بعد تثبيت برنامج التشغيل هذا، سيُنقل الإصدار الأحدث إلى أجهزتك المخفية ريثما يُصدر إصدار أحدث منه. أيضًا، قد لا يعمل هذا الجهاز إذا قمت بتثبيت برنامج تشغيل قديم.</sys:String>
+    <sys:String x:Key="SureWantToContinue">هل أنت متأكد أنك تريد المتابعة؟</sys:String>
+    <sys:String x:Key="AboutLegal" xml:space="preserve">هذا البرنامج مخصص فقط للاستخدام القانوني للاستنساخ بموجب قوانين حقوق النشر الحالية. أي استنساخ بدون إذن من مالكي حقوق النشر هو غير قانوني بموجب قوانين حقوق النشر الحالية. يتحمل المستخدمون المسؤولية الجنائية والمدنية بموجب القانون الحالي عن الاستنساخ غير القانوني
+        
+المكتبات الخارجية والمساهمون:
+
+7-Zip
+Igor Pavlov
+7z.dll: GNU LGPL + قيود unRAR</sys:String>
+    <sys:String x:Key="Loading">جارٍ التحميل</sys:String>
+    <sys:String x:Key="OnlyKeepOneDownloadedDriver">نحن نحتفظ فقط ببرنامج تشغيل واحد تم تنزيله.</sys:String>
+    <sys:String x:Key="Status">الحالة</sys:String>
+    <sys:String x:Key="Installing">جاري التثبيت</sys:String>
+    <sys:String x:Key="SorrySomethingWentWrongHere">آسف، حدث خطأ ما هنا...</sys:String>
+    <sys:String x:Key="WeNotifiedAndWillTakeALookShortly">تم إبلاغنا عن هذه المشكلة وسنقوم بالنظر فيها قريبًا.</sys:String>
+    <sys:String x:Key="Trial">فترة تجريبية</sys:String>
+    <sys:String x:Key="TrialEnd">انتهت الفترة التجريبية</sys:String>
+    <sys:String x:Key="TrialDayLeft">الأيام المتبقية</sys:String>
+    <sys:String x:Key="TrialTitleWelcome">مرحبًا بك في فترتك التجريبية المجانية!</sys:String>
+    <sys:String x:Key="TrialTitleEndSoon">ستنتهي فترتك التجريبية قريبًا!</sys:String>
+    <sys:String x:Key="TrialTitleEnd">لقد انتهت فترتك التجريبية المجانية.</sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine1Left">نأمل أن تعجبك جولتك التجريبية وتقرر الاستمرار معنا. يمكنك التحقق من موقعنا </sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine1UserManual">دليل المستخدم</sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine1Right">لاكتشاف جميع الميزات الاحترافية.</sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine2">عند انتهاء الفترة التجريبية، ستُفرض عليك رسوم اشتراكك تلقائيًا. قبل ذلك، سنرسل إليك رسالة إلكترونية لتذكيرك بذلك.</sys:String>
+    <sys:String x:Key="TrialTipUnsubscribeLeft">يمكنك إلغاء الاشتراك في أي وقت من خلال النقر على </sys:String>
+    <sys:String x:Key="TrialTipUnsubscribe">إلغاء الاشتراك</sys:String>
+    <sys:String x:Key="TrialTipUnsubscribeRight">.</sys:String>
+    <sys:String x:Key="TrialTipPricingPlans">اكتشف المزيد من خطط تحديد الأسعار</sys:String>
+    <sys:String x:Key="TrialContentEnd">نأمل أن تستمتع بتجربتك. ابدأ بتسجيل الاشتراك للحفاظ على جهاز الكمبيوتر الخاص بك في أفضل حالاته مع أحدث برامج التشغيل!</sys:String>
+    <sys:String x:Key="Hour">ساعات</sys:String>
+    <sys:String x:Key="Min">دقائق</sys:String>
+    <sys:String x:Key="Second">ثوانٍ</sys:String>
+    <sys:String x:Key="FreeSupport">دعم مجاني</sys:String>
+    <sys:String x:Key="FreeSupportTip">100% خبراء في أجهزة الكمبيوتر</sys:String>
+    <sys:String x:Key="RiskFree">خالية من المخاطر</sys:String>
+    <sys:String x:Key="RiskFreeTip">استرداد الأموال خلال 30 يومًا</sys:String>
+    <sys:String x:Key="StartSubscription">ابدأ بتسجيل الاشتراك</sys:String>
+    <sys:String x:Key="Search">بحث</sys:String>
+    <sys:String x:Key="Theme">ثيم</sys:String>
+    <sys:String x:Key="ThemeDesc">تغيير مظهر واجهة مستخدم Driver Easy.</sys:String>
+    <sys:String x:Key="SystemProtectionDesc">يوفر Driver Easy ميزة نقطة الاستعادة لحماية نظامك. نقطة الاستعادة هي نسخة احتياطية من إعدادات النظام والملفات. إذا ظهرت مشاكل بعد تحديث برنامج التشغيل، يمكنك استخدام هذه الميزة لإعادة النظام بأمان إلى نقطة زمنية سابقة.</sys:String>
+    <sys:String x:Key="GameDepd">مسح تبعيات اللعبة</sys:String>
+    <sys:String x:Key="GameDepdDesc">عند تنفيذ فحص برنامج التشغيل، سيقوم Driver Easy بفحص المكتبات الأساسية والاعتماديات للألعاب لضمان اكتشافها وتحديثها.</sys:String>
+    <sys:String x:Key="RegisteredToSteamUser">مسجل لدى مستخدم Steam</sys:String>
+    <sys:String x:Key="Hide">إخفاء</sys:String>
+    <sys:String x:Key="Show">إظهار</sys:String>
+    <sys:String x:Key="Exit">خروج</sys:String>
+    <sys:String x:Key="Or">أو</sys:String>
+</ResourceDictionary>

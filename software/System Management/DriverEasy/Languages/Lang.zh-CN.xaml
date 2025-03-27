@@ -1,0 +1,853 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="Activate">激活</sys:String>
+    <sys:String x:Key="Professional">专业版</sys:String>
+    <sys:String x:Key="Backup">立即备份</sys:String>
+    <sys:String x:Key="BackingUpDriver">正在备份驱动……</sys:String>
+    <sys:String x:Key="BackupComplete">备份成功。</sys:String>
+    <sys:String x:Key="BackupError">备份时发生错误</sys:String>
+    <sys:String x:Key="BackupFileExist">{0} 已经存在，是否覆盖？</sys:String>
+    <sys:String x:Key="Backuping">正在备份……</sys:String>
+    <sys:String x:Key="Completed">已完成 ({0})</sys:String>
+    <sys:String x:Key="CompressIn">正在压缩驱动文件</sys:String>
+    <sys:String x:Key="ConfirmUpdate">Driver Easy 发布了新版本 {1}, 是否立即更新？</sys:String>
+    <sys:String x:Key="DeleteErrorTitle">删除时发生错误</sys:String>
+    <sys:String x:Key="DownloadError">下载驱动时发生错误</sys:String>
+    <sys:String x:Key="EmptyRestoreFile">该文件没有可还原的驱动。</sys:String>
+    <sys:String x:Key="ErrorDetails">错误信息</sys:String>
+    <sys:String x:Key="HardwareInfoShort">硬件信息</sys:String>
+    <sys:String x:Key="HardwareInfo">硬件信息</sys:String>
+    <sys:String x:Key="InputPort">请输入有效的端口号。</sys:String>
+    <!--Page - Settings-->
+    <sys:String x:Key="InputAddress" xml:space="preserve">请输入有效地址。
+（例如 www.proxyserver.com 或 192.168.0.1）</sys:String>
+    <sys:String x:Key="Install">安装</sys:String>
+    <sys:String x:Key="InstallSucceed">安装完成。</sys:String>
+    <sys:String x:Key="InvalidAddress">无效地址</sys:String>
+    <sys:String x:Key="InvalidPort">无效商品号</sys:String>
+    <sys:String x:Key="OpenBackupFolder">打开备份文件夹</sys:String>
+    <sys:String x:Key="Overview">系统概要</sys:String>
+    <sys:String x:Key="Previous">上一步</sys:String>
+    <sys:String x:Key="Current">当前</sys:String>
+    <sys:String x:Key="ReportError">报告错误</sys:String>
+    <sys:String x:Key="RestartRequired">重启后生效</sys:String>
+    <sys:String x:Key="Restore">驱动还原</sys:String>
+    <sys:String x:Key="RestoreError">进行驱动还原时发生错误</sys:String>
+    <sys:String x:Key="RestoreFileNotExist">指定的路径不存在驱动还原文件。</sys:String>
+    <sys:String x:Key="Send">发送</sys:String>
+    <sys:String x:Key="SpecifyBackupDriver">请选择您需要备份的驱动。</sys:String>
+    <sys:String x:Key="SpecifyBackupFolder">请指定驱动备份文件保存目录。</sys:String>
+    <sys:String x:Key="SpecifyDriver">请选择一个驱动进行还原</sys:String>
+    <sys:String x:Key="SpecifyDriverToUninstall">请指定一个驱动进行卸载</sys:String>
+    <sys:String x:Key="SpecifyRestoreFile">请指定驱动文件的位置。</sys:String>
+    <sys:String x:Key="InstallDriver">安装的驱动</sys:String>
+    <!--Page - Tools - Driver Backup-->
+    <sys:String x:Key="SystemDriver">系统驱动</sys:String>
+    <!--Page - Settings-->
+    <sys:String x:Key="TestConnection">测试连接</sys:String>
+    <sys:String x:Key="TestFailure">测试连接失败。</sys:String>
+    <sys:String x:Key="TestSuccess">测试连接成功。</sys:String>
+    <sys:String x:Key="UninstallError">卸载驱动时发生错误</sys:String>
+    <sys:String x:Key="UnplugDriver">未连接设备的驱动</sys:String>
+    <!--Download Page-->
+    <sys:String x:Key="Update">更新</sys:String>
+    <sys:String x:Key="UpdateTab">更新</sys:String>
+    <sys:String x:Key="UpdateError">下载时发生错误</sys:String>
+    <sys:String x:Key="Upload">上传</sys:String>
+    <sys:String x:Key="CreateRestorePoint">创建一个还原点</sys:String>
+    <sys:String x:Key="Driver">驱动</sys:String>
+    <sys:String x:Key="Drivers">驱动</sys:String>
+    <!--Common-->
+    <sys:String x:Key="Free">免费版</sys:String>
+    <sys:String x:Key="Pro">专业版</sys:String>
+    <sys:String x:Key="ProAvailable">专业版功能</sys:String>
+    <sys:String x:Key="Revision">修订</sys:String>
+    <sys:String x:Key="Name">名称</sys:String>
+    <sys:String x:Key="Version">版本</sys:String>
+    <sys:String x:Key="Manufacturer">制造商</sys:String>
+    <sys:String x:Key="Size">大小</sys:String>
+    <sys:String x:Key="Copyright">Copyright © {0}, Easeware. 版权所有</sys:String>
+    <sys:String x:Key="ContactAdmin">程序出错，请联系管理员。</sys:String>
+    <sys:String x:Key="Oops">哎呀！</sys:String>
+    <sys:String x:Key="About">关于</sys:String>
+    <sys:String x:Key="Yes">是</sys:String>
+    <sys:String x:Key="No">否</sys:String>
+    <sys:String x:Key="OK">确认</sys:String>
+    <sys:String x:Key="Cancel">取消</sys:String>
+    <sys:String x:Key="YouMustRestart">您需要重启电脑才能使更改生效。</sys:String>
+    <sys:String x:Key="RestoreNeedRestart">您需要重启电脑才能使更改生效。</sys:String>
+    <sys:String x:Key="RestartNowInfo">是否重启电脑？</sys:String>
+    <sys:String x:Key="YesRestartNow">是，现在重启</sys:String>
+    <sys:String x:Key="NoRestartLater">否，稍后重启</sys:String>
+    <sys:String x:Key="NeedRestart">{0} 个已更新的驱动需要重启电脑才能生效。</sys:String>
+    <sys:String x:Key="MustRestart">您必须重启电脑才能使以下驱动程序更新生效。</sys:String>
+    <sys:String x:Key="CreatingRestorePoint">正在创建还原点……</sys:String>
+    <sys:String x:Key="DriverInstallSuccessfully">驱动是否已成功安装？</sys:String>
+    <sys:String x:Key="DriverInstallSuccessfullyDesc">请按照界面指引，按步骤完成驱动安装。在驱动安装完成后，请点击是。</sys:String>
+    <sys:String x:Key="ClickYesAfterInstallation">安装完成后请单击“是”</sys:String>
+    <sys:String x:Key="InstallingDriver">正在安装驱动，请按照屏幕指引完成安装。</sys:String>
+    <sys:String x:Key="OpenFileLocation">打开文件位置</sys:String>
+    <sys:String x:Key="Delete">删除</sys:String>
+    <!--Main Page-->
+    <sys:String x:Key="Upgrade">升级</sys:String>
+    <sys:String x:Key="RegisterNow">立即注册</sys:String>
+    <sys:String x:Key="UpToDate">最新</sys:String>
+    <sys:String x:Key="ProblemDriver">{0} 个驱动可以更新</sys:String>
+    <sys:String x:Key="ProblemOneDriver">{0} 个驱动可以更新</sys:String>
+    <sys:String x:Key="Unchecked">未检测</sys:String>
+    <sys:String x:Key="ScanNeeded">未扫描</sys:String>
+    <sys:String x:Key="Never">未知</sys:String>
+    <sys:String x:Key="LastScan">上次扫描</sys:String>
+    <sys:String x:Key="YearAgo">{0} 年以前</sys:String>
+    <sys:String x:Key="MonthAgo">{0} 月之前</sys:String>
+    <sys:String x:Key="WeekAgo">{0} 周之前</sys:String>
+    <sys:String x:Key="DayAgo">{0} 天之前</sys:String>
+    <sys:String x:Key="HourAgo">{0} 小时之前</sys:String>
+    <sys:String x:Key="MinuteAgo">{0} 分钟之前</sys:String>
+    <sys:String x:Key="SecondAgo">{0} 秒之前</sys:String>
+    <sys:String x:Key="ScanNow">立即扫描</sys:String>
+    <sys:String x:Key="Congratulations">太棒了！</sys:String>
+    <sys:String x:Key="AllDriverUpToDateMain">所有驱动已是最新状态</sys:String>
+    <sys:String x:Key="KeepSmoothly">最新的驱动程序可让您的电脑平稳运行。</sys:String>
+    <sys:String x:Key="ClickScanNow">单击“立即扫描”按钮检查所有驱动程序是否都是最新的。</sys:String>
+    <sys:String x:Key="MissingDriverDesc">缺失的驱动程序:</sys:String>
+    <sys:String x:Key="OutdateDriverDesc">过时的驱动程序:</sys:String>
+    <!--Scanning Page-->
+    <sys:String x:Key="Scanning">正在扫描</sys:String>
+    <sys:String x:Key="AccessingDataBase">正在连接数据库，请稍候……</sys:String>
+    <!--Download Page-->
+    <sys:String x:Key="ScanAgain">重新扫描</sys:String>
+    <sys:String x:Key="UpToDateDriver">最新驱动</sys:String>
+    <sys:String x:Key="UpToDateDriverEx">最新驱动</sys:String>
+    <sys:String x:Key="DriverNeedToUpdated">{0} 个设备需要更新驱动</sys:String>
+    <sys:String x:Key="MissingDriver">缺失的驱动:</sys:String>
+    <sys:String x:Key="OutdatedDriver">过时的驱动:</sys:String>
+    <sys:String x:Key="UnpluggedDriver">未连接设备:</sys:String>
+    <sys:String x:Key="DevicesMissingDriver">缺失的驱动程序</sys:String>
+    <sys:String x:Key="DevicesMissingDriverEx">缺失的驱动程序</sys:String>
+    <sys:String x:Key="DevicesOutdatedDriver">过时的驱动程序</sys:String>
+    <sys:String x:Key="DevicesOutdatedDriverEx">过时的驱动程序</sys:String>
+    <sys:String x:Key="UnpluggedDevice">未连接的设备</sys:String>
+    <sys:String x:Key="UnpluggedDeviceEx">未连接的设备</sys:String>
+    <sys:String x:Key="UnpluggedDesc">如果拔出设备，该设备的驱动程序不会被安装，会一直显示在此列表中。
+如果在驱动安装过程中，出现了“检测不到设备”的错误提示，请重新连接设备后，再尝试安装。
+    </sys:String>
+    <sys:String x:Key="UpdateAll">立即更新</sys:String>
+    <sys:String x:Key="Features">功能</sys:String>
+    <sys:String x:Key="Tools">工具</sys:String>
+    <sys:String x:Key="Installed">已安装</sys:String>
+    <sys:String x:Key="Available">可用</sys:String>
+    <sys:String x:Key="Downloaded">已下载</sys:String>
+    <!--Downloading - Single Driver Page-->
+    <sys:String x:Key="Updating">正在更新……</sys:String>
+    <sys:String x:Key="Downloading">正在下载</sys:String>
+    <!--Driver Information Page-->
+    <sys:String x:Key="DriverInfo">驱动信息</sys:String>
+    <sys:String x:Key="Description">描述</sys:String>
+    <sys:String x:Key="PreviousDriver">上一个驱动</sys:String>
+    <sys:String x:Key="CurrentDriver">当前驱动</sys:String>
+    <sys:String x:Key="DriverName">名称</sys:String>
+    <sys:String x:Key="DriverProvider">提供商</sys:String>
+    <sys:String x:Key="DriverDate">发布日期</sys:String>
+    <sys:String x:Key="DriverVersion">发布版本</sys:String>
+    <sys:String x:Key="DeviceInfo">设备信息</sys:String>
+    <sys:String x:Key="HardwareIds">硬件 Ids</sys:String>
+    <sys:String x:Key="CompatibleIds">兼容 Ids</sys:String>
+    <sys:String x:Key="Back">返回</sys:String>
+    <!--Hardware Information Page-->
+    <sys:String x:Key="OverView">概览</sys:String>
+    <sys:String x:Key="CPU">处理器</sys:String>
+    <!--2070511,tommy,英语的Mainboard暂时改为Motherboard-->
+    <sys:String x:Key="Mainboard">主板</sys:String>
+    <sys:String x:Key="Memory">内存</sys:String>
+    <sys:String x:Key="Spd">SPD</sys:String>
+    <sys:String x:Key="Graphics">显卡</sys:String>
+    <!--Hardware Information - OverView-->
+    <sys:String x:Key="Machine">型号</sys:String>
+    <sys:String x:Key="OperationSystem">操作系统</sys:String>
+    <sys:String x:Key="VideoCard">显卡</sys:String>
+    <sys:String x:Key="Monitor">显示器</sys:String>
+    <sys:String x:Key="HardDisk">硬盘</sys:String>
+    <sys:String x:Key="NetworkCard">网卡</sys:String>
+    <!--Hardware Information - CPU -->
+    <sys:String x:Key="Cores">核心数</sys:String>
+    <sys:String x:Key="Threads">线程</sys:String>
+    <sys:String x:Key="Processor">处理器</sys:String>
+    <sys:String x:Key="CodeName">代号</sys:String>
+    <sys:String x:Key="TDP">TDP</sys:String>
+    <sys:String x:Key="Package">插槽</sys:String>
+    <sys:String x:Key="Technology">工艺</sys:String>
+    <sys:String x:Key="CoreVoltage">核心电压</sys:String>
+    <sys:String x:Key="Specification">规格</sys:String>
+    <sys:String x:Key="Family">系列</sys:String>
+    <sys:String x:Key="ExtFamily">扩展系列</sys:String>
+    <sys:String x:Key="Model">型号</sys:String>
+    <sys:String x:Key="ExtModel">扩展型号</sys:String>
+    <sys:String x:Key="Stepping">步进</sys:String>
+    <sys:String x:Key="Instructions">指令集</sys:String>
+    <sys:String x:Key="Clocks">时钟</sys:String>
+    <sys:String x:Key="CoreSpeed">核心速度</sys:String>
+    <sys:String x:Key="Multiplier">倍频</sys:String>
+    <sys:String x:Key="BusSpeed">总线速度</sys:String>
+    <sys:String x:Key="QPILink">快速互联</sys:String>
+    <sys:String x:Key="Cache">缓存</sys:String>
+    <sys:String x:Key="L1Data">一级数据</sys:String>
+    <sys:String x:Key="L1Inst">一级指令</sys:String>
+    <sys:String x:Key="Level">层级</sys:String>
+    <!--Hardware Information - Mainboard-->
+    <sys:String x:Key="Chipset">芯片组</sys:String>
+    <sys:String x:Key="SouthBridge">南桥</sys:String>
+    <sys:String x:Key="LPCIO">LPCIO</sys:String>
+    <sys:String x:Key="BIOS">BIOS</sys:String>
+    <sys:String x:Key="Brand">公司名称</sys:String>
+    <sys:String x:Key="Date">日期</sys:String>
+    <sys:String x:Key="GraphicInterface">图像接口</sys:String>
+    <sys:String x:Key="TransferRate">传输速率</sys:String>
+    <sys:String x:Key="MaxSupported">最大支持</sys:String>
+    <!--Hardware Information - Memory-->
+    <sys:String x:Key="General">基本设置</sys:String>
+    <sys:String x:Key="Type">类型</sys:String>
+    <sys:String x:Key="Channel">通道数</sys:String>
+    <sys:String x:Key="DCMode">DC 模式</sys:String>
+    <sys:String x:Key="NBFrequency">北桥频率</sys:String>
+    <sys:String x:Key="Timings">时序表</sys:String>
+    <sys:String x:Key="DRAMFrequency">内存频率</sys:String>
+    <sys:String x:Key="FSBDRAM">前端总数: 内存</sys:String>
+    <sys:String x:Key="CASLatency">CAS# 延迟 (CL)</sys:String>
+    <sys:String x:Key="RAStoCASDelay">RAS＃ 到 CAS＃ (tRCD)</sys:String>
+    <sys:String x:Key="RASPrecharge">PAS# 预充电 (tRP)</sys:String>
+    <sys:String x:Key="CycleTime">周期时间 (tRAS)</sys:String>
+    <sys:String x:Key="BankCycleTime">行周期时间 (tRC)</sys:String>
+    <sys:String x:Key="CommandRate">指令比率 (CR)</sys:String>
+    <!--Hardware Information - Spd-->
+    <sys:String x:Key="BandWidth">带宽</sys:String>
+    <sys:String x:Key="PartNumber">型号</sys:String>
+    <sys:String x:Key="Profile">配置文件</sys:String>
+    <sys:String x:Key="SpdFrequency">频率</sys:String>
+    <sys:String x:Key="SpdCASLatency">CAS# 延迟</sys:String>
+    <sys:String x:Key="SpdRAStoCAS">RAS# 到 CAS#</sys:String>
+    <sys:String x:Key="SpdRASPrecharge">RAS# 预充电</sys:String>
+    <sys:String x:Key="SpdCycleTime">周期时间</sys:String>
+    <sys:String x:Key="SpdBankCycleTime">行周期时间</sys:String>
+    <!--Hardware Information - Graphics-->
+    <sys:String x:Key="GPU">图形处理器</sys:String>
+    <sys:String x:Key="Core">核心</sys:String>
+    <sys:String x:Key="Shader">核心代号</sys:String>
+    <sys:String x:Key="BusWidth">位宽</sys:String>
+    <!--Feedback Page-->
+    <sys:String x:Key="Feedback">反馈</sys:String>
+    <sys:String x:Key="Support">技术支持</sys:String>
+    <sys:String x:Key="HavingProblemWithDE">使用 Driver Easy 遇到问题?</sys:String>
+    <sys:String x:Key="CheckoutHelpPage">查看我们的帮助页面</sys:String>
+    <sys:String x:Key="FeedbackContent" xml:space="preserve">如果您有任何问题、反馈或建议，请在这里将详细信息发送给我们，我们会尽快处理。
+&#13;
+如果您是专业版用户，将在 2 个工作日内收到我们的回复。
+</sys:String>
+    <sys:String x:Key="ShortSummary">标题</sys:String>
+    <sys:String x:Key="AttachFile">附件</sys:String>
+    <sys:String x:Key="SendYour">发送</sys:String>
+    <sys:String x:Key="MayTakeMins">（这可能需要 1-3 分钟。）</sys:String>
+    <sys:String x:Key="YourEmail">您的邮箱</sys:String>
+    <sys:String x:Key="EnterEmail">请输入您的邮箱地址</sys:String>
+    <sys:String x:Key="Export">导出</sys:String>
+    <sys:String x:Key="SystemInfo">系统信息</sys:String>
+    <sys:String x:Key="Submit">发送</sys:String>
+    <!--Settings - General-->
+    <sys:String x:Key="Settings">设置</sys:String>
+    <sys:String x:Key="ResetSettings">重置</sys:String>
+    <sys:String x:Key="Language">语言</sys:String>
+    <sys:String x:Key="Scan">扫描</sys:String>
+    <sys:String x:Key="HelpImprove">帮助我们改善 Driver Easy</sys:String>
+    <sys:String x:Key="Save">保存</sys:String>
+    <!--Settings - Backup & Restore-->
+    <sys:String x:Key="BackupRestore">驱动备份&amp;驱动还原</sys:String>
+    <sys:String x:Key="BackupTo">备份路径：</sys:String>
+    <sys:String x:Key="Browse">浏览……</sys:String>
+    <!--Settings - Internet Connection-->
+    <sys:String x:Key="InternetConnection">网络连接</sys:String>
+    <sys:String x:Key="DefaultBrowserSettings">使用浏览器默认设置</sys:String>
+    <sys:String x:Key="ProxyServer">使用代理服务器</sys:String>
+    <sys:String x:Key="Address">地址</sys:String>
+    <sys:String x:Key="Port">端口</sys:String>
+    <sys:String x:Key="UserName">用户名</sys:String>
+    <sys:String x:Key="Password">密码</sys:String>
+    <sys:String x:Key="Test">测试</sys:String>
+    <!--Settings - System Restore-->
+    <sys:String x:Key="AutoCreateRestore">安装驱动前，自动创建还原点。</sys:String>
+    <sys:String x:Key="SystemRestore">系统还原</sys:String>
+    <!--Settings - Hidden Device-->
+    <sys:String x:Key="HiddenDevice">隐藏设备</sys:String>
+    <sys:String x:Key="ShowHiddenDevices">显示隐藏设备</sys:String>
+    <sys:String x:Key="Empty">空</sys:String>
+    <!--Settings - Scheduled Task-->
+    <sys:String x:Key="AllDriversCertified">所有驱动均已通过认证</sys:String>
+    <sys:String x:Key="ScheduledTask">计划任务</sys:String>
+    <!--Activation Page-->
+    <sys:String x:Key="UpdateDriversOneByOne">单个驱动更新</sys:String>
+    <sys:String x:Key="DownloadDriversOneByOne">逐个下载驱动</sys:String>
+    <sys:String x:Key="OneClickUpdateAll">一键更新所有驱动</sys:String>
+    <sys:String x:Key="HighSpeed">高速下载</sys:String>
+    <sys:String x:Key="AutoCreateRestorePoint">自动创建还原点</sys:String>
+    <sys:String x:Key="Uninstall">卸载</sys:String>
+    <sys:String x:Key="DriverUninstall">驱动卸载</sys:String>
+    <sys:String x:Key="ExpertTechSupport">专业的技术支持</sys:String>
+    <sys:String x:Key="EnterLicense">请输入激活码: </sys:String>
+    <sys:String x:Key="EnterYourLicense">输入您的激活码</sys:String>
+    <sys:String x:Key="Example">例如: </sys:String>
+    <!--Activating-->
+    <sys:String x:Key="ActivatingWait">正在激活，请稍候……</sys:String>
+    <sys:String x:Key="RollingbackWait">正在回滚，请稍后……</sys:String>
+    <sys:String x:Key="PleaseWait">请稍候……</sys:String>
+    <!--Leading to Registration Page-->
+    <sys:String x:Key="ProVersion">专业版</sys:String>
+    <sys:String x:Key="FreeVersion">免费版</sys:String>
+    <sys:String x:Key="OneClick">一键更新所有驱动</sys:String>
+    <sys:String x:Key="Done">完成</sys:String>
+    <!--Download Successfully Page-->
+    <sys:String x:Key="DownloadedSuccessfully">下载成功</sys:String>
+    <sys:String x:Key="AutoInstallRecommended">自动安装 (强烈推荐)</sys:String>
+    <sys:String x:Key="ManuallyInstall">手动安装</sys:String>
+    <sys:String x:Key="LearnHow">了解如何手动安装……</sys:String>
+    <sys:String x:Key="ClickHere">点击这里</sys:String>
+    <sys:String x:Key="Continue">继续</sys:String>
+    <!--Create Restore Point Page-->
+    <sys:String x:Key="CreateASystemRestorePoint">创建一个系统还原点</sys:String>
+    <sys:String x:Key="CreateASystemRestorePointDesc1">继续下一步操作前，您应该创建一个系统还原点</sys:String>
+    <sys:String x:Key="CreateASystemRestorePointDesc2">如果新的驱动程序导致 Windows 出现问题，您只需将系统回滚到还原点，这样就不会丢失任何数据。</sys:String>
+    <sys:String x:Key="AutoCreateRecommended">自动创建还原点 (强烈建议)</sys:String>
+    <sys:String x:Key="AutoCreateRecommendedDesc">升级到 Driver Easy 专业版，即可自动创建还原点。</sys:String>
+    <sys:String x:Key="ManuallyCreate">手动创建还原点</sys:String>
+    <sys:String x:Key="ManuallyCreateDesc">我要手动创建还原点。</sys:String>
+    <sys:String x:Key="DonotRemind">不要再提醒我了</sys:String>
+    <!--About Us Page-->
+    <sys:String x:Key="FreeForPerson">免费供个人使用</sys:String>
+    <sys:String x:Key="SpeedLimited">限速</sys:String>
+    <sys:String x:Key="LicenseKey">激活码</sys:String>
+    <sys:String x:Key="RemainingDay">剩余天数</sys:String>
+    <!--Tools - Driver Backup-->
+    <sys:String x:Key="DriverBackup">驱动备份</sys:String>
+    <sys:String x:Key="DriverBackupDesc">您可以备份所有驱动至指定文件夹，之后可以使用备份的驱动文件进行还原。</sys:String>
+    <sys:String x:Key="DriverDetail">驱动详情</sys:String>
+    <!--Tools - Driver Restore-->
+    <sys:String x:Key="DriverRestore">驱动还原</sys:String>
+    <sys:String x:Key="DriverRestoreDesc">您需要先备份驱动才能使用驱动还原功能。如果安装的新驱动存在问题，您可以通过之前的备份在此进行还原。</sys:String>
+    <sys:String x:Key="BrowseFile">点击“浏览”按钮来选择您想要还原的驱动</sys:String>
+    <!--Tools - Driver Uninstall-->
+    <sys:String x:Key="DriverUninstallDesc">部分驱动由于技术原因无法卸载。</sys:String>
+    <!--Tools - Offline Scan-->
+    <sys:String x:Key="OfflineScan">离线扫描</sys:String>
+    <sys:String x:Key="OfflineScanFile">离线扫描文件</sys:String>
+    <sys:String x:Key="OfflineScanDesc">如果您电脑的网卡驱动不能正常工作，可以通过该功能轻松获取最新的网卡驱动。</sys:String>
+    <sys:String x:Key="DoOfflineScan">离线扫描 (没有网络连接的电脑)</sys:String>
+    <sys:String x:Key="UploadOfflineScan">上传离线扫描文件 (有网络连接的电脑)</sys:String>
+    <sys:String x:Key="HowToOfflineScan">不知道该怎么办？</sys:String>
+    <sys:String x:Key="SaveOfflineScanResult">将离线扫描文件另存为：</sys:String>
+    <sys:String x:Key="NetworkDrivers">网卡驱动</sys:String>
+    <sys:String x:Key="Download">下载</sys:String>
+    <sys:String x:Key="ErrorDuringOfflineSaving">保存离线扫描文件时出错。</sys:String>
+    <!--Prompt Message - Hide this Update-->
+    <sys:String x:Key="HideUpdate">忽略更新</sys:String>
+    <sys:String x:Key="HideUpdateTitle">隐藏该设备？</sys:String>
+    <sys:String x:Key="SureWantHide">您确定要隐藏该驱动版本的更新吗？</sys:String>
+    <sys:String x:Key="NewUpdateWillShow">如果有新的版本更新，会再次提示。您可以通过“设置”>“隐藏设备”取消隐藏。</sys:String>
+    <!--Prompt Message - Show Hidden Devices-->
+    <sys:String x:Key="SureWantShow">是否显示隐藏设备？</sys:String>
+    <sys:String x:Key="HiddenShowAgain">所选隐藏设备已显示</sys:String>
+    <!--Prompt Message - Language-->
+    <sys:String x:Key="ConfigFileNoExist">配置文件不存在</sys:String>
+    <sys:String x:Key="NeedProvideAdminPerform">您需要获取管理员权限来完成操作,</sys:String>
+    <sys:String x:Key="ContinueComplete">点击“继续”进入下一步。</sys:String>
+    <!--Prompt Message - Feedback Information-->
+    <sys:String x:Key="Information">提示信息</sys:String>
+    <sys:String x:Key="ExportSuccessful">导出信息成功。</sys:String>
+    <sys:String x:Key="ExportCancelled">已取消</sys:String>
+    <sys:String x:Key="ExportCancelledDesc">邮件信息将不会被发送。</sys:String>
+    <sys:String x:Key="SystemInfoExportSuccessfully">系统信息已成功导出。</sys:String>
+    <sys:String x:Key="ErrorDuringFeedback">信息发送错误。</sys:String>
+    <sys:String x:Key="FeedbackSuccessfully">信息发送成功。</sys:String>
+    <sys:String x:Key="EnterValidEmail">请在邮箱栏输入正确的邮箱地址</sys:String>
+    <sys:String x:Key="EnterValidSubject">请填写主题，主题不能超过 {0} 个字符。</sys:String>
+    <sys:String x:Key="EnterValidDesc">请填写反馈内容，内容不能超过 {0} 个字符。</sys:String>
+    <sys:String x:Key="EnterValidAttachement">附件不存在或大小超过 10MB。</sys:String>
+    <sys:String x:Key="SettingSaved">设置已生效</sys:String>
+    <!--Prompt Message - 503 Error-->
+    <sys:String x:Key="503Error">来自您网络的连接太多，请重试，或关闭 Driver Easy 免费版，在同一网络下的另一台电脑重新打开。
+升级到 Driver Easy 专业版。
+例外细节: 
+    </sys:String>
+    <!--Prompt Message - Scan Error-->
+    <sys:String x:Key="ScanProblem">扫描出错</sys:String>
+    <sys:String x:Key="ErrorDuringScanning">扫描过程出错</sys:String>
+    <!--Prompt Message - Offline Scan-->
+    <sys:String x:Key="SpecifySaveLocation">请指定文件保存位置</sys:String>
+    <sys:String x:Key="OfflineFileSaved">离线扫描文件已保存。</sys:String>
+    <sys:String x:Key="CopyOfflineFile">请拷贝离线扫描文件到另一台有网络连接的电脑，然后点击离线扫描功能，上传离线扫描文件来下载本机的网卡驱动。</sys:String>
+    <sys:String x:Key="OpenSaveFolder">打开文件夹</sys:String>
+    <sys:String x:Key="SpecifiedFileNoExist">指定的文件不存在。</sys:String>
+    <sys:String x:Key="ErrorDuringDownload">驱动在下载过程中出错</sys:String>
+    <sys:String x:Key="ErrorDuringUpdate">更新期间发生错误</sys:String>
+    <sys:String x:Key="ErrorDuringDownloadOfflineScan">下载过程出错</sys:String>
+    <sys:String x:Key="DriverDownloadError">驱动下载错误</sys:String>
+    <sys:String x:Key="DriverInstallError">驱动安装错误</sys:String>
+    <sys:String x:Key="ToHelpBySendReport">为了帮助我们改善您的体验，我们生成了一份错误报告供您发送给我们。</sys:String>
+    <sys:String x:Key="SendReport">发送报告</sys:String>
+    <!--Prompt Message - Summary-->
+    <sys:String x:Key="Summary">总结</sys:String>
+    <sys:String x:Key="ErrorDuringInstall">安装过程出错</sys:String>
+    <!--Prompt Message - Activating-->
+    <sys:String x:Key="InvalidKey">激活码格式错误</sys:String>
+    <sys:String x:Key="InvalidKeyDesc">请确保您输入了所有的字符以及 “-”。</sys:String>
+    <sys:String x:Key="ErrorDueToNet">通信失败</sys:String>
+    <sys:String x:Key="ErrorDueToNetDesc">请检查网络连接。</sys:String>
+    <sys:String x:Key="ErrorDuringActivation">激活过程出错</sys:String>
+    <sys:String x:Key="ActivateSuccessfully">太棒了！您已获得 Driver Easy 专业版。</sys:String>
+    <sys:String x:Key="ActivateSuccessfullyDesc">您已获得 Driver Easy 专业版。</sys:String>
+    <sys:String x:Key="Help">帮助</sys:String>
+    <sys:String x:Key="Register">注册</sys:String>
+    <sys:String x:Key="SpecifyDriverUpdate">请选择想要更新的驱动。</sys:String>
+    <sys:String x:Key="DriverType">驱动类型</sys:String>
+    <sys:String x:Key="NewVersion">有新版本的 Driver Easy 已发布：</sys:String>
+    <sys:String x:Key="WhatsNew">有什么更新？</sys:String>
+    <!--Renew-->
+    <sys:String x:Key="Get10XFasterSpeed">提升 10 倍下载速度</sys:String>
+    <sys:String x:Key="RenewNow">立即续费</sys:String>
+    <sys:String x:Key="EnterNewLicense">输入新的激活码</sys:String>
+    <sys:String x:Key="NotFindInfFile">找不到该驱动的安装文件或安装程序</sys:String>
+    <sys:String x:Key="SystemProtection">系统保护</sys:String>
+    <sys:String x:Key="Reminder">提醒</sys:String>
+    <sys:String x:Key="PlaySound">驱动更新完成后播放提示音。</sys:String>
+    <sys:String x:Key="ShareDE">分享 Driver Easy</sys:String>
+    <sys:String x:Key="Share">Share</sys:String>
+    <!--General-Update Source-->
+    <sys:String x:Key="UpdateSource">更新来源</sys:String>
+    <sys:String x:Key="GetDriverFromDriverEasy">从已经检测的 Driver Easy 数据库获取驱动</sys:String>
+    <sys:String x:Key="GetDriverFromWindowsUpdate">从 Windows Update 获取驱动</sys:String>
+    <sys:String x:Key="ViewDetails">详细信息</sys:String>
+    <sys:String x:Key="Pause">暂停</sys:String>
+    <!--add 20170306-->
+    <!--Activation interface-->
+    <sys:String x:Key="DriverUpdatesAvailable">需要更新的驱动:</sys:String>
+    <sys:String x:Key="PROFeaturesDesc">Driver Easy 专业版可以节省大量时间，只要轻轻一点就可以帮助您更新所有驱动，享受更快的下载速度和更多的功能。</sys:String>
+    <sys:String x:Key="AlreadyHaveALicense">已拥有激活码？</sys:String>
+    <sys:String x:Key="ActiveProNow">立即激活</sys:String>
+    <sys:String x:Key="UpgradeToPRO">升级到专业版</sys:String>
+    <sys:String x:Key="GetPro">获取专业版</sys:String>
+    <!--Boot interface-->
+    <sys:String x:Key="NeedPROToUpdateAll">您需要升级到专业版来使用一键更新所有驱动的功能。</sys:String>
+    <sys:String x:Key="NeedProToBackup">您需要升级到专业版来使用驱动备份的功能。</sys:String>
+    <sys:String x:Key="NeedPROToRestore">您需要升级到专业版来使用驱动还原的功能。</sys:String>
+    <sys:String x:Key="NeedPROToUninstall">您需要升级到专业版来使用驱动卸载的功能。</sys:String>
+    <sys:String x:Key="NeedPROToAutoCreateRestorePoint">您需要升级到专业版来使用自动创建还原点的功能。</sys:String>
+    <sys:String x:Key="NeedPROToDownloadSpeed">您需要升级到专业版以提升下载速度</sys:String>
+    <sys:String x:Key="NeedPROToAutoInstallDriver">您需要获取专业版来使用自动安装驱动功能。</sys:String>
+    <sys:String x:Key="NeedPROToRenew">您需要专业版才能进行软件更新</sys:String>
+    <sys:String x:Key="NeedPROToViewUpdateHistory">您需要使用专业版版才能查看更新记录</sys:String>
+    <sys:String x:Key="FreeVersionDesc" xml:space="preserve">您正在使用 Driver Easy 免费版，该版本每次只能更新1个驱动。</sys:String>
+    <sys:String x:Key="PurposeOfUpgradeToPRO">想要节省时间，一键更新所有驱动？请升级到 Driver Easy 专业版。</sys:String>
+    <!--Renewal interface-->
+    <sys:String x:Key="TimeToRenew">续费时间到了</sys:String>
+    <sys:String x:Key="RenewDesc">您正在使用的 Driver Easy 专业版激活码已过期，立即续订，继续使用专业版所有功能。</sys:String>
+    <sys:String x:Key="RenewAlready">已经续费？请重新激活到专业版。</sys:String>
+    <!--Select the driver installation interface-->
+    <sys:String x:Key="WantInstallAutomatically">升级到 Driver Easy 专业版，点击一下，即可实现自动安装。</sys:String>
+    <sys:String x:Key="WantInstalMyself">我要手动安装驱动。</sys:String>
+    <!--Like us interface-->
+    <sys:String x:Key="ShareWithFriends">告诉您的朋友</sys:String>
+    <sys:String x:Key="SharingIsCaringDesc">您有多少朋友有电脑问题？ 如果 Driver Easy 帮您解决了问题，它同样可以帮助您的朋友，那么为什么不分享？ 他们会感谢您的！</sys:String>
+    <sys:String x:Key="ShareOnFacebook">分享至 Facebook</sys:String>
+    <sys:String x:Key="ShareOnTwitter">分享至 Twitter</sys:String>
+    <sys:String x:Key="SharedAlready">已经分享过了？</sys:String>
+    <sys:String x:Key="FollowOnFacebook">在 Facebook 关注我们</sys:String>
+    <sys:String x:Key="LikeUs">分享</sys:String>
+    <!--Gift interface-->
+    <sys:String x:Key="GetMyPresent">您有一个礼物</sys:String>
+    <sys:String x:Key="WhoElseWantFreeGuidebook">Windows 无法启动？ 免费修复！</sys:String>
+    <sys:String x:Key="GuidebookDesc">如果您的电脑无法启动进入 Windows 桌面，请不要惊慌！ 我们写了一本电子书来解决这个问题。 要获得免费电子书，请分享到 Facebook。</sys:String>
+    <sys:String x:Key="want_free_guidebook_complete">是的，我想要这本免费电子书。</sys:String>
+    <sys:String x:Key="WantFreeGuidebook1">是的，我想要这本</sys:String>
+    <sys:String x:Key="FreeUpper">免费</sys:String>
+    <sys:String x:Key="WantFreeGuidebook2">电子书。</sys:String>
+    <sys:String x:Key="WantBuyGuidebook">不，谢谢。我要花费$9.95购买。</sys:String>
+    <!--Single installation interface-->
+    <sys:String x:Key="Get10XSpeed">提升 10 倍下载速度</sys:String>
+    <sys:String x:Key="Get10XSpeedDesc">不要再浪费时间在驱动下载上。马上升级到专业版，您将享有比现在快 10 倍的下载速度，驱动更新将在瞬间完成。</sys:String>
+    <!--end 20170306-->
+    <sys:String x:Key="DeviceNumber">{0} 个设备</sys:String>
+    <sys:String x:Key="NeedUpdatedDrivers">需要更新驱动</sys:String>
+    <sys:String x:Key="UninstallFailed">卸载驱动失败。</sys:String>
+    <sys:String x:Key="ReportMissDetectedDrivers">报告未列出的驱动</sys:String>
+    <sys:String x:Key="ImproveTranslation">改进翻译</sys:String>
+    <!--add 20170331 for hardware info-->
+    <sys:String x:Key="OverviewDesc">获取硬件的详细信息。</sys:String>
+    <sys:String x:Key="CpuDesc">获取有关 CPU 的详细信息。</sys:String>
+    <sys:String x:Key="MainboardDesc">获取有关主板的详细信息。</sys:String>
+    <sys:String x:Key="MemoryDesc">获取有关内存的详细信息。</sys:String>
+    <sys:String x:Key="GraphicsDesc">获取有关显卡的详细信息。</sys:String>
+    <!--Create restore point Window-->
+    <sys:String x:Key="CreatingARestorePoint">正在创建还原点……</sys:String>
+    <sys:String x:Key="OneDayOneRestorePointDesc">Driver Easy 每天只自动创建一个还原点。当更新的驱动文件较大时，创建还原点过程可能会花费较长时间，请您耐心等待。</sys:String>
+    <sys:String x:Key="OneDayOneRestorePoint">Driver Easy 每天只自动创建一个还原点</sys:String>
+    <!--20170712,add for new Update process-->
+    <sys:String x:Key="InstallYourDriverDesc1">现在该安装驱动了</sys:String>
+    <sys:String x:Key="InstallYourDriverDesc2">您可以手动执行此操作，但这可能会花费您一个小时，或者您可以升级到 Driver Easy 专业版，只需单击一下即可完成安装。</sys:String>
+    <sys:String x:Key="DownloadYourDriver">下载驱动</sys:String>
+    <sys:String x:Key="InstallYourDriver">安装驱动</sys:String>
+    <sys:String x:Key="BeforeUpdate">更新前：</sys:String>
+    <sys:String x:Key="Step0CreateRestorePoint">创建还原点</sys:String>
+    <sys:String x:Key="UpdateProcess">更新过程：</sys:String>
+    <sys:String x:Key="Step1DownloadDriver">下载驱动</sys:String>
+    <sys:String x:Key="Step2InstallDriver">安装驱动</sys:String>
+    <!--20170828,add report bug-->
+    <sys:String x:Key="ReportBug">报告 Bug</sys:String>
+    <!--20170928,tommy,add -->
+    <sys:String x:Key="RestoreSuccessfully">{0} 已成功还原。</sys:String>
+    <sys:String x:Key="ExportBtn">导出 (*.txt)</sys:String>
+    <sys:String x:Key="UpgradePROSaveHardwareInfo">You need the Pro version to Save Hardware Info</sys:String>
+    <sys:String x:Key="SaveHardwareInfo">导出硬件信息</sys:String>
+    <sys:String x:Key="KBytes">KBytes</sys:String>
+    <!--20180718,ryan,add -->
+    <sys:String x:Key="AllDriverUpToDateHeader">您电脑上所有的驱动都已是最新版!</sys:String>
+    <sys:String x:Key="CertigiedByMicrosoft">通过微软 WHQL 认证</sys:String>
+    <sys:String x:Key="VerifiedByDriverEasy">通过 Driver Easy 测试</sys:String>
+    <sys:String x:Key="VerifiedByDriverEasyShow">通过 Driver Easy 测试</sys:String>
+    <sys:String x:Key="CertigiedByMicrosoftTest">通过微软 WHQL 测试</sys:String>
+    <sys:String x:Key="DriverCertifiedMiscrosoft">此驱动程序已通过微软的 Windows 硬件质量实验室 (WHQL) 测试过程，并且已通过微软认证，与您的 Windows 版本兼容。</sys:String>
+    <sys:String x:Key="DriverCertifiedDE">该驱动程序已通过 Driver Easy 严格的内部测试流程，已确保其安全、可靠和稳定。</sys:String>
+    <sys:String x:Key="DriverCertifiedLearnMore">了解更多……</sys:String>
+    <!--20180821,ryan,add -->
+    <sys:String x:Key="step_1">第 1 步</sys:String>
+    <sys:String x:Key="step_2">第 2 步</sys:String>
+    <sys:String x:Key="step_3">第 3 步</sys:String>
+    <sys:String x:Key="Reset_Connection">重置连接</sys:String>
+    <sys:String x:Key="SettingBackupTo">备份至</sys:String>
+    <sys:String x:Key="InvalidProxy">Driver Easy 无法连接到您指定的代理服务器。 请更改您的网络连接设置，然后重试。</sys:String>
+    <sys:String x:Key="CheckBackupLength">您指定的路径太长或包含无效字符。 可以尝试使用较短的路径，或尝试重命名文件夹以删除无效字符。</sys:String>
+    <sys:String x:Key="ResetAllSettingsDesc">是否要将所有设置重置为默认值？</sys:String>
+    <sys:String x:Key="ResetSettingsConnection">是否要将所有网络连接重置为默认值？</sys:String>
+    <sys:String x:Key="BackupPathNeedAdministrator" xml:space="preserve">您没有权限在此位置中保存备份文件。
+        
+您想改为保存到“文档”文件夹中吗？</sys:String>
+    <sys:String x:Key="UpdatingYourDrivers">正在升级驱动...</sys:String>
+    <sys:String x:Key="drive_status_downloading">正在下载</sys:String>
+    <sys:String x:Key="drive_status_installing">正在安装</sys:String>
+    <sys:String x:Key="drive_status_queued">等待</sys:String>
+    <sys:String x:Key="eula">用户许可协议</sys:String>
+    <sys:String x:Key="privacy_policy">隐私政策</sys:String>
+    <sys:String x:Key="CompletedUpToDate">最新</sys:String>
+    <sys:String x:Key="UpdateYourDrivers">更新您的驱动: </sys:String>
+    <sys:String x:Key="AvailableNumber">{0} 个更新</sys:String>
+    <sys:String x:Key="UpdateYourAvailableDrivers">更新您的驱动: {0} 个更新</sys:String>
+    <sys:String x:Key="DriverMissing">缺失的驱动</sys:String>
+    <sys:String x:Key="DriverOutdated">过时的驱动</sys:String>
+    <sys:String x:Key="DeviceUnplugged">未插入设备</sys:String>
+    <sys:String x:Key="DriverUpdateHistory">驱动更新历史</sys:String>
+    <sys:String x:Key="HavenotUpdateAnyDriver">您还没有更新任何驱动程序</sys:String>
+    <sys:String x:Key="OnlyDisplayLastThirtyHistory">仅显示最后 &lt;Foreground1&gt;30&lt;/Foreground1&gt; 个记录。</sys:String>
+    <sys:String x:Key="UpdateHistoryMayIncludeOtherSoftwareRecord">驱动更新历史记录可能包括其他软件更新的驱动程序。</sys:String>
+    <sys:String x:Key="ExportLastRecord">导出近期记录 (*.txt)</sys:String>
+    <sys:String x:Key="VersionHistory">版本历史</sys:String>
+    <sys:String x:Key="OldVersion">旧版本: </sys:String>
+    <sys:String x:Key="PreviousVersion">上个版本: </sys:String>
+    <sys:String x:Key="CurrentVersion">当前版本:</sys:String>
+    <sys:String x:Key="CancelUpdateTitle">取消更新？</sys:String>
+    <sys:String x:Key="QuitDriverEasy">退出 Driver Easy 程序？</sys:String>
+    <sys:String x:Key="SureCancelUpdate">您确定要取消更新吗？</sys:String>
+    <sys:String x:Key="UpdateCannotStopDuringInstallation">为避免损坏您的电脑，正在安装的驱动不会被中断。</sys:String>
+    <sys:String x:Key="FailedToSendFeedback">无法发送您的消息。</sys:String>
+    <!--20200518, add for new feedback-->
+    <sys:String x:Key="TechnicalSupport">技术支持</sys:String>
+    <sys:String x:Key="DescribeYourProblem">描述您的问题</sys:String>
+    <sys:String x:Key="SubmitTicket">发送</sys:String>
+    <sys:String x:Key="ItTakeTime1">发送后，Driver Easy 可能需要花费 2-3 分钟进行</sys:String>
+    <sys:String x:Key="ItTakeTime2">的收集</sys:String>
+    <sys:String x:Key="WeAlsoCollectYour">我们将收集您的</sys:String>
+    <sys:String x:Key="ForDebuggingAndTroubleShooting">用于调试和故障排除。</sys:String>
+    <sys:String x:Key="ItTakeTimePleaseWait">此过程大约需要 2-3 分钟，请稍候……</sys:String>
+    <sys:String x:Key="LoadingPleaseWait">正在加载……</sys:String>
+    <sys:String x:Key="UpgradeUpperCase">升级</sys:String>
+    <sys:String x:Key="ToDePro">Driver Easy 专业版</sys:String>
+    <sys:String x:Key="ActivateProNow">立即激活专业版</sys:String>
+    <sys:String x:Key="LostMyKey">我忘记激活码了……</sys:String>
+    <sys:String x:Key="DeProRequired">需要升级 Driver Easy 专业版</sys:String>
+    <sys:String x:Key="ProFeatureOneClickUpdateAll">一键更新所有驱动，并享受更多功能……</sys:String>
+    <sys:String x:Key="ProFeatureSaveYourHardwareInfo">将您电脑的硬件信息保存到本地，并享受更多功能……</sys:String>
+    <sys:String x:Key="ProFeatureBackupDriver">一键备份您的驱动，并享受更多功能……</sys:String>
+    <sys:String x:Key="ProFeatureRestoreDriver">从备份中还原您的驱动，并享受更多功能……</sys:String>
+    <sys:String x:Key="ProFeatureUninstallDriver">卸载您的驱动，并享受更多功能……</sys:String>
+    <sys:String x:Key="ProFeatureCreateRestorePoint">在您更新驱动前自动创建一个还原点，并享受更多功能……</sys:String>
+    <sys:String x:Key="ProFeatureInstallDriverAutomatically">一键自动安装您的驱动，并享受更多功能……</sys:String>
+    <sys:String x:Key="ProFeatureViewDriverUpdateHistory">查看您更新驱动的历史记录，并享受更多功能……</sys:String>
+    <sys:String x:Key="ProFeatureExportDriverUpdateHistory">导出驱动历史信息，并享受更多功能……</sys:String>
+    <sys:String x:Key="ProFeatureUpdateLatestVersion">自动升级到 Driver Easy 最新版，并享受更多功能……</sys:String>
+    <sys:String x:Key="FeatureDetectAllDriver">检测所有丢失、过时和不匹配的驱动</sys:String>
+    <sys:String x:Key="FeatureAllDriverCertified">所有驱动直接从制造商处获取，并均已通过认证</sys:String>
+    <sys:String x:Key="FeatureDownaloadOneATime">一次下载一个驱动</sys:String>
+    <sys:String x:Key="FeatureInstallOneATime">一次安装一个驱动</sys:String>
+    <sys:String x:Key="FeatureDownloadAndInstallOneClick">一键下载并安装所有驱动</sys:String>
+    <sys:String x:Key="FeatureFreeSupport">免费的电脑技术支持</sys:String>
+    <sys:String x:Key="FeatureHighSpeed">高速下载驱动</sys:String>
+    <sys:String x:Key="FeatureCreateRestorePoint">自动创建还原点</sys:String>
+    <sys:String x:Key="FeatureBackupAndRestore">备份和还原驱动</sys:String>
+    <sys:String x:Key="FeatureUninstallDriver">卸载驱动</sys:String>
+    <sys:String x:Key="FeatureViewUpdateHistory">查看驱动更新历史记录</sys:String>
+    <sys:String x:Key="FeatureExportHardwareInfo">导出硬件信息</sys:String>
+    <sys:String x:Key="FeatureKeepDriverUpdate">自动升级 Driver Easy 最新版</sys:String>
+    <sys:String x:Key="UpgradeDePro">升级 Driver Easy 专业版</sys:String>
+    <sys:String x:Key="BuyPro">购买专业版</sys:String>
+    <sys:String x:Key="BuyFeatureUpdateAllDriverOneClick">一键更新所有驱动</sys:String>
+    <sys:String x:Key="BuyFeatureUpdateDriverOneATime">一次更新一个驱动</sys:String>
+    <sys:String x:Key="BuyFeatureInstallDriverAutomatically">自动安装驱动</sys:String>
+    <sys:String x:Key="BuyFeatureDownloadOneATime">一次下载一个驱动</sys:String>
+    <sys:String x:Key="BuyNow">立即购买</sys:String>
+    <sys:String x:Key="AlreadyBoughtIt">已经购买？</sys:String>
+    <sys:String x:Key="EnterLicenseToActivate">输入您的许可证密钥以激活专业版。</sys:String>
+    <sys:String x:Key="NoNeedToReinstall">(无需重新安装)</sys:String>
+    <sys:String x:Key="FiftyPercentOff">5 折优惠</sys:String>
+    <!--20210317, tommy, add for settings-->
+    <sys:String x:Key="ManageSettings">管理您的 Driver Easy 设置。</sys:String>
+    <sys:String x:Key="ResetAllSettings">重置所有设置</sys:String>
+    <!--settings gernal-->
+    <sys:String x:Key="ForBetterReadabilityLanguage">为了提高可读性，切换语言时字体可能会发生变化</sys:String>
+    <sys:String x:Key="DateFormat">日期格式</sys:String>
+    <sys:String x:Key="ChooseDataFormat">选择您想要在 Driver Easy 中使用的日期格式。</sys:String>
+    <sys:String x:Key="SkipPermissionReminder">跳过权限提醒</sys:String>
+    <sys:String x:Key="GrantDEAdministratorWhenLaunched">启动时授予 Driver Easy 管理员权限。</sys:String>
+    <sys:String x:Key="ScanDevicesAutomatically">自动扫描设备</sys:String>
+    <sys:String x:Key="ScanWhenDELaunched">启动 Driver Easy 时自动扫描电脑的设备</sys:String>
+    <sys:String x:Key="RunDEAutomatically">自动运行 Driver Easy</sys:String>
+    <sys:String x:Key="RunDEWhenStarts">电脑启动时自动运行 Driver Easy</sys:String>
+    <sys:String x:Key="On">启用</sys:String>
+    <sys:String x:Key="Off">禁用</sys:String>
+    <sys:String x:Key="HelpImproveNew">帮助我们改善 Driver Easy</sys:String>
+    <sys:String x:Key="ShareInfo">分享我的硬件信息</sys:String>
+    <sys:String x:Key="ShareInfoFirst">如果选中此复选框，则表示您同意与我们共享您的系统信息。不用担心，这些信息只包含设备、驱动程序和错误，不涉及您的文件或任何个人信息。所有数据都是匿名的，并已安全存储和受到保密处理。请参阅我们的</sys:String>
+    <sys:String x:Key="ShareInfoFirstNew">不用担心，这些信息只包含设备、驱动程序和错误，不涉及您的文件或任何个人信息。所有数据都是匿名的，并已安全存储和受到保密处理。请参阅我们的</sys:String>
+    <sys:String x:Key="ShareInfoLast">以获取更多信息。</sys:String>
+    <!--settings restore point-->
+    <sys:String x:Key="RestorePoints">还原点</sys:String>
+    <sys:String x:Key="RestorePointsTab">还原点</sys:String>
+    <sys:String x:Key="RestorePointsDesc">还原点是系统在特定时间点的完整备份。Driver Easy 可以在更新驱动程序之前自动创建还原点，因此如果驱动更新出现问题，您可以将系统恢复到更新前的状态。</sys:String>
+    <sys:String x:Key="CreateRestorePointBeforeInstall">驱动安装前会自动创建一个还原点</sys:String>
+    <sys:String x:Key="CreateOneEachDay">Driver Easy 每天最多创建一个还原点。</sys:String>
+    <sys:String x:Key="RestoreYourSystem">还原您的系统</sys:String>
+    <sys:String x:Key="YouCanRevert">您可以使用“系统还原”将电脑还原到以前的时间点</sys:String>
+    <sys:String x:Key="TurnOnSystemProtection">打开系统保护</sys:String>
+    <sys:String x:Key="DEWillCreateNoMoreThanOneEachDay">Driver Easy 在安装驱动程序前会自动创建一个还原点，且每天仅自动创建一个还原点</sys:String>
+    <sys:String x:Key="MaxDiskSpace">建议设置至少 5% 的磁盘空间。</sys:String>
+    <!--settings hidden devices-->
+    <sys:String x:Key="HiddenDevices">隐藏设备</sys:String>
+    <sys:String x:Key="HiddenDevicesDesc">隐藏设备版本不会被再次扫描出来，除非您手动取消隐藏或发布了该隐藏设备驱动程序的更新版本。</sys:String>
+    <sys:String x:Key="AllHiddenDevicesList">所有隐藏的设备都在此列表里</sys:String>
+    <!--settings scheduled scans-->
+    <sys:String x:Key="ScheduledScans">定时扫描</sys:String>
+    <sys:String x:Key="ScheduledScansDesc">您可以自行设定 Driver Easy 扫描电脑的任意时间和频率</sys:String>
+    <sys:String x:Key="ScheduledScansEnable">启用自动扫描计划</sys:String>
+    <sys:String x:Key="CurrentScheduledScanTime">当前计划的扫描时间: </sys:String>
+    <sys:String x:Key="Change">更改</sys:String>
+    <!--tools backup-->
+    <sys:String x:Key="BackupToNew">备份到</sys:String>
+    <sys:String x:Key="BackupFollowingDrivers">备份以下驱动</sys:String>
+    <sys:String x:Key="BackupNew">立即备份</sys:String>
+    <!--download page: more button-->
+    <sys:String x:Key="ViewDriverDetails">查看驱动详情</sys:String>
+    <sys:String x:Key="DeleteDownloadedDriver">删除下载的驱动</sys:String>
+    <sys:String x:Key="RollbackToPreviousDriver">回滚到之前的驱动</sys:String>
+    <sys:String x:Key="UninstallDriver">卸载驱动</sys:String>
+    <sys:String x:Key="DonotShowUpdateAgain">不再显示此版本更新</sys:String>
+    <!--driver detail page-->
+    <sys:String x:Key="DriverUpdateDetails">驱动更新详情</sys:String>
+    <sys:String x:Key="AnUpdateAvailableForYour">{0} 有可用的更新。</sys:String>
+    <sys:String x:Key="SuggestedUpdate">建议更新</sys:String>
+    <sys:String x:Key="CurrentDriverNew">当前驱动</sys:String>
+    <sys:String x:Key="AvailableDriver">可更新驱动</sys:String>
+    <sys:String x:Key="Provider">提供者</sys:String>
+    <!--key Date and Name already had before!-->
+    <sys:String x:Key="Compatability">兼容性</sys:String>
+    <sys:String x:Key="YourDeviceHardwareIds">您的设备具有以下硬件 ID:</sys:String>
+    <sys:String x:Key="AvailableCompatibleHardwareIds">此设备还包含以下兼容 ID:</sys:String>
+    <!--new dialog tips-->
+    <!--20210302, tommy, add for uninstall driver-->
+    <sys:String x:Key="UninstallSuccessfully" xml:space="preserve">{0} 已成功卸载。</sys:String>
+    <!--20210112, tommy, add for rollback driver-->
+    <sys:String x:Key="Rollback">回滚</sys:String>
+    <sys:String x:Key="RollbackFaild">回滚失败, 错误代码: {0}</sys:String>
+    <sys:String x:Key="NoItemsToRollback">没有可回滚的驱动</sys:String>
+    <sys:String x:Key="RolledBack">回滚</sys:String>
+    <sys:String x:Key="SureRollback" xml:space="preserve">您确定要回滚到之前安装的驱动版本吗？</sys:String>
+    <sys:String x:Key="RollbackWarning" xml:space="preserve">如果您回滚该驱动程序，相关设备可能无法工作。</sys:String>
+    <sys:String x:Key="RollbackSuccessfully" xml:space="preserve">{0} 已成功回滚。</sys:String>
+    <sys:String x:Key="ProFeatureRollbackDrivers">回滚您的驱动程序到上一个版本，并享受更多功能……</sys:String>
+    <sys:String x:Key="FeatureRollbackDrivers">回滚驱动</sys:String>
+    <!--20230425, tommy, add for common prompt, Information and Done already have-->
+    <sys:String x:Key="Success">成功</sys:String>
+    <sys:String x:Key="Error">错误</sys:String>
+    <sys:String x:Key="ActionFailed">执行操作失败</sys:String>
+    <sys:String x:Key="Attention">注意</sys:String>
+    <sys:String x:Key="Copy">复制</sys:String>
+    <sys:String x:Key="Copied">已复制</sys:String>
+    <!--20230504, tommy, add for feedback-->
+    <sys:String x:Key="InvalidEmailAddress">无效的邮件地址</sys:String>
+    <sys:String x:Key="InvalidAttachment">无效的附件</sys:String>
+    <!--20230504, tommy, add for update UI-->
+    <sys:String x:Key="UninstallThisDriver">卸载此驱动程序？</sys:String>
+    <sys:String x:Key="UninstallThisDriverDesc">如果您卸载此驱动程序，相关设备可能无法正常工作。</sys:String>
+    <sys:String x:Key="SureUninstallThisDriver">您确定要卸载这个驱动程序吗？</sys:String>
+    <sys:String x:Key="SystemInformation">系统信息</sys:String>
+    <sys:String x:Key="FailedToSave">保存失败</sys:String>
+    <sys:String x:Key="PermissionRequired">请求许可</sys:String>
+    <sys:String x:Key="FileNameAlreadyExists">名为 "{0}" 的文件已存在。</sys:String>
+    <sys:String x:Key="WantToReplace">您想替换它吗？</sys:String>
+
+    <sys:String x:Key="Menu">菜单</sys:String>
+    <sys:String x:Key="PerformsBestIfKeepUpToDate">如果保持最新状态，Driver Easy 将获得最佳性能。</sys:String>
+    <sys:String x:Key="SureCancelUpdateLatestVersion">您确定要取消对 Driver Easy 最新版本的更新吗？</sys:String>
+    <sys:String x:Key="UnableCheckUpdate">无法检测更新</sys:String>
+    <sys:String x:Key="TimeoutAndCheckNetworkAgain">连接超时，请检查您的网络或稍后重试。</sys:String>
+    <sys:String x:Key="CheckNetworkAndTryAgain">请检查您的网络，如果您使用防火墙或代理，请将其禁用然后重试。</sys:String>
+    <sys:String x:Key="Retry">重试</sys:String>
+    <sys:String x:Key="AlreadyLatestVersion">当前版本 {0} 已是最新版。</sys:String>
+    <sys:String x:Key="UpgradeToKeepLatestVersionAutomatically">升级到 Driver Easy 专业版，自动保持最新版本。</sys:String>
+    <sys:String x:Key="NewVersionDriverEasyAvailable">发现 Driver Easy 新版本</sys:String>
+    <sys:String x:Key="LatestVersionAvailable">最新版本的 Driver Easy 现已发布 (版本 {0}).</sys:String>
+    <sys:String x:Key="UpdatingDriverEasy">正在升级 Driver Easy...</sys:String>
+    <sys:String x:Key="UpdatingDriverEasyToVersion">正在升级 Driver Easy {0} 版本。</sys:String>
+    <sys:String x:Key="AboutMinuteRemaining">大约需要 1 分钟</sys:String>
+    <sys:String x:Key="DownloadingDriverEasySetup">正在下载 DriverEasy_Setup.exe</sys:String>
+    <sys:String x:Key="UpdateNow">立即更新</sys:String>
+
+    <sys:String x:Key="Missing">缺失</sys:String>
+    <sys:String x:Key="Outdated">过时</sys:String>
+    <sys:String x:Key="Unplugged">未连接</sys:String>
+    <sys:String x:Key="Stop">停止</sys:String>
+
+    <sys:String x:Key="DeviceErr">该设备已被拔出。</sys:String>
+    <sys:String x:Key="PrinterErr">打印机设备已被拔出。</sys:String>
+
+    <sys:String x:Key="IdentifyOfflineDrivers">确定离线电脑所需的驱动程序</sys:String>
+    <sys:String x:Key="DownloadDriversOnAnotherComputer">在另一台电脑上下载这些驱动程序</sys:String>
+    <sys:String x:Key="DEIdentifyDriversNeedAccessInternet" xml:space="preserve">Driver Easy 将扫描这台电脑，
+以识别其访问互联网所需的驱动程序</sys:String>
+    <sys:String x:Key="WhereWantToSaveScanResult">您想将扫描结果保存在哪里？</sys:String>
+    <sys:String x:Key="WhereDidSaveOfflineScanFile">您把离线扫描文件复制到这台电脑时，您保存在了哪里？</sys:String>
+    <sys:String x:Key="WhenCopyiedToThisComputer">您保存在了哪里？</sys:String>
+    <sys:String x:Key="BuyProNow">立即购买专业版</sys:String>
+    <sys:String x:Key="ChooseLocation">选择路径</sys:String>
+    <sys:String x:Key="OfflineScanFileSaved">离线扫描文件已保存</sys:String>
+    <sys:String x:Key="NowCopyOfflineScanFile">现在将 {0} 复制到可以访问互联网的电脑上，然后，在那台电脑运行 Driver Easy，并选择工具 > 离线扫描 > 第 2 步。</sys:String>
+    <sys:String x:Key="GoToFile">打开文件位置</sys:String>
+    <sys:String x:Key="CheckForUpdates">检查更新</sys:String>
+    <sys:String x:Key="CheckingForUpdates">正在检查更新……</sys:String>
+    <sys:String x:Key="LinkToWebPage">实用链接</sys:String>
+    <sys:String x:Key="WriteAReview">写下评论</sys:String>
+    <sys:String x:Key="SettingsWillSaveAutomatically">当您更改任意偏好设置时, 更改将自动应用。</sys:String>
+    <sys:String x:Key="RestorePointTurnOnNote">启用注意事项:</sys:String>
+    <sys:String x:Key="RestorePointMakeSureTurnOn">确保您已打开系统保护，且最大磁盘空间建议至少设置为 5%。</sys:String>
+    <sys:String x:Key="Undo">撤销</sys:String>
+    <sys:String x:Key="NeedsAccessInternet">以下是您其他电脑访问互联网所需的驱动程序。</sys:String>
+    <sys:String x:Key="DownloadAll">立即下载</sys:String>
+    <sys:String x:Key="DriversDownloaded">驱动程序已下载</sys:String>
+    <sys:String x:Key="NowCopyDriversToNoInternet">现在将它们复制到没有互联网连接的电脑上，并在那台电脑上安装他们。具体操作点击</sys:String>
+    <sys:String x:Key="Here">这里……</sys:String>
+    <sys:String x:Key="GoToDrivers">前往驱动文件夹</sys:String>
+    <sys:String x:Key="AutoSaving">应用修改…</sys:String>
+    <sys:String x:Key="ChangesHaveBeenSaved">修改已保存。</sys:String>
+    <sys:String x:Key="MoreActions">更多操作</sys:String>
+    <sys:String x:Key="ScanShort">扫描</sys:String>
+    <sys:String x:Key="UpdateShort">更新</sys:String>
+    <sys:String x:Key="HardwareShort">硬件</sys:String>
+    <sys:String x:Key="ToolsShort">工具</sys:String>
+    <sys:String x:Key="AllItemsAreDisplayed">所有项目已显示</sys:String>
+    <sys:String x:Key="HowToUninstallDE">卸载 Driver Easy</sys:String>
+    <sys:String x:Key="AllDriversAreDownloaded">所有驱动程序均已下载</sys:String>
+    <sys:String x:Key="InstalledViaDE">此驱动程序通过 Driver Easy 安装</sys:String>
+    <sys:String x:Key="SuccessfullyInstalled">安装成功</sys:String>
+    <sys:String x:Key="SuccessfullyRolledBack">回滚成功</sys:String>
+    <sys:String x:Key="ShowPassword">显示密码</sys:String>
+    <sys:String x:Key="HidePassword">隐藏密码</sys:String>
+    <sys:String x:Key="TurnOn">打开</sys:String>
+    <sys:String x:Key="TurnOff">关闭</sys:String>
+    <sys:String x:Key="Minimize">最小化</sys:String>
+    <sys:String x:Key="Close">关闭</sys:String>
+    <sys:String x:Key="LetUsKnowWhyRollingBack">让我们知道您回滚的原因：</sys:String>
+    <sys:String x:Key="TheDriverNotWorkForDevice">此驱动程序不适用于我的设备</sys:String>
+    <sys:String x:Key="PreviousVersionIsMoreReliable">以前版本的驱动程序更可靠</sys:String>
+    <sys:String x:Key="OtherReason">其他原因</sys:String>
+    <sys:String x:Key="AgreeSendRollbackLog">Driver Easy 已生成一份驱动程序报告用于帮助我们改进产品，勾选此框表示您同意将报告发送给我们。</sys:String>
+    <sys:String x:Key="PaymentMethodRequired">需要填写支付方式。试用期结束后，您将支付X/年的费用，随时可以取消。</sys:String>
+    <sys:String x:Key="PaymentMethodRequiredShort">需要支付信息</sys:String>
+    <sys:String x:Key="NotReadyToUpgrade">还没准备好升级？</sys:String>
+    <sys:String x:Key="StartSevenDayTrial">开始 7 天试用</sys:String>
+    <sys:String x:Key="AvailableInPaidVersion">付费版可用</sys:String>
+    <sys:String x:Key="Allow">允许</sys:String>
+    <sys:String x:Key="NotAllow">不允许</sys:String>
+    <sys:String x:Key="ScheduledTasks">计划任务</sys:String>
+    <sys:String x:Key="InstallationDate">安装日期:</sys:String>
+    <sys:String x:Key="ActivateAndUpdate">激活 &amp; 更新</sys:String>
+    <sys:String x:Key="OfferingSevenDayFreeTrial">我们提供 7 天免费试用，让您在购买前能充分体验 Driver Easy 的功能。试用期结束后，您可以通过续订继续使用 Driver Easy。</sys:String>
+    <sys:String x:Key="GetFiftyOffDiscount">等等，如果您现在升级为专业版，您将获得 50% 的折扣！</sys:String>
+    <sys:String x:Key="SevenDayPlan">7 天计划</sys:String>
+    <sys:String x:Key="OneYearPlan">1 年计划</sys:String>
+    <sys:String x:Key="OnePC">1 台电脑</sys:String>
+    <sys:String x:Key="ThreePCs">3 台电脑</sys:String>
+    <sys:String x:Key="StartTrial">开始试用</sys:String>
+    <sys:String x:Key="ComputersPerLicense">每个许可证可激活的电脑数量</sys:String>
+    <sys:String x:Key="ViewAllVersionOfTheDriver">查看此驱动程序的所有版本</sys:String>
+    <sys:String x:Key="ViewAllDriverVersions">查看所有驱动版本</sys:String>
+    <sys:String x:Key="HugeDriverDatabase">庞大的驱动数据库</sys:String>
+    <sys:String x:Key="RecordsForThisDevice">当前设备的驱动总数</sys:String>
+    <sys:String x:Key="Compatible">兼容</sys:String>
+    <sys:String x:Key="TotalRecordsInDatabase">Driver Easy 数据库中记录的驱动总数</sys:String>
+    <sys:String x:Key="RecordsIncludingDriversForWin7OrNewer">包括适用于 Windows 7 及更高版本的驱动程序</sys:String>
+    <sys:String x:Key="DriversCompatibleWithYourSystem">与您的系统兼容的驱动程序</sys:String>
+    <sys:String x:Key="ReleaseDate">发布日期</sys:String>
+    <sys:String x:Key="Action">操作</sys:String>
+    <sys:String x:Key="InstallOutdatedDriver">安装过时的驱动程序?</sys:String>
+    <sys:String x:Key="InstallOutdatedDriverDesc">安装此驱动程序后，最新版本将移至您的隐藏设备中，直到有更新版本发布。此外，如果您安装过时的驱动程序，该设备可能无法正常工作。</sys:String>
+    <sys:String x:Key="SureWantToContinue">您确定要继续吗？</sys:String>
+    <sys:String x:Key="AboutLegal" xml:space="preserve">本软件仅用于在当前的版权法律下合法复制。未经版权持有人许可的任何复制都是非法的。用户对非法复制行为将依据当前的法律承担刑事和民事责任。
+        
+外部库和贡献者: 
+
+7-Zip
+Igor Pavlov
+7z.dll: GNU LGPL + unRAR 限制</sys:String>
+    <sys:String x:Key="Loading">载入中……</sys:String>
+    <sys:String x:Key="OnlyKeepOneDownloadedDriver">我们只保留一个已下载的驱动程序。</sys:String>
+    <sys:String x:Key="Status">状态</sys:String>
+    <sys:String x:Key="Installing">正在安装……</sys:String>
+    <sys:String x:Key="SorrySomethingWentWrongHere">抱歉，这里出了点问题……</sys:String>
+    <sys:String x:Key="WeNotifiedAndWillTakeALookShortly">我们已收到有关此问题的通知并将尽快进行调查。</sys:String>
+    <sys:String x:Key="Trial">试用</sys:String>
+    <sys:String x:Key="TrialEnd">试用结束</sys:String>
+    <sys:String x:Key="TrialDayLeft">剩余天数</sys:String>
+    <sys:String x:Key="TrialTitleWelcome">欢迎开启您的免费试用之旅！</sys:String>
+    <sys:String x:Key="TrialTitleEndSoon">您的试用即将结束！</sys:String>
+    <sys:String x:Key="TrialTitleEnd">您的免费试用已结束</sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine1Left">我们希望您能喜欢这次体验并决定继续使用我们的产品。您可以查看我们的</sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine1UserManual">用户手册</sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine1Right">以了解所有专业版功能。</sys:String>
+    <sys:String x:Key="TrialContentWelcomeLine2">试用期结束后，系统会自动向您收取订阅费用。在此之前，我们会发送电子邮件提醒您。</sys:String>
+    <sys:String x:Key="TrialTipUnsubscribeLeft">您可以随时点击</sys:String>
+    <sys:String x:Key="TrialTipUnsubscribe">取消订阅</sys:String>
+    <sys:String x:Key="TrialTipUnsubscribeRight">来取消。</sys:String>
+    <sys:String x:Key="TrialTipPricingPlans">发现更多定价计划</sys:String>
+    <sys:String x:Key="TrialContentEnd">我们希望您能享受此次试用体验。立即订阅，保持您的电脑使用最新驱动程序，保持最佳状态！</sys:String>
+    <sys:String x:Key="Hour">时</sys:String>
+    <sys:String x:Key="Min">分</sys:String>
+    <sys:String x:Key="Second">秒</sys:String>
+    <sys:String x:Key="FreeSupport">免费技术支持</sys:String>
+    <sys:String x:Key="FreeSupportTip">100% 电脑专家</sys:String>
+    <sys:String x:Key="RiskFree">零风险</sys:String>
+    <sys:String x:Key="RiskFreeTip">30 天退款保证</sys:String>
+    <sys:String x:Key="StartSubscription">立即订阅</sys:String>
+    <sys:String x:Key="Search">搜索</sys:String>
+    <sys:String x:Key="Theme">主题</sys:String>
+    <sys:String x:Key="ThemeDesc">更改 Driver Easy 的界面外观。</sys:String>
+    <sys:String x:Key="SystemProtectionDesc">Driver Easy 提供还原点功能来保护您的系统。还原点是系统设置和文件的备份。如果驱动程序更新后出现问题，您可以使用此功能将系统安全地返回到较早的时间点。</sys:String>
+    <sys:String x:Key="GameDepd">扫描游戏运行库</sys:String>
+    <sys:String x:Key="GameDepdDesc">当你执行驱动程序扫描时，Driver Easy 将扫描游戏所需的运行库和依赖项，确保它们被准确检测并保持最新。</sys:String>
+    <sys:String x:Key="RegisteredToSteamUser">已被该 Steam 用户注册</sys:String>
+    <sys:String x:Key="Hide">隐藏</sys:String>
+    <sys:String x:Key="Show">显示</sys:String>
+    <sys:String x:Key="Exit">退出</sys:String>
+    <sys:String x:Key="Or">或</sys:String>
+</ResourceDictionary>
