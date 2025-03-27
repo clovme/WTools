@@ -1,0 +1,49 @@
+core: mihomo
+silentStart: false
+appTheme: dark
+useWindowFrame: false
+proxyInTray: true
+maxLogDays: 7
+proxyCols: auto
+connectionDirection: asc
+connectionOrderBy: time
+useSubStore: true
+proxyDisplayMode: full
+proxyDisplayOrder: default
+autoCheckUpdate: false
+autoCloseConnection: true
+useNameserverPolicy: false
+controlDns: true
+controlSniff: true
+nameserverPolicy: {}
+siderOrder:
+  - sysproxy
+  - tun
+  - profile
+  - proxy
+  - rule
+  - resource
+  - override
+  - connection
+  - mihomo
+  - dns
+  - sniff
+  - log
+  - substore
+siderWidth: 250
+sysProxy:
+  enable: false
+  mode: manual
+language: zh-CN
+autoQuitWithoutCore: false
+envType:
+  - cmd
+showFloatingWindow: true
+showTraffic: false
+subStoreHost: 127.0.0.1
+sysproxyCardStatus: col-span-1
+tunCardStatus: col-span-1
+profileCardStatus: col-span-2
+proxyCardStatus: col-span-1
+substoreCardStatus: col-span-1
+disableTray: false

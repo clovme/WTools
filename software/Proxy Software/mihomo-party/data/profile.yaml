@@ -1,0 +1,12 @@
+items:
+  - id: 194f93574d7
+    name: oppa.yaml
+    type: remote
+    url: https://lori.cloud/downloads/oppa.yaml
+    substore: false
+    interval: 0
+    override:
+      - 194f9363581
+    useProxy: true
+    updated: 1740579075021
+current: 194f93574d7

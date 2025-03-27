@@ -1,0 +1,4 @@
+owner: mihomo-party-org
+repo: mihomo-party
+provider: github
+updaterCacheDirName: mihomo-party-updater

@@ -1,0 +1,158 @@
+[
+  {
+    "host": "avatars.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "user-images.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "wallet-static.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "avatars2.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "objects.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "storage.live.com",
+    "port": 443
+  },
+  {
+    "host": "github.githubassets.com",
+    "port": 443
+  },
+  {
+    "host": "login.microsoftonline.com",
+    "port": 443
+  },
+  {
+    "host": "raw.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "collector.github.com",
+    "port": 443
+  },
+  {
+    "host": "panjiachen.github.io",
+    "port": 443
+  },
+  {
+    "host": "vsstartpagenewsfeed.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "fonts.geekzu.org",
+    "port": 443
+  },
+  {
+    "host": "private-user-images.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "app.vssps.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "camo.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "secure.gravatar.com",
+    "port": 443
+  },
+  {
+    "host": "clovme.github.io",
+    "port": 443
+  },
+  {
+    "host": "codeload.github.com",
+    "port": 443
+  },
+  {
+    "host": "challenges.cloudflare.com",
+    "port": 443
+  },
+  {
+    "host": "kurtbestor.github.io",
+    "port": 443
+  },
+  {
+    "host": "js.monitor.azure.com",
+    "port": 443
+  },
+  {
+    "host": "az667904.vo.msecnd.net",
+    "port": 443
+  },
+  {
+    "host": "login.live.com",
+    "port": 443
+  },
+  {
+    "host": "cdnjs.cloudflare.com",
+    "port": 443
+  },
+  {
+    "host": "buttons.github.io",
+    "port": 443
+  },
+  {
+    "host": "objects-origin.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "edge-consumer-static.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "dev.ditu.live.com",
+    "port": 443
+  },
+  {
+    "host": "edgeassetservice.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "devtools.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "cloud.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "alive.github.com",
+    "port": 443
+  },
+  {
+    "host": "s.gravatar.com",
+    "port": 443
+  },
+  {
+    "host": "xpaywalletcdn.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "github.com",
+    "port": 443
+  },
+  {
+    "host": "api.github.com",
+    "port": 443
+  },
+  {
+    "host": "sendvsfeedback2.azurewebsites.net",
+    "port": 443
+  },
+  {
+    "host": "az700632.vo.msecnd.net",
+    "port": 443
+  }
+]
