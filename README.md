@@ -19,9 +19,15 @@ software/Proxy Software/mihomo-party/Mihomo Party.exe
 
 下载或者克隆`git`仓库后，使用 `compress un7z`解压分卷压缩的原文件，解压后会删除分卷压缩文件。
 
-## 上传
+## 压缩
 
 需要提交`git`仓库，使用`compress 7z`命令把大文件分卷压缩，默认压缩大小是`50m`，如果要修改分卷大小，可使用`compress 7z 10m`来指定分卷大小，现在为`10m`大小。
+
+## 推送
+
+使用`compress push`来把数据推入仓库，在推送之前会检测是否有大文件未被压缩，如果有则先压缩。
+
+或者使用`compress 7zp`来压缩并把数据推入仓库。
 
 ## 删除
 
