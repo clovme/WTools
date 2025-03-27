@@ -1,0 +1,56 @@
+{
+    "download": {
+        "path": "D:\\BaiduNetdiskDownload\\Bili23",
+        "max_download_count": 1,
+        "max_thread_count": 2,
+        "video_quality_id": 200,
+        "audio_quality_id": 30300,
+        "video_codec_id": 7,
+        "enable_dolby": false,
+        "enable_notification": false,
+        "delete_history": false,
+        "add_number": true,
+        "enable_speed_limit": false,
+        "speed_mbps": 10
+    },
+    "advanced": {
+        "enable_custom_cdn": true,
+        "custom_cdn": "upos-sz-mirror08c.bilivideo.com",
+        "custom_cdn_mode": 0,
+        "custom_cdn_list": [],
+        "download_error_retry_count": 3,
+        "download_suspend_retry_interval": 3,
+        "always_use_http_protocol": false
+    },
+    "merge": {
+        "ffmpeg_path": "D:\\Application\\tools\\ffmpeg.exe",
+        "override_file": false,
+        "m4a_to_mp3": true,
+        "auto_clean": true
+    },
+    "extra": {
+        "get_danmaku": false,
+        "danmaku_type": 0,
+        "get_subtitle": false,
+        "subtitle_type": 0,
+        "get_cover": false
+    },
+    "proxy": {
+        "proxy_mode": 1,
+        "proxy_ip": "",
+        "proxy_port": null,
+        "enable_auth": false,
+        "auth_username": "",
+        "auth_password": ""
+    },
+    "misc": {
+        "episode_display_mode": 2,
+        "show_episode_full_name": true,
+        "auto_select": false,
+        "player_preference": 0,
+        "player_path": "",
+        "show_user_info": true,
+        "auto_check_update": true,
+        "enable_debug": false
+    }
+}
