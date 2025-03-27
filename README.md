@@ -26,3 +26,7 @@ software/Proxy Software/mihomo-party/Mihomo Party.exe
 ## 删除
 
 使用`compress delete`删除所有分卷压缩文件。
+
+## 预览
+
+![main.png](main.png)
