@@ -272,7 +272,7 @@
             "TargetPath": "%rp%\\software\\System Management\\UninstallTool.exe",
             "IconLocation": "%rp%\\software\\System Management\\UninstallTool.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 1
         },
         {
             "Name": "Umi-OCR",
@@ -468,25 +468,18 @@
             "Count": 0
         },
         {
-            "Name": "Clash for Windows",
-            "TargetPath": "%rp%\\software\\Proxy Software\\Clash.for.Windows\\Clash for Windows.exe",
-            "IconLocation": "%rp%\\software\\Proxy Software\\Clash.for.Windows\\Clash for Windows.exe",
-            "Arguments": "",
-            "Count": 0
-        },
-        {
             "Name": "Mihomo Party",
             "TargetPath": "%rp%\\software\\Proxy Software\\mihomo-party\\Mihomo Party.exe",
             "IconLocation": "%rp%\\software\\Proxy Software\\mihomo-party\\Mihomo Party.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 1
         },
         {
             "Name": "Oppa",
             "TargetPath": "C:\\Program Files (x86)\\Oppa\\Oppa.exe",
             "IconLocation": "C:\\Program Files (x86)\\Oppa\\Oppa.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 1
         }
     ],
     "下载工具": [
