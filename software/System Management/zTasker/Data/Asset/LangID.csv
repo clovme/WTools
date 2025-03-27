@@ -1,0 +1,227 @@
+ID,简称,英文名称,中文名称
+1,ar,Arabic,阿拉伯语
+2,bg,Bulgarian,保加利亚语
+3,ca,Catalan,加泰罗尼亚语
+4,zh-CHS,Chinese (Simplified),中文(简体)
+5,cs,Czech,捷克语
+6,da,Danish,丹麦语
+7,de,German,德语
+8,el,Greek,希腊语
+9,en,English,英语
+10,es,Spanish,西班牙语
+11,fi,Finnish,芬兰语
+12,fr,French,法语
+13,he,Hebrew,希伯来语
+14,hu,Hungarian,匈牙利语
+15,is,Icelandic,冰岛语
+16,it,Italian,意大利语
+17,ja,Japanese,日语
+18,ko,Korean,朝鲜语
+19,nl,Dutch,荷兰语
+20,no,Norwegian,挪威语
+21,pl,Polish,波兰语
+22,pt,Portuguese,葡萄牙语
+24,ro,Romanian,罗马尼亚语
+25,ru,Russian,俄语
+26,hr,Croatian,克罗地亚语
+27,sk,Slovak,斯洛伐克语
+28,sq,Albanian,阿尔巴尼亚语
+29,sv,Swedish,瑞典语
+30,th,Thai,泰语
+31,tr,Turkish,土耳其语
+32,ur,Urdu,乌尔都语
+33,id,Indonesian,印度尼西亚语
+34,uk,Ukrainian,乌克兰语
+35,be,Belarusian,白俄罗斯语
+36,sl,Slovenian,斯洛文尼亚语
+37,et,Estonian,爱沙尼亚语
+38,lv,Latvian,拉脱维亚语
+39,lt,Lithuanian,立陶宛语
+41,fa,Persian,波斯语
+42,vi,Vietnamese,越南语
+43,hy,Armenian,亚美尼亚语
+44,az,Azeri,阿泽里语
+45,eu,Basque,巴斯克语
+47,mk,Macedonian,马其顿语
+54,af,Afrikaans,南非荷兰语
+55,ka,Georgian,格鲁吉亚语
+56,fo,Faroese,法罗语
+57,hi,Hindi,印地语
+62,ms,Malay,马来语
+63,kk,Kazakh,哈萨克语
+64,ky,Kyrgyz,吉尔吉斯语
+65,sw,Kiswahili,斯瓦希里语
+67,uz,Uzbek,乌兹别克语
+68,tt,Tatar,鞑靼语
+70,pa,Punjabi,旁遮普语
+71,gu,Gujarati,古吉拉特语
+73,ta,Tamil,泰米尔语
+74,te,Telugu,泰卢固语
+75,kn,Kannada,卡纳达语
+78,mr,Marathi,马拉地语
+79,sa,Sanskrit,梵语
+80,mn,Mongolian,蒙古语
+86,gl,Galician,加利西亚语
+87,kok,Konkani,贡根语
+90,syr,Syriac,叙利亚语
+101,dv,Divehi,Divehi
+127,　,Invariant Language (Invariant Country),固定语言(固定国家/地区)
+1025,ar-SA,Arabic (Saudi Arabia),阿拉伯语(沙特阿拉伯)
+1026,bg-BG,Bulgarian (Bulgaria),保加利亚语(保加利亚)
+1027,ca-ES,Catalan (Catalan),加泰罗尼亚语(加泰罗尼亚语)
+1028,zh-TW,Chinese (Taiwan),中文(台湾)
+1029,cs-CZ,Czech (Czech Republic),捷克语(捷克共和国)
+1030,da-DK,Danish (Denmark),丹麦语(丹麦)
+1031,de-DE,German (Germany),德语(德国)
+1032,el-GR,Greek (Greece),希腊语(希腊)
+1033,en-US,English (United States),英语(美国)
+1035,fi-FI,Finnish (Finland),芬兰语(芬兰)
+1036,fr-FR,French (France),法语(法国)
+1037,he-IL,Hebrew (Israel),希伯来语(以色列)
+1038,hu-HU,Hungarian (Hungary),匈牙利语(匈牙利)
+1039,is-IS,Icelandic (Iceland),冰岛语(冰岛)
+1040,it-IT,Italian (Italy),意大利语(意大利)
+1041,ja-JP,Japanese (Japan),日语(日本)
+1042,ko-KR,Korean (Korea),朝鲜语(韩国)
+1043,nl-NL,Dutch (Netherlands),荷兰语(荷兰)
+1044,nb-NO,"Norwegian, Bokm?l (Norway)",挪威语、伯克梅尔(挪威)
+1045,pl-PL,Polish (Poland),波兰语(波兰)
+1046,pt-BR,Portuguese (Brazil),葡萄牙语(巴西)
+1048,ro-RO,Romanian (Romania),罗马尼亚语(罗马尼亚)
+1049,ru-RU,Russian (Russia),俄语(俄罗斯)
+1050,hr-HR,Croatian (Croatia),克罗地亚语(克罗地亚)
+1051,sk-SK,Slovak (Slovakia),斯洛伐克语(斯洛伐克)
+1052,sq-AL,Albanian (Albania),阿尔巴尼亚语(阿尔巴尼亚)
+1053,sv-SE,Swedish (Sweden),瑞典语(瑞典)
+1054,th-TH,Thai (Thailand),泰语(泰国)
+1055,tr-TR,Turkish (Turkey),土耳其语(土耳其)
+1056,ur-PK,Urdu (Islamic Republic of Pakistan),乌尔都语(巴基斯坦伊斯兰共和国)
+1057,id-ID,Indonesian (Indonesia),印度尼西亚语(印度尼西亚)
+1058,uk-UA,Ukrainian (Ukraine),乌克兰语(乌克兰)
+1059,be-BY,Belarusian (Belarus),白俄罗斯语(白俄罗斯)
+1060,sl-SI,Slovenian (Slovenia),斯洛文尼亚语(斯洛文尼亚)
+1061,et-EE,Estonian (Estonia),爱沙尼亚语(爱沙尼亚)
+1062,lv-LV,Latvian (Latvia),拉脱维亚语(拉脱维亚)
+1063,lt-LT,Lithuanian (Lithuania),立陶宛语(立陶宛)
+1065,fa-IR,Persian (Iran),波斯语(伊朗)
+1066,vi-VN,Vietnamese (Vietnam),越南语(越南)
+1067,hy-AM,Armenian (Armenia),亚美尼亚语(亚美尼亚)
+1068,az-Latn-AZ,"Azeri (Latin, Azerbaijan)","Azeri (Latin, Azerbaijan)"
+1069,eu-ES,Basque (Basque),巴斯克语(巴斯克语 )
+1071,mk-MK,Macedonian (Former Yugoslav Republic of Macedonia),马其顿语(前南斯拉夫联盟马其顿共和国)
+1078,af-ZA,Afrikaans (South Africa),南非荷兰语(南非)
+1079,ka-GE,Georgian (Georgia),格鲁吉亚语(格鲁吉亚)
+1080,fo-FO,Faroese (Faroe Islands),法罗语(法罗群岛)
+1081,hi-IN,Hindi (India),印地语(印度)
+1086,ms-MY,Malay (Malaysia),马来语(马来西亚)
+1087,kk-KZ,Kazakh (Kazakhstan),哈萨克语(哈萨克斯坦)
+1088,ky-KG,Kyrgyz (Kyrgyzstan),吉尔吉斯语(吉尔吉斯坦)
+1089,sw-KE,Kiswahili (Kenya),斯瓦希里语(肯尼亚)
+1091,uz-Latn-UZ,"Uzbek (Latin, Uzbekistan)","Uzbek (Latin, Uzbekistan)"
+1092,tt-RU,Tatar (Russia),鞑靼语(俄罗斯)
+1094,pa-IN,Punjabi (India),旁遮普语(印度)
+1095,gu-IN,Gujarati (India),古吉拉特语(印度)
+1097,ta-IN,Tamil (India),泰米尔语(印度)
+1098,te-IN,Telugu (India),泰卢固语(印度)
+1099,kn-IN,Kannada (India),卡纳达语(印度)
+1102,mr-IN,Marathi (India),马拉地语(印度)
+1103,sa-IN,Sanskrit (India),梵语(印度)
+1104,mn-MN,"Mongolian (Cyrillic, Mongolia)",蒙古语(西里尔语、蒙古)
+1110,gl-ES,Galician (Galician),加利西亚语(加利西亚语)
+1111,kok-IN,Konkani (India),贡根语(印度)
+1114,syr-SY,Syriac (Syria),叙利亚语(叙利亚)
+1125,dv-MV,Divehi (Maldives),Divehi (Maldives)
+2049,ar-IQ,Arabic (Iraq),阿拉伯语(伊拉克)
+2052,zh-CN,Chinese (People's Republic of China),中文(中华人民共和国)
+2055,de-CH,German (Switzerland),德语(瑞士)
+2057,en-GB,English (United Kingdom),英语(英国)
+2058,es-MX,Spanish (Mexico),西班牙语(墨西哥)
+2060,fr-BE,French (Belgium),法语(比利时)
+2064,it-CH,Italian (Switzerland),意大利语(瑞士)
+2067,nl-BE,Dutch (Belgium),荷兰语(比利时)
+2068,nn-NO,"Norwegian, Nynorsk (Norway)",挪威语、尼诺斯克(挪威)
+2070,pt-PT,Portuguese (Portugal),葡萄牙语(葡萄牙)
+2074,sr-Latn-CS,"Serbian (Latin, Serbia)","Serbian (Latin, Serbia)"
+2077,sv-FI,Swedish (Finland),瑞典语(芬兰)
+2092,az-Cyrl-AZ,"Azeri (Cyrillic, Azerbaijan)","Azeri (Cyrillic, Azerbaijan)"
+2110,ms-BN,Malay (Brunei Darussalam),马来语(文莱达鲁萨兰)
+2115,uz-Cyrl-UZ,"Uzbek (Cyrillic, Uzbekistan)","Uzbek (Cyrillic, Uzbekistan)"
+3073,ar-EG,Arabic (Egypt),阿拉伯语(埃及)
+3076,zh-HK,Chinese (Hong Kong S.A.R.),中文(香港特别行政区)
+3079,de-AT,German (Austria),德语(奥地利)
+3081,en-AU,English (Australia),英语(澳大利亚)
+3082,es-ES,Spanish (Spain),西班牙语(西班牙)
+3084,fr-CA,French (Canada),法语(加拿大)
+3098,sr-Cyrl-CS,"Serbian (Cyrillic, Serbia)","Serbian (Cyrillic, Serbia)"
+4097,ar-LY,Arabic (Libya),阿拉伯语(利比亚)
+4100,zh-SG,Chinese (Singapore),中文(新加坡)
+4103,de-LU,German (Luxembourg),德语(卢森堡)
+4105,en-CA,English (Canada),英语(加拿大)
+4106,es-GT,Spanish (Guatemala),西班牙语(危地马拉)
+4108,fr-CH,French (Switzerland),法语(瑞士)
+5121,ar-DZ,Arabic (Algeria),阿拉伯语(阿尔及利亚)
+5124,zh-MO,Chinese (Macao S.A.R.),中文(澳门特别行政区)
+5127,de-LI,German (Liechtenstein),德语(列支敦士登)
+5129,en-NZ,English (New Zealand),英语(新西兰)
+5130,es-CR,Spanish (Costa Rica),西班牙语(哥斯达黎加)
+5132,fr-LU,French (Luxembourg),法语(卢森堡)
+6145,ar-MA,Arabic (Morocco),阿拉伯语(摩洛哥)
+6153,en-IE,English (Ireland),英语(爱尔兰)
+6154,es-PA,Spanish (Panama),西班牙语(巴拿马)
+6156,fr-MC,French (Principality of Monaco),法语(摩纳哥公国)
+7169,ar-TN,Arabic (Tunisia),阿拉伯语(突尼斯)
+7177,en-ZA,English (South Africa),英语(南非)
+7178,es-DO,Spanish (Dominican Republic),西班牙语(多米尼加共和国)
+8193,ar-OM,Arabic (Oman),阿拉伯语(阿曼)
+8201,en-JM,English (Jamaica),英语(牙买加)
+8202,es-VE,Spanish (Venezuela),西班牙语(委内瑞拉)
+9217,ar-YE,Arabic (Yemen),阿拉伯语(也门)
+9225,en-029,English (Caribbean),English (Caribbean)
+9226,es-CO,Spanish (Colombia),西班牙语(哥伦比亚)
+10241,ar-SY,Arabic (Syria),阿拉伯语(叙利亚)
+10249,en-BZ,English (Belize),英语(伯利兹)
+10250,es-PE,Spanish (Peru),西班牙语(秘鲁)
+11265,ar-JO,Arabic (Jordan),阿拉伯语(约旦)
+11273,en-TT,English (Trinidad and Tobago),英语(特立尼达和多巴哥)
+11274,es-AR,Spanish (Argentina),西班牙语(阿根廷)
+12289,ar-LB,Arabic (Lebanon),阿拉伯语(黎巴嫩)
+12297,en-ZW,English (Zimbabwe),英语(津巴布韦)
+12298,es-EC,Spanish (Ecuador),西班牙语(厄瓜多尔)
+13313,ar-KW,Arabic (Kuwait),阿拉伯语(科威特)
+13321,en-PH,English (Republic of the Philippines),英语(菲律宾共和国)
+13322,es-CL,Spanish (Chile),西班牙语(智利)
+14337,ar-AE,Arabic (U.A.E.),阿拉伯语(阿拉伯联合酋长国)
+14346,es-UY,Spanish (Uruguay),西班牙语(乌拉圭)
+15361,ar-BH,Arabic (Bahrain),阿拉伯语(巴林)
+15370,es-PY,Spanish (Paraguay),西班牙语(巴拉圭)
+16385,ar-QA,Arabic (Qatar),阿拉伯语(卡塔尔)
+16394,es-BO,Spanish (Bolivia),西班牙语(玻利维亚)
+17418,es-SV,Spanish (El Salvador),西班牙语(萨尔瓦多)
+18442,es-HN,Spanish (Honduras),西班牙语(洪都拉斯)
+19466,es-NI,Spanish (Nicaragua),西班牙语(尼加拉瓜)
+20490,es-PR,Spanish (Puerto Rico),西班牙语(波多黎各)
+31748,zh-CHT,Chinese (Traditional),中文(繁体)
+31770,sr,Serbian,塞尔维亚语
+6203,sma-NO,Sami (Southern) (Norway),南萨摩斯语(挪威)
+7194,sr-Cyrl-BA,Serbian (Cyrillic) (Bosnia and Herzegovina),塞尔维亚语(西里尔文，波斯尼亚和黑塞哥维那)
+1077,zu-ZA,Zulu (South Africa),祖鲁语
+1076,xh-ZA,Xhosa (South Africa),班图语
+1074,tn-ZA,Tswana (South Africa),茨瓦纳语
+2107,se-SE,Sami (Northern) (Sweden),北萨摩斯语(瑞典)
+7227,sma-SE,Sami (Southern) (Sweden),南萨摩斯语(瑞典)
+4122,hr-BA,Croatian (Bosnia and Herzegovina),克罗地亚语(波斯尼亚和黑塞哥维那)
+9275,smn-FI,Sami (Inari) (Finland),伊那里萨摩斯语(芬兰)
+3179,quz-PE,Quechua (Peru),克丘亚语(秘鲁)
+3131,se-FI,Sami (Northern) (Finland),北萨摩斯语(芬兰)
+8251,sms-FI,Sami (Skolt) (Finland),斯科特萨摩斯语(芬兰)
+1106,cy-GB,Welsh (United Kingdom),威尔士语
+5146,bs-Latn-BA,Bosnian (Bosnia and Herzegovina),波斯尼亚语(拉丁文，波斯尼亚和黑塞哥维那)
+4155,smj-NO,Sami (Lule) (Norway),律勒欧萨摩斯语(挪威)
+1153,mi-NZ,Maori (New Zealand),毛利语
+2155,quz-EC,Quechua (Ecuador),克丘亚语(厄瓜多尔)
+6170,sr-Latn-BA,Serbian (Latin) (Bosnia and Herzegovina),塞尔维亚语(拉丁文，波斯尼亚和黑塞哥维那)
+5179,smj-SE,Sami (Lule) (Sweden),律勒欧萨摩斯语(瑞典)
+1132,ns-ZA,Northern Sotho (South Africa),北梭托语
+1131,quz-BO,Quechua (Bolivia),克丘亚语(玻利维亚)
+1083,se-NO,Sami (Northern) (Norway),北萨摩斯语(挪威)
+1082,mt-MT,Maltese (Malta),马耳他语

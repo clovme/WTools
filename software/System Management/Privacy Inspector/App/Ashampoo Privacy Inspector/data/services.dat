@@ -1,0 +1,3448 @@
+clr_optimization_v2.0.50727_32;310;2.44
+ClipSrv;50;2.16
+AAMWService;17;2.82
+AAMW_WSC_Service_XP;5;3.2
+Ashampoo Defrag Service;24;3.83
+aspnet_state;103;2.89
+Dot3svc;114;3.11
+wuauserv;449;3.12
+Browser;147;2.58
+DfSdkS;182;2.97
+Themes;136;3.4
+Dhcp;9;3
+WmdmPmSN;28;1.79
+MSDTC;54;2.83
+Dnscache;172;2.59
+Spooler;136;3.4
+Eventlog;73;2.95
+EapHost;52;2.62
+ERSvc;35;1.63
+ALG;97;2.52
+ProtectedStorage;63;3.65
+hidserv;221;3.12
+helpsvc;28;2.46
+HTTPFilter;22;3.18
+ImapiService;14;3.14
+CiSvc;33;1.94
+hkmsvc;48;3.13
+BITS;221;2.55
+PolicyAgent;76;3.28
+JavaQuickStarterService;21;2.43
+FastUserSwitchingCompatibility;10;2.4
+WZCSVC;27;3.26
+CryptSvc;72;3.4
+SysmonLog;16;2.88
+swprv;58;3.47
+Messenger;40;1.8
+napagent;88;2.85
+NetTcpPortSharing;51;2.27
+mnmsrvc;18;1.94
+NetDDE;12;2.67
+NetDDEdsdm;18;2.33
+Netman;130;3.94
+xmlprov;10;3.5
+Nla;19;2.95
+NtLmSsp;9;2.89
+NVSvc;6;3
+OCS INVENTORY;3;3
+RSVP;14;3.21
+RasMan;59;2.63
+rpcapd;6;2.83
+RemoteRegistry;118;1.7
+RemoteAccess;61;2.54
+RpcLocator;47;2.51
+seclogon;57;2.49
+LanmanServer;69;3.3
+ShellHWDetection;57;2.95
+wscsvc;168;2.88
+RDSessMgr;20;1.6
+SCardSvr;88;2.82
+SSDPSRV;61;2.18
+SENS;65;2.88
+srservice;33;3.73
+Schedule;148;0.82
+LmHosts;9;3
+TapiSrv;102;1.91
+TlntSvr;38;2.5
+Wmi;16;2.06
+upnphost;63;2.97
+UPS;23;2.22
+RasAuto;45;3.04
+dmserver;16;3.69
+dmadmin;13;3.31
+VSS;75;3.61
+Alerter;53;1.91
+WebClient;72;2.63
+NtmsSvc;9;3.67
+AudioSrv;11;3.36
+idsvc;53;2.43
+msiserver;140;3.56
+wlidsvc;71;3.06
+FontCache3.0.0.0;54;2.39
+UMWdf;12;1.75
+stisvc;78;3.24
+SharedAccess;101;3.14
+W32Time;125;3.31
+wmiApSrv;134;2.7
+TrkWks;97;2.58
+AxInstSV;379;3.19
+SensrSvc;135;2.61
+VaultSvc;93;3
+UmRdpService;31;3.03
+AeLookupSvc;147;2.39
+AppIDSvc;66;3.02
+Appinfo;109;3.06
+Apple Mobile Device;84;2.06
+AAMW_WSC_Service_Vista;11;3.64
+Wlansvc;138;3.8
+AntiVirService;134;3.63
+AntiVirSchedulerService;74;2.81
+BFE;68;3.47
+BDESVC;78;2.95
+BlackfishSQL;3;3
+wbengine;41;3.41
+BthServ;132;2.83
+Bonjour Service;128;2.07
+PeerDistSvc;96;2.71
+KeyIso;55;2.95
+CmdAgent;54;4.44
+defragsvc;83;3.11
+WdiServiceHost;57;3.11
+DPS;65;3.14
+WdiSystemHost;50;3.1
+WPDBusEnum;38;2.34
+UI0Detect;41;3.24
+Fax;8;2.38
+fdPHost;44;2.82
+FDResPub;36;3.06
+Gizmo Central;3;3
+HomeGroupProvider;37;3.38
+HomeGroupListener;33;3.12
+IKEEXT;44;3.34
+iphlpsvc;71;3.63
+iPod Service;18;2.44
+SessionEnv;36;2.19
+KtmRm;34;2.76
+PerfHost;22;2.45
+pla;39;2.95
+Mcx2Svc;37;3.11
+clr_optimization_v2.0.50727_64;37;2.81
+MSiSCSI;35;2.8
+MMCSS;48;2.92
+netprofm;35;3.49
+nsi;49;3.69
+NlaSvc;41;3.39
+Stereo Service;38;2.89
+ose;34;2.41
+CscService;27;2.3
+WPCSvc;67;1.82
+PNRPsvc;32;3.22
+p2psvc;46;2.8
+p2pimsvc;33;2.97
+IPBusEnum;28;3.07
+PNRPAutoReg;28;2.79
+PcaSvc;46;3.3
+SCPolicySvc;7;3.29
+RpcEptMapper;43;3.05
+THREADORDER;29;3.34
+UxSms;56;3.63
+SNMPTRAP;41;2.54
+sppsvc;63;3.33
+sppuinotify;18;2.94
+SstpSvc;31;3.84
+Power;98;4.11
+SysMain;167;3.55
+TabletInputService;64;2.2
+TBS;24;2.21
+wercplsupport;43;2.44
+QWAVE;58;2.93
+lltdsvc;34;3.32
+EFS;49;3.08
+vds;38;3.47
+msvsmon80;9;3
+msvsmon90;4;3.25
+ufad-ws60;4;3.25
+VMAuthdService;8;3.25
+VMnetDHCP;6;3.17
+VMware NAT Service;8;3.25
+WinDefend;184;2.61
+wudfsvc;9;3
+ehRecvr;36;3.03
+ehSched;26;3.38
+WMPNetworkSvc;98;2.62
+TrustedInstaller;70;2.57
+WSearch;213;2.8
+AudioEndpointBuilder;6;3
+WbioSrvc;55;2.07
+FontCache;40;2.88
+Wecsvc;38;2.45
+WcsPlugInService;41;3.12
+WerSvc;94;2.38
+MpsSvc;224;3.48
+WinRM;40;3.03
+SDRSVC;84;3.26
+wcncsvc;43;2.81
+WinHttpAutoProxySvc;53;3.08
+WwanSvc;75;3.11
+CertPropSvc;50;2.34
+InputDirector;9;3
+IDVistaService;6;3
+StorSvc;8;2.5
+AcrSch2Svc;60;3.08
+AMD External Events Utility;129;3.19
+DFSR;6;3.17
+VBurnSecs;4;3.5
+EMDMgmt;15;3.13
+SLUINotify;8;2.25
+slsvc;8;3.63
+TryAndDecideService;4;2.5
+Ati HotKey Poller;72;2.17
+BsMailProxy;4;3.25
+AEADIFilters;6;2.33
+O&O Defrag;10;4.1
+RalinkRegistryWriter;6;3.5
+afcdpsrv;52;3.9
+UxTuneUp;33;2.88
+HP Status Server;1;3
+EventSystem;1;5
+AsSysCtrlService;20;3.35
+IswSvc;16;4.13
+a2free;3;2.33
+UPHClean;3;4
+TMPService;1;3
+ProtexisLicensing;3;1.67
+NAUpdate;43;2
+AERTFilters;8;3.37
+abp480n5;3;0.33
+QBFCService;2;2.5
+AppHostSvc;40;2.73
+a2AntiMalware;37;4.78
+AntiVirMailService;59;3.54
+AntiVirWebService;81;3.98
+simptcp;12;3.83
+KOBIL Container Encryption Control1;1;4
+KOBIL_MSDI;1;4
+LiveUpdate;3;3.67
+Netzmanager Service;5;4.4
+Norton Ghost;7;4.86
+SvcOnlineArmor;9;4.78
+PCToolsSSDMonitorSvc;4;2.75
+Sage_Classic_Line_Database_40;1;4
+Registry;1;4
+StarMoney Business 4.0 OnlineUpdate;1;5
+Symantec SymSnap VSS Provider;2;3.5
+TuneUp.Defrag;11;3.64
+TuneUp.UtilitiesSvc;95;3.79
+adpu160m;1;1
+avast! Antivirus;410;4.07
+ATI Smart;15;2.33
+Irmon;9;2
+TermService;66;2.59
+W3SVC;14;3.14
+MsMpSvc;54;3.93
+Diskeeper;47;4.64
+AESTFilters;18;2.61
+astcc;1;0
+HDDSvc;3;4.67
+YahooAUService;11;2.36
+Akamai;29;2.48
+avg9wd;3;3
+cFosSpeedS;76;4.68
+MWLService;4;3
+npggsvc;5;4.6
+getPlusHelper;1;1
+IDriverT;15;3.27
+KMService;22;3.45
+MBAMService;71;4.49
+Microsoft SharePoint Workspace Audit Service;10;2.3
+ose64;5;2.6
+SwitchBoard;4;2.75
+FLEXnet Licensing Service;21;1.81
+ekrn;154;3.92
+avg9emc;5;4.8
+avgfws9;4;3.25
+AVGIDSAgent;34;3.88
+N360;42;4.79
+hpqcxs08;14;2.64
+Creative ALchemy AL6 Licensing Service;7;3.86
+Creative Audio Engine Licensing Service;8;3.63
+clr_optimization_v4.0.30319_32;113;2.85
+Ati External Event Utility;7;2.43
+CTAudSvcService;24;4.75
+ehstart;8;2.75
+UPnPService;3;3.33
+Abiosdsk;6;2
+PnkBstrA;41;3.15
+ADSMService;4;3
+MOBKbackup;3;2.67
+AAV UpdateService;7;3.57
+MSSQL$SQLEXPRESS;9;4.22
+Nero BackItUp Scheduler 4.0;15;1.6
+btwdins;25;2.92
+ATService;3;4
+odserv;27;2.52
+HP Health Check Service;18;1.94
+CCALib8;2;4
+SbieSvc;24;4.63
+AVP;137;4.55
+ABBYY.Licensing.FineReader.Corporate.10.0;4;4.25
+Lavasoft Ad-Aware Service;5;3
+TGCM_ImportWiFiSvc;1;1
+avast! Mail Scanner;11;4
+avast! Web Scanner;10;3.9
+FirebirdGuardianDefaultInstance;6;3.17
+FirebirdServerDefaultInstance;5;3.6
+RoxWatch12;3;3.33
+fsssvc;15;2.67
+IGDCTRL;9;4.89
+McComponentHostService;7;2
+Creative Service for CDROM Access;3;1.67
+RapportMgmtService;8;4
+Pml Driver HPZ12;17;2.53
+lxdu_device;2;3.5
+Fabs;19;1.68
+EhttpSrv;14;3.93
+AgereModemAudio;10;3.3
+GDFwSvc;25;4.72
+AOL ACS;6;2.17
+MDM;11;1.55
+tsusbhub;140;1.37
+PDAgent;23;4.87
+AppBoosterService;2;4
+ASO3DiskOptimizer;7;2.71
+cjpcsc;9;4.44
+LogMeIn;11;4.91
+LightScribeService;21;3.29
+AcPrfMgrSvc;2;5
+Application Updater;18;2.56
+gusvc;59;2.51
+TuneUp.ProgramStatisticsSvc;3;1.67
+wltrysvc;7;4.14
+WatAdminSvc;25;2
+AGCoreService;1;3
+MSK80Service;6;3.33
+AntiVirFirewallService;18;4.22
+STacSV;18;3.5
+SBSDWSCService;4;4.5
+MemeoBackgroundService;4;4
+McAfee SiteAdvisor Service;12;3.33
+LBTServ;16;3.38
+USBSafelyRemoveService;24;4.63
+AcronisOSSReinstallSvc;7;3
+ChamClock Set Time Service for Vista;3;4.67
+Automatic LiveUpdate Scheduler;2;5
+ATKGFNEXSrv;9;4.44
+x10nets;6;2.17
+SBPIMSvc;3;1.67
+hpqwmiex;17;2.65
+stllssvr;2;1.5
+Beep;6;1.17
+ASDR;3;4.33
+UNS;11;4.27
+nTuneService;3;4.33
+Browser Defender Update Service;3;4
+ABBYY.Licensing.FineReader.Professional.10.0;15;2.73
+LIVESRV;1;5
+RichVideo;17;2.53
+scan;7;2
+NetMsmqActivator;44;2.48
+nSvcIp;4;3.5
+ACDaemon;19;1.95
+RapiMgr;7;3.86
+ePowerSvc;33;3.03
+ASLDRService;8;3
+NetTcpActivator;26;2.77
+StarWindServiceAE;8;2.63
+Crypkey License;6;1.83
+SQLBrowser;6;3.83
+SQLAgent$SQLEXPRESS;7;3
+ftpsvc;7;3.86
+AdobeActiveFileMonitor7.0;1;1
+UleadBurningHelper;7;1.71
+CachemanService;13;3.85
+AshampooDefragService;3;4.33
+IviRegMgr;4;2.5
+PowerManager;2;1
+PSI_SVC_2;15;2.8
+ABBYY.Licensing.FineReader.Professional.9.0;6;3.5
+SysEnforce;1;-1
+Nero BackItUp Scheduler 3;3;2.33
+asc3350p;1;5
+aic78u2;1;-1
+SHDSERV;3;5
+GoToMyPC;1;5
+NMSAccessU;1;1
+DicterUpdateService;2;2.5
+Radio.fx;12;2.92
+vsmon;12;4.83
+avg8emc;1;3
+gupdate;148;2.03
+ANIWZCSdService;2;2
+Adobe LM Service;7;2.57
+Guard.Mail.ru;32;1.56
+FSMA;11;4.91
+avast! Firewall;74;4.74
+ThreatFire;9;4.22
+VMUSBArbService;10;3.8
+Steam Client Service;81;4.2
+IISADMIN;8;4.38
+VideoAcceleratorService;7;3.71
+PnkBstrB;8;4.5
+TemproMonitoringService;3;2.67
+ABBYY.Licensing.FineReader.ScreenshotReader.9.0;9;4.89
+IBMPMSVC;3;3
+IAStorDataMgrSvc;24;4.04
+mi-raysat_3dsmax2010_32;1;1
+FsUsbExService;5;2.4
+LMS;14;4.07
+CacheBoost Service;1;5
+DrWebEngine;15;4.13
+DUMeterSvc;7;4.57
+Asset Management Daemon;1;1
+WcesComm;4;2.75
+ATKKeyboardService;1;1
+Autodesk Licensing Service;4;2.5
+WAS;22;3.64
+TeamViewer5;4;4.25
+SOHCImp;1;2
+acthelper;9;4.78
+ZhuDongFangYu;7;1.71
+NAV;6;5
+NwSapAgent;4;3.25
+CLPSLS;3;3
+SeaPort;13;2.15
+clr_optimization_v4.0.21006_32;1;1
+osppsvc;23;3
+MySecurityCenter License Service;1;1
+NTI IScheduleSvc;3;2.67
+SmcService;9;5
+TDslMgrService;7;4.43
+Aha154x;1;-1
+CSObjectsSrv;6;1
+acssrv;28;4.71
+MDES;5;1
+OS Selector;11;3.82
+SNMP;10;3
+Power Manager DBC Service;2;3.5
+BlueSoleilCS;9;2.11
+SSHNAS;1;1
+CarboniteService;4;4.75
+HsfXAudioService;4;2.25
+TunngleService;6;4.33
+Adobe Version Cue CS3;2;1
+aswUpdSv;3;4.33
+MySQL;12;3.33
+Thpsrv;2;5
+PCToolsFirewallPlus;4;4.5
+2GISUpdateService;43;3.37
+CGVPNCliSrvc;12;4.33
+StarMoney 7.0 OnlineUpdate;4;4
+IAANTMON;10;2.6
+ServiceLayer;7;1.86
+Net Driver HPZ12;13;3.46
+DCPP2Svc;1;5
+Winstep Xtreme Service;8;4.75
+GameConsoleService;4;-0
+Com4QLBEx;5;1
+CLCapSvc;1;1
+ActiveSMART Service;1;5
+cvhsvc;6;4
+NWCWorkstation;7;2.71
+lxcz_device;1;3
+NBService;4;2
+IS360service;5;3
+gupdate1c998b4bd91bd30;1;1
+TomTomHOMEService;19;1.95
+C-DillaCdaC11BA;1;1
+VRAID Log Service;1;2
+Greg_Service;4;1.75
+hpsrv;13;2.85
+vsserv;32;4.22
+ImmunetProtect;3;3
+DpHost;7;5
+ICQ Service;4;1.75
+hpqwmi;1;3
+AVKProxy;25;4.6
+OODefragAgent;61;4.57
+DES2 Service;7;2.71
+UpdateCenterService;4;3
+ioloSystemService;12;3.58
+360rp;14;4
+BlueSoleil Hid Service;4;2.75
+Recovery Service for Windows;4;3
+WPFFontCache_v0400;12;2.08
+kaccore;1;1
+SentinelKeysServer;1;3
+ABBYY.Licensing.FineReader.Sprint.9.0;20;3.55
+HPSLPSVC;16;2.94
+AfaService;1;3
+FirebirdServerMAGIXInstance;7;2.14
+AVerRemote;6;4.17
+AddFiltr;1;1
+CA_LIC_SRVR;1;1
+McShield;5;3
+EBOOSTRSVC;14;4.64
+Active@ Disk Monitor;1;4
+Kodak AiO Network Discovery Service;2;3
+p2pgasvc;3;2
+adfs;1;3
+AntUpdaterService;2;4.5
+aswTdi;2;3
+de_serv;3;5
+NanoServiceMain;20;4.75
+ASWLSVC;1;4
+WLANKEEPER;2;2.5
+Apache2.2;8;4.13
+NetPipeActivator;27;1.85
+GPAdjustTimeService;1;5
+prio_svc;8;4.88
+hasplms;4;2.25
+MatSvc;10;2.4
+AVKWCtl;29;4.9
+PLFlash DeviceIoControl Service;4;2
+RelevantKnowledge;4;1
+MZCCntrl;1;1
+ndassvc;3;4.67
+TabletServicePen;4;3.75
+PuranDefrag;6;4.5
+spupdsvc;1;2
+uCamMonitor;2;3.5
+SBAMSvc;13;3.92
+NIS;51;4.47
+FSDFWD;11;4.36
+ioloFileInfoList;1;3
+OMSI download service;1;3
+winvnc;3;4.67
+EvtEng;8;2.5
+DrWebFwSvc;12;4.58
+LoviVkontakteService;2;1
+nlsvc;12;4.67
+NMIndexingService;4;2
+BCUService;1;1
+SPAMfighter Update Service;5;4.2
+wwEngineSvc;1;5
+sftlist;7;4.29
+Acer HomeMedia Connect Service;1;5
+CFSvcs;2;2.5
+WDSmartWareBackgroundService;1;4
+SfCtlCom;1;5
+TmPfw;2;3
+TmProxy;1;3
+TMBMServer;1;5
+clr_optimization_v4.0.30319_64;39;3.36
+HoudiniLicenseServer;1;5
+Aavmker4;1;2
+GoogleDesktopManager-051210-111108;3;3
+nlsX86cc;12;2.33
+hpqddsvc;9;2.56
+AdobeActiveFileMonitor8.0;1;1
+ANSYS, Inc. License Manager;1;5
+ES lite Service;1;4
+Microsoft Office Groove Audit Service;16;1.81
+szserver;3;4.33
+ODDPwrSvc;1;3
+sdAuxService;5;4
+sdCoreService;5;4
+JMB36X;1;1
+TurboBoost;14;4.43
+PavPrSrv;3;5
+HssWd;5;2.2
+McNaiAnn;4;4.5
+GDTunerSvc;7;4
+HDD Observer Service;2;2
+SwOffWeb;3;4
+AFBAgent;9;3.11
+BsScanner;4;4.5
+APC UPS Service;12;4.42
+bgsvcgen;1;5
+libusbd;1;1
+WMDM PMSP Service;1;4
+mcmscsvc;6;3
+InCDsrv;2;1
+mfevtp;42;1.48
+AppleOSSMgr;2;5
+c2wts;3;3.33
+sftvsa;7;3.71
+VoddlerNet;1;4
+LinksysUpdater;1;1
+DockLoginService;3;3.67
+EmmaUpdMgmtSvc;1;1
+rpcnet;2;1.5
+FinePrint ????????? v6;1;4
+klnagent;1;4
+appdrvrem01;2;3
+XAudioService;3;2.33
+AVKService;16;4.81
+.1268239722;1;1
+BWMeterConSvc;1;5
+S24EventMonitor;5;3
+KEN Client Service;1;5
+QQPCRTP;21;3
+BOT4Service;4;2.75
+ABBYY.Licensing.Lingvo.Desktop.14.0;3;2.33
+O&O CleverCache;19;4.74
+Sony Ericsson PCCompanion;6;3.83
+VcmXmlIfHelper;1;2
+tuEaglesService;1;3
+NIHardwareService;3;5
+BsMobileCS;3;1.67
+SentinelProtectionServer;1;3
+RS_Service;1;3
+ANIWConnService;1;5
+LVSrvLauncher;1;-1
+MSMQ;10;2.9
+FSORSPClient;11;4.82
+PMBDeviceInfoProvider;4;2
+SLService;1;3
+TODDSrv;1;5
+UserAccess7;1;1
+PlugPlay;1;5
+ForceWare Intelligent Application Manager (IAM);4;4.5
+Updater Service;3;4.67
+MpfService;2;2.5
+RoxMediaDB9;2;2
+InterBaseServer;1;3
+SQLWriter;10;4.4
+ABBYY.Licensing.PDFTransformer.Classic.3.0;4;3.75
+CachemanXPService;2;4.5
+FolderSize;5;4.8
+MSMQTriggers;5;2.4
+nosGetPlusHelper;1;1
+EPSON_EB_RPCV4_01;3;4
+RegSrvc;7;2.86
+sp_rssrv;3;3.33
+AMD_RAIDXpert;4;4.25
+PCLEPCI;1;1
+KMWDSERVICE;5;4.8
+FreeAgentGoNext Service;2;5
+S3D Service (Win64);1;1
+FLEXnet Licensing Service 64;6;3.17
+WTService;2;1
+EPSON_PM_RPCV4_01;4;3.5
+CPMService;9;4.56
+PrismXL;1;1
+ezSharedSvc;12;1.58
+MSFtpsvc;1;1
+GenieTimelineService;7;4.57
+TelevisionFanaticService;1;1
+DynDNS Updater;2;5
+IJPLMSVC;14;3.86
+GPSearchAssistant;1;1
+LMIGuardianSvc;4;2
+eRecoveryService;1;3
+MSSQLServerADHelper;3;3
+lxbk_device;1;3
+spmgr;1;5
+ONDA Autorun CDROM Monitor;1;2
+{08CECC71-A9B1-417d-AB3A-C57C4F854F53}365943146;1;3
+lxddCATSCustConnectService;1;3
+AVG Security Toolbar Service;8;4.38
+ACS;3;4
+AsusService;3;3.67
+SolutoService;13;3.69
+mozybackup;3;5
+nmservice;5;4.6
+RoxMediaDB11;1;1
+PGPserv;2;5
+WindowBlinds;8;4.25
+PSIMSVC;3;5
+WDSC;3;2.67
+9734BF6A-2DCD-40f0-BAB0-5AAFEEBE1269;3;4
+PSPRSERV;1;5
+drwupgrade;1;5
+avgfws;28;4.39
+CTDevice_Srv;1;1
+wlcrasvc;24;3.58
+GbpSv;15;1.53
+dgdersvc;6;3
+WMZuneComm;3;3.67
+AHDDC2;65;4.32
+LoClntService;4;4
+ZillyaAVAuxSvc;2;2
+ZillyaAVCoreSvc;2;2
+HardDiskSentinelService;2;4
+DsiWMIService;6;3
+WTGService;4;1.75
+avgwd;40;3.85
+OpcEnum;1;1
+Adobe Version Cue CS4;2;3
+LENOVO.CAMMUTE;2;4
+LexBceS;2;2.5
+WMCoreService;1;5
+LVPrcSrv;2;3
+TeamViewer6;16;3.94
+AODService;6;3.83
+NTIBackupSvc;4;1.25
+ATKFUSService;2;5
+NTISchedulerSvc;2;2
+VC10SecS;4;4.25
+ubsvcgd;1;1
+Fastfat;2;1
+AppleChargerSrv;4;4.25
+GS In-Game Service;1;1
+ETService;4;3
+PPService;1;3
+AdaptecStorageManagerAgent;2;5
+PDEngine;21;4.9
+QipGuard;1;1
+DokanMounter;5;2.2
+NMSAccess;1;3
+SoundMAX Agent Service (default);3;2.33
+ScsiAccess;1;2
+TOSHIBA Bluetooth Service;6;3.67
+DBService;11;1.82
+TsUsbFlt;66;2.11
+6to4;3;3.67
+Tekla Structures Licensing Service;1;4
+iprip;7;3
+CaCCProvSP;1;2
+NDProxy;368;1.98
+ICBC Daemon Service;2;2
+RichVideo64;9;3.11
+Canon Driver Information Assist Service;3;2
+HDDlife HDD Access service;3;3.67
+XS Stick Service;1;5
+NitroReaderDriverReadSpool;2;2
+HP Wireless Assistant Service;4;3.25
+Windows7FirewallService;7;4.71
+Smart TimeLock;4;2
+Hamachi2Svc;15;4.2
+SampleCollector;1;5
+TosCoSrv;2;4
+postgresql-8.4;2;3
+TVSched;3;1.33
+SPTISRV;2;2
+RServer3;6;4.33
+Prosieben;2;4
+EPSONStatusAgent2;1;5
+GDScan;27;4.81
+AMD Reservation Manager;4;4.25
+MSSQLServerADHelper100;6;1.5
+tvnserver;5;4
+DCService.exe;7;3
+EATON Service module;1;4
+Marvell RAID;2;3
+jswpsapi;1;1
+VSNService;1;4
+Adobe Version Cue CS2;3;2.67
+TMachInfo;2;0
+Bluetooth OBEX Service;4;2.75
+Capture Device Service;3;1
+WebrootSpySweeperService;1;1
+ClientService;7;3.43
+MMS;4;4.5
+DSClockSyncTime;1;4
+GEST Service;1;1
+DLSProvider;1;1
+moohelp;1;1
+Samsung UPD Service;4;3.5
+vpnagent;4;2.75
+SymSnapService;1;1
+IntuitUpdateService;2;2
+0290211289865744mcinstcleanup;1;4
+McNASvc;4;3.75
+McProxy;5;2.8
+McODS;5;3.8
+McSysmon;1;3
+SRSHDAudioService;8;5
+GREGService;4;2
+McMPFSvc;7;3.71
+MyWiFiDHCPDNS;4;4
+HPDrvMntSvc.exe;7;3.57
+MSSQL$PINNACLESYS;1;4
+BUNAgentSvc;1;1
+GreenPrint;1;5
+exfat;2;4
+Suite Service;2;0
+TNaviSrv;1;1
+AVPlayerUpdater;1;5
+CPUCooLServer;2;4.5
+AntiVirScheduler;3;3
+Intel(R) PROSet Monitoring Service;5;3.6
+Speed Disk service;1;1
+Creative Dolby Digital Live Pack Licensing Service;1;4
+Vcsw;1;2
+MGE Service module;1;4
+a2AntiDialer;2;3.5
+Connectify;16;4.69
+NisSrv;11;3.27
+TabletServiceWacom;5;5
+aswNdis2;1;5
+DisplayLinkService;3;3.67
+brmfrmps;1;1
+NfsClnt;4;2.75
+VAIO Event Service;3;3
+RoxLiveShare9;1;3
+UPDATESRV;32;4.22
+Secunia Update Agent;8;3.75
+JetDrive WindowsClosingService;5;4.4
+MSCSPTISRV;1;1
+ac.sharedstore;2;1.5
+ocster_backup;8;4.13
+RoxWatch9;1;3
+DvmMDES;2;2.5
+BBSvc;32;2.31
+ZuneWlanCfgSvc;3;2
+ssidrv;1;2
+lxdn_device;2;2
+WO_LiveService;141;4.21
+Bandoo Coordinator;2;1
+pdfcDispatcher;3;4.33
+ScrybeUpdater;1;2
+Micro Star SCM;3;3
+Steganos Volatile Disk;2;4.5
+ImeDictUpdateService;1;1
+BsHelpCS;3;2.33
+Bluetooth Device Manager;3;4
+AMD FUEL Service;28;4.18
+LCS;1;5
+RoxMediaDB13;3;3
+DFServ;4;4
+bowser;26;1.19
+Update Server;5;3
+AntiARPClientLoader;1;-1
+DAUpdaterSvc;1;4
+o2flash;3;2.67
+WINZIPSSDiskOptimizer;1;1
+NeroMediaHomeService.4;4;2.75
+Secunia PSI Agent;16;3.94
+XLDoctor Service;1;1
+USBWaechter;1;5
+MobilityService;3;1.33
+omniserv;5;4.6
+NeroRegInCDSrv;3;2.67
+mfefire;29;1.55
+PAVFNSVR;4;5
+SynoDrService;1;4
+CobianBackup10;2;4
+COSService.exe;2;4.5
+SynchronizationService.exe;2;3
+TPCHSrv;2;2
+Start BT in service;2;3
+SetupARService;1;1
+ZentimoService;12;4.92
+OO DiskImage;8;4.5
+OODefrag;1;5
+AVerScheduleService;5;3.6
+URadioServer;1;1
+SNDSrvc;1;5
+ccProxy;1;5
+Symantec AntiVirus;3;5
+NTI BackupNowEZSvr;1;4
+Paragon System Backup Dienst;3;4.33
+MSSQLSERVER;5;3.8
+spldr;1;2
+nvUpdatusService;36;2.94
+SgtSch2Svc;2;1
+gupdatem;60;2.38
+DefragFS;1;1
+BITCOMET_HELPER_SERVICE;8;4.38
+Tweak7SystemService;1;5
+CLHNServiceForPowerDVD;3;3
+Symantec System Recovery;1;5
+QDLService2kAD;1;1
+DF5Serv;1;5
+Serviio;4;4
+AdvancedSystemCareService;26;3.81
+vcsFPService;3;4.67
+NOBU;4;2
+!SASCORE;11;3.91
+LiebertM;1;3
+StkSSrv;1;5
+UMVPFSrv;5;3.8
+K7EmlPxy;1;5
+K7FWSrvc;1;5
+K7PSSrvc;1;5
+K7RTScan;1;5
+K7SpmSrc;1;3
+K7TSMngr;1;5
+WTouchService;2;3
+GoogleIMEJaCacheService;2;4.5
+Belkin 54Mbps Wireless USB;1;5
+BsBrowser;1;3
+BsFire;3;4
+BsMain;4;3.25
+Mamutu;5;4.6
+GsServer;7;4.86
+FTRTSVC;2;2
+PWServer;1;5
+SentinelSecurityRuntime;1;5
+ASDiscoverySvc;1;4
+ASDBEngine;1;4
+ASJobEngine;1;4
+ASMsgEngine;1;3
+Cheyenne Alert Notification Server;1;3
+LogWatch;1;1
+wampmysqld;3;4.67
+wampapache;4;4.5
+Vivotek_ST3402;1;4
+EsetUninstaller;1;3
+Wcmsvc;10;2.9
+CyberLink PowerDVD 11.0 Monitor Service;3;3.33
+SCVSSService;3;4.33
+AtherosSvc;11;4.18
+ESHASRV;2;5
+srvnet40.exe;1;5
+AdobeARMservice;262;2.66
+HPWMISVC;4;4.75
+Futuremark SystemInfo Service;12;3.5
+GamesAppService;2;4
+AMOptimalDiskService;2;2
+DevoloNetworkService;4;4.75
+MlVTMSS;1;4
+F-Secure Gatekeeper Handler Starter;4;5
+UnsignedThemes;6;3.17
+F-Secure Network Request Broker;2;5
+avast! Net Client Service;1;5
+HDD & SSD access service;1;5
+Brother XP spl Service;9;2.56
+eLoggerSvc6;2;5
+NNFSVC;1;5
+Norman NJeeves;2;5
+NVOY;1;5
+nsesvc;2;5
+NPROSECSVC;1;5
+nvcoas;2;5
+Norman ZANDA;3;3.33
+AMService;1;3
+iReboot;1;5
+WMSVC;5;3.8
+Agile1Password;5;4.6
+WinVNC4;5;4.6
+WefiEngSvc;2;3.5
+bgsvcg;1;5
+DMDefragService;2;2
+3CXConferenceRoom;1;5
+ACT2_Service;29;4.14
+DeltaCopyService;1;5
+EchoVNC WindowsService;1;5
+uvnc_service;3;5
+NitroDriverReadSpool;6;4.67
+NitroReaderDriverReadSpool2;4;4
+AnvirRun;1;5
+Soda PDF Helper Service;1;1
+DXPNetworkSecurityService;1;4
+LPDSVC;7;3.86
+RoxMediaDB10;1;2
+ASBroker;1;2
+ASChannel;1;2
+HP ProtectTools Service;2;3
+gupdate1ca978c4e900e9a;1;3
+HPFSService;1;2
+HpFkCryptService;1;2
+accoca;1;2
+PSHost;3;5
+PAVSRV;2;5
+PskSvcRetail;2;5
+Panda Software Controller;2;5
+TPSrv;2;5
+nwtsrv;1;4
+MegaFon Modem. RunOuc;3;3.67
+PassThru Service;5;4.6
+RoxLiveShare11;1;1
+MCLIENT;4;5
+RoxWatch11;1;1
+SandraAgentSrv;6;2.33
+KSafeSvc;4;4.5
+HerculesDJControlMP3;3;4
+Frost_4_7_0_1;1;5
+TOSHIBA eco Utility Service;2;4.5
+SpyEmrgSrv;1;4
+StarMoney 8.0 OnlineUpdate;9;4.33
+Lexware_Datenbank_Plus;3;4
+BCWipeSvc;1;5
+USBDLM;3;3.67
+SystemSuite Task Manager;1;4
+TSNxGService;8;4.63
+EaseUS Agent;6;3.67
+WDBtnMgrSvc.exe;1;4
+DMS;2;4
+AcronisAgent;2;4
+FreemakeUtilsService;2;5
+hpCMSrv;3;3.67
+HP Power Assistant Service;1;2
+HmsService;2;5
+SMTPSVC;1;3
+WinRoute;2;3
+AVM IGD CTRL Service;2;4
+Asftr!_for6ff;1;5
+Extensions PDF Printer Service;1;1
+LVPrcS64;1;4
+MotoHelper;3;3
+HWDeviceService.exe;3;2.33
+ArchiCrypt Ultimate RAM-Disk 2;2;5
+EpsonCustomerResearchParticipation;3;2.33
+bsserv;1;5
+HyperDeskCustomThemeEnabler;2;2.5
+KiesAllShare;1;5
+OpenVPNAccessClient;1;5
+MAGIX StartUp Analyze Service;1;5
+gupdate1ca96667104d870;1;5
+Desura Install Service;1;4
+Amsp;8;4.38
+TmListen;1;5
+WCUService_STC_FF;1;5
+PdiService;2;4
+DTSRVC;2;4
+OpenVPNService;8;4.88
+IMFservice;13;3.38
+BrYNSvc;5;2.6
+SpeedBoosterSvc;4;2.5
+RJSuService;2;1
+Apache2.2-Zend;2;4
+MySQL_ZendServer51;1;4
+Maxtor Sync Service;1;5
+BootRacerServ;6;4.5
+EgisTec Service;1;4
+maconfservice;3;2.67
+WinTabService;2;2.5
+ZuneNetworkSvc;3;2.67
+OOCleverCacheAgent;2;4
+Paragon System Backup Service;2;4
+HP Port Resolver;1;3
+IBG_gds_db;1;5
+IBS_gds_db;2;3
+mscs;2;4.5
+msctsvr;2;4.5
+TVersityMediaServer;2;3
+Intel(R) Desktop Boards FSC Application Service;2;4
+CyberLink Media Library Service;1;1
+CLSched;1;1
+ArcGIS License Manager;2;5
+DVD-RAM_Service;2;4.5
+Fix-It Task Manager;5;4.4
+Notebook Hardware Control Service;2;5
+SATARaid5 Config Service;1;5
+AMD FusionUtility Service;2;3.5
+BOINC;3;5
+AdvancedSystemCareService5;34;4.06
+NasPmService;5;4
+srvSMART;1;4
+APC Data Service;7;4.29
+FileCopy;4;2.75
+AVM WLAN Connection Service;9;4.89
+Common Toolkit Tools;2;1
+HP Support Assistant Service;5;4.4
+srvGCCL;1;5
+BBUpdate;13;2.62
+Yota Access Service (Modems);3;4.33
+GladFileMonSvc;2;3
+BsecureAV;1;1
+OAcat;6;5
+w7Svc;1;4
+EpsonBidirectionalService;5;2.4
+EPSON_EB_RPCV4_04;4;4.75
+EPSON_PM_RPCV4_04;4;4.75
+StatusAgent4;2;4.5
+LMIMaint;3;4.67
+PCSUService;3;3
+PCCUJobMgr;1;1
+ServerSR;1;1
+metasploitProSvc;1;5
+metasploitThin;1;5
+metasploitApache;1;5
+metasploitPostgreSQL;1;5
+VMwareHostd;12;4.08
+mitsijm2011;1;3
+POSHService;1;3
+SNAC;6;4
+DellDigitalDelivery;1;5
+D_Link_DWA-125;2;1
+OOCleverCache;3;5
+Bluetooth Media Service;7;1.71
+vfsFPService;4;3.75
+BestSyncSvc;3;4
+TestHandler;2;3
+PowerSavingUtilityService;2;3.5
+Cleaner_Validator;1;5
+MouseWithoutBordersSvc;3;4.33
+vToolbarUpdater;2;0
+TVStickDriverLoader;1;1
+Abrosoft: Abrosoft FantaMorph update permissions manager. 12810.;3;4.33
+D_Link_DWA-125_WPS;2;5
+EagleXNt;1;1
+CrashPlanService;2;4.5
+fsdevcon;1;5
+SamsungAllShareV2.0;5;3.8
+Realtek11nSU;6;4.83
+Bigfoot Networks Killer Service;4;5
+USBS3S4Detection;1;3
+TeamViewer7;17;4
+IFXSpMgtSrv;2;4
+BrcmMgmtAgent;2;4
+ABBYY.Licensing.FineReader.Professional.11.0;7;3.86
+WinSSHD;1;5
+asComSvc;10;2.3
+asHmComSvc;8;2.88
+FileZilla Server;7;3.86
+NetBT;1;2
+LoService;1;5
+cpuz132;1;2
+AV Scanning Service;1;5
+AV Assistant Service;1;5
+FVScheduler;1;5
+FreemakeVideoCapture;8;3.25
+MSSQLServerOLAPService;1;5
+MSSQLFDLauncher;1;4
+AdobeFlashPlayerUpdateSvc;281;3.58
+CyberLink PowerDVD 11.0 Service;3;3
+WSWNA3100;1;5
+ArraySSL_VPN_Service8.4.0.72;1;4
+Array_Utility_Service8.4.0.72;1;4
+syncagentsrv;13;4
+CxAudMsg;3;4
+TOSHIBA HDD SSD Alert Service;1;5
+WDDMService;4;2.25
+2;1;5
+CareMon;2;2
+WDFMEService;2;1
+spidernt;1;5
+HFGService;1;5
+fshoster;10;4.6
+HerculesWiFi;1;5
+MCSWASVR;3;4.33
+Freemake Improver;5;2.4
+WRSVC;12;2.92
+HssSrv;3;3
+ReadyComm.DirectRouter;1;5
+SmartSurferManager;1;2
+.AVQWindowsMonitorService;1;4
+lxdd_device;2;3.5
+DragonSvc;4;4.25
+bepldr;1;4
+Z-Cron;1;-1
+0130639drv;1;1
+36729330;1;1
+IGBASVC;1;3
+Atheros Bt&Wlan Coex Agent;3;4
+Synergy Client;1;5
+PDFProFiltSrvPP;3;3.33
+PretonClientService;1;5
+ShadowProtectSvc;1;5
+VSNAPVSS;1;4
+VIAKaraokeService;7;3.57
+emaudsv;4;4.75
+CyberLink PowerDVD 12 Media Server Monitor Service;5;1.6
+CyberLink PowerDVD 12 Media Server Service;5;1.6
+ADExchange;11;2.36
+RP_FWS;1;4
+Radialpoint Security Services;1;5
+CSIScanner;1;5
+SkypeUpdate;81;2.25
+Firefox Service;1;3
+CDROM_Eject_H;1;-1
+DragonUpdater;15;3.6
+PhotoshopElementsDeviceConnect;1;3
+Nakido;1;5
+Creative Audio Pack Licensing Service;2;5
+Creative Media Toolbox 6 Licensing Service;2;4.5
+CLKMSVC10_90970B6B;1;1
+lxduCATSCustConnectService;2;3.5
+AdobeActiveFileMonitor10.0;2;2.5
+pr2aslcb;1;1
+RealNetworks Downloader Resolver Service;4;3.5
+DrWebAVService;10;4.6
+DrWebNetFilter;9;4.56
+Change Modem Device Service;1;3
+Device Control Service;1;5
+KmGameMouseService1X;1;5
+DcRaidMoSrv;1;4
+SystemExplorerHelpService;10;5
+TouchServicePen;2;2.5
+WajamUpdater;1;3
+IASJet;1;1
+gdipp_svc_64;2;4
+MpKsl96343fbf;1;1
+svcChoiceMail;1;5
+TEDService;1;4
+Pragma6Serv;1;1
+VmbService;4;3.25
+CLKMSVC10_9EC60124;1;3
+Autodesk Network Licensing Service;1;-1
+lxcg_device;1;3
+Null;1;1
+RetroExpLauncher;1;2
+RetroExp Helper;1;2
+SolidWorks Licensing Service;1;2
+WDRulesService;2;3
+TVGOnlineUpdateSvc;2;2
+ColdFusion 10 Application Server;1;4
+ColdFusion 9 Application Server;1;3
+PS3 Media Server;3;4.33
+vToolbarUpdater10.2.0;3;2
+VFPRadioSupportService;2;2
+ppped;3;4
+SftService;1;1
+MOBK835backup;1;1
+PFNOJUM;1;1
+KLRDCSUXZCPP;1;1
+Connect Manager. RunOuc;4;3.75
+glearn;1;1
+tor;2;1
+ncpclcfg;1;5
+ncprwsnt;1;5
+NcpSec;1;5
+cphs;8;4.25
+KaraokeService;1;1
+MSSQL$LABEL;1;-1
+eTNListener;1;5
+HiPatchService;3;4
+BpSvc;1;5
+SZDrvSvc;2;3
+dcpsysmgrsvc;1;4
+HPAuto;3;5
+HPClientSvc;4;4.75
+Lenovo.VIRTSCRLSVC;2;4
+LENOVO.TPKNRSVC;1;4
+LENOVO.MICMUTE;2;4.5
+AFD;1;5
+AsusUacSvc;1;5
+ZemanaAntiMalwareScheduler;1;5
+MozillaMaintenance;65;4.05
+Bluetooth Low Energy Service;1;4
+SXDS10;2;2.5
+SDHookService;1;5
+SDScannerService;9;4.56
+SDWSCService;9;4.78
+SDUpdateService;6;4
+ABBYY.Licensing.FineReader.Corporate.11.0;1;5
+lxdx_device;1;2
+FBDiskOptimizer;2;4.5
+Redirector;1;1
+sprtsvc_ddoctorv2;1;1
+HelloNet_PPPoE_Service;1;5
+S3DSvc32;1;5
+S3DSvc64;1;5
+XLServicePlatform;25;1.16
+ndsvc;3;4
+DiskDoctorService;3;4.67
+NSL;2;3
+AvanquestWindowsMonitorService;1;5
+Fix-It Essentials Task Manager;1;4
+ERA_SERVER;1;4
+CLHNServiceForPowerDVD12;4;2
+AMPPALR3;5;2.4
+Droppix Service;1;3
+GhostStartService;1;5
+RalinkRegistryWriter64;4;4.75
+BrokerInfrastructure;23;3.74
+TuneUpUtilitiesDrv;1;1
+IntuitUpdateServiceV4;2;1
+NCO;6;3.83
+Image Protection;1;1
+MSCamSvc;5;3.8
+MySQL55;1;2
+Skype C2C Service;11;2.09
+MSSQL$PASINVOICE;1;1
+SystemStore;1;1
+PPTVService;2;1
+drwagntd;2;5
+Net Protector Port Firewall;1;3
+MSI_SuperCharger;8;3.75
+DQLWinService;1;1
+AlertService;1;1
+MEMEEWNAA;1;1
+SearchAnonymizer;2;1.5
+testsvc;4;3
+TSZWVSV;1;1
+VistaFirewallService;1;1
+JumpDesktop;1;5
+MCEBuddy 2.0 Engine;1;5
+clr_optimization_v4.0.30128_32;1;-1
+DWMRCS;1;5
+IconMan_R;6;2.17
+Autodesk Content Service;2;1
+Payback-Update-Service;1;3
+Payback-Reporting-Service;1;3
+NVCScheduler;1;5
+SuperRam;4;4
+ALSysIO;1;1
+AlipaySecSvc;5;3.8
+WiseBootAssistant;22;3.18
+PhraseExpressServerService;1;5
+Soda 3D PDF Reader Service;2;4
+pcwQuickStopService1;2;5
+TouchServiceWacom;2;5
+VService;1;1
+ArchiCrypt Ultimate RAM-Disk 3;2;5
+SpeedDiskService;3;3.67
+CodeMeter.exe;3;2.33
+Dyn Updater;2;5
+NielsenUpdate;5;3.4
+MyWebFace_5aService;1;1
+VMCService;1;5
+sdnsplus;1;5
+StarWindService;1;5
+Ad-Aware Service;4;3.75
+SepMasterService;12;4.67
+ASCAntivirusSrv;14;3.86
+NETGEARGenieDaemon;4;4.75
+EgisTec Ticket Service;1;1
+Guard Agent;4;4.5
+Live Updater Service;4;1.5
+NXDBServerV3;1;5
+GoogleDesktopManager;1;5
+OkayFreedom VPN Starter Service;7;4.43
+XMouseButton Launcher;1;5
+WDBackup;3;3.33
+NFSserver;2;5
+DAZContentManagementService;1;4
+Partner Service;2;2
+Amazon Download Agent;2;4.5
+ADVService;1;4
+UsbService;1;4
+BingDesktopUpdate;8;2.63
+gupdate1c98ac1a356e340;1;3
+HssTrayService;3;4
+PanService;7;1.57
+ioMceDeviceService;2;5
+IoDevMgrService;2;5
+Sony PC Companion;7;3
+AvanquestDiskOptimizer;1;5
+DHCPServer;1;5
+OracleOraClient11g_home1TNSListener;1;5
+xsherlock;1;1
+Memopal Crawler;1;5
+ACPService;1;5
+TPHKLOAD;2;5
+usnjsvc;1;1
+OnecomService;1;5
+UpdateHelper;1;1
+ZAtheros Bt&Wlan Coex Agent;1;1
+Ast Service;1;1
+AdvancedSystemCareService6;31;3.87
+Polar Daemon;1;4
+WDDriveService;4;3.5
+Norton PC Checkup Application Launcher;1;5
+InteractiveLogon;1;1
+Realtek87SE;1;1
+lxbc_device;1;1
+AnySendService;1;1
+Intel(R) Capability Licensing Service Interface;5;3.2
+CLPSLauncher;4;2.25
+MBAMScheduler;19;4.32
+HitmanProScheduler;6;4.83
+CinemaNow Service;1;1
+IOLO_SRV;1;1
+DynDNS_Updater_Service;1;5
+SlingAgentService;1;5
+ADHelper;1;5
+DNSCrypt;2;4
+svcgdp;1;5
+AxAutoMntSrv;9;4
+hshld;3;3
+TFSBuildServiceHost.2012;1;3
+Bluetooth Device Monitor;13;3.54
+vmware-converter-agent;2;3
+WindowsSchedulerLogon;1;5
+WindowsScheduler;1;5
+ReflectService.exe;3;4
+vToolbarUpdater13.2.0;3;3
+DefaultTabSearch;4;1.75
+knbcenter;7;2.86
+L4301_Solar;1;3
+KooRaRooMediaServer;1;1
+SolutoLauncherService;3;2.33
+MODECOM11nSU;1;5
+WebOptimizer;1;3
+NcdAutoSetup;19;4.11
+MpKsl4fa21c43;1;5
+DFServEx;1;5
+TrueCryptSystemFavorites;1;4
+Intel LDCM Notification Monitor;1;3
+Intel PDS;1;3
+Regina Stack;2;2
+hMailServer;1;5
+NoIPDUCService3;3;4
+TicnoIndexator;1;1
+WirelessDiagnosis;1;1
+SX Virtual Link Lite;1;5
+SWGVCSvc;1;5
+Browser Manager;4;2.5
+Off-Helper;1;4
+Soda 3D PDF Reader Helper Service;1;2
+DeviceAssociationService;11;3.45
+CloudBerry Backup Service;1;1
+Mobile Partner. RunOuc;4;2.25
+AxiomAudioDevMon;1;4
+X6XSEx_Pr143;1;1
+ALDITALKVerbindungsassistent_Service;3;4.67
+mi-raysat_3dsmax2011_32;1;4
+MySQL51;1;2
+#UpdateService;2;3
+HauppaugeTVServer;3;4.33
+AsusSE;1;5
+Start8;8;5
+WDFME;2;3.5
+vhdparser;4;2.75
+avas_service;1;5
+avss_service;2;4
+tpmgma_service;2;4
+PSafeLockBoxSvc;1;1
+postgresql-x64-9.1;1;5
+RegImport;3;4
+sesvc;3;4.33
+TVCapSvc;3;1.67
+fussvc;1;2
+4game-service;14;3.5
+vToolbarUpdater13.3.2;1;5
+MRUWebService;1;1
+PDF Architect Helper Service;2;3
+PDF Architect Service;2;3
+vmware-converter-server;1;5
+vmware-converter-worker;1;5
+vncserver;4;5
+tvMobiliService;1;5
+sina_live_deamon;1;1
+BackupStack;5;2.2
+TeamViewer8;18;3.89
+SSUService;3;3
+SplashtopRemoteService;3;3
+SUService;3;4
+ST2012_Svc;3;4
+HamachiService;1;2
+ICCS;9;4
+RtkAudioService;15;4.47
+PSUAService;11;4.36
+GFNEXSrv;1;3
+mfsyncsv;1;5
+pbservice;1;4
+VfDrv32;2;5
+PrintNotify;14;3.43
+hpHotkeyMonitor;2;3.5
+HZ_CommSrv64;1;5
+HZ_CommSrv;1;5
+spiceworks;1;4
+Advanced Monitoring Agent;1;3
+GibbsRLMServer;1;5
+YNanoService;1;3
+MpKsl83ae8984;1;1
+LSM;12;3.83
+vToolbarUpdater14.0.1;1;1
+StrartMenuService;1;5
+GeekBuddyRSP;3;3
+IB Updater;4;2.75
+IBUpdaterService;4;2.25
+BdDesktopParental;5;4.2
+Media Center 17 Service;1;4
+mi-raysat_3dsmax2013_64;3;4.33
+BrowserProtect;4;2
+CCN-MgmtSrv;1;2
+AlwaysAware HDP Service;1;2
+STUDSRV;1;2
+tcsd_win32.exe;1;2
+PnwSvc;1;2
+MultiKMS;1;5
+24x7HelpSvc;2;3
+AlotService;1;1
+DiXiM MCDB Access Service;1;5
+DiXiM Media Server 3 for Media Center TV;1;5
+EzDetector;1;4
+LISMO PIM Service;1;4
+LISMO Streaming Player Service;1;4
+PFNet;3;4.67
+SonicStage Back-End Service2;1;3
+ClassicShellService;8;4.75
+KSS;2;4.5
+360AntiHacker;3;2.67
+Motorola Device Manager;2;3
+WLANBelkinService;1;4
+SfComSrv;1;5
+PwmSvc;2;5
+ExpressCache;4;4.75
+TwonkyMedia;2;1.5
+WindowFX;2;5
+BTHSSecurityMgr;4;2.25
+NoIPDUCService4;5;4.4
+WinGateEngine;1;4
+cbVSCService11;5;4.8
+SprintRcAppSvc;1;1
+WSService;12;2.25
+nsearchx;1;1
+eDataSecurity Service;1;4
+lxee_device;1;4
+wfcs;6;4.83
+Cerberus FTP Server;2;3
+Franson GpsGate 2.0;1;5
+AtomicAlarmClock;7;4.71
+NcaSvc;10;4
+Asus WebStorage Windows Service;2;3.5
+Updater Service for AMZN;1;1
+ASUSUtilityService;1;5
+Cherry Device Interface;1;5
+MpKsle5b01e92;1;1
+Updater Service for StartNow Toolbar;2;3
+ZAtheros Wlan Agent;2;3.5
+Protector by IB Updater;1;2
+gzserv;7;3.86
+Synergy+ Server;1;5
+AcrylicController;3;5
+ASUS InstantOn;3;4.33
+DatamngrCoordinator;2;1
+svcGenericHost;1;5
+Marvell Storage Management;3;4.67
+MSUWebService;3;3.67
+RadeonPro Support Service;2;4
+CtHdaSvc;6;5
+upixderby;1;2
+upixsupervisor;1;2
+upixtomcat;1;2
+Video downloader Updater;1;3
+Yontoo Desktop Updater;9;1
+ACT! Scheduler;2;3.5
+TAVScheduler;1;5
+TAVComplementService;1;5
+DisplayFusionService;4;4.25
+VideoDownloadConverter_4zService;1;3
+RManService;2;3
+UPSMONService;4;4.25
+MoboroboDeviceService;1;4
+cmdvirth;14;4.86
+CobianBackup11;2;4.5
+TCBuildAgent;1;5
+TeamCity;1;5
+NU16StartManagerSvc;2;3
+desksvc;2;1
+mstDfrgS;1;5
+Soda PDF 5 Helper Service;1;5
+Soda PDF 5 Service;1;5
+IceDragonUpdater;5;3.2
+eSafeSvc;2;1
+ProgDVBService;1;3
+SrvUpdater;2;4.5
+FLService;3;3
+atccorrector;1;5
+StartW8Service;2;4.5
+AdobeActiveFileMonitor11.0;2;2
+0157271367688175mcinstcleanup;1;1
+AbsoluteNotifier;2;4
+KMSEmulator;5;5
+???M???j?v?Y????;1;4
+???M???j?v?]?w??A?;1;4
+PSI_SVC_2_x64;10;3.8
+Intel(R) Capability Licensing Service TCP IP Interface;5;3
+StarMoney Business 6.0 OnlineUpdate;1;4
+SuRunSVC;1;5
+EpsonScanSvc;10;3.3
+FMSAdmin;1;5
+FMS;1;5
+WebCake Desktop Updater;2;1
+MacDrive8Service;1;4
+MIDISPORTAudioDevMon;2;4
+PGP RDD Service;1;3
+PinnacleUpdateSvc;1;2
+RoxioNow Service;1;1
+MSSQL$CSSQL05;1;4
+DTSAudioService;2;3.5
+ZAtheros Bt and Wlan Coex Agent;3;3.33
+ASST_LiveService;1;3
+servicedesk;1;3
+SSHDDC;1;2
+Adguard Service;54;4.85
+BlackBerry Device Manager;2;3.5
+vToolbarUpdater15.2.0;1;1
+ExpatWd;2;3
+ExpatSrv;2;3
+ExpatShieldService;2;3
+ExpatTrayService;2;3
+gozer;1;3
+BrowserDefendert;2;3
+Everything;26;4.81
+CronService;2;5
+AppReadiness;15;4.07
+AppXSvc;25;3.48
+svsvc;14;3.21
+PTBSync;3;3.33
+bckwfs;2;5
+BAVSvc;8;3.63
+BHipsSvc;4;4
+APNMCP;7;2
+SBUpd;2;3.5
+WsysSvc;1;3
+DefaultTabUpdate;2;2
+Garmin Core Update Service;4;4.5
+IDVaultSvc;1;5
+GeniusMouseService;2;2
+KrosPlusFireBird;1;2
+NitroReaderDriverReadSpool3;2;4
+vToolbarUpdater15.3.0;2;2
+winzipersvc;2;4
+omigaplussvc;1;5
+NMSAccess32;1;5
+BstHdLogRotatorSvc;6;2.83
+BstHdAndroidSvc;9;3.22
+?etadpug;2;2
+nmraapache;1;4
+MpKsl56ee1500;1;1
+Time;1;1
+TPHKSVC;3;3.67
+CryptBox;2;2
+InnovativeSolutionsRegEventSvr;1;4
+FreeAgentTheater Service;1;1
+asdsrv;1;3
+DeviceInstall;10;3.5
+Fix-It Utilities 10 Essentials Task Manager;1;1
+FSAUA;2;3.5
+qgobse;1;1
+tinc.winzerLAN;1;5
+CltMngSvc;6;2
+NetBalancerService;4;4.5
+QQPMSRV;1;2
+DSUDiskOptimizer;1;1
+nanosvc;1;2
+DirMngr;2;5
+AsusFanControlService;9;2.22
+ZAPrivacyService;7;3
+ameisvc;1;5
+CyberLink PowerDVD 13 Media Server Monitor Service;1;1
+jhi_service;3;4.33
+lxbl_device;1;5
+IDriveService;2;4.5
+IDWAdmin;1;4
+SyncoveryVSSService;2;4
+Fitbit Connect;2;4.5
+OfficeSvc;1;4
+BRSptSvc;1;1
+ENAgent;1;4
+Intel(R) ME Service;3;3.67
+StartMenuService;4;5
+PCFasterSvc_{PCFaster_3.6.0.33146};1;1
+ASGT;4;3.5
+NvStreamSvc;11;3.55
+SecureUpdateSvc;1;3
+32Float3Service;1;1
+TVT_UpdateMonitor;1;5
+bonanzadealslive;1;1
+jDownloaderUpdater;1;1
+NitroDriverReadSpool2;1;3
+REService;1;3
+BitGuard;1;4
+BsBackup;5;4
+BsBhvScan;3;4.67
+BsUpdate;4;4.75
+BsFileScan;6;3.5
+piaservice;1;4
+CLKMSVC10_38F51D56;3;2
+Eaton UPSCompanion;2;4.5
+HUAWEIWiMAX;1;3
+ADSafeSvc;3;4.33
+supportassistenten;3;4.33
+Avira Secure Backup Crawler;3;3
+RzMaelstromVADStreamingService;1;2
+StarMoney 9.0 OnlineUpdate;3;4.33
+WTabletServicePro;5;4.4
+CGVPNCliService;6;4.5
+AllShare Framework DMS;6;2.17
+bonanzadealslivem;1;1
+FreeProxy;1;5
+WAHost;2;3.5
+CagService;1;4
+pandaVPNService;1;5
+AAVService;8;4.13
+aswFW;1;5
+IEEtwCollectorService;25;3.16
+wxpSvc;1;1
+StartMenuReviverService;1;2
+AdvancedSystemCareService7;16;4.75
+MSSQL$INSERTGT;1;5
+vToolbarUpdater17.1.2;1;1
+CPCSScheduler;1;5
+CPCSService;2;4
+OverwolfUpdaterService;1;1
+TunerFreeMCEService;1;3
+CVPND;2;4.5
+CSUService;1;5
+vmms;3;5
+Internet Manager. RunOuc;3;5
+USB-modem Beeline. RunOuc;1;5
+WmsService;1;4
+TeamViewer9;8;4.75
+SafeBox;3;3
+WdNisSvc;32;2.94
+WinkHandler;1;5
+SpyHunter 4 Service;7;2.86
+supereasy_backup;3;4.67
+ImDskSvc;5;4.4
+SafetyNutManager;1;1
+????????t;4;2
+NvNetworkService;18;3.72
+????????t?";3;2.33
+TimeBroker;6;3
+SystemEventsBroker;9;3.33
+GSService;1;2
+fhsvc;15;2.93
+Lenovo System Agent Service;2;5
+nsService;1;2
+TVService;1;5
+LiveUpdateSvc;18;2.39
+RemoteEngineService;1;1
+CLKMSVC10_C6F09094;1;3
+HomeNetSvc;4;1.75
+mcpltsvc;3;1.67
+46a50686;1;1
+CcmExec;1;1
+V-bates Updater;1;1
+GorillaPrice;2;1
+TwonkyServer;3;4.67
+TwonkyProxy;3;4.33
+Update maucampo;1;1
+QuickControlService;1;5
+dnscrypt-proxy;3;4.33
+PMAPDaemon;1;5
+unbound;1;5
+RzKLService;3;3.33
+Backupper Service;20;4.7
+602XML Updater;2;1.5
+mfecore;7;1.71
+Steganos Anonym VPN Starter Service;2;5
+cfb41c29;1;1
+savesenselive;1;1
+otshot;1;1
+Allin1Convert_8hService;1;1
+Web Assistant;1;5
+Disc Soft Bus Service;2;3
+70e6ca8c;1;1
+RIM Tunnel Service;1;1
+MachineTokenService;1;3
+RpcXdr;1;3
+NfsRdr;1;3
+QQCertificateService;1;5
+WiaRpc;11;3.27
+Browser7Maintenance;2;4
+WEPHOSTSVC;8;3.75
+lfsvc;21;1.9
+TSL PRO Lock Server;1;4
+Update Mega Browse;2;1
+Util Mega Browse;2;1
+2345Safe;1;1
+ASDiskUnlocker;2;2.5
+vmictimesync;8;2.88
+Synergy;2;3.5
+SafeIPS;1;3
+AlienFusionService;3;4.33
+FAService;1;5
+AntiWinLocker;1;3
+amdacpusrsvc;4;2.5
+WO_LiveService2;120;4.23
+Unchecky;18;4.89
+Qualcomm Atheros Killer Service;1;5
+Online Shield Starter Service;9;4.78
+DriveCryptService;1;4
+MSRebootService;1;5
+AVG Bonjour Service;1;4
+PCloudCleanerService;1;5
+Matrix32;1;5
+ZbezjService;1;5
+IHA_MessageCenter;1;1
+ARSM;1;5
+Update melondrea;1;1
+Service_21;2;4.5
+mi-raysat_3dsmax2012_64;1;5
+Printer Control;6;3.67
+Wpm;1;3
+BoxSyncUpdateService;1;3
+HWDeviceService64.exe;3;3.67
+PirritDesktop;1;1
+Qualcomm Atheros Killer Service V2;3;4.67
+SSDUtilSvc;1;5
+SDevKernel;1;3
+SDevOOPNet;1;3
+almservice;1;4
+rccsvc;1;2
+kxescore;5;2.6
+Avira.OE.ServiceHost;4;4.25
+IePluginService;2;2
+NewPlayerUpdaterService;1;3
+NewPlayer;1;1
+MbaeSvc;8;4.75
+vToolbarUpdater18.1.0;2;3
+VyprVPN;5;4.8
+WebClientService;1;1
+BsCache;3;5
+Util veberGreat;1;1
+AdobeActiveFileMonitor12.0;4;0.75
+SWUpdateService;5;3
+IePluginServices;3;2.33
+DNS;1;1
+XyvosAVSvc;1;5
+FPLService;2;5
+0store-service;1;1
+pdserv;1;5
+YouTubeAcceleratorService;3;1
+vToolbarUpdater17.1.3;1;1
+LeapService;1;5
+DbgSvc;1;5
+RealPlayerUpdateSvc;3;2
+dnhsSmart;1;4
+AnviStartupTime;1;5
+globalUpdate;6;1.67
+QHActiveDefense;62;4.24
+BcmBtRSupport;4;3.25
+DsmSvc;9;4
+NcbService;9;2.89
+hmpalertsvc;4;4
+ListaryService;4;4.75
+pcas;4;2.25
+AVP15.0.0;5;4.2
+64af91bf;1;1
+ReportServer;1;5
+????????tZ";1;1
+SwiCardDetectSvc;1;4
+ScDeviceEnum;12;2.5
+EMET_Service;3;4.33
+Update App Bud;1;1
+LavasoftAdAwareService11;5;4
+FoxitCloudUpdateService;3;2.33
+Virtual Router;1;3
+trntv;1;1
+gadjservice;1;5
+igfxCUIService1.0.0.0;9;5
+Universal Media Server;1;4
+vmickvpexchange;7;3.14
+vmicshutdown;7;3
+vmicguestinterface;6;2.5
+vmicrdv;8;3.25
+vmicvss;7;3
+smphost;9;3.22
+globalUpdatem;3;2.33
+KMSServerService;2;3
+Update PlurPush;1;1
+SparkSvc;2;3
+LENOVO.TVTVCAM;1;4
+MyOSProtect;1;1
+backupsvc5;1;5
+GrillaPrice;1;1
+picrecupd;1;5
+UpdatingService;1;1
+GfExperienceService;15;3.73
+lssvc;1;1
+BthHFSrv;16;1.5
+vmicheartbeat;10;2.7
+supdate;1;4
+HDDC3Service;22;4.32
+DlProtectSvc;1;1
+PDF Architect 2 Creator;1;1
+WinDivert1.1;1;1
+DailytoolsUpdateService;1;1
+rqpbhevlkc32;1;2
+FWPnpService;2;5
+BstHdUpdaterSvc;3;1.67
+Sentinel RMS License Manager;1;5
+Warsaw Technology;43;3.19
+BtSwitcherService;4;1.75
+LucidSvc;2;5
+SparkUpdater;1;1
+WiselinkPro;1;5
+MpKsl8e5552f6;1;1
+Windows Trace Session Manager;1;3
+VMTools;3;5
+VMware Physical Disk Helper Service;3;5
+TPAutoConnSvc;1;1
+TPVCGateway;1;1
+HTCMonitorService;3;3
+AVP15.0.1;4;5
+lltdio;1;1
+egGetSvc;3;3.67
+AllplanUpdateLauncher 2015;1;5
+SamsungRapidSvc;9;4.78
+mysql56;2;5
+KPN Back-up Online SC;1;4
+Kebrum VPN control service;1;4
+EasyAntiCheat;14;2.79
+SEVPNCLIENT;3;3
+PCGRTP;1;3
+AvastVBoxSvc;2;3
+MachCopySrv;1;5
+avgsvc;23;1.87
+MSI_LiveUpdate_Service;5;3.4
+NetBalancer Windows Service;1;5
+Chemtable Startup Checking;9;4.44
+ArcService;2;1.5
+BDKVRTP;1;1
+PCProtect;1;5
+NSBU;4;5
+knatsvc;2;3.5
+7654Bao;1;1
+Util Hold Page;1;1
+Origin Client Service;13;3.85
+PLAY ONLINE. RunOuc;1;4
+Te.Service;3;1
+joomlaApache;1;5
+joomlaMySQL;1;5
+CoreUIRegistrar;1;5
+Canary;1;5
+T-mobile_Hungary Seagull Device Helper;1;3
+FromDocToPDF_65Service;1;1
+BdSandboxSrv;3;4
+ABBYY.Licensing.FineReader.Professional.12.0;4;3.5
+BaiduHips;1;1
+AnonMgmtSvc;1;5
+CyberLink PowerDVD 10 MS Monitor Service;1;2
+CyberLink PowerDVD 10 MS Service;1;2
+Sysmon;3;4.33
+EvoSvc;1;5
+EraserSvc11411;1;5
+CsrBtService;2;4.5
+ClickToRunSvc;28;2
+AdminService11.2;1;5
+satel_online_update;1;3
+ModernMix;1;4
+AdvancedSystemCareService8;10;4.6
+irstrtsv;2;4.5
+RealPlayer Cloud Service;2;3.5
+MaConfigAgent;1;4
+Update ClearThink;1;1
+dpple Mobile Device;1;5
+SolutoRemoteService;1;1
+SurfEasyVPN;2;5
+360Camera;1;1
+rcores;1;1
+Seagate Dashboard Services;4;4
+NitroDriverReadSpool8;2;4.5
+VsEtwService120;1;5
+ZAMSvc;17;4.59
+ISCTAgent;3;3.33
+MsKeyboardFilter;5;3.6
+workfolderssvc;21;2.33
+Service KMSELDI;4;4.5
+BrcmCardReader;1;4
+servervo;1;5
+Update Clock Hand;1;1
+SecureLine;7;4
+????????ti";1;5
+iSafeService;7;1.14
+BubbleUPnP Server;1;4
+Mezzmo;1;5
+PandaAgent;8;5
+BRN_APPGUARD_SERVICE;1;5
+SpyShelterSrv;7;4.86
+WinPrivacySvc;1;5
+Apple Mobile Device Service;21;2.76
+SynTPEnhService;12;3.33
+ZoomText Helper Service;1;4
+ss_conn_service;5;2.8
+GDBackupSvc;9;3.89
+MobogenieService;5;1.6
+Fitbit;1;3
+secbizsrv;1;3
+LolliScan;1;1
+MOTU_ZeroConf;2;3
+PicexaService;1;1
+MetaTester-3;1;5
+MFClient 10.2.3920.54;1;5
+MFIndexingManager 10.2.3920.54;1;5
+MFDataExport 10.2.3920.54;1;5
+AVP15.0.2;7;4.14
+MegaFon Internet Service;2;3.5
+VoodooShieldService;3;5
+TechSmith Uploader Service;1;5
+TwonkyWebDav;2;3
+CouponArificService64;1;3
+TeraCopyService;7;4.43
+;1255;0
+fsss_svr;2;4.5
+TIS 2000 Apache Web Server;1;5
+COSIDS_TB;1;3
+NitroUpdateService;3;1.67
+TeamViewer;33;4.24
+DTLSvc6;1;1
+LiveTuner2PM;2;3.5
+EntAppSvc;13;1.62
+vToolbarUpdater18.5.0;1;3
+WSN300MA;3;4.67
+PCFasterSvc_{PCFaster_5.1.0.0};2;3
+IHProtect Service;2;5
+gogoc;1;4
+i2p;1;4
+BEService;17;4.76
+92bf83b8;1;1
+DmEnrollmentSvc;19;1.53
+Avira.ServiceHost;17;2.29
+PCFasterSvc_{PCFaster_3.7.0.0};1;1
+LassoService.exe;1;5
+Samsung Link Service;1;3
+ArcHttpProxyServer;1;5
+pieiekrol;2;1
+NTService1;1;1
+Gestionnaire de connexion de Simple Comptable;1;3
+Gestionnaire de transactions de Sage Simple Comptable 2011 - CDN;1;3
+Sage 50 Gestionnaire de transactions 2015 - CDN;1;3
+MSSQL$ACT7;1;4
+MSSQL$ADK;1;4
+DiagTrack;72;1.82
+PaceLicenseDServices;16;4.87
+msoidsvc;1;5
+MpKsl485acf3a;1;0
+WindowsMangerProtect;1;1
+myAgtSvc;1;5
+RumorServer;1;5
+Update ConstaSurf;1;1
+Mgl3DCtlrRPCService;3;4.67
+FanControllerService;1;5
+ictsezlp;1;1
+LSCWinService;1;3
+Chistilka;2;2
+ServiceEverything;1;1
+MicronCacheMonitor;11;5
+IFXTCS;1;5
+SmsRouter;16;2.75
+MediaMall Server;3;4
+AuviTranESoundService;1;5
+omaha;2;1.5
+c2cpnrsvc;1;3
+AJRouter;36;3.06
+AVP16.0.0;8;4
+GlassWire;5;3.8
+UnistoreSvc;1;3
+UsoSvc;570;4.19
+CoreMessagingRegistrar;30;2.67
+DcpSvc;8;1.13
+DevQueryBroker;9;2.33
+dmwappushservice;16;2.19
+embeddedmode;9;2.67
+NgcSvc;9;2.56
+NgcCtnrSvc;10;2.3
+DoSvc;34;2.53
+SensorService;16;1.94
+tiledatamodelsvc;18;1.61
+CDPSvc;16;2.44
+SensorDataService;9;2.22
+icssvc;13;2.92
+WpnService;15;2.67
+NetSetupSvc;10;2.8
+ClipSVC;13;2.23
+DsSvc;17;1.82
+LicenseManager;11;4.36
+StateRepository;7;3.14
+RetailDemo;65;0.94
+MapsBroker;32;2.56
+UserManager;24;2.13
+diagnosticshub.standardcollector.service;20;1.35
+XboxNetApiSvc;40;1.92
+XblGameSave;62;1.65
+WalletService;16;1.94
+XblAuthManager;70;1.8
+BlueIris;1;5
+mi-raysat_3dsmax2014_64;1;5
+WdsManPro;1;5
+Apache2.4;3;5
+Komsa_Germany Silverstone Modem Device Helper;1;5
+HuaweiHiSuiteService64.exe;3;3.33
+HiSuiteOuc64.exe;1;5
+Mobile Broadband HL Service;1;4
+AdvancedSystemCareService9;12;5
+LavasoftTcpService;1;4
+ZDServ;1;5
+AGSService;13;2
+Freedome Service;3;4.33
+CxUtilSvc;3;4.67
+cmcore;7;4.57
+mfemms;21;2.19
+UsbGlcsService;1;5
+.EsetTrialReset;1;5
+KMS-R@1n;72;4.38
+panda_url_filtering;3;4.33
+ktupdaterservice;1;4
+pvhdparser;6;2
+RzWizardService;1;1
+mmsminisrv;9;4
+AvgAMPS;2;1
+AdAppMgrSvc;36;4.17
+Realtek9xp;1;1
+MPCProtectService;10;1
+Amazon 1Button App Service;3;2
+Update Mgr SonicTrain;1;1
+NS;7;3.86
+wpscloudsvr;5;2.6
+GatewayIPMonitor;2;4
+ABBYY.Licensing.ScreenshotReader.Windows.11.0;2;3
+PlantronicsUpdateService;3;3
+LogiRegistryService;9;4.89
+StkhClientService;1;1
+cd;1;1
+Windows10FirewallService;4;4.75
+NvStreamNetworkSvc;5;4.2
+tzautoupdate;22;3.68
+iSpeakService;1;5
+HPSupportSolutionsFrameworkService;8;3
+Killer Service V2;5;4.8
+ETDService;4;3.25
+Soda PDF 8;3;4.33
+jehudyquzbt;1;0
+AutoInstallEJCD;1;3
+vToolbarUpdater40.2.5;1;3
+WtuSystemSupport;1;4
+Garmin Device Interaction Service;3;2.33
+SupportAssistAgent;8;3
+Bongupj;1;3
+PornTime Updater;1;1
+ContentProtector;1;0
+DiskBoss Service;2;5
+lmgrd;1;4
+FreeSSHDService;1;5
+dbupdatem;5;2.8
+dbupdate;9;2.67
+DigitalWave.Update.Service;11;2.82
+MediaFire Desktop Updater Service;1;4
+AntiVirusKit Client;2;5
+Serveur M;1;5
+qkseeService;1;1
+BizAgiDESWorkflowSchedulerService;1;1
+jupigusuzbt;1;0
+MSI_FastBoot;2;3
+WsAppService;7;1.86
+TieringEngineService;5;2.8
+aVtomic Core;1;5
+PC Monitor;1;5
+DptfPolicyCriticalService;2;3
+PlaysService;4;2.5
+AxVirtualAHCISrv;3;3.67
+NbfcService;2;4
+ashbackup;3;4.33
+xauxsfqq;1;1
+vssbrigde64;2;2.5
+Disc Soft Lite Bus Service;4;2.75
+vmvss;1;5
+EsecAgentSvc;2;1
+ACTION_SVC;1;1
+UbarPolicyProvider;1;1
+Updater.Mail.Ru;9;1
+iFunSoftUpdaterSvc;2;2
+dlee_device;1;3
+vmicvmsession;7;2.57
+PAExec;1;1
+w3logsvc;6;1.83
+PhoneSvc;13;2.31
+WifiSrv;1;1
+ashbackuppb;23;4.48
+_wfcs;5;4.6
+MSICPU_CC;2;4.5
+MSIDDR_CC;2;4.5
+MSISMB_CC;2;4.5
+MSISuperIO_CC;2;4.5
+MSICTL_CC;2;4.5
+MSICOMM_CC;3;4
+MSIClock_CC;2;4.5
+XTU3SERVICE;6;4.5
+QQRepairFixSVC;2;1
+S3Funkey;1;1
+ibtsiva.exe;1;1
+ChromodoUpdater;1;3
+RzSurroundVADStreamingService;2;5
+Razer Game Scanner Service;4;3
+BsrSvc;1;5
+VPNManager;1;5
+Lexware_Update_Service;7;3.71
+fafqblak;1;1
+fsnethoster;5;4.2
+GalaxyClientService;3;2
+GalaxyCommunication;3;2
+ZeroConfigService;3;2.67
+MariaDB;1;3
+Samsung Printer Dianostics Service;1;4
+SamsungUPDUtilSvc;3;4
+UsbClientService;1;1
+VPNUnlimitedService;5;4.8
+SMService;1;3
+AbAdminService;2;4.5
+AdobeActiveFileMonitor14.0;1;4
+akinsofthookinjectionservice;1;5
+Sesam User Management Server;1;5
+postgresql-9.4-Intelidata;1;5
+tonlinedeBrowser7Maintenance;3;4.33
+SDR-Radio.com Server;1;3
+ASUSWireless;1;5
+HP LaserJet Service;3;5
+chromoting;12;3.67
+Update service;3;3.67
+PDF Architect 4;4;1
+PDF Architect 4 CrashHandler;2;1
+PDF Architect 4 Creator;2;1
+OsdService;1;3
+ProductAgentService;9;3.33
+AVP16.0.1;3;5
+esifsvc;4;2.75
+ibtsiva;6;3.17
+igfxCUIService2.0.0.0;9;4.11
+RoxioBurnLauncher;2;3.5
+RoxWatch15;1;4
+RoxMediaDB15;1;5
+valWBFPolicyService;3;4.67
+CDPUserSvc_22bbd6;1;1
+PStrip64;1;2
+MSSQL$MULTIBASECS;1;3
+SQLAgent$MULTIBASECS;1;3
+rebebicu;1;1
+xuhejygu;1;1
+todufesi;1;1
+lifotugo;1;1
+NetTimeSvc;1;4
+VeriFaceSrv;2;1
+PDF Architect 4 Manager;1;1
+mrupdsrv;20;1.4
+D293128E;2;1
+zigipyro;1;1
+UserDataSvc_45a871;1;3
+ExpressVpnService;3;4.67
+ZarafaUpdaterService.exe;1;4
+YandexBrowserService;19;1.68
+becwssvr;1;5
+AVP17.0.0;7;5
+AnyDesk;6;4.33
+0099521474140940mcinstcleanup;1;1
+Bokvunnu;1;3
+EntryProtect;1;5
+WindscribeService;7;4.29
+2345PinyinSvc;4;0.75
+DbxSvc;7;3.29
+MSSQL$IWM;1;5
+Disc Soft Pro Bus Service;2;2.5
+KSDE1.0.0;3;5
+AviraUpdaterService;7;3
+Sense;8;2.88
+mweshieldup;1;0
+EL32Service;1;5
+backlh;2;1
+UserDataSvc_34c80;1;0
+OneSyncSvc_47f68;1;1
+CDPUserSvc_41285;1;1
+PimIndexMaintenanceSvc_41285;1;1
+chip1click;20;1.5
+DTSAudioSvc;2;4
+shpamsvc;15;2.4
+wisvc;11;3.18
+AviraPhantomVPN;12;3.33
+CDPUserSvc_42983;1;1
+UserDataSvc_a450d23;1;1
+Origin Web Helper Service;10;2.2
+25ec3e25fd33a951933b9fd3b77566f2;1;1
+ASRockIOMon;1;4
+SimpleStarSmartMonitorService;1;1
+NAT32;1;2
+XLNXService;2;1
+UCBrowserSvc;9;1.44
+HDDC2017Service;4;4.5
+SpeedupService;2;4
+MessagingService_68451;1;1
+NetControl2Server;1;1
+BstHdPlusAndroidSvc;2;3
+HitmanPro37Crusader;1;3
+NVDisplay.ContainerLocalSystem;25;3.56
+CDPUserSvc_33b9f;1;1
+QPCore;42;2.57
+CDPUserSvc_394f0;1;1
+AdvancedSystemCareService10;9;4.22
+CDPUserSvc_2daa652;1;3
+vsservp;7;4.86
+ReimageRealTimeProtector;9;1.89
+CDPUserSvc_fa3c8;1;1
+CG6Service;6;4
+RAMDrivService;1;5
+Media Center 20 Service;1;4
+NvContainerNetworkService;4;4.5
+Archer;2;3
+FrameServer;11;3.64
+CDPUserSvc_302057;2;2.5
+AdobeUpdateService;15;2.2
+Solvusoft Suite Service;1;1
+revioOfflineDb;1;5
+revioOfflineServer;1;5
+DragonLoggerService;1;4
+RealTimes Desktop Service;1;2
+CDPUserSvc_110568;1;1
+Tomcat8;1;3
+MlMswordSvc;1;4
+AppCheck;3;1.67
+Sezght;1;1
+KuaizipUpdateChecker;2;1
+WsDrvInst;3;2
+TrueKey;2;2.5
+TrueKeyScheduler;2;1
+TrueKeyServiceHelper;1;1
+TinyWall;3;4.67
+PimIndexMaintenanceSvc_1239c36;1;4
+OneSyncSvc_1239c36;1;4
+EPSON_PM_RPCV4_06;2;3
+IObitUnSvr;36;4.47
+QiyiService;4;1
+QQMicroGameBoxService;1;1
+HideIPLaucherService;2;1
+UserDataSvc_5ba50;1;3
+29b4320247dd499a401f6124038562af;1;1
+Realtek87B;1;5
+AVG Antivirus;32;2.56
+UserDataSvc_26fd0;1;2
+RemoteMouseService;3;3.67
+Easy Launcher;1;3
+360Hvm;1;1
+PDF24;7;4.29
+CDPUserSvc_147f96a;1;5
+Online Manager Service;1;1
+uohzyxgu;1;1
+WinSnare;1;1
+Start10;8;4.88
+CDPUserSvc_3ca2d;1;1
+UnistoreSvc_3a2b6;1;1
+SpyEmrgHealth;2;1
+TurboVpnSvc;1;5
+CDPUserSvc_55a8f3;1;2
+AVMPowerlineService;3;5
+CDPUserSvc_2bcc7;1;1
+Kitty;2;0
+CDPUserSvc_5e4669;1;5
+Seagate MobileBackup Service;3;3.67
+OneSyncSvc_183fad;1;4
+TimeBrokerSvc;9;4.44
+UserDataSvc_3af85;1;1
+WinSAPSvc;2;0
+ABBYY.Licensing.Lingvo.Desktop.16.0;1;5
+UserDataSvc_4b3e6;1;1
+VcmIAlzMgr;1;2
+VzCdbSvc;1;2
+VzFw;1;2
+VAIO Entertainment TV Device Arbitration Service;1;2
+VAIOMediaPlatform-UCLS-AppServer;1;2
+VAIOMediaPlatform-UCLS-HTTP;1;2
+VAIOMediaPlatform-UCLS-UPnP;1;2
+VAIOMediaPlatform-Mobile-Gateway;1;2
+VAIOMediaPlatform-IntegratedServer-AppServer;1;2
+VAIOMediaPlatform-IntegratedServer-HTTP;1;2
+VAIOMediaPlatform-IntegratedServer-UPnP;1;2
+QBCFMonitorService;1;2
+PACSPTISVR;1;2
+RzActionSvc;9;3
+Razer Game Manager Service;7;4
+TokenBroker;19;1.74
+Amazon Assistant Service;6;1.17
+CybereasonRansomFree;1;5
+fsproflt2;1;2
+WpnUserService_761bc;1;1
+UserDataSvc_761bc;1;1
+wyrieqvp;1;1
+ApHidMonitorService;1;1
+LSC.Services.SystemService;2;1
+wwbizsrv;1;1
+MaohaWifiNetPro;1;1
+MaohaWifiSvr;1;1
+DavidWebBox;1;1
+SAUAVSvc;1;1
+SystemUsageReportSvc_QUEENCREEK;2;2.5
+WpnUserService_34727;1;0
+DellDataVault;2;5
+WD Backup Drive Helper;1;4
+WD Backup Snapshot;1;5
+SecurityHealthService;34;2.21
+XboxGipSvc;41;1.9
+xbgm;14;1.86
+NvTelemetryContainer;24;2.33
+NvContainerLocalSystem;5;4.4
+Marvell PNP Listener;1;5
+AdaptiveSleepService;1;3
+DSAService;6;3
+MySQL57;1;5
+tbaseprovisioning;1;2
+BNmon;1;3
+UnistoreSvc_47756;1;3
+DevMgmtService;6;5
+UserDataSvc_128362;2;4
+UnistoreSvc_128362;1;5
+CDPUserSvc_128362;1;5
+MpKsl5b6e8ebd;1;1
+CliqzMaintenance;1;5
+UevAgentService;8;2.63
+kbasesrv;1;5
+SogouSvc;2;0
+AppleAzureSrv;1;4
+CDPUserSvc_3d810;2;3
+MessagingService_702a408;1;5
+MFServer 11.3.4330.196;1;4
+MFClient 11.3.4330.196;1;4
+MFSetup 11.3.4330.196;1;4
+MFIndexingManager 11.3.4330.196;1;4
+MFDataExport 11.3.4330.196;1;4
+GamingApp_Service;3;4.67
+NoxBitService;1;5
+SEVPNSERVER;1;5
+MyEpson Portal Service;3;3
+klvssbrigde64;1;3
+WCAssistantService;2;2
+UserDataSvc_777bec;1;4
+Protect_2345chrome;1;1
+BFAssistantSvc_1585225940;1;1
+CDPUserSvc_38303;1;4
+MessagingService_1334606;1;3
+AcronisActiveProtectionService;14;3.43
+InstallerService;2;1
+FastbootService;3;3.33
+CorelCreatorMessages;1;5
+TPHDEXLGSVC;1;5
+PlexUpdateService;6;4.67
+aswbIDSAgent;17;2.82
+MouseService;1;5
+WiFiPasswordService;1;5
+EPSON_PM_RPCV4_05;2;4.5
+AppCheckVersion;1;5
+MongodbService;1;5
+TOSRMService;1;3
+Ds3Service;3;4.33
+DAEMONSyncService;1;0
+HvHost;9;3.56
+AntiRansom;1;5
+ksu;3;4.33
+ycssrv;3;4.33
+CLink4Service;4;4.75
+Soda PDF 8 CrashHandler;1;5
+Soda PDF 8 Creator;1;5
+Soda PDF 8 Manager;1;5
+RunBooster;1;1
+UnistoreSvc_cbb89;2;1
+UserDataSvc_cbb89;1;1
+iumsvc;3;4.33
+WpnUserService_524df5;1;1
+RavenDB;1;1
+ZoneAlarm ICM Service;2;5
+WNDA6200;1;5
+DeskScapes8;2;4.5
+Launch8;1;5
+2e23108205492f0289e3362bdf13a408;2;1
+FirebirdServerKROS_20400;1;2
+AVP18.0.0;10;4.5
+youtrackApache;1;1
+anustime;1;5
+OracleServiceORCL;1;5
+026c26e1666f5f2430c95472964848a6;1;1
+bdredline;14;3.43
+nsverctl;1;5
+PDFescape Desktop Creator;1;1
+PDFescape Desktop;1;1
+scpbradserv;1;1
+AllUserInstallAgent;1;3
+MacriumService;8;4.88
+Kingsoft_WPS_UpdateService;1;3
+FreeStyleLibre MAS Server;1;4
+ESRV_SVC_QUEENCREEK;3;3.67
+RaMediaServer;1;2
+USER_ESRV_SVC_QUEENCREEK;3;1.67
+DusmSvc;12;2.42
+Heimdal DarkLayer Guard;2;5
+Heimdal Uptime Checker;2;5
+SEMgrSvc;14;1.14
+FirebirdServerProtecInstance;2;4.5
+MyPublicWiFiService;2;5
+csssrv;3;5
+Wms;2;2.5
+FoxitPhantomService;1;3
+PrintWorkflowUserSvc_52048;1;1
+DevicesFlowUserSvc_52048;1;1
+InstallService;11;2.18
+MessagingService_52048;1;1
+WpnUserService_52048;1;1
+OneSyncSvc_6d310;1;1
+PimIndexMaintenanceSvc_6fe0dbf;1;3
+WFDSConMgrSvc;7;3.57
+pcmastersvc;2;1
+KSDE2.0.0;3;4.67
+Disc Soft Ultra Bus Service;6;4.83
+Ea3Host;1;1
+HipsDaemon;3;3.67
+CDPUserSvc_6cd6a;1;1
+CDPUserSvc_3c0ba;1;1
+MpKslfdabf114;1;1
+tomcat6;1;1
+qengine;1;5
+qupdate;1;5
+ASUS Rog Aura Core;1;4
+AdvancedSystemCareService11;10;3.3
+UFNet;1;5
+UFALERTSERVICE;1;0
+U8SmsSrv;1;5
+MpKslc617b2e0;1;1
+UserDataSvc_9b36c;1;5
+GamingHotkey_Service;3;4.67
+MSI_ActiveX_Service;3;3.67
+SkyFontsService;2;4
+VeeamEndpointBackupSvc;1;4
+13rpjcssqb;1;1
+ERPx64Svc;1;5
+hmevpnsvc;1;5
+OneSyncSvc_2e481;1;1
+ShadowFX;1;3
+IntelSSTSvc;4;2
+SAVService;4;5
+SAVAdminService;4;4.75
+Sophos AutoUpdate Service;4;4.5
+SophosDataRecorderService;2;5
+Sophos MCS Agent;3;4.33
+CIJSRegister;1;4
+WpnUserService_1a245ed;1;1
+PwmEWSvc;1;4
+WarpJITSvc;5;3.6
+AdobeFlashPlayerHash;1;0
+SwOffScheduler;1;5
+APCPBEAgent;2;3.5
+APCPBEServer;1;3
+Aqua Computer Service;1;4
+HDDSCOff;2;5
+AlibabaProtect;12;1.08
+CDPUserSvc_b05c7;1;1
+WPSService20;1;4
+StarMoney 11 OnlineUpdate;5;4
+BotkindSyncService;1;1
+MacriumImageGuardianService;4;5
+OVRService;2;5
+Protect_2345Explorer;15;1.27
+HuaweiHiSuiteService.exe;4;4
+AvmSwitchUsb;2;5
+nordvpn-service;9;4.78
+CDPUserSvc_41336;1;5
+IpOverUsbSvc;2;1
+gqtfzjog;1;1
+ABBYY.Licensing.FineReader.14.0;2;5
+CleanupPSvc;15;3.93
+SAService;3;4
+camsvc;10;4
+UserDataSvc_2c436;1;1
+zmu;1;1
+com.docker.service;1;5
+Cachedrv server;1;5
+osrss;13;1.92
+kpm_launch_service;7;4.14
+MpKsl46e95cdc;1;5
+XperiaCompanionService;1;3
+QFXUpdateService;1;5
+RmSvc;12;1.92
+WiseAntiMalwareService;3;3.33
+ekrnEpfw;16;3.56
+KeyboardFilter;2;5
+avgbIDSAgent;4;4.5
+AVG Firewall;6;4.83
+NativeDesktopMediaService;1;5
+OneSyncSvc_271c8;1;4
+SamsungCloudPrintSvc;1;4
+Samsung Network Fax Server;1;4
+0f5fbbf3bdd9c7de49068c3a15af1269;1;1
+pjjnswrq;1;0
+KvAppService;1;1
+MxService;3;2.33
+CDPUserSvc_3af66;1;0
+eiucpjgr;1;0
+NortonSecurity;9;4.11
+AssignedAccessManagerSvc;5;4.2
+ROMService;1;5
+UnistoreSvc_93172;1;1
+ZapyaService;2;2
+diagsvc;5;2.8
+mracsvc;6;2
+AviraOptimizerHost;10;3
+ElfoService;2;4.5
+hvasrv;2;4.5
+BdVpnService;7;4.71
+Z-VSScopy;2;5
+SshdBroker;4;3
+ipsecd;1;3
+iked;1;3
+hpqcaslwmiex;5;3.4
+WpnUserService_5abd5;1;1
+WpnUserService_47641;1;1
+WpcMonSvc;11;3.73
+ServiceDevMgmt;1;5
+BcastDVRUserService_19f9895;1;1
+SharedRealitySvc;6;3
+OneSyncSvc_19f9895;1;1
+ICEsoundService;6;2
+ROGGamingCenterService;1;5
+WDMRC;1;5
+CDPUserSvc_2593b;1;2
+0211551528651018mcinstcleanup;1;1
+rtop;3;3
+Flash Helper Service;13;1.69
+IDLAppServer;1;5
+QQPMAndroidServer;1;1
+CDPUserSvc_f0dba;1;0
+BluetoothUserService_36faa;1;5
+DevicesFlowUserSvc_a1ea7a;1;1
+DevicePickerUserSvc_a1ea7a;1;1
+PimIndexMaintenanceSvc_276e7;1;1
+WirelessKB850NotificationService;3;4.33
+CaptureService_54aaa;1;1
+FoxitReaderService;1;5
+MSSQL$INSOFTWARE;1;5
+2345PicSvc;4;1.5
+STOUtilSvc;1;4
+WpnUserService_3037b0f;1;0
+ETGMGlcsSrv;1;4
+bzserv;3;4.67
+aswVmm;1;1
+aswStm;1;1
+DevicePickerUserSvc_439dd;1;5
+PDF Architect 5 Manager;1;1
+SgrmBroker;12;2.58
+CDPUserSvc_21e62;1;4
+OneSyncSvc_21e62;1;4
+Sophos MCS Client;2;4
+SntpService;2;5
+sophossps;1;5
+Sophos Web Control Service;2;5
+swi_filter;2;4.5
+swi_service;2;4.5
+WpnUserService_21e62;1;4
+BsNet;2;3
+BsSentry;2;3
+FSFTP;1;1
+spectrum;4;3
+UnistoreSvc_fbdbb;1;5
+CsrBtOBEXService;1;0
+CSRBtAudioService;1;5
+VSStandardCollectorService140;1;5
+VSStandardCollectorService150;2;4.5
+avastm;4;2.75
+avast;4;3.75
+PDF Architect 5 Creator;1;4
+AVP19.0.0;7;4.43
+perceptionsimulation;3;2.67
+PimIndexMaintenanceSvc_39210;1;0
+DisplayEnhancementService;7;2.71
+UnistoreSvc_39210;1;1
+UnistoreSvc_13f94e4;1;4
+tscmon;2;0.5
+AvastWscReporter;11;1.82
+WpnUserService_477a0;1;1
+MicrosoftDynamicsNavServer$DynamicsNAV100;1;5
+MicrosoftDynamicsNavServer$DynamicsNAV90;1;5
+BsHelper;1;2
+BsNetworkScanner;1;5
+Ext2Srv;1;4
+QcomWlanSrv;1;5
+360AntiHijack;1;1
+DeveloperToolsService;4;4
+IpxlatCfgSvc;4;4.25
+OneSyncSvc_1fa9c;1;5
+KSDE3.0.0;1;5
+BTAGService;13;3.77
+ZTgzZDVjYjA3ZjJmMzd;1;3
+ABBYY.Licensing.FineReader.Corporate.12.0;1;5
+PrintWorkflowUserSvc_3703f75;1;1
+WpnUserService_3703f75;1;0
+OneSyncSvc_3703f75;1;0
+CDPUserSvc_3703f75;2;0
+UnistoreSvc_3703f75;2;0
+UserDataSvc_3703f75;1;1
+PimIndexMaintenanceSvc_3703f75;1;0
+BDAuxSrv;8;3.38
+wlpasvc;4;4.25
+CDPUserSvc_662aa9c;1;4
+UserDataSvc_662aa9c;1;4
+UnistoreSvc_662aa9c;1;4
+MySQL80;1;5
+atillk64;1;3
+AscensiaDiabetesCareService;1;5
+UnistoreSvc_30c6f;1;3
+CorsairSSDToolBox;1;4
+HaoZipSvc;1;1
+OneSyncSvc_3b239;1;4
+CaptureService_33291;1;5
+AGMService;9;2.89
+ecoDMS Server 18.09;1;5
+ecodmspsql-10;1;5
+MessagingService_2c2ed;1;1
+UnistoreSvc_3e2c5;1;5
+UnistoreSvc_4cfea;3;4.33
+BthAvctpSvc;9;4.22
+UserDataSvc_4cfea;2;3.5
+CDPUserSvc_4cfea;3;4
+BcastDVRUserService_4cfea;2;4
+WaaSMedicSvc;15;2.6
+LxpSvc;6;4.17
+WpnUserService_4cfea;1;5
+PushToInstall;5;3.8
+VacSvc;4;2.5
+OneSyncSvc_4cfea;1;5
+PrintWorkflowUserSvc_4cfea;3;5
+ssh-agent;7;4
+NaturalAuthentication;7;4.57
+MSIREGISTER_MR;1;5
+MessagingService_4cfea;1;5
+PimIndexMaintenanceSvc_4cfea;1;5
+BluetoothUserService_4cfea;3;5
+DevicePickerUserSvc_4cfea;2;5
+DevicesFlowUserSvc_4cfea;1;5
+GraphicsPerfSvc;5;3.8
+AdvancedSystemCareService12;16;3.94
+klupd_klif_klark_C5369F0B;1;1
+klupd_klif_mark_4A216FB1;1;1
+klupd_klif_arkmon_540FA9FD;1;1
+ParagonLinuxFSMounter;2;5
+GfK SE Reporting Service;1;5
+GfK SE NetworkMeter;1;5
+GfK SE InstallUpdate;1;5
+JumpConnect;1;5
+McAPExe;11;2.36
+0043811542623746mcinstcleanup;1;1
+BDProtSrv;7;3
+OneSyncSvc_5fb5b9;1;3
+MagentaCLOUDMaintenanceService;3;5
+UserDataSvc_6376cdd;1;1
+UserDataSvc_48e22;1;1
+UserDataSvc_bd871;1;4
+ConsentUxUserSvc_47683;1;3
+DevicesFlowUserSvc_47683;1;3
+PDF Architect 6 Creator;1;5
+PDF Architect 6;1;5
+JME Keyboard;2;5
+WmcCdsLs;1;4
+WmcCds;1;3
+ProtonVPN Service;4;4.5
+tpcexdccs;1;5
+TC2Service;1;5
+CDPUserSvc_15a9e6;1;0
+CDPUserSvc_604b7;1;3
+CxAudioSvc;2;4.5
+HP Comm Recover;4;3.75
+FLCDLOCK;2;5
+HotKeyServiceUWP;2;4.5
+LanWlanWwanSwitchingServiceUWP;2;5
+IntelAudioService;3;4.67
+cplspcon;4;2.75
+Intel(R) TPM Provisioning Service;3;3.67
+IPQService;1;4
+isesrv;2;2.5
+LxssManager;3;4
+AppVClient;4;4.5
+OneSyncSvc_604b7;1;5
+WpnUserService_604b7;1;4
+HgClientService;2;2.5
+hns;7;1.71
+nvagent;4;1.75
+vmcompute;4;1.5
+CmService;3;4.67
+WManSvc;4;2.5
+BluetoothUserService_604b7;1;5
+BcastDVRUserService_604b7;1;1
+tmInstall;1;5
+UnistoreSvc_48417f8;1;2
+UserDataSvc_48417f8;1;2
+CG7Service;4;4.75
+ZjA4NTlkYzc0YzdkMmI1;1;1
+QMEmulatorService;3;2.67
+WinQuic;16;2.06
+SlimWareServices;1;5
+SlimService;1;5
+BluetoothUserService_8e8a6;1;5
+ShMonitor;1;1
+CylanceSvc;3;4.33
+ADATA ToolBox Service;1;5
+SessionSvc;1;1
+PCAutoPowerOnService;1;5
+Heimdal Client Host;1;5
+UserDataSvc_47a5bdc;1;1
+StarMoney 10 OnlineUpdate;1;5
+CaptureService_56243;1;5
+MEmusvc;2;3
+WLMS;1;5
+OpenVPNServiceLegacy;2;3
+OpenVPNServiceInteractive;2;3
+DialogFilter;1;1
+SU10Guard;3;4.67
+BcastDVRUserService_5d6c8;1;2
+MBAMIService;2;3
+eScan Monitor Service;1;3
+UnistoreSvc_20c40;1;1
+klvssbridge64_19.0.0;2;3
+OGQyOWY4MzExM;1;1
+OneSyncSvc_3d3f3;1;1
+aswHwid;1;1
+Seed4.Me Service;4;3.75
+HnGSteamService;1;4
+nsWscSvc;4;3
+BargainLabEXJ;1;1
+DolbyDAXAPI;3;5
+MessagingService_48088;1;1
+PrivateInternetAccessService;2;5
+WpnUserService_357c6;1;4
+NvtlService;1;3
+WebManagement;4;5
+CooCareServiceStarsoftcommeservices;1;5
+SGSCenter;1;4
+CDPUserSvc_8b047;1;1
+WpnUserService_8b047;1;1
+StarMoney 11 Deluxe OnlineUpdate;1;4
+Wallpaper Engine Service;13;4.92
+hvsics;2;5
+Synology Active Backup for Business Agent;2;4.5
+StarMoney 12 Deluxe OnlineUpdate;2;4.5
+NeroBackItUpBackgroundService2019;1;2
+eXpert PDF 11;1;5
+sedsvc;3;4.33
+AnviCsbSvc;1;5
+GoogleChromeElevationService;12;3.33
+PDF Architect 6 Update Service;1;3
+ByteFenceService;3;2.33
+Surfshark.Service.exe;3;4.67
+CDPUserSvc_291e4;1;1
+ARPApplicationService;2;5
+Intel(R) Security Assist;1;5
+WISOMeinGeld365ProfessionalUpdatedienst;1;0
+Lo2ClntSvc;1;5
+QwebService;1;3
+HRWSCCtrl;1;5
+Starter Check;1;1
+OneSyncSvc_2dff1;1;2
+FlingService;1;4
+HCloverService;1;5
+CDPUserSvc_440fb;1;0
+TroubleshootingSvc;11;2.91
+0222571556175607mcinstcleanup;1;3
+cbdhsvc_25c1f;1;5
+aim_LSService;2;4.5
+SSDkeeper;1;5
+mobile_backup_server;5;2.8
+mobile_backup_status_server;5;2.8
+GarenaPlatform;2;5
+BluetoothUserService_a69df;1;5
+OneSyncSvc_79962;1;1
+CDPUserSvc_79962;1;1
+WpnUserService_79962;1;1
+ZmU0ZGZhNDhjZmVlNzJh;1;1
+xTendSoftAPService;3;1
+BcastDVRUserService_2b81b;1;5
+GiftBox.Service;1;1
+ALL-INKL.COM WebDisk;1;5
+OneSyncSvc_3afb7;1;1
+TDSNetSetup;1;1
+Behavior Detection System;1;3
+SegurazoIC;12;1.58
+THXService;1;5
+CCDMonitorService;1;1
+heCAF;1;5
+CDPUserSvc_2c285;1;1
+BluetoothUserService_7738c;1;1
+CaptureService_7738c;1;1
+ConsentUxUserSvc_7738c;1;1
+DevicePickerUserSvc_7738c;1;1
+DevicesFlowUserSvc_7738c;1;1
+BcastDVRUserService_7738c;1;1
+MessagingService_7738c;1;1
+PimIndexMaintenanceSvc_bc43c;1;1
+FA_Scheduler;1;1
+Main Service;2;1
+AarSvc_1d99e80;1;1
+McAfee WebAdvisor;4;2.25
+Zoolz 2 Service;1;5
+PEFService;8;2.38
+McAWFwk;6;1.33
+mccspsvc;5;1.8
+ModuleCoreService;2;1
+cbdhsvc_5a3c3;1;1
+DevicePickerUserSvc_5a3c3;1;1
+BcastDVRUserService_518836;1;1
+cpriosvc;1;5
+CanonAccountingManagerService;1;4
+AdskLicensingService;4;3.25
+ttdmx6firesvc;1;5
+OneSyncSvc_46210;1;2
+UserDataSvc_46351;1;5
+AVP20.0;4;4
+OneSyncSvc_5dd22;1;1
+PimIndexMaintenanceSvc_5dd22;1;1
+PrintWorkflowUserSvc_5dd22;1;1
+WpnUserService_5dd22;1;1
+AarSvc_5dd22;1;1
+Polygen;2;1
+AarSvc_25a23;1;1
+agent2;1;1
+ConsentUxUserSvc_49412;1;3
+MicrosoftEdgeDevElevationService;2;5
+Soda PDF Desktop 11 Update Service;1;1
+Soda PDF Desktop 11 Creator;1;1
+Soda PDF Desktop 11;2;1.5
+xrdd.exe;5;4.8
+uncheater_bgl;2;5
+SegurazoSvc;9;2
+NahimicService;19;1.68
+Tib Mounter Service;3;4.33
+PowerPanel Personal Service;2;5
+PowerPanel Personal Service Monitor;2;5
+pgt_svc;1;1
+MORPHO_RD_Service;1;5
+MSO_SpUsb_Service;1;5
+ACCSvc;3;4.33
+UserDataSvc_3d362;2;3.5
+DGPNPSEV;3;1
+LenovoSmartConnectService;1;4
+CaptureService_3f340;1;1
+UserDataSvc_111853;1;1
+UnistoreSvc_111853;1;1
+PrintWorkflowUserSvc_13ce5fc;1;5
+dsNcService;1;5
+AntivirProtectedService;5;2.8
+Avira.HomeGuard;2;4
+AESMService;3;3.33
+EBC Client;1;5
+MBAMInstallerService;3;2
+AdvancedSystemCareService13;6;4.67
+ArmouryCrateService;6;4.17
+BluetoothUserService_4c043;1;1
+HpTouchpointAnalyticsService;7;2.57
+HPAppHelperCap;6;3.17
+HPNetworkCap;4;2.5
+HPOmenCap;2;3
+HPSysInfoCap;8;3.25
+ZA NET ICM Service;3;3
+Killer Network Service;4;3
+AarSvc_8014b;3;5
+DeviceAssociationBrokerSvc_8014b;3;4.67
+DevicePickerUserSvc_8014b;1;5
+DevicesFlowUserSvc_8014b;1;5
+Http_analyzer_v7_netfilter;2;5
+ParagonMounter;3;5
+QSetSchedulerService;3;4.67
+QSetUpdateService;2;4.5
+Intel(R) SUR QC SAM;3;4.33
+sshd;2;5
+CDPUserSvc_8014b;2;0
+DispBrokerDesktopSvc;9;2.44
+WmsRepair;1;5
+cbdhsvc_8014b;1;5
+WpnUserService_8014b;2;0
+BcastDVRUserService_8014b;2;5
+LxssManagerUser_8014b;1;5
+CaptureService_8014b;1;5
+ConsentUxUserSvc_8014b;1;5
+CredentialEnrollmentManagerUserSvc_8014b;1;5
+debugregsvc;4;3.25
+OneSyncSvc_40dcf;1;5
+paltalk_update_service;1;5
+CorsairService;2;3
+CaptureService_3f4bd;1;4
+BluetoothUserService_14686dc;1;2
+HiDriveMaintenanceService;1;5
+USBAppControl;1;5
+NIHostIntegrationAgent;1;3
+Simraceway Update Service;1;2
+AfVpnService;1;5
+PimIndexMaintenanceSvc_7aa00;1;5
+OneSyncSvc_7aa00;1;5
+ShutdownService;1;2
+UserDataSvc_7aa00;1;3
+2345SafeCenterSvc;23;1.35
+WinZip Smart Monitor Service;1;2
+AarSvc_110262;1;1
+AarSvc_1577183;1;5
+nsmService;1;5
+CDPUserSvc_48ed7;1;1
+Soda PDF Desktop 10;1;4
+ALYac_RTSrv;1;1
+ALYac_UpdSrv;1;1
+ALYac_WSSrv;1;1
+CleanMyPCService;2;5
+PrivateVPN Daemon;1;5
+LxssManagerUser_15e507;1;1
+PimIndexMaintenanceSvc_53197;1;1
+UserDataSvc_53197;1;1
+AarSvc_489c5;1;1
+WpnUserService_6909005;1;1
+AvastSecureBrowserElevationService;3;3
+McAfeeDLPAgentService;2;1
+Elasticsearch;1;1
+ConsentUxUserSvc_3aeb0;1;1
+CaptureService_133450;1;5
+HpSvc;1;2
+autotimesvc;4;3
+PimIndexMaintenanceSvc_fc774;1;2
+UserDataSvc_fc774;1;1
+MessagingService_fc774;1;2
+Jackett;3;3.33
+KingoSoftService;1;2
+brmfrsmg;1;3
+MTPdriveAgent;1;3
+avg;1;1
+avgm;1;1
+brave;7;2.57
+bravem;6;2.83
+ccleanerm;1;1
+Plarium Play Client Service;2;2
+edgeupdatem;19;2.26
+HPSIService;2;1
+BoxUpdateSvc;1;4
+fsulhoster;1;1
+fsulnethoster;2;1
+fsulorsp;1;1
+fsulprothoster;1;1
+OneSyncSvc_9ac44;1;1
+UserDataSvc_9ac44;1;1
+wampapache64;1;5
+wampmariadb64;1;5
+VBoxSDS;3;5
+uSHAREitSvc;1;4
+mcbootdelaystartsvc;4;1.5
+BcastDVRUserService_ae3ea;2;4
+MessagingService_7279e;1;1
+WpnUserService_49621;1;5
+aswMon2;1;5
+iqoptionupdater;1;1
+360DesktopLiteApp;1;4
+AarSvc_36105d2;1;1
+AUEPLauncher;4;4.75
+SAntivirusSvc;15;1.67
+HoudiniESQ;1;5
+IsoCreator.ExecutorService;1;3
+Multiplicity;1;2
+KiteService;1;5
+AarSvc_4ee79;1;5
+NortonWiFiPrivacy;1;3
+BcastDVRUserService_360df;1;1
+cbdhsvc_5ed5a;1;1
+UserDataSvc_68577;1;5
+UnistoreSvc_68577;1;5
+edgeupdate;29;2.62
+AarSvc_68577;2;5
+BcastDVRUserService_68577;1;5
+BluetoothUserService_68577;1;5
+CaptureService_68577;2;5
+cbdhsvc_68577;1;5
+CDPUserSvc_68577;1;5
+CaptureService_52254;1;1
+DTSAPO3Service;1;3
+AarSvc_6bc3d;1;5
+BluetoothUserService_6bc3d;1;5
+BluetoothUserService_8e79033;1;0
+vsservppl;1;5
+0317781583311434mcinstcleanup;1;1
+gcs;1;4
+MSITrueColorService;2;4
+SteelSeriesUpdateService;2;2.5
+DmAgent;2;5
+SAntivirusIC;10;1.1
+ZAVCoreSvc3;1;1
+AarSvc_6567a;1;5
+BcastDVRUserService_6567a;1;5
+BluetoothUserService_6567a;1;5
+CaptureService_6567a;1;5
+cbdhsvc_6567a;1;5
+CDPUserSvc_6567a;1;5
+ConsentUxUserSvc_6567a;1;5
+CredentialEnrollmentManagerUserSvc_6567a;1;5
+DeviceAssociationBrokerSvc_6567a;1;5
+DevicePickerUserSvc_6567a;1;5
+DevicesFlowUserSvc_6567a;1;5
+MicrosoftEdgeElevationService;11;2.27
+OneSyncSvc_6567a;1;5
+PimIndexMaintenanceSvc_6567a;2;5
+PrintWorkflowUserSvc_6567a;1;5
+UnistoreSvc_6567a;1;5
+UserDataSvc_6567a;1;5
+WpnUserService_6567a;1;5
+YaCy;1;1
+RvControlSvc;5;4.6
+PDF Suite 2020 Creator;2;5
+Net Monitor for Employees Agent;1;5
+McOobeSv2;1;1
+Dell Hardware Support;1;4
+RtkAudioUniversalService;5;5
+QQLiveService;3;1
+SPWYSvc;1;1
+BaiduPinyinCore;1;4
+Surfshark Service;3;5
+Parsec;3;4.67
+{0CBD4F48-3751-475D-BE88-4F271385B672};2;4
+ImmunetSCMS_7.2.8;1;5
+ImmunetProtect_7.2.8;1;5
+Rockstar Service;3;3.67
+Wondershare InstallAssist;2;1
+Datev.Database.Conserve;1;2
+Datev.DataAdaptation.DataAdaptationManager.Host;1;2
+Datev.Database.Dimitra.Server;1;2
+Datev.Framework.RemoteServices;1;2
+Datev.Framework.RemoteServiceModel.EnablerService;1;2
+DatevPrintService;1;2
+Datev.Irw.ServiceProvider.HostXcut.Server;1;2
+Datev.Database.SqlBatchService.Host;1;2
+DATEV Update-Service;1;2
+UserDataSvc_1d391aba;1;5
+WpnUserService_47beb;1;3
+OneSyncSvc_40946;1;1
+OneSyncSvc_4e675;1;5
+EraAgentSvc;1;5
+UserDataSvc_59609;1;4
+SeeyonS1;1;1
+ConsentUxUserSvc_79fcb;1;1
+CaptureService_33f4d;1;3
+OneSyncSvc_a8de3;1;5
+EraserSvc11910;1;5
+MSI_Trigger_Service;1;5
+MTrackAudioDevMon;1;5
+BcastDVRUserService_5d9d9;1;1
+OneSyncSvc_30181;1;3
+BluetoothUserService_7acb7;1;5
+UniAccessAgent;1;1
+UniAccessAgentDaemon;1;1
+OO AutoBackup;2;4
+FoxitReaderUpdateService;3;2.67
+Backup4all8Srv;1;5
+AMD Crash Defender Service;4;3.75
+GamingServices;15;1.8
+BluetoothUserService_7cea9;1;4
+CAMService;2;4
+OneSyncSvc_5a4c2;1;3
+LCTechSSDTool;1;4
+BluetoothUserService_5decd;2;5
+igccservice;4;5
+K2Service.exe;1;5
+ASUS LED Control Service;1;4
+AVGSecureBrowserElevationService;1;5
+ClearMemService;1;5
+Dimmdrive Helper;1;4
+_DNS_LOCK;2;4.5
+FreeFirewallSvc;1;3
+NetcamStudioSvc64;1;3
+postgresql-x64-9.5;1;2
+Sophos Clean Service;1;4
+Sophos Endpoint Defense Service;1;5
+Sophos File Scanner Service;1;5
+Sophos Health Service;1;5
+Sophos Safestore Service;1;4
+Sophos System Protection Service;1;5
+Subsonic;1;5
+WireGuardTunnel$VPNUWireguard;1;5
+WifiAutoInstallSrv;2;3.5
+WSWNDA3100v2;1;3
+adawareantivirusservice;2;2
+ONDISK UP-DOWN;1;1
+KDISK UP-DOWN;1;1
+v_Service;1;1
+AnySign4PC Launcher;2;3
+BigFileMonitorService;1;1
+AVP21.1;2;5
+SafeTransactionSVC;3;3.67
+AarSvc_4d359;1;3
+0225611597868469mcinstcleanup;1;1
+SyspectrAgent;1;5
+nnCron;1;5
+UdkUserSvc_188db0;1;5
+DoyoSer;1;1
+DYMobileSrv;1;1
+G4CSSWSCSVC;1;2
+RtkBtManServ;2;4
+DevicePickerUserSvc_4a9bc8;1;5
+fpCsEvtSvc;1;5
+RstMwService;2;2
+DrvRadarProSvc;1;3
+FileSyncHelper;1;4
+UserDataSvc_64c43;1;5
+BluetoothUserService_43885;1;0
+cbdhsvc_43885;1;5
+DevicesFlowUserSvc_43885;2;5
+AarSvc_43885;2;5
+CaptureService_43885;1;5
+ConsentUxUserSvc_43885;1;5
+PimIndexMaintenanceSvc_43885;1;5
+CredentialEnrollmentManagerUserSvc_43885;1;5
+DeviceAssociationBrokerSvc_43885;2;5
+UnistoreSvc_43885;1;5
+UserDataSvc_43885;1;5
+UdkUserSvc_43885;1;5
+OneSyncSvc_43885;1;5
+MessagingService_43885;1;5
+DevicePickerUserSvc_43885;1;5
+CDPUserSvc_392b8;1;4
+IMGSF50_Svc;2;1
+avast! Tools;9;3.78
+cbdhsvc_55f61;1;4
+BRA_Scheduler;1;3
+CPEFR;2;4
+RemediationService;1;3
+CpSbaCipolla;1;3
+TESvc;1;3
+CpSbaUpdater;1;3
+SuperMicro Health Assistant;1;3
+SQLAgent$WINDATA;1;1
+MSSQL$WINDATA;1;1
+WpSvc;1;1
+WRCoreService;2;3
+WRSkyClient;2;3
+AcrylicDNSProxySvc;2;5
+LDrvSvc;1;5
+ProcessGovernor;1;5
+WpnUserService_26797b;1;1
+KSDE5.1;1;4
+sgipsecvpn;1;1
+AvgWscReporter;2;3
+SafeKids1.0.5;1;1
+AviraSecurity;3;4.33
+cbdhsvc_47473;1;3
+RestoroActiveProtection;1;1
+WireGuardManager;3;5
+KNDBWM;2;3
+Killer Analytics Service;2;3
+BcastDVRUserService_11e286;1;1
+aakore;2;5
+AcronisCyberProtectionService;2;4.5
+BcastDVRUserService_a3df7;1;5
+AsusUpdateCheck;2;2
+BetternetSvc_6.5.0;1;1
+asus;4;1.75
+asusm;3;2.33
+AarSvc_40eb6;2;3
+LT_Dispatcher;2;4.5
+PrivateInternetAccessWireguard;1;5
+CredentialEnrollmentManagerUserSvc_6bcab;1;5
+DriverUpdSvc;3;3.33
+OneSyncSvc_332de;1;4
+RateSamani;1;1
+Cold Fusion RDS;1;1
+OneSyncSvc_25389b2;1;0
+BluetoothUserService_8b048b;1;4
+MsQuic;3;0.67
+BcastDVRUserService_47936;1;1
+BluetoothUserService_47936;1;1
+AarSvc_34953;1;4
+gzipsvr;1;1
+gzipsercice;1;1
+WpnUserService_3ac47;1;1
+AarSvc_327f6;1;5
+Survarium Update Service (64-bit);1;5
+hddrsrv;1;5
+ABBYY.Licensing.Comparator.2.0;1;4
+AdvancedSystemCareService14;4;3.75
+CybereasonActiveProbe;1;1
+CybereasonCRS;1;1
+CybereasonProtectedSvc;1;1
+GamingServicesNet;11;2.09
+LightingService;2;4
+ROG Live Service;1;3
+RunSwUSB;1;4
+ss_conn_service2;3;3
+MonectServerService;1;3
+RTLDHCPService;1;5
+AarSvc_4e3b8;1;1
+KSDE5.2;1;5
+klvssbridge64_21.2;1;5
+AVP21.2;4;4.75
+ABUService;1;2
+OVRLibraryService;2;3
+BridleBuddlesService;2;2.5
+SepLpsService;1;5
+SepScanService;1;5
+sepWscSvc;1;5
+WsAppService3;1;1
+ElevationService;1;1
+PDF Architect 8;1;1
+PDF Architect 8 Creator;1;1
+PDF Architect 8 Update Service;1;1
+InputMapper Cerberus Whitelister;1;5
+apmwinsrv;2;5
+MISS;1;5
+DevicesFlowUserSvc_39c67;1;5
+AarSvc_39c67;1;5
+AVG Tools;1;5
+Fing.Agent;1;5
+WpnUserService_49e6c;1;1
+Cloud Station Backup VSS Service x64;1;5
+QASvc;1;1
+IBuddyService;1;1
+FACEITService;1;5
+Gamecaster_Updater;1;4
+BcastDVRUserService_1d947;1;1
+ID50Service;1;5
+LSAService;1;5
+UnistoreSvc_536c0;1;5
+SOHDms;1;5
+AarSvc_5e62c;1;3
+FvSvc;2;4
+wusvcm;1;3
+Avast BreachGuard Service;2;3.5
+uhssvc;6;3.17
+CDPUserSvc_2ab84;1;4
+PimIndexMaintenanceSvc_2ab84;1;1
+UnistoreSvc_2ab84;1;1
+ewserver;1;1
+UserDataSvc_1d1af38;1;0
+AarSvc_40153;1;1
+ArmouryLiveUpdate;1;3
+AsusCertService;3;3.67
+AsusROGLSLService;1;3
+TDDService;1;2
+ImDiskRD;2;3.5
+LenovoVantageService;2;5
+VPNProxyMasterService;1;2
+HappyLink;1;1
+AVP21.3;6;4
+Groupy;1;5
+LGHUBUpdaterService;1;5
+ConsentUxUserSvc_62c2c;1;1
+ReviverSoft Smart Monitor Service;1;1
+MullvadVPN;1;5
+ProtonVPN Update Service;1;5
+AarSvc_31bc3;1;1
+AarSvc_2f68b;1;3
+PrintWorkflowUserSvc_2d741;1;2
+AarSvc_eb696;2;5
+WpnUserService_eb696;1;5
+UwfServicingSvc;1;5
+GoogleChromeDevElevationService;1;5
+BcastDVRUserService_eb696;1;5
+MixedRealityOpenXRSvc;4;4.25
+DsRoleSvc;1;5
+DeviceAssociationBrokerSvc_eb696;1;5
+CDPUserSvc_eb696;2;5
+BluetoothUserService_eb696;1;5
+CFClient;1;4
+Kofax Power PDF iFilter;1;3
+ArqAgent;1;4
+KSDE5.3;1;5
+klvssbridge64_21.3;1;5
+360bpsvc;3;2.33
+Boxpn;1;5
+UserDataSvc_834fb;1;3
+SangforPWEx;1;1
+BluetoothUserService_862b6;1;5
+kdeskcore;1;1
+360DocProtect;1;4
+MicrosoftEdgeBetaElevationService;1;4
+XianzhiDeviceService;1;3
+GUBootService;2;2.5
+SupremoService;1;1
+Dolby DAX API Service;1;5
+Razer Synapse Service;1;5
+Razer Chroma SDK Service;1;3
+Razer Chroma SDK Server;1;3
+BcastDVRUserService_52e8e;1;3
+YT Updater Service;1;1
+AarSvc_51429;1;5
+DevicesFlowUserSvc_39b36;1;1
+BiomatiquesRDService;1;5
+DeviceAssociationBrokerSvc_1068fa;1;5
+DevicePickerUserSvc_1068fa;1;5
+AarSvc_1068fa;1;5
+BluetoothUserService_1068fa;1;5
+OneDrive Updater Service;1;5
+UserDataSvc_1068fa;1;5
+UnistoreSvc_1068fa;1;5
+WpnUserService_c7fd4;3;5
+DellClientManagementService;1;5
+UserDataSvc_25f88a;1;5
+AarSvc_41359;1;5
+hcwD3bda_dvbt;1;1
+DialogBlockingService;3;3.67
+MessagingService_364db;1;1
+UnistoreSvc_364db;1;1
+AarSvc_3a186;1;1
+BcastDVRUserService_3a186;1;1
+BluetoothUserService_3a186;1;1
+CaptureService_3a186;1;1
+cbdhsvc_3a186;1;1
+CDPUserSvc_3a186;1;1
+ConsentUxUserSvc_3a186;1;1
+DeviceAssociationBrokerSvc_3a186;1;1
+DevicePickerUserSvc_3a186;1;1
+DevicesFlowUserSvc_3a186;1;1
+MessagingService_3a186;1;1
+OneSyncSvc_3a186;1;1
+PimIndexMaintenanceSvc_3a186;1;1
+UdkUserSvc_3a186;1;1
+UnistoreSvc_3a186;1;1
+UserDataSvc_3a186;1;1
+Scan2PC;1;1
+amm_LSService;1;5
+Mystic_Light_Service;1;3
+BroVPNServiceInteractive;1;2
+Yondisk_Html_Safe_Runner;1;1
+NATService;1;1
+SeewoFreezeUpdateAssist;1;3
+QQPYService;1;3
+TeraCopyService.exe;3;5
+reaConverter_service;1;5
+CdRomAccessAgentService;1;1
+ASUSLinkNear;2;2
+ASUSLinkNearExt;1;1
+ASUSLinkRemote;2;2
+RaiDrive.Service;1;4
+GPPService;1;5
+pcregservice;1;1
+Surfshark Shadowsocks Service;1;5
+AdGuardHome;1;5
+ASUSOptimization;3;5
+PsyFrameGrabberService;1;1
+OPTIMUM SSD Tool Service;1;5
+CloudflareWARP;1;5
+DynamicWeather;1;1
+cryptobrowser;1;1
+0patchService;1;5
+BcastDVRUserService_88bda;1;5
+KAPSService;2;2
+HPJumpStartBridge;1;4
+StarMoney 13 Deluxe OnlineUpdate;1;5
+OO SafeEraseAgent;2;4.5
+AarSvc_4adbc;1;3
+AsusAppService;1;5
+AsusMultiAntennaSvc;1;5
+ASUSSoftwareManager;1;5
+ASUSSystemAnalysis;1;5
+ASUSSystemDiagnosis;1;5
+Start11;1;5
+TextInputManagementService;1;1
+InventorySvc;2;1
+ViewPic_2345Svc;1;0
+zksvc;1;1
+ABBYY.Licensing.FineReader.15.0;1;5
+BcastDVRUserService_4d07e;1;1
+ABBYY.Licensing.PDFTransformer.Classic.4.0;1;4
+ArgusControlService;1;5
+BuildPE;1;5
+TmWinService;1;4
+StarMoney 13 Basic OnlineUpdate;1;5
+CredentialEnrollmentManagerUserSvc_98f900b;1;5
+GUPMService;1;2
+AntiCheatExpert Service;2;1
+AMSProtectedService;1;3
+zkservice;1;4
+TxQBService;1;1
+UpdateService;1;1
+HPPrintScanDoctorService;1;5
+HPDiagsCap;1;5
+AarSvc_87aeb;1;5
+AppsAnywhereService;1;1
+AarSvc_122ed8;1;4
+MariaDB_local;1;5
+Brother BRAdmin Service;1;1
+InnovativeSolutions_monitor;1;4
+PD_Service_14;1;5
+DefenderUIService;1;5
+DeviceAssociationBrokerSvc_39977;1;1
+PimIndexMaintenanceSvc_8cf7a;1;3
+OneSyncSvc_8cf7a;1;3
+UserDataSvc_8cf7a;1;3
+UnistoreSvc_8cf7a;1;3
+TobiiGeneric;1;4
+TobiiIS5LEYETRACKER5;1;4
+Tobii Service;1;4
+WpnUserService_8cf7a;1;3
+BcastDVRUserService_8cf7a;1;1
+rsAssistant;1;1
+AdvancedSystemCareService15;2;4
+luminati_net_updater_win_formatfactory_pcfreetime_com;1;3
+MicrosoftEdgeElevationService1d76aa7bb17c1bc;1;3
+AppServiceb;1;5
+Adguard VPN Service;1;5
+ZHSvcHost;1;1
+yibook;1;1
+AarSvc_62bc2f;1;5
+AviraSecurityUpdater;1;5
+EpicOnlineServices;1;1
+tcpipreg;1;5
+KillerSmartphoneSleepService;1;1
+xTendUtilityService;1;1
+AvrcpService;1;4
+WireGuardTunnel$vpn01-se-mma;2;5
+ZoomCptService;1;4
+DevicePickerUserSvc_ac5791;1;3
+EppWsc;1;5
+Drv_Mgr_Service;1;2
+CCSDK;1;3
+WpnUserService_5e2c2;1;0
+bdredline_agent;1;1
+BytuSvr;1;1
+AarSvc_1fdbff7;1;1
+BluetoothUserService_77eac;1;1
+conmon;1;5
+Autodesk Access Service Host;1;5

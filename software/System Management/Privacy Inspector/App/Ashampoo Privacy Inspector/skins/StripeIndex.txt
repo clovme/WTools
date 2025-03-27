@@ -1,0 +1,239 @@
+Index ; Verwendungszweck des Symboles
+Viele der Symbole werden wohl später passend mit den Addons versehen automatisch (z.b. Combis wie "Backup löschen" (29+55)
+Symbole die direkt hintereinander stehen sollten oft zueinander passen.
+Z.b. "Start/Stop/Pause/Fortsetzen" oder "entfernen/hinzufügen/neu/bearbeiten"
+
+000 - OK-Symbol
+001 - Abbrechen
+002 - Hilfe
+003 - Informationen
+004 - Warnung
+005 - Fehler
+006 - Start
+007 - Stop
+008 - Pause
+009 - Fortsetzen
+010 - Aktualisieren/Refresh
+011 - Zurücksetzen/undo
+012 - Exportieren
+013 - Importieren
+014 - generell "Löschen" (dickes rotes Kreuz hatten wir an diesen Stellen oft)
+015 - genrell suchen (Lupe)
+016 - entfernen (z.b. aus Listen Einträge entfernen; da hatten wir oft ein Minuszeichen mit rotem Kreis drum oder so)
+017 - hinzufügen (hatten wir oft ein grünes Pluszeichen mit kreis drum an diesen Stellen)
+018 - neu
+019 - bearbeiten
+020 - alle markieren
+021 - keine markieren
+022 - Optionen
+023 - Einstellungen (sollte nicht dasselbe sein wie Optionen damit wir varieren können etwas)
+024 - Darstellung/Optik (kommt in jedem Progi von uns unter Optionen vor wo man Sprache+skin umstellen kann)
+025 - About/Über das Programm
+026 - Beenden/Ende/Exit (Programm beenden)
+027 - Öffnen/Laden (wie im explorer Datei-Menü)
+028 - Speichern (wie im explorer Datei-Menü)
+029 - Backup (viele unserer Progis legen ja Backups an)
+030 - Statistik
+031 - generell Internet (die Weltkugel)
+032 - Internetmenü (für den Fall dass wir dafür ein anderes Symbol als für "Internet" nehmen wollen mal?)
+033 - IM: Kaufen
+034 - IM: Code eingeben
+035 - IM: Kostenlosen Code holen
+036 - IM: Registrieren
+037 - IM: Programm empfehlen
+038 - IM: Ashampoo Homepage
+039 - IM: Ashampoo Produkte
+040 - IM: Support
+041 - IM: Angebot des Tages
+042 - IM: Service-Letter
+043 - IM: My Ashampoo
+044 - IM: Updates suchen
+045 - IM: Upgraden auf...
+046 - System
+047 - Festplatte
+048 - Ordner
+049 - Datei
+050 - Tools/Werkzeuge
+051 - Generell "Verlauf/History/zuletzt geöffnet" (also nicht unbedingt nur vom Browser)
+052 - Manuell einstellen (User mit schraubenschlüssel oder so)
+053 - Automatisch einstellen lassen (z.b. Zauberstab wie in WO)
+054 - Security (ein Schloss oder so)
+055 - Speed ; eine Stopuhr (z.b. etwas auf Geschwindigkeit optimieren oder Zeit messen)
+056 - Überwachen (z.B. als Addon für "Temperatur überwachen" etc.) ; bitte keine Lupe wenn möglich (Lupe=suchen)
+057 - Benutzerdefiniert (generell) ; vielleicht sowas wie ein Usermänchen+Zahnräder oder so?
+058 - Registry-Symbol (z.B. Grüne würfel wie in Regedit)
+059 - Generelles Symbol für "Alle" (z.B. Alle Protokoll-Einträge, alle Infektionen etc.)
+060 - Symbol für "sichtbar" ; z.B. ein Auge (für "Sichtbare Dateien etc.")
+061 - symbol für "Belegen" ; z.B. "Dateien belegen xyz MB"
+062 - Symbol für "einschalten"
+063 - symbol für "ausschalten"
+064 - Symbol für "Unbekannt"
+065 - Ersetzen/Replace
+066 - Generelles Symbol für eine Liste/Bericht
+
+NEUE GENERELLE SYMBOLE IM STRIPE:
+067 - Zurück (Pfeil?)
+068 - Weiter (Pfeil?)
+069 - Dienst 
+070 - Dreieckiger Pfeil der nach rechts zeigt (wird in Navileisten verwendet)
+071 - Warte-Symbol (Sanduhr oder sowas?)
+072 - Windows-Fahne/Symbol
+073-074 - reserviert
+
+AB HIER WO7-Symbole:
+075 - Übersicht
+076 - Assistent
+077 - System säubern
+078 - Privatsphäre
+079 - System anpassen
+080 - Diagnose
+081 - Dateiwerkzeuge
+082 - Favoriten
+083 - Optimieren
+
+AB HIER die Icons für die WO7-Module
+084 - One Click Optimizer
+085 - Drive Cleaner
+086 - Registry Optimizer
+087 - Internet Cleaner
+088 - Defrag
+089 - Service Manager
+090 - StartUp Tuner
+091 - Process Manager
+092 - Internet Tuner
+093 - Anti Spy
+094 - File Wiper
+095 - File Encrypter&Decrypter
+096 - Tweaking
+097 - Icon Saver
+098 - Context Menu Manager
+099 - File Associator
+100 - Uninstall Manager
+101 - DiskSpace Explorer
+102 - System Information
+103 - System Benchmark
+104 - Disk Doctor
+105 - Undeleter
+106 - File Splitter&Joiner
+107 - FSJ : Datei splitten
+108 - FSJ : Datei joinen
+109 - FED : Datei verschlüsseln
+110 - FED : Datei entschlüsseln
+111 - Microsoft Internet Explorer
+112 - Mozilla FireFox
+113 - Opera
+114 - Apple Safari
+115 - Google Chrome
+116 - Windows Media Player
+117 - Microsoft Office
+118 - Microsoft Word
+119 - Microsoft Outlook
+120 - Outlook Express (XP)
+121 - Microsoft Mail (der Nachfolger von OutlookExpress)
+122 - Microsoft Messenger
+123 - IC : Browser-Cache
+124 - IC : Cookies
+125 - IC : Browser-Verlauf/History
+126 - Netzwerk
+127 - Software
+128 - Hardware generell (nicht dasselbe wie für System nehmen bitte ; also nicht die 046)
+129 - USB
+130 - CD-ROM oder DVD
+131 - Drucker
+132 - Bildschirm/Screen
+133 - CPU/Prozessor
+134 - Grafikkarte
+135 - Mainboard
+136 - RAM / Speicher (vielleicht ein Speicherbaustein oder ein Chipbaustein)
+137 - Treiber (siehe WO6-SystemInfomodul)
+138 - AS: Fehlerberichterstattung (der Dienst ist gemeint ; das auf WO6:AntiSpy-Modul war gut)
+139 - AS: Remote Desktop (das auf WO6:AntiSpy-Modul war gut)
+140 - AS: Freigaben (Netzwerk-Freigaben ; das auf WO6:AntiSpy-Modul war gut)
+141 - TW: Anmeldung (Anmeldung an Windows)
+142 - TW: Systemsteuerung (am besten bitte eines der Orginal Windows-Symbole dafür)
+143 - TW: Explorer (nicht der IE - der normale Windows Explorer)
+144 - TW: Tastatur
+145 - TW: Maus
+146 - Privatssphäre - bitte nicht dasselbe wie 078 nehmen (vielleicht ein Gesicht mit Maske oder sowas?)
+147 - TW: Gerätemanager
+148 - TW: OEM-Infos (in WO6 passte da gut ein Fabrikgebäude als Symbol)
+149 - TW: Desktop
+150 - TW: Startmenü (das in WO6 passte gut)
+151 - TW: Taskleiste
+152 - TW: Trayleiste/Infobereich
+153 - TW: UAC / Benutzerkontensteuerung (in WO6 war hier dasselbe Symbol wie für Vista - besser ein anderes bitte)
+154 - TW: Vista (Symbol für Windows Vista)
+155 - TW: Windows 7
+156 - TW: Mausrad (in WO6 hatten wir da das Maus-Symbol und das Rad rot eingefärbt)
+157 - TW: Bedienung
+158 - TW: Ruhezustand
+159 - TW: Superfetch
+160 - TW: Superbar (Win7)
+161 - TW: Miniaturvorschau (von Bildern im Explorer)
+162 - TW: Optische Effekte (wie Schriftenglättung)
+163 - TW: Minianwendungen + Gadgets
+164 - TW: Benutzerdaten (vielleicht ein Männchen mit ner Karteikarte oder so?)
+165 - TW: Sicherheitscenter (von Windows - vielleicht das von WinXP nehmen was so aussieht wie ein bunter Schild?)
+166 - DSP: Pie-Chart
+167 - DSP: Bar-Chart
+168 - DSP: No Chart
+169 - DSP: Donut-Chart
+170 - Filter (vielleicht ein Trichter - sieht man ja oft als Symbol für Filter)
+171 - TW: Superbar (Win7)
+172 - TW: Aero-Oberfläche
+173 - TW: MFT (MasterFileTable)
+174 - TW: Superfetch
+175 - TW: Ruhezustand (von Windows)
+176 - TW: Startmenü (das aus WO6 war sehr gut)
+177 - eine Sprechblase
+178 - RC: Helpfiles
+179 - RC: Fonts
+180 - RC: Anwendungspfade
+181 - RC: FileFormate
+182 - RC: Shared files
+183 - RC: MRUs (recently used files)
+184 - RC: ActiveX (sind in WO6 die mit Kugel+Wuerfel etc.)
+185 - RC: Icondateien
+186 - RC: Systemsounds
+
+AB HIER WO8 (neu):
+187 - Papierkorb
+188 - Live Optimizer (bitte keine Uhr schon wieder)
+
+AB HIER WO9 (neu)
+189 - Fragezeichen/Help : Alternative 1
+190 - Fragezeichen/Help : Alternative 2
+191 - Info : Alternative
+192 - Navi-Pfeil
+193 - Adobe Flash
+194 - Adobe Reader
+195 - Microsoft
+196 - RegDefrag
+197 - SMART-Modul
+198 - Sun Java
+199 - Apple Quicktime
+
+AB HIER WO10/11
+200 - Caution white
+201 - Checkmark white
+202 - Temperature
+203 - Fonts
+204 - System update
+205 - Link Checker
+206 - Copy
+207 - Arrow back
+208 - Arrow right white
+209 - Error white
+210 - Checkbox unchecked white
+211 - Checkbox checked white
+212 - Windows 8
+213 - Metro Apps
+214 - Internet Window
+215 - Game Booster
+216 - Printer
+217 - DivX
+
+
+AB HIER WO12
+218 - HDD Benchmark
+219 - File Manipulator

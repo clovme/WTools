@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">	
+	<meta http-equiv="expires" content="0">
+		
+	<title>system.trialbar</title>
+
+	<style type="text/css">
+
+		html, body{
+			margin: 0px;
+			padding: 0px;
+		}
+
+		body{
+			min-width:100%;
+			min-height:70px;
+			background-color: #f2f2f2;
+			font-family: 'Segoe UI Regular', Segoe UI, Arial, sans-serif;			
+		}
+
+		.trialbar{
+			position: relative;	
+			width:100%;
+			height:70px;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		/*
+			Das könnte ein Trennbalken nach oben hin werden, wenn man denn möchte:
+			border-top: 1px solid #FF0000;
+		*/
+		}
+
+		
+
+		
+/*=======================*\
+		Restzeit
+\*=======================*/
+	
+		.circle-holder{
+			position: absolute;
+			overflow: hidden;
+			left:18px;
+			top:3px;			
+			width:64px;
+			height:64px;
+		}
+
+		/* Restzeit-Zahl im Kreis */
+		.circle-txt-remaining, .circle-txt-expired{
+			position: absolute;
+			width: 64px;
+			top:0px;
+			left:0px;
+			text-align: center;
+			font-size: 32px;
+			padding-top: 9px;
+		}
+		
+		.circle-txt-remaining.okay{
+			/* Textfarbe bei viel Restzeit */
+			color: #0099ff;
+		}
+
+		.circle-txt-remaining.critical{
+			/* Textfarbe bei wenig Restzeit */
+			color: #ff004e;
+		}
+		
+		/* Dies ist das Häkchen im Kreis bei Full Key */
+		.circle-txt-activated{	
+			position: absolute;
+			width: 64px;
+			top:0px;
+			left:0px;
+			text-align: center;
+			font-size: 32px;
+			padding-top: 9px;
+			color: #0099FF;
+		}
+		
+		.circle-txt-expired{
+			color: #CC0000;
+		}
+		
+		.svgrot{
+			position: absolute;
+			transform: rotate(-90deg);
+		}
+
+		circle.circ-remain{
+			fill: none;
+			stroke-width: 4;
+			stroke-dasharray: 176;
+			stroke-dashoffset: 176;
+		}
+		
+		circle.circ-remain.okay{
+			/* Kreisfarbe bei viel Restzeit */
+			stroke: #0099ff;
+		}
+		
+		circle.circ-remain.critical{
+			/* Kreisfarbe bei wenig Restzeit */
+			stroke: #ff004e;
+		}
+
+		/* Unausgefüllter Ring */
+		circle.circ-base{	
+			fill: none;
+			stroke: #d9d9d9;
+			stroke-width: 4;
+		}
+		
+		/*
+		   Der Hintergrundkreis dient als Kreis um
+		   das Häkchen bei Full Key
+		*/
+		.status-full circle.circ-base{
+			stroke: #0099ff;
+		}
+		
+		
+		
+/*=======================*\
+		Text
+\*=======================*/
+
+		.text-container{
+			position: absolute;
+			left:100px;
+			top:10px;
+		}
+
+		h1, p{
+			margin:0;
+			font-weight: normal;
+		}
+
+		h1{
+			font-size: 20px;
+			color: #0099ff;
+		}
+
+		a{
+			cursor: pointer;
+			-webkit-transition: 300ms color;
+			transition: 300ms color;		
+		}	
+
+		a:hover{
+			color: #0099ff;	
+		}
+
+		p,a{
+			font-size: 12px;
+			color: #333333;
+		}
+
+
+		
+/*=======================*\
+		Button
+\*=======================*/
+
+		.ash-button{
+			position: absolute;
+			display: inline-block;
+			-webkit-box-sizing:content-box;
+			box-sizing:content-box;
+
+			border-radius: 3px;
+
+			top:20px;
+			right:20px;
+			padding: 2px 10px 4px 5px;
+			min-width: 100px;
+			margin:auto;
+
+			font-weight:normal;
+			font-size: 16px;
+			text-decoration: none;
+			text-align: center;
+			line-height: normal;
+
+			color: #ffffff;
+			background-color: #ff004e;
+			border: 1px solid #cc003e;
+			border-bottom: 3px solid #cc003e;
+
+			cursor: pointer;
+
+			-webkit-transition: 300ms background-color;
+
+			transition: 300ms background-color;		
+		}	
+
+		.ash-button:hover{
+			background-color: #ff6666;
+		}
+
+		.ash-button img{
+			vertical-align: middle;
+		}
+
+		.ash-button input[type="submit"], .ash-button button{
+			display: none;	
+		}
+
+
+		
+/*==============================================*\
+		Elemente nach Lizenzstatus anzeigen
+\*==============================================*/
+		
+		.txt-expired, .txt-trial, .txt-full, .circle-txt-activated, .circle-txt-expired{
+			display:none;
+		}	
+
+		.status-trial .txt-trial,
+		.status-full .txt-full,
+		.status-expired .txt-expired{
+			display: block;
+		}
+
+		.status-trial #kaufbutton,
+		.status-expired #kaufbutton{
+			display: inline-block;
+		}
+
+		.status-full .circle-txt-activated, .status-expired .circle-txt-expired{
+			display: block;	
+		}		
+		
+		.status-full #kaufbutton,
+		.status-full .circle-txt-remaining,
+		.status-expired .circle-txt-remaining,
+		.status-full .circle.circ-remain{
+			display: none;			
+		}			
+
+	</style>
+
+</head>
+
+
+
+
+
+
+<body class="status-trial">
+
+	<div class="trialbar">
+		<!--<p id="counterDebug">1</p>-->
+		
+		<div class="circle-holder">
+			<svg height="64" width="64" class="svgrot">
+				<circle class="circ-base" cx="32" cy="32" r="28" />
+				<circle class="circ-remain" id="circ-remain" cx="32" cy="32" r="28" />
+			</svg>
+			<div class="circle-txt-expired" id="circle-txt-expired">0</div>
+			<div class="circle-txt-remaining" id="circle-txt-remaining" data-localize-id="t_bant_variable_daysleft">%DAYSLEFT%</div>
+			<div class="circle-txt-activated">✓</div>
+		</div>
+		
+		<div class="text-container">
+			<h1>
+				<span class="txt-full" data-localize-id="ashinet.title.product-activated">Your product is activated.</span>
+				<span class="txt-trial" data-localize-id="ashinet.message.license.trial-days-left">%DAYSLEFT% days remaining in your trial period</span>
+				<span class="txt-expired" data-localize-id="ashinet.title.trial-expired">Your trial period has expired.</span>
+			</h1>
+			<p class="txt-trial txt-expired"><a data-linktarget="buynow" data-localize-id="ashinet.message.license.purchase">If you like this program, you can buy it here!</a></p>
+		</div>
+		
+
+		<label id="kaufbutton" class="ash-button cta-button">
+			<img height="15" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAXCAYAAAAP6L+eAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowNmYyNjhkNi04NDU3LWEzNDUtOGZlYi1hNWY2OGFiMTcxNDciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTRGRjU4ODdBN0Y4MTFFNkE1MDVBRTI0MTNCNjZCNUUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTRGRjU4ODZBN0Y4MTFFNkE1MDVBRTI0MTNCNjZCNUUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDZmMjY4ZDYtODQ1Ny1hMzQ1LThmZWItYTVmNjhhYjE3MTQ3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjA2ZjI2OGQ2LTg0NTctYTM0NS04ZmViLWE1ZjY4YWIxNzE0NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlVHihkAAAJHSURBVHjaYmRgYMhhQID3QLwMiP8zEAn+/8eulBGIjZH4nOzs7M9+/vx5j1KDWR49eqQGYkybNu1lR0fHRyYmJpBFJsQazMjIiE34GSPQRhEQ6/z58wZGRkagoGAFYjYGCoCgoCAfE9DGNyBsaGh4vqioiA8o/huIv1KC586dy8CE5KW3QUFBLAwUAicnJ3ZXV9f7TMiC1tbWl+Pj47kpMbiurk6Yh4fnOhNaRLyIi4sj2+DExEQee3v7S0DmPyYsXrkSGBjISY7Bubm5XEDqIYjNhCX5PE5NTeUl1dDm5mZBYAI4A+MzYVNkZWV1S0JCgolYQ/n4+JgiIyP/Apmv4RkEm0IxMTGOX79+MRJr6KpVq6SUlZX3ouQ8LGrZmZmZQbnxUWdnp1BycrIEIYNZWVlPAplf0MsKFMDPz2/08eNHNiD958KFC9wKCgrnCDj6GxD/xVYIoQBfX1+nzZs3fxQWFmb58eOHwNevXxlJiMPPwCLiKNbIy8vL+8XFxcX49u3bf0BD/4HSJLEYGM58OMPYxcXlJhC4nj59+tPnz5//kptZsHoTWIhIPXjwQNHDw+MfMOn9wWfAnTt3mNeuXctma2v7G6j2E1DoKi6DBYGpIuDv37+gSAHlwCMg/bhKSHS1wDC+gzWMZWVldYEKr0INuyIjI6OGy7X41GIYDCzdmJCSz39gcPzGZTApahmAEaYNzPcuwORmCiyt7O/fv+9AilpQHQjCjFgqR2YgZQvE8kD8BogPAAumrzgqUgy10FqEASDAACXv9lde8+c8AAAAAElFTkSuQmCC">
+			<span data-localize-id="ashinet.button.buy-now">Buy Now</span>
+			<button type="button" data-linktarget="buynow"></button>
+		</label>
+
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<script src="js/build.offline.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+		var _dialogLogfilePrefix = '[TRIALBAR]: ';
+
+		var bantshee = new bantshee();
+		
+		
+		bant.session.addEventListener('license-update', function(event){
+			bant.log.info( _dialogLogfilePrefix + 'event: license-update' );
+			
+			license = event.license;
+		
+			toggleExpiredText();
+			startCountdownAnimation();
+		});
+		
+				
+		$(document).ready(function(){
+			// Linktargets klickbar machen
+			bantshee.navigate.setDataTargets();	
+								
+			toggleExpiredText();
+			startCountdownAnimation();
+			
+		});			
+		
+		
+		function toggleExpiredText(){
+			license = bant.session.getPrimaryLicense();
+			
+			if (license.isExpired){
+				statusClass = 'status-expired';	
+			}
+			else{
+				statusClass = 'status-trial';		
+			}
+			//if (license.remainingTime.days > vnrThresholdDays ){
+			if ( license.activated ){
+				statusClass = 'status-full';	
+			}			
+			
+			document.body.setAttribute( 'class', statusClass );
+		}
+		
+		
+		function startCountdownAnimation(){
+				bant.log.info( _dialogLogfilePrefix + 'startCountdownAnimation()' );
+
+				var licenseDaysTotal = 0;
+				var licenseDaysLeft = 0;
+										
+				var countMeUp = null;
+				var licenseCounter = 0;
+				var myBeat = 0;			
+			
+				// Ab welcher Restzeit der Kreis seine Farbe ändert
+				var licenseDaysCriticalThreshold = 3;
+			
+				// Aktuelle Zeit
+				var dateMillisecondsNow = new Date().getTime();
+			
+				// Kreisumfang
+				var circCircumference = 176;
+			
+				// ID des Kreiselements
+				var circRemain = document.getElementById('circ-remain');
+			
+				// ID des Restzeit-Textelements
+				var circText = document.getElementById('circle-txt-remaining');
+				
+				// Hiermit wird gerechnet, hieraus bekommt der Kreis seinen ... Kreis.
+				var tempStrokeDashoffset = circCircumference;
+
+				circRemain.style.strokeDasharray = circCircumference;
+				circRemain.style.strokeDashoffset = circCircumference;
+
+				// Lizenzinformationen bekommen
+				license = bant.session.getPrimaryLicense();
+
+				// Mögliche Gesamtzeit in Tagen
+				licenseDaysTotal = Math.floor( (license.expirationDate - license.activationDate) / (1000*60*60*24) );
+
+				// Verbleibende Zeit in Tagen
+				licenseDaysLeft = Math.floor( (license.expirationDate - dateMillisecondsNow ) / (1000*60*60*24) );
+
+				bant.log.info( _dialogLogfilePrefix + 'startCountdownAnimation() -> Days left: ' + licenseDaysLeft + ', days total: ' + licenseDaysTotal);
+
+		/*		var myDebug = '<div style="font-size:9px; padding:5px; position:absolute; bottom:40px; background-color:black; color:#CCCCCC;">Days total (floor): ' + licenseDaysTotal + ', days left (floor): ' + licenseDaysLeft + '<br> Activation Date: ' + new Date(license.activationDate) + '<br> Expiration Date: ' + new Date(license.expirationDate) + '<br>bantLicense.id: ' + bantLicense.id + ', bantLicense.type: ' + bantLicense.type + ',  bantLicense.expired: ' + bantLicense.expired + '</div>';
+				$('ash-content').prepend( myDebug );
+		*/		
+				if (licenseDaysLeft < 0){
+					bant.log.error( _dialogLogfilePrefix + 'startCountdownAnimation() -> Setting ' + licenseDaysLeft + ' days to 0 days' );
+					licenseDaysLeft = 0;
+				}
+
+				// Die Zahl im Kreis austauschen
+				circText.innerHTML = licenseDaysLeft;
+
+
+				// Ein Kreisabschnitt, der einen Tag repräsentiert
+				myBeat = Math.round( 100 * ( circCircumference / licenseDaysTotal )  ) / 100;
+
+				bant.log.info( _dialogLogfilePrefix + 'startCountdownAnimation() -> start animation' );
+
+				countMeUp = window.setInterval(function(){
+					if ( licenseCounter < licenseDaysLeft ){
+						licenseCounter++;
+						if( licenseDaysLeft <= licenseDaysCriticalThreshold ){
+							
+							circText.setAttribute( 'class', 'circle-txt-remaining critical' );
+							circRemain.setAttribute( 'class', 'circ-remain critical' );
+							//circRemain.style.stroke = '#ff004e';
+						}
+						else{
+							circText.setAttribute( 'class', 'circle-txt-remaining okay' );
+							circRemain.setAttribute( 'class', 'circ-remain okay' );
+							//circRemain.style.stroke = '#0099ff';							
+						}
+
+						// Nicht direkt mit dem strokeDashoffset am Element arbeiten,
+						// sondern vorher tempStrokeDashoffset berechnen, und das Ergebnis übergeben.
+						tempStrokeDashoffset -= myBeat;
+
+						circRemain.style.strokeDashoffset = Math.round( tempStrokeDashoffset );
+						if( circRemain.style.strokeDashoffset < 0 ){
+		//					bant.log.error( _dialogLogfilePrefix + 'startCountdownAnimation() -> circRemain.style.strokeDashoffset < 0  ( ' + circRemain.style.strokeDashoffset + ' )' );				
+							circRemain.style.strokeDashoffset = 0;
+						}
+
+		//				$('.mydebug').text('ID: ' +id + '  |  1 day: ' + myBeat + 'px  |  circRemain.style.strokeDashoffset: ' + circRemain.style.strokeDashoffset + "  |  tempStrokeDashoffset: " + tempStrokeDashoffset );
+
+					}
+					else{
+						window.clearInterval(countMeUp);
+						bant.log.info( _dialogLogfilePrefix + 'startCountdownAnimation() -> finished animation' );
+					}
+
+				},33);
+
+			}
+		
+	</script>
+
+
+</body>
+</html>

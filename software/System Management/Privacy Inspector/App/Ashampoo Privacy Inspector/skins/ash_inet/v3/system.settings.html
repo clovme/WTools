@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BANT</title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">	
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />		
+
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+			padding:0;
+			margin:0;
+			border: none;
+			outline: none;
+			text-decoration: none;
+			cursor: default;
+		}
+
+		body {
+			position: relative;
+			background-color:#FFFFFF;
+			overflow: hidden;
+			font-family: "Segoe UI Light", Segoe UI, Arial, sans-serif;
+			color:#333333;			
+			line-height: 0;
+		}	
+
+		a {cursor:default;}
+
+		.siteholder{
+			position: relative;
+			border:1px solid #0099ff;
+			border-bottom:6px solid #0099ff;			
+		}
+
+		
+			
+		#head{
+			height: 60px;
+			border-bottom:1px solid #d9d9d9;	
+		}
+
+		#headline{
+			padding: 10px 60px 0px 20px;
+			line-height:normal;
+			font-size: 26px;
+		}
+
+		#close{
+			position: absolute;
+			display: inline-block;
+			top:25px;
+			right:20px;
+			font-size: 26px;
+			font-family: "Segoe UI Bold", Segoe UI, Arial, sans-serif;
+			font-weight: bold;
+			color:#333333;	
+		}
+
+		#close:hover{
+			color:#DD0000;
+		}		
+			
+			
+		#content-holder{
+			padding:20px 20px 10px 20px;
+			display: inline-block; 
+			width: 550px;
+			min-width: 550px;
+		}
+
+		#content{
+
+		}
+
+		#content *{
+			line-height: normal;
+		}
+		
+		.content-label{
+			font-size:16px;
+			font-weight:bold;
+			padding-left: 10px;
+
+		}
+		
+		.content-description{
+			font-size:14px;			
+			padding-bottom: 15px;
+			padding-left:25px;
+			
+		}
+		
+		.content-checkbox{
+			position:relative;
+			top:1px;
+			border: 0;
+		}
+		
+		.content-checkbox::-ms-check{
+			padding: 1px;
+			border:1px solid #d9d9d9;			
+			color:#0099ff;
+		}		
+
+
+	
+		#buttons{
+			padding: 0 20px 20px 20px;
+			white-space: nowrap;
+/*			border-bottom:6px solid #0099ff;*/
+		}
+
+		.btn-single-holder{
+			display: inline-block;
+		}			
+			
+		.btn-single-holder-left{
+			width: 50%;
+			padding-right: 5px;
+		}
+
+		.btn-single-holder-right{
+			width: 50%;
+			padding-left: 5px;
+		}
+			
+			
+		.btn-button {
+			display: inline-block;
+			border-radius: 5px;
+			padding: 6px 10px;
+			width: 100%;
+			margin:auto;
+			
+			font-family: "Segoe UI", Segoe UI, Arial, sans-serif;
+			font-weight:normal;
+			font-size: 12px;
+			text-decoration: none;
+			text-align: center;
+			line-height: normal;	
+			color: white;
+		}		
+
+		.btn-button-cta {
+			background-color: #ff004e;
+			border:1px solid #cc003e;
+			border-bottom: 3px solid #cc003e;
+		}
+			
+		.btn-button-cta:hover {
+			background-color: #ff6666;
+		}				
+
+		.btn-button-normal {
+			color: #333333;
+			background-color: #e7e7e7;
+			border:1px solid #cccccc;
+			border-bottom: 3px solid #cccccc;
+		}
+			
+		.btn-button-normal:hover {
+			background-color: #ccebff;
+		}		
+			
+	</style>
+
+<!--[if lte IE 7]>
+	<style type="text/css">
+		#close{
+			position:absolute;
+			display: inline;
+			top:10px;
+			line-height:normal;
+		}
+		
+		#content-holder{
+			display: inline;
+			padding:10px 20px 10px 20px;			
+		}	
+
+		.btn-single-holder{
+			display: inline;
+			width:auto;
+		}
+
+		.btn-button {
+			width:auto;
+		}	
+
+	</style>
+<![endif]-->
+
+
+	<script type="text/javascript" src="js/build.offline.min.js"></script>
+	<script>
+	var gBantData;
+	
+	function onLoad(){
+		gBantData = bant.resources.get('channels');
+		
+		var formNode = document.createElement("form");
+		document.getElementById("content").appendChild(formNode);
+		
+		for (var i=0;i<gBantData.channels.length;i++) {
+			var channel = gBantData.channels[i];
+			
+			var checkBoxNode = document.createElement("input");
+			checkBoxNode.className = "content-checkbox";
+			checkBoxNode.type = "checkbox";
+			checkBoxNode.id = channel.id;
+			checkBoxNode.checked = channel.enabled;
+			checkBoxNode.setAttribute('data-channel-index', i);
+			checkBoxNode.onclick = function(){
+				var index = parseInt(this.getAttribute('data-channel-index'));
+				gBantData.channels[index].enabled = this.checked;
+			}
+			
+			formNode.appendChild(checkBoxNode);
+			
+			var titleNode = document.createElement("label");
+			titleNode.className = "content-label";
+//			titleNode.setAttribute("for", channel.id);
+			titleNode.htmlFor = channel.id;
+			titleNode.appendChild(document.createTextNode(channel.name));
+			formNode.appendChild(titleNode);
+			
+			var descriptionNode = document.createElement("div");
+			descriptionNode.className = "content-description";
+			descriptionNode.appendChild(document.createTextNode(channel.description));
+			formNode.appendChild(descriptionNode);
+
+/*
+			if(i+1<channelCount){
+				var newLineNode = document.createElement("br");
+				formNode.appendChild(newLineNode);
+			}
+*/			
+		}
+	
+		
+		
+		return true;
+	};
+	
+	
+	function onCloseDialog(event){
+		if(event.keyCode == 27){
+			window.close();
+		}
+	}
+	
+	function screenTest(){
+		var screen = bant.window.screen;
+		bant.window.opener.moveTo()
+	}
+	</script>
+</head>
+<body onload="onLoad();" onkeydown="onCloseDialog(event)">
+	<div class="siteholder">
+		<a id="close" onclick="return bant.dialog.close(this, 'cancel');">×</a>
+		<div onmousedown="bant.dialog.startDrag(this, event)" id="head">
+			<div data-localize-id="ashinet.dialog.settings.title" id="headline">Service settings</div>
+		</div>
+		<div id="content-holder">
+			<div id="content"></div>
+		</div>
+	
+		<div id="buttons">
+			<span class="btn-single-holder btn-single-holder-left"><a id="btn-okay" class="btn-button btn-button-cta" data-localize-id="ashinet.button.close" onclick="return bant.dialog.close(this, 'cancel');">Close</a></span>
+		</div>
+	</div>	
+</body>
+</html>

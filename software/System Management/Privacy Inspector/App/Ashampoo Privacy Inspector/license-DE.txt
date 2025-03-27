@@ -1,0 +1,68 @@
+ Lizenzvertrag für Endbenutzer (EULA)
+
+Vertragsbestimmungen
+Diese EULA betrifft die Einräumung einer Lizenz an dem von Ihnen zu nutzenden Softwareprodukt sowie eventuell damit verbundener Online Dienste durch Ashampoo.
+
+1.	Begriffsbestimmungen
+a.	Ashampoo – bezeichnet die Ashampoo GmbH & Co. KG sowie deren Schwesterunternehmungen Ashampoo Technology GmbH & Co. KG, Ashampoo Development GmbH & Co. KG und Personizer GmbH & Co. KG mit Sitz im Schafjückenweg 2 | 26180 Rastede/Germany und alle anderen Unternehmungen der Gruppe.
+b.	Geschäftsbedingungen - bezeichnet die Allgemeinen Geschäftsbedingungen von Ashampoo. Siehe www.ashampoo.com. Wie im Folgenden festgehalten gelten diese Geschäftsbedingungen zusätzlich zu den Bestimmungen dieser EULA und ergänzen diese. Bei Widersprüchen beider Regelwerke gelten diese EULA.
+c.	Kunde - bezeichnet einen Vertragspartner von Ashampoo, also sowohl Verbraucher als auch Unternehmer.
+d.	Lizenzdauer - beginnt, sobald Sie die Software aktiviert oder einen Software-Schlüssel erhalten haben.
+e.	Mehrfachnutzung - bezeichnet die zeitgleiche Speicherung, das zeitgleiche vorrätig halten und jede sonstige zeitgleiche Nutzung von Software auf mehreren digitalen Endgeräten sowie jede Nutzung solcher Software, für die gemäß den jeweiligen Produktinformationen besondere Lizenzen für Mehrfachnutzung erteilt werden.
+
+Für Fragen zu den Produkten, deren Diensten oder diesen Nutzungsbedingungen informieren Sie sich bitte auf www.ashampoo.com oder bei
+
+Ashampoo GmbH & Co. KG
+Schafjückenweg 2 | 26180 Rastede/Germany
+E-Mail: support@ashampoo.com 
+Telefon: +49 4402 9739-200*
+Fax: +49 4402 9739-409
+
+2.	Lizenzerteilung
+a.	Ashampoo erteilt Ihnen ein nicht-exklusives und nicht übertragbares Recht, die Software für die Dauer des vereinbarten Lizenzzeitraums vorbehaltlich etwaiger Beschränkungen, die in dieser EULA oder in den Geschäftsbedingungen enthalten sind, zu nutzen. 
+b.	Wenn Sie einer automatischen Verlängerung Ihrer Lizenz zugestimmt haben, verlängert sich die Lizenzdauer automatisch zum jeweils gültigen Listenpreis.
+c.	Die Kündigung oder der Ablauf der nach diesem Vertrag eingeräumten Lizenz führt zu einem sofortigen Ende Ihres Rechts auf Nutzung der Software und der Updates und Upgrades. Sie müssen die Software sowie alle Sicherungskopien von Ihrem Digitales Endgerät löschen. 
+
+3.	Nutzung
+a.	Der Zugang zur Software ist ausschließlich über die von Ashampoo zur Verfügung gestellten und genehmigten Quellen gestattet. Sie verpflichten sich, auf die Software nicht auf unbefugte Weise zuzugreifen, wie beispielsweise mittels nicht lizenzierter Software-Clients. 
+b.	Die Software kann zum Schutz vor digitaler Vervielfältigung und/oder Lizenzmissbrauch geschützt sein. Um Zugang zu den Onlinediensten und -funktionen dieser Software zu erhalten, können eine Internetverbindung, ein Ashampoo Account und die Installation der Connect Clientsoftware sowie die Aktivierung einer Produktlizenz erforderlich sein. 
+
+3.	Die Nutzung der Software ist auf ein Digitales Endgerät beschränkt, soweit nicht vertraglich anders vereinbart. Zu diesem Zweck können Sie jedes verfügbaren Digitales Endgerät nutzen, das die Systemanforderungen erfüllt und für welches die Lizenz erteilt wurde. Sollten Sie das Digitale Endgerät wechseln, muss die Software vor ihrer Neuinstallation auf einem anderen Digitalen Endgerät von dem Digitalen Endgerät, auf dem sie zuvor installiert war, entfernt werden. Für Software, deren Produktinformationen besondere Lizenzen für eine Mehrfachnutzung vorsehen, ist die Mehrfachnutzung nur in dem Umfang zulässig, in dem Sie die entsprechende Art oder Anzahl von Lizenzen erworben und von Ashampoo erhalten haben.
+
+4.	Die Software darf nicht ohne die Zustimmung von Ashampoo an Dritte weitergegeben werden. Im Rahmen der Rechtsprechung zu Used Software wird die Zustimmung hiermit unter folgenden Bedingungen erteilt:
+-	Sie übertragen die Software dauerhaft.
+-	Alle dazugehörigen Dateien einschließlich des Installationsprogrammes müssen weitergegeben werden.
+-	Die Software muss unverändert sein.
+-	Sie dürfen keine Produktangaben, Urheber- oder sonstigen Schutzrechtshinweise von Ashampoo entfernen.
+-	Der Empfänger muss seinerseits diese Nutzungsbedingungen akzeptieren.
+-	Sie stellen die Nutzung der Software ein und behalten keine Kopien oder sonstigen Materialien. Diese sind endgültig zu löschen.
+-	Jede Übertragung der Software muss das aktuellste Update oder Upgrade sowie alle vorherigen Versionen umfassen.
+-	Die Übertragung erfolgt nur im Einzelfall und nicht in gewerblichem Umfang.
+
+5.	Es ist Ihnen nicht gestattet, die Software zu überarbeiten, zurück zu entwickeln, in eine andere Ausdrucksform umzuwandeln, zu dekompilieren, zu disassemblieren, darauf basierende Bearbeitungen zu erstellen beziehungsweise auf andere Weise den Versuch zu unternehmen, den Quellcode der Software zu ermitteln. 
+
+4.	Urheberrecht
+Ashampoo räumt Ihnen hiermit eine nicht-ausschließliche, nicht-übertragbare, nicht-unterlizenzierbare, nicht gewerbliche und persönliche Lizenz zur Installierung und/oder Nutzung der Software (ganz oder teilweise) (die „Lizenz“), bis eine Partei das Vertragsverhältnis kündigt oder dessen mögliche Befristung endet. Es findet keine Eigentumsübertragung statt. Es handelt sich nicht um einen Kaufvertrag. Updates, Patches und ähnliche Änderungen können notwendig sein, um die Software auf bestimmter Hardware weiter nutzen zu können. 
+Alle Eigentums- und Inhaberrechte und alle Rechte an geistigem Eigentum in Bezug auf die Software (einschließlich, aber nicht beschränkt auf alle Texte, Grafiken, Musik oder Sounds, alle Mitteilungen oder Informationen, Namen, Themen, Objekte, Effekte, Dialoge, Slogans, Plätze, Diagramme, Konzepte, Videos, audio-visuelle Effekte, Domainnamen und alle anderen Elemente, die zu der Software gehören, einzeln oder in Kombination) und alle Kopien davon, sind und bleiben Eigentum von Ashampoo oder seinen Lizenzgebern. Die Software ist durch nationale und internationale Gesetze, Copyright-Verträge und Vereinbarungen und andere Gesetze geschützt. Diese Software kann lizenzierte Materialien enthalten und in diesem Fall können Ashampoos Lizenzgeber ihre Rechte im Falle eines Verstoßes gegen diesen Vertrag schützen. Jede Vervielfältigung oder Wiedergabe dieser lizenzierten Materialien gleich auf welche Weise und aus welchem Grund ohne die vorherige Einwilligung von Ashampoo und gegebenenfalls Ashampoos Lizenzgebern und Vertretern ist untersagt. Mit Ausnahme der ausdrücklich in dieser EULA vorgesehenen Fälle sind alle Rechte, die Ihnen nicht durch diesen Vertrag übertragen wurden, ausdrücklich Ashampoo vorbehalten. Diese Lizenz überträgt keine Ansprüche oder Eigentumsrechte an der Software.
+
+5.	Änderungsvorbehalt
+Ashampoo behält sich Produktänderungen, -aktualisierungen und –revidierungen nach eigenem Ermessen vor, um die Software weiterentwickeln, verbessern und den sich ändernden kommerziellen sowie technischen Anforderungen anpassen zu können. Die Gleichwertigkeit der Leistung/Software wird sichergestellt. Geänderte, aktualisierte oder revidierte Software unterliegt den Bestimmungen dieser Lizenzvereinbarung. Eine Verpflichtung aktualisierte, geänderte oder revidierte Software zur Verfügung zu stellen, besteht nicht. 
+
+6.	Mängelhaftung
+a.	Ashampoo leistet Ihnen Gewähr bezüglich auftretender und in dokumentierter, nachprüfbarer Form mitgeteilter Mängel, wenn und soweit die vertraglich vorausgesetzte oder gewöhnliche Verwendung beeinträchtigt wird.
+b.	Sollte die Beseitigung des Mangels in angemessener Frist nicht erfolgen können, sind Sie berechtigt, unter den gesetzlichen Voraussetzungen nach Ihrer Wahl vom Vertrag zurückzutreten oder zu mindern und Schadens- oder Aufwendungsersatz zu verlangen. Die Mangelbeseitigung kann auch durch Übergabe einer neuen Programmversion oder eines work-around erfolgen. Sofern der Mangel die Funktionalität nicht oder nur unerheblich beeinträchtigt, kann Ashampoo unter Ausschluss weiterer Mängelansprüche den Mangel durch Lieferung einer neuen Version oder eines Updates im Rahmen seiner Versions- und Update-Planung beheben.
+c.	Die in 6.1 enthaltene Verpflichtung Ashampoos entfällt, wenn und soweit der mitgeteilte Fehler auf Änderungen oder Ergänzungen der LIZENZ-SOFTWARE oder auf deren unsachgemäße Behandlung oder Installation durch Sie und/oder Ihre Kunden oder Dritte zurückzuführen ist.
+
+7.	Haftung 
+a.	Mit Ausnahme der Haftung nach dem Produkthaftungsgesetz und aufgrund einer Verletzung des Lebens, des Körpers oder der Gesundheit ist die Haftung Ashampoos beschränkt oder ausgeschlossen wie nachfolgend bestimmt.
+b.	Die Haftung Ashampoos ist bei Fahrlässigkeit auf den Ersatz des typischen vorhersehbaren Schadens beschränkt. Bei einfacher Fahrlässigkeit haftet Ashampoo jedoch nur, wenn eine Pflicht verletzt wird, deren Erfüllung eine ordnungsgemäße Durchführung des Vertrags, insbesondere unter Berücksichtigung der Interessen beider Parteien im Vertragsgebiet, überhaupt erst ermöglicht und auf deren Einhaltung Sie vertrauen dürfen.
+
+8.	Schlussbestimmungen
+a.	Auf Verträge zwischen dem Anbieter und den Kunden findet das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts Anwendung. Die gesetzlichen Vorschriften zur Beschränkung der Rechtswahl und zur Anwendbarkeit zwingender Vorschriften insbes. des Staates, in dem der Kunde als Verbraucher seinen gewöhnlichen Aufenthalt hat, bleiben unberührt.
+b.	Sofern es sich beim Kunden um einen Kaufmann, eine juristische Person des öffentlichen Rechts oder um ein öffentlich-rechtliches Sondervermögen handelt, ist Gerichtsstand für alle Streitigkeiten aus Vertragsverhältnissen zwischen dem Kunden und dem Anbieter der Sitz des Anbieters.
+c.	Der Vertrag bleibt auch bei rechtlicher Unwirksamkeit einzelner Punkte in seinen übrigen Teilen verbindlich. Anstelle der unwirksamen Punkte treten, soweit vorhanden, die gesetzlichen Vorschriften. Soweit dies für eine Vertragspartei eine unzumutbare Härte darstellen würde, wird der Vertrag jedoch im Ganzen unwirksam.
+
+
+9.	Streitbeilegung:
+Erklärung	Gemäß § 36 VSBG weisen wir darauf hin, dass wir nicht an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilnehmen und hierzu auch nicht verpflichtet sind.
+Plattform der EU-Kommission zur Online-Streitbeilegung	https://www.ec.europa.eu/consumers/odr

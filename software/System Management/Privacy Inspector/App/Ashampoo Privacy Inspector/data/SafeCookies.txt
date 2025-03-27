@@ -1,0 +1,14 @@
+*slack.com
+account.*
+accounts.*
+amazon.*
+ashampoo.*
+ebay.*
+gog.com
+login.*
+login.gog.com
+login.microsoftonline.*
+signin.*
+signin.ebay.*
+steampowered.com
+store.steampowered.com

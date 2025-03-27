@@ -1,0 +1,90 @@
+[2025-02-12 12:46:10:569] <wWinMain> Main facade create
+[2025-02-12 12:46:10:569] <CUnify::CUnify> create unify
+[2025-02-12 12:46:10:570] <initUI> OS ver>=win10, setting native dpi aware...
+[2025-02-12 12:46:10:571] <initUI> Set native dpi aware successfully!
+[2025-02-12 12:46:10:572] <wWinMain> Main App init, appid:1224, appver:2.0.4, system: (23H2 build 22631), cmdline:
+[2025-02-12 12:46:10:573] <wWinMain> Boot alerady：3分12秒 (2025-02-12 12:42:58)
+[2025-02-12 12:46:10:573] <wWinMain> Main App Setp 0, Frame Init
+[2025-02-12 12:46:10:573] <CUnify::CUnify> create unify
+[2025-02-12 12:46:10:574] <wWinMain> Check only one instance and try pop last main window, appid:1224
+[2025-02-12 12:46:10:574] <wWinMain> Main App Setp 1, Resotre Old Data
+[2025-02-12 12:46:10:589] <CDB::CDB> create db
+[2025-02-12 12:46:10:589] <CDB::SysConfig> sysini init
+[2025-02-12 12:46:10:606] <wWinMain> Main App Setp 2, try add init tasks
+[2025-02-12 12:46:10:623] <CDB::MemConfig> MemConfig init
+[2025-02-12 12:46:10:623] <wWinMain> Main App Setp 3, create main wnd
+[2025-02-12 12:46:10:673] <CEverTask::CEverTask> CEverTask Init
+[2025-02-12 12:46:10:673] <CEverTask::CEverTask> Total task types:174
+[2025-02-12 12:46:10:673] <CMainFrameWnd::InitWindow> CMainFrameWnd InitWindow
+[2025-02-12 12:46:10:673] <CMainFrameWnd::InitWindow> UI Proxy init
+[2025-02-12 12:46:10:673] <UIMainProxy::OnInit> on init
+[2025-02-12 12:46:10:673] <UIMainProxy::OnInit> Init Task Object
+[2025-02-12 12:46:10:705] <CTaskMgr::ClearTaskBackups::<lambda_a563811dbfc0307baffa65beafd671f9>::operator ()> 清理备份任务文件开始
+[2025-02-12 12:46:10:705] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:684
+[2025-02-12 12:46:10:705] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:6231
+[2025-02-12 12:46:10:705] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:6292
+[2025-02-12 12:46:10:705] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4962
+[2025-02-12 12:46:10:705] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:1118
+[2025-02-12 12:46:10:705] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:6025
+[2025-02-12 12:46:10:705] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4007
+[2025-02-12 12:46:10:705] <CTaskMgr::ClearTaskBackups::<lambda_a563811dbfc0307baffa65beafd671f9>::operator ()> 清理备份任务文件结束，耗时0ms
+[2025-02-12 12:46:10:706] 一次性任务已过期，自动停止 <简单任务:关机, 序号:0, ID:4007>
+[2025-02-12 12:46:10:707] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:8189
+[2025-02-12 12:46:10:707] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4458
+[2025-02-12 12:46:10:707] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4867
+[2025-02-12 12:46:10:707] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:9532
+[2025-02-12 12:46:10:707] 循环型任务已过期，重置下次运行时间 <简单任务:显示磁盘可用空间, 序号:0, ID:9532>
+[2025-02-12 12:46:10:708] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:2017
+[2025-02-12 12:46:10:708] 循环型任务已过期，重置下次运行时间 <简单任务:隐藏窗口到托盘, 序号:0, ID:2017>
+[2025-02-12 12:46:10:708] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:8643
+[2025-02-12 12:46:10:708] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:1181
+[2025-02-12 12:46:10:708] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:8178
+[2025-02-12 12:46:10:708] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:418
+[2025-02-12 12:46:10:708] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:542
+[2025-02-12 12:46:10:708] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:606
+[2025-02-12 12:46:10:708] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:890
+[2025-02-12 12:46:10:708] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:634
+[2025-02-12 12:46:10:708] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:752
+[2025-02-12 12:46:10:709] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:560
+[2025-02-12 12:46:10:732] <CPyWorker::run> 异步加载拼音缓存开始
+[2025-02-12 12:46:10:749] <UIMainProxy::OnInit> ApplyCfg
+[2025-02-12 12:46:10:753] <Util::System::LogonStartScheduler> Failed to create an instance of ITaskService: 8007007e
+[2025-02-12 12:46:10:753] <Util::Registry::Reg_SetAutoRun> Reg_SetAutoRun RegOpenKeyEx failed error: 0, 操作成功完成。
+
+[2025-02-12 12:46:10:754] <UIMainProxy::OnInit> LoadStat
+[2025-02-12 12:46:10:886] <CMainFrameWnd::OnShow> 显示器DPI：96
+[2025-02-12 12:46:10:893] <wWinMain> Main App Setp 4, show main wnd and tray
+[2025-02-12 12:46:11:008] <wWinMain> Main App Setp 4, enter msg loop
+[2025-02-12 12:46:11:089] <CPyWorker::run> 异步加载拼音缓存结束，耗时360ms
+[2025-02-12 12:46:11:090] <CPyWorker::run> 加载过期拼音缓存开始
+[2025-02-12 12:46:11:090] <CPyWorker::run> 加载过期拼音缓存结束，耗时0ms
+[2025-02-12 12:46:11:090] <CPyWorker::run> 保存拼音缓存开始
+[2025-02-12 12:46:11:091] <CPyWorker::run> 保存拼音缓存结束，耗时0ms
+[2025-02-12 12:46:16:621] <CStat::SendStat::<lambda_8031342f89b83b8a6dde6464dae806b1>::operator ()> Client stat result: 1
+[2025-02-12 12:46:28:940] 运行 <简单任务:查看天气预报, 序号:15, ID:8178>
+[2025-02-12 12:46:29:011] 简单任务执行完毕！ <简单任务:查看天气预报, 序号:15, ID:8178>
+[2025-02-12 12:46:29:011] <UITrayProxy::OnEvent> RunningTaskCount==0， Stop tray animaiton...
+[2025-02-12 12:46:39:544] 运行 <简单任务:查看天气预报, 序号:15, ID:8178>
+[2025-02-12 12:46:39:554] 简单任务执行完毕！ <简单任务:查看天气预报, 序号:15, ID:8178>
+[2025-02-12 12:46:39:555] <UITrayProxy::OnEvent> RunningTaskCount==0， Stop tray animaiton...
+[2025-02-12 12:46:48:390] 运行 <简单任务:搜索文本, 序号:1, ID:684>
+[2025-02-12 12:46:52:059] 简单任务执行完毕！ <简单任务:搜索文本, 序号:1, ID:684>
+[2025-02-12 12:46:52:060] <UITrayProxy::OnEvent> RunningTaskCount==0， Stop tray animaiton...
+[2025-02-12 12:46:58:000] <UIMainProxy::ExitApp> 结束程序
+[2025-02-12 12:46:58:003] <clear> Main App clear Setp 0, CAVCapDLL Clear
+[2025-02-12 12:46:58:003] <clear> Main App clear Setp 1, unload plugs
+[2025-02-12 12:46:58:003] <clear> Main App clear Setp 2, GDIPHelper Shutdown
+[2025-02-12 12:46:58:003] <clear> Main App clear Setp 3, CoUninitialize
+[2025-02-12 12:46:58:004] <clear> Main App clear Setp 4, delete gUnify
+[2025-02-12 12:46:58:004] <CUnify::~CUnify> delete App
+[2025-02-12 12:46:59:013] <CUnify::~CUnify> delete Core
+[2025-02-12 12:46:59:013] <CCore::~CCore> delte hotkey
+[2025-02-12 12:46:59:013] <CCore::~CCore> delte timers
+[2025-02-12 12:46:59:013] <CCore::~CCore> delte events
+[2025-02-12 12:46:59:013] <CCore::~CCore> delte asynctaskObj
+[2025-02-12 12:46:59:013] <CCore::~CCore> delte mediaObj
+[2025-02-12 12:46:59:013] <CUnify::~CUnify> delete DB
+[2025-02-12 12:46:59:014] <CUnify::~CUnify> delete UI
+[2025-02-12 12:46:59:014] <CUnify::~CUnify> delete Net
+[2025-02-12 12:46:59:014] <CUnify::~CUnify> delete TaskObj
+[2025-02-12 12:46:59:026] <clear> Main App clear done!

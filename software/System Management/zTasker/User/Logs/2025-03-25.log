@@ -1,0 +1,390 @@
+[2025-03-25 12:24:57:993] <wWinMain> 更新程序初始化
+[2025-03-25 12:25:04:517] <wWinMain> 更新程序初始化
+[2025-03-25 12:25:09:569] <wWinMain> Main facade create
+[2025-03-25 12:25:09:570] <CUnify::CUnify> create unify
+[2025-03-25 12:25:09:571] <initUI> OS ver>=win10, setting native dpi aware...
+[2025-03-25 12:25:09:572] <initUI> Set native dpi aware successfully!
+[2025-03-25 12:25:09:572] <wWinMain> Main App init, appid:956, appver:2.0.4, system:Windows 11 Pro X64 (24H2 build 26100), cmdline:
+[2025-03-25 12:25:09:573] <wWinMain> Boot alerady：3小时33分28秒 (2025-03-25 08:51:41)
+[2025-03-25 12:25:09:574] <wWinMain> Main App Setp 0, Frame Init
+[2025-03-25 12:25:09:574] <CUnify::CUnify> create unify
+[2025-03-25 12:25:09:575] <wWinMain> Check only one instance and try pop last main window, appid:956
+[2025-03-25 12:25:09:575] <wWinMain> Main App Setp 1, Resotre Old Data
+[2025-03-25 12:25:09:587] <CDB::CDB> create db
+[2025-03-25 12:25:09:588] <CDB::SysConfig> sysini init
+[2025-03-25 12:25:09:617] <wWinMain> Main App Setp 2, try add init tasks
+[2025-03-25 12:25:09:645] <CDB::MemConfig> MemConfig init
+[2025-03-25 12:25:09:645] <wWinMain> Main App Setp 3, create main wnd
+[2025-03-25 12:25:09:707] <CEverTask::CEverTask> CEverTask Init
+[2025-03-25 12:25:09:708] <CEverTask::CEverTask> Total task types:174
+[2025-03-25 12:25:09:708] <CMainFrameWnd::InitWindow> CMainFrameWnd InitWindow
+[2025-03-25 12:25:09:708] <CMainFrameWnd::InitWindow> UI Proxy init
+[2025-03-25 12:25:09:708] <UIMainProxy::OnInit> on init
+[2025-03-25 12:25:09:708] <UIMainProxy::OnInit> Init Task Object
+[2025-03-25 12:25:09:761] <CTaskMgr::ClearTaskBackups::<lambda_a563811dbfc0307baffa65beafd671f9>::operator ()> 清理备份任务文件开始
+[2025-03-25 12:25:09:761] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:684
+[2025-03-25 12:25:09:761] <CTaskMgr::ClearTaskBackups::<lambda_a563811dbfc0307baffa65beafd671f9>::operator ()> 清理备份任务文件结束，耗时0ms
+[2025-03-25 12:25:09:762] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:6231
+[2025-03-25 12:25:09:762] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:6292
+[2025-03-25 12:25:09:762] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4962
+[2025-03-25 12:25:09:762] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:1118
+[2025-03-25 12:25:09:763] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:6025
+[2025-03-25 12:25:09:763] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4007
+[2025-03-25 12:25:09:763] 一次性任务已过期，自动停止 <简单任务:关机, 序号:0, ID:4007>
+[2025-03-25 12:25:09:767] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:8189
+[2025-03-25 12:25:09:767] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4458
+[2025-03-25 12:25:09:767] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4867
+[2025-03-25 12:25:09:767] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:9532
+[2025-03-25 12:25:09:767] 循环型任务已过期，重置下次运行时间 <简单任务:显示磁盘可用空间, 序号:0, ID:9532>
+[2025-03-25 12:25:09:768] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:2017
+[2025-03-25 12:25:09:768] 循环型任务已过期，重置下次运行时间 <简单任务:隐藏窗口到托盘, 序号:0, ID:2017>
+[2025-03-25 12:25:09:769] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:8643
+[2025-03-25 12:25:09:769] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:1181
+[2025-03-25 12:25:09:769] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:8178
+[2025-03-25 12:25:09:769] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:418
+[2025-03-25 12:25:09:769] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:542
+[2025-03-25 12:25:09:769] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:606
+[2025-03-25 12:25:09:769] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:890
+[2025-03-25 12:25:09:770] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:634
+[2025-03-25 12:25:09:770] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:752
+[2025-03-25 12:25:09:770] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:560
+[2025-03-25 12:25:09:793] <CPyWorker::run> 异步加载拼音缓存开始
+[2025-03-25 12:25:09:810] <UIMainProxy::OnInit> ApplyCfg
+[2025-03-25 12:25:09:821] <Util::System::LogonStartScheduler> 
+ Task has been deleted. 
+[2025-03-25 12:25:09:823] <UIMainProxy::OnInit> LoadStat
+[2025-03-25 12:25:09:964] <CMainFrameWnd::OnShow> 显示器DPI：96
+[2025-03-25 12:25:09:973] <wWinMain> Main App Setp 4, show main wnd and tray
+[2025-03-25 12:25:10:105] <wWinMain> Main App Setp 4, enter msg loop
+[2025-03-25 12:25:10:198] <CPyWorker::run> 异步加载拼音缓存结束，耗时407ms
+[2025-03-25 12:25:10:198] <CPyWorker::run> 加载过期拼音缓存开始
+[2025-03-25 12:25:10:198] <CPyWorker::run> 加载过期拼音缓存结束，耗时0ms
+[2025-03-25 12:25:10:198] <CPyWorker::run> 保存拼音缓存开始
+[2025-03-25 12:25:10:199] <CPyWorker::run> 保存拼音缓存结束，耗时0ms
+[2025-03-25 12:25:15:636] <CStat::SendStat::<lambda_8031342f89b83b8a6dde6464dae806b1>::operator ()> Client stat result: 1
+[2025-03-25 12:25:47:373] .......热键执行开始...... <简单任务:搜索文本, 序号:1, ID:684>
+[2025-03-25 12:25:47:446] 运行 <简单任务:搜索文本, 序号:1, ID:684>
+[2025-03-25 12:25:47:490] .......热键执行结束...... <简单任务:搜索文本, 序号:1, ID:684>
+[2025-03-25 12:25:47:528] 简单任务执行完毕！ <简单任务:搜索文本, 序号:1, ID:684>
+[2025-03-25 12:25:47:528] <CTaskListUI::HandleMessage> System clipborad changed
+[2025-03-25 12:25:47:534] <UITrayProxy::OnEvent> RunningTaskCount==0， Stop tray animaiton...
+[2025-03-25 12:26:04:797] .......热键执行开始...... <简单任务:结束窗口及其进程, 序号:2, ID:6231>
+[2025-03-25 12:26:04:799] 运行 <简单任务:结束窗口及其进程, 序号:2, ID:6231>
+[2025-03-25 12:26:04:801] .......热键执行结束...... <简单任务:结束窗口及其进程, 序号:2, ID:6231>
+[2025-03-25 12:26:11:072] <wWinMain> Main facade create
+[2025-03-25 12:26:11:072] <CUnify::CUnify> create unify
+[2025-03-25 12:26:11:073] <initUI> OS ver>=win10, setting native dpi aware...
+[2025-03-25 12:26:11:073] <initUI> Set native dpi aware successfully!
+[2025-03-25 12:26:11:073] <wWinMain> Main App init, appid:1444, appver:2.0.4, system:Windows 11 Pro X64 (24H2 build 26100), cmdline:
+[2025-03-25 12:26:11:074] <wWinMain> Boot alerady：3小时34分29秒 (2025-03-25 08:51:42)
+[2025-03-25 12:26:11:074] <wWinMain> Main App Setp 0, Frame Init
+[2025-03-25 12:26:11:074] <CUnify::CUnify> create unify
+[2025-03-25 12:26:11:074] <wWinMain> Check only one instance and try pop last main window, appid:1444
+[2025-03-25 12:26:11:075] <wWinMain> Main App Setp 1, Resotre Old Data
+[2025-03-25 12:26:11:086] <CDB::CDB> create db
+[2025-03-25 12:26:11:086] <CDB::SysConfig> sysini init
+[2025-03-25 12:26:11:087] <wWinMain> Main App Setp 2, try add init tasks
+[2025-03-25 12:26:11:091] <CDB::MemConfig> MemConfig init
+[2025-03-25 12:26:11:091] <wWinMain> Main App Setp 3, create main wnd
+[2025-03-25 12:26:11:113] <CEverTask::CEverTask> CEverTask Init
+[2025-03-25 12:26:11:113] <CEverTask::CEverTask> Total task types:174
+[2025-03-25 12:26:11:114] <CMainFrameWnd::InitWindow> CMainFrameWnd InitWindow
+[2025-03-25 12:26:11:114] <CMainFrameWnd::InitWindow> UI Proxy init
+[2025-03-25 12:26:11:114] <UIMainProxy::OnInit> on init
+[2025-03-25 12:26:11:114] <UIMainProxy::OnInit> Init Task Object
+[2025-03-25 12:26:11:129] <CTaskMgr::ClearTaskBackups::<lambda_a563811dbfc0307baffa65beafd671f9>::operator ()> 清理备份任务文件开始
+[2025-03-25 12:26:11:129] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:684
+[2025-03-25 12:26:11:129] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:6231
+[2025-03-25 12:26:11:129] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:6292
+[2025-03-25 12:26:11:130] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4962
+[2025-03-25 12:26:11:130] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:1118
+[2025-03-25 12:26:11:130] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:6025
+[2025-03-25 12:26:11:130] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4007
+[2025-03-25 12:26:11:130] <CTaskMgr::ClearTaskBackups::<lambda_a563811dbfc0307baffa65beafd671f9>::operator ()> 清理备份任务文件结束，耗时0ms
+[2025-03-25 12:26:11:131] 一次性任务已过期，自动停止 <简单任务:关机, 序号:0, ID:4007>
+[2025-03-25 12:26:11:132] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:8189
+[2025-03-25 12:26:11:132] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4458
+[2025-03-25 12:26:11:132] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4867
+[2025-03-25 12:26:11:133] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:9532
+[2025-03-25 12:26:11:133] 循环型任务已过期，重置下次运行时间 <简单任务:显示磁盘可用空间, 序号:0, ID:9532>
+[2025-03-25 12:26:11:133] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:2017
+[2025-03-25 12:26:11:134] 循环型任务已过期，重置下次运行时间 <简单任务:隐藏窗口到托盘, 序号:0, ID:2017>
+[2025-03-25 12:26:11:134] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:8643
+[2025-03-25 12:26:11:134] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:1181
+[2025-03-25 12:26:11:134] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:8178
+[2025-03-25 12:26:11:134] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:418
+[2025-03-25 12:26:11:135] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:542
+[2025-03-25 12:26:11:135] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:606
+[2025-03-25 12:26:11:135] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:890
+[2025-03-25 12:26:11:135] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:634
+[2025-03-25 12:26:11:136] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:752
+[2025-03-25 12:26:11:136] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:560
+[2025-03-25 12:26:11:159] <CPyWorker::run> 异步加载拼音缓存开始
+[2025-03-25 12:26:11:175] <UIMainProxy::OnInit> ApplyCfg
+[2025-03-25 12:26:11:184] <Util::System::LogonStartScheduler> 
+ Task has been deleted. 
+[2025-03-25 12:26:11:186] <UIMainProxy::OnInit> LoadStat
+[2025-03-25 12:26:11:188] <CMainFrameWnd::OnShow> 显示器DPI：96
+[2025-03-25 12:26:11:196] <wWinMain> Main App Setp 4, show main wnd and tray
+[2025-03-25 12:26:11:204] <wWinMain> Main App Setp 4, enter msg loop
+[2025-03-25 12:26:11:329] <CPyWorker::run> 异步加载拼音缓存结束，耗时157ms
+[2025-03-25 12:26:11:329] <CPyWorker::run> 加载过期拼音缓存开始
+[2025-03-25 12:26:11:329] <CPyWorker::run> 加载过期拼音缓存结束，耗时0ms
+[2025-03-25 12:26:11:329] <CPyWorker::run> 保存拼音缓存开始
+[2025-03-25 12:26:11:330] <CPyWorker::run> 保存拼音缓存结束，耗时0ms
+[2025-03-25 12:26:16:759] <CStat::SendStat::<lambda_8031342f89b83b8a6dde6464dae806b1>::operator ()> Client stat result: 1
+[2025-03-25 12:26:17:922] <CTaskEditWnd::InitControl> TaskEdit InitControl begin
+[2025-03-25 12:26:17:923] <CTaskEditWnd::initUISounds> TaskEdit Init TTS
+[2025-03-25 12:26:17:944] <CTaskEditWnd::initUISounds> TaskEdit Init TTS tokens size:2
+[2025-03-25 12:26:17:944] <CTaskEditWnd::selectTaskPage> Edit to Show subctrl is 弹窗提醒
+[2025-03-25 12:26:17:967] <CTaskEditWnd::initUISch> TaskEdit Init battery detecter
+[2025-03-25 12:26:17:968] <CTaskEditWnd::InitControl> TaskEdit InitControl end
+[2025-03-25 12:26:17:975] <CTaskEditWnd::selectTaskPage> Edit to Show subctrl is 搜索文本
+[2025-03-25 12:27:04:965] <CTaskEditWnd::OnFinalMessage> delete self
+[2025-03-25 12:27:04:965] <CTaskEditWnd::~CTaskEditWnd> Try _CloseTemTasker
+[2025-03-25 12:27:04:966] <CTaskEditWnd::~CTaskEditWnd> clear time ctrls
+[2025-03-25 12:27:12:215] .......热键执行开始...... <简单任务:关机对话框, 序号:6, ID:6025>
+[2025-03-25 12:27:12:217] 运行 <简单任务:关机对话框, 序号:6, ID:6025>
+[2025-03-25 12:27:12:218] 简单任务执行完毕！ <简单任务:关机对话框, 序号:6, ID:6025>
+[2025-03-25 12:27:12:220] .......热键执行结束...... <简单任务:关机对话框, 序号:6, ID:6025>
+[2025-03-25 12:27:12:221] <UITrayProxy::OnEvent> RunningTaskCount==0， Stop tray animaiton...
+[2025-03-25 12:27:13:735] .......热键执行开始...... <简单任务:关机对话框, 序号:6, ID:6025>
+[2025-03-25 12:27:13:736] 运行 <简单任务:关机对话框, 序号:6, ID:6025>
+[2025-03-25 12:27:13:737] 简单任务执行完毕！ <简单任务:关机对话框, 序号:6, ID:6025>
+[2025-03-25 12:27:13:739] .......热键执行结束...... <简单任务:关机对话框, 序号:6, ID:6025>
+[2025-03-25 12:27:13:740] <UITrayProxy::OnEvent> RunningTaskCount==0， Stop tray animaiton...
+[2025-03-25 12:27:51:359] .......热键执行开始...... <简单任务:显示当前窗口信息, 序号:16, ID:418>
+[2025-03-25 12:27:51:360] 运行 <简单任务:显示当前窗口信息, 序号:16, ID:418>
+[2025-03-25 12:27:51:378] 简单任务执行完毕！ <简单任务:显示当前窗口信息, 序号:16, ID:418>
+[2025-03-25 12:27:51:378] .......热键执行结束...... <简单任务:显示当前窗口信息, 序号:16, ID:418>
+[2025-03-25 12:27:51:378] <UITrayProxy::OnEvent> RunningTaskCount==0， Stop tray animaiton...
+[2025-03-25 12:27:59:639] .......热键执行开始...... <简单任务:查看天气预报, 序号:15, ID:8178>
+[2025-03-25 12:27:59:640] 运行 <简单任务:查看天气预报, 序号:15, ID:8178>
+[2025-03-25 12:27:59:669] .......热键执行结束...... <简单任务:查看天气预报, 序号:15, ID:8178>
+[2025-03-25 12:27:59:702] 简单任务执行完毕！ <简单任务:查看天气预报, 序号:15, ID:8178>
+[2025-03-25 12:27:59:703] <UITrayProxy::OnEvent> RunningTaskCount==0， Stop tray animaiton...
+[2025-03-25 12:28:03:168] .......热键执行开始...... <简单任务:查看天气预报, 序号:15, ID:8178>
+[2025-03-25 12:28:03:170] 运行 <简单任务:查看天气预报, 序号:15, ID:8178>
+[2025-03-25 12:28:03:171] .......热键执行结束...... <简单任务:查看天气预报, 序号:15, ID:8178>
+[2025-03-25 12:28:03:205] 简单任务执行完毕！ <简单任务:查看天气预报, 序号:15, ID:8178>
+[2025-03-25 12:28:03:206] <UITrayProxy::OnEvent> RunningTaskCount==0， Stop tray animaiton...
+[2025-03-25 12:28:20:898] .......热键执行开始...... <简单任务:执行程序, 序号:5, ID:1118>
+[2025-03-25 12:28:20:898] 运行 <简单任务:执行程序, 序号:5, ID:1118>
+[2025-03-25 12:28:20:899] .......热键执行结束...... <简单任务:执行程序, 序号:5, ID:1118>
+[2025-03-25 12:28:20:900] 运行失败:D:\Green\Everything\Everything.exe-> <简单任务:执行程序, 序号:5, ID:1118>
+[2025-03-25 12:28:20:901] 简单任务执行完毕！ <简单任务:执行程序, 序号:5, ID:1118>
+[2025-03-25 12:28:20:901] <UITrayProxy::OnEvent> RunningTaskCount==0， Stop tray animaiton...
+[2025-03-25 12:28:23:004] .......热键执行开始...... <简单任务:执行程序, 序号:5, ID:1118>
+[2025-03-25 12:28:23:006] 运行 <简单任务:执行程序, 序号:5, ID:1118>
+[2025-03-25 12:28:23:008] .......热键执行结束...... <简单任务:执行程序, 序号:5, ID:1118>
+[2025-03-25 12:28:23:008] 运行失败:D:\Green\Everything\Everything.exe-> <简单任务:执行程序, 序号:5, ID:1118>
+[2025-03-25 12:28:23:009] 简单任务执行完毕！ <简单任务:执行程序, 序号:5, ID:1118>
+[2025-03-25 12:28:23:009] <UITrayProxy::OnEvent> RunningTaskCount==0， Stop tray animaiton...
+[2025-03-25 12:28:25:885] <CTaskEditWnd::InitControl> TaskEdit InitControl begin
+[2025-03-25 12:28:25:886] <CTaskEditWnd::initUISounds> TaskEdit Init TTS
+[2025-03-25 12:28:25:889] <CTaskEditWnd::initUISounds> TaskEdit Init TTS tokens size:2
+[2025-03-25 12:28:25:889] <CTaskEditWnd::selectTaskPage> Edit to Show subctrl is 弹窗提醒
+[2025-03-25 12:28:25:891] <CTaskEditWnd::initUISch> TaskEdit Init battery detecter
+[2025-03-25 12:28:25:891] <CTaskEditWnd::InitControl> TaskEdit InitControl end
+[2025-03-25 12:28:25:897] <CTaskEditWnd::selectTaskPage> Edit to Show subctrl is 执行程序
+[2025-03-25 12:28:31:935] <CTaskEditWnd::OnFinalMessage> delete self
+[2025-03-25 12:28:31:935] <CTaskEditWnd::~CTaskEditWnd> Try _CloseTemTasker
+[2025-03-25 12:28:31:935] <CTaskEditWnd::~CTaskEditWnd> clear time ctrls
+[2025-03-25 12:28:34:024] <CTaskData::SaveTask> ModChildElem开始
+[2025-03-25 12:28:34:025] <CTaskData::SaveTask> ModChildElem结束，耗时0ms
+[2025-03-25 12:28:34:025] <CTaskData::SaveFile> SaveFile开始
+[2025-03-25 12:28:34:026] <CTaskData::SaveFile> SaveFile结束，耗时0ms
+[2025-03-25 12:28:37:098] <CTaskData::SaveTask> ModChildElem开始
+[2025-03-25 12:28:37:099] <CTaskData::SaveTask> ModChildElem结束，耗时0ms
+[2025-03-25 12:28:37:099] <CTaskData::SaveFile> SaveFile开始
+[2025-03-25 12:28:37:100] <CTaskData::SaveFile> SaveFile结束，耗时16ms
+[2025-03-25 12:28:37:646] <CTaskData::SaveTask> ModChildElem开始
+[2025-03-25 12:28:37:647] <CTaskData::SaveTask> ModChildElem结束，耗时0ms
+[2025-03-25 12:28:37:647] <CTaskData::SaveFile> SaveFile开始
+[2025-03-25 12:28:37:648] <CTaskData::SaveFile> SaveFile结束，耗时0ms
+[2025-03-25 12:28:59:302] .......热键执行开始...... <复合任务:复杂点条件判断，可扩展的快捷命令，输入date显示当前日期时间，输入time显示当前时间, 输入kill xxx.exe杀死进程, 序号:20, ID:634>
+[2025-03-25 12:28:59:306] 运行 <复合任务:复杂点条件判断，可扩展的快捷命令，输入date显示当前日期时间，输入time显示当前时间, 输入kill xxx.exe杀死进程, 序号:20, ID:634>
+[2025-03-25 12:28:59:309] .......热键执行结束...... <复合任务:复杂点条件判断，可扩展的快捷命令，输入date显示当前日期时间，输入time显示当前时间, 输入kill xxx.exe杀死进程, 序号:20, ID:634>
+[2025-03-25 12:28:59:310] 开始执行子任务->输入框，当前动作序号：1, 所属复合任务ID:634
+[2025-03-25 12:29:05:714] 完成执行子任务->输入框，当前动作序号：1, 所属复合任务ID:634
+[2025-03-25 12:29:05:715] 条件不成立，您选择了继续复合任务流程，当前动作序号：2, 所属复合任务ID:634
+[2025-03-25 12:29:05:716] 条件不成立，您选择了继续复合任务流程，当前动作序号：3, 所属复合任务ID:634
+[2025-03-25 12:29:05:717] 条件不成立，您选择了中断复合任务流程，当前动作序号：4, 所属复合任务ID:634
+[2025-03-25 12:29:05:717] 复合任务执行完毕！ <复合任务:复杂点条件判断，可扩展的快捷命令，输入date显示当前日期时间，输入time显示当前时间, 输入kill xxx.exe杀死进程, 序号:20, ID:634>
+[2025-03-25 12:29:05:718] <UITrayProxy::OnEvent> RunningTaskCount==0， Stop tray animaiton...
+[2025-03-25 12:29:08:939] <CMulitTaskEditWnd::InitControl> MultiTaskEdit InitControl begin
+[2025-03-25 12:29:08:939] <CTaskEditWnd::initUISch> TaskEdit Init battery detecter
+[2025-03-25 12:29:08:940] <CMulitTaskEditWnd::InitControl> MultiTaskEdit InitControl end
+[2025-03-25 12:29:14:176] <CTaskEditWnd::OnFinalMessage> delete self
+[2025-03-25 12:29:14:176] <CTaskEditWnd::~CTaskEditWnd> Try _CloseTemTasker
+[2025-03-25 12:29:14:176] <CTaskEditWnd::~CTaskEditWnd> clear time ctrls
+[2025-03-25 12:29:20:941] <CMulitTaskEditWnd::InitControl> MultiTaskEdit InitControl begin
+[2025-03-25 12:29:20:941] <CTaskEditWnd::initUISch> TaskEdit Init battery detecter
+[2025-03-25 12:29:20:942] <CMulitTaskEditWnd::InitControl> MultiTaskEdit InitControl end
+[2025-03-25 12:29:24:853] <CTaskEditWnd::OnFinalMessage> delete self
+[2025-03-25 12:29:24:854] <CTaskEditWnd::~CTaskEditWnd> Try _CloseTemTasker
+[2025-03-25 12:29:24:854] <CTaskEditWnd::~CTaskEditWnd> clear time ctrls
+[2025-03-25 12:29:39:603] <CMulitTaskEditWnd::InitControl> MultiTaskEdit InitControl begin
+[2025-03-25 12:29:39:604] <CTaskEditWnd::initUISch> TaskEdit Init battery detecter
+[2025-03-25 12:29:39:604] <CMulitTaskEditWnd::InitControl> MultiTaskEdit InitControl end
+[2025-03-25 12:29:42:843] <CTaskEditWnd::OnFinalMessage> delete self
+[2025-03-25 12:29:42:843] <CTaskEditWnd::~CTaskEditWnd> Try _CloseTemTasker
+[2025-03-25 12:29:42:844] <CTaskEditWnd::~CTaskEditWnd> clear time ctrls
+[2025-03-25 12:29:52:704] <CTaskEditWnd::InitControl> TaskEdit InitControl begin
+[2025-03-25 12:29:52:705] <CTaskEditWnd::initUISounds> TaskEdit Init TTS
+[2025-03-25 12:29:52:706] <CTaskEditWnd::initUISounds> TaskEdit Init TTS tokens size:2
+[2025-03-25 12:29:52:707] <CTaskEditWnd::selectTaskPage> Edit to Show subctrl is 弹窗提醒
+[2025-03-25 12:29:52:708] <CTaskEditWnd::initUISch> TaskEdit Init battery detecter
+[2025-03-25 12:29:52:708] <CTaskEditWnd::InitControl> TaskEdit InitControl end
+[2025-03-25 12:30:11:747] <CTaskEditWnd::OnFinalMessage> delete self
+[2025-03-25 12:30:11:748] <CTaskEditWnd::~CTaskEditWnd> Try _CloseTemTasker
+[2025-03-25 12:30:11:748] <CTaskEditWnd::~CTaskEditWnd> clear time ctrls
+[2025-03-25 12:30:16:249] <wWinMain> 更新程序初始化
+[2025-03-25 12:30:16:250] <wWinMain> -ver=2.0.4 -type=1 -mainexe=D:\Application\Rolan\Tools\System Management\zTasker_2.0.4\zTasker.exe -lang= -url=http://everauto.net:8080/up/ztv.ini -home=https://www.everauto.net/cn/
+[2025-03-25 12:30:16:250] <wWinMain> 更新程序Frame Init
+[2025-03-25 12:30:16:250] <CUnify::CUnify> create unify
+[2025-03-25 12:30:16:253] <wWinMain> 更新程序new CMainFrameWnd
+[2025-03-25 12:30:16:283] <CMainFrameWnd::InitWindow> CMainFrameWnd InitWindow
+[2025-03-25 12:30:16:283] <UIMainProxy::OnInit> on init
+[2025-03-25 12:30:16:283] <CUpInfoGetter::CheckNow> Begin check thread
+[2025-03-25 12:30:16:284] <CUpInfoGetter::_DoGet> Begin get updte info
+[2025-03-25 12:30:16:295] <wWinMain> 更新程序MessageLoop
+[2025-03-25 12:30:16:772] <CStat::SendStat::<lambda_8031342f89b83b8a6dde6464dae806b1>::operator ()> Client stat result: 1
+[2025-03-25 12:30:21:418] <CTaskEditWnd::InitControl> TaskEdit InitControl begin
+[2025-03-25 12:30:21:419] <CTaskEditWnd::initUISounds> TaskEdit Init TTS
+[2025-03-25 12:30:21:420] <CTaskEditWnd::initUISounds> TaskEdit Init TTS tokens size:2
+[2025-03-25 12:30:21:420] <CTaskEditWnd::selectTaskPage> Edit to Show subctrl is 弹窗提醒
+[2025-03-25 12:30:21:421] <CTaskEditWnd::initUISch> TaskEdit Init battery detecter
+[2025-03-25 12:30:21:422] <CTaskEditWnd::InitControl> TaskEdit InitControl end
+[2025-03-25 12:30:21:428] <CTaskEditWnd::selectTaskPage> Edit to Show subctrl is 增加系统音量
+[2025-03-25 12:30:23:863] <CUpInfoGetter::_DoGet> new version, post............update....
+[2025-03-25 12:30:23:887] <UIMainProxy::UIShowUpdateInfo> 获取更新信息...
+[2025-03-25 12:30:23:888] <UIMainProxy::UIShowUpdateInfo> 获取更新信息完毕...
+[2025-03-25 12:30:24:079] <CTaskEditWnd::OnFinalMessage> delete self
+[2025-03-25 12:30:24:079] <CTaskEditWnd::~CTaskEditWnd> Try _CloseTemTasker
+[2025-03-25 12:30:24:079] <CTaskEditWnd::~CTaskEditWnd> clear time ctrls
+[2025-03-25 12:30:24:000] 运行 <简单任务:增加系统音量, 序号:3, ID:6292>
+[2025-03-25 12:30:25:089] 简单任务执行完毕！ <简单任务:增加系统音量, 序号:3, ID:6292>
+[2025-03-25 12:30:25:090] <UITrayProxy::OnEvent> RunningTaskCount==0， Stop tray animaiton...
+[2025-03-25 12:30:26:686] 运行 <简单任务:增加系统音量, 序号:3, ID:6292>
+[2025-03-25 12:30:26:690] 简单任务执行完毕！ <简单任务:增加系统音量, 序号:3, ID:6292>
+[2025-03-25 12:30:26:692] <UITrayProxy::OnEvent> RunningTaskCount==0， Stop tray animaiton...
+[2025-03-25 12:30:42:969] <UIMainProxy::ExitApp> 结束程序
+[2025-03-25 12:30:42:976] <clear> Main App clear Setp 0, CAVCapDLL Clear
+[2025-03-25 12:30:42:976] <clear> Main App clear Setp 1, unload plugs
+[2025-03-25 12:30:42:976] <clear> Main App clear Setp 2, GDIPHelper Shutdown
+[2025-03-25 12:30:42:976] <clear> Main App clear Setp 3, CoUninitialize
+[2025-03-25 12:30:42:976] <clear> Main App clear Setp 4, delete gUnify
+[2025-03-25 12:30:42:977] <CUnify::~CUnify> delete App
+[2025-03-25 12:30:42:978] <CUnify::~CUnify> delete Core
+[2025-03-25 12:30:42:978] <CCore::~CCore> delte hotkey
+[2025-03-25 12:30:42:979] <CCore::~CCore> delte timers
+[2025-03-25 12:30:42:979] <CCore::~CCore> delte events
+[2025-03-25 12:30:42:979] <CCore::~CCore> delte asynctaskObj
+[2025-03-25 12:30:42:979] <CCore::~CCore> delte mediaObj
+[2025-03-25 12:30:42:979] <CUnify::~CUnify> delete DB
+[2025-03-25 12:30:42:979] <CUnify::~CUnify> delete UI
+[2025-03-25 12:30:42:980] <CUnify::~CUnify> delete Net
+[2025-03-25 12:30:42:980] <CUnify::~CUnify> delete TaskObj
+[2025-03-25 12:30:42:985] <clear> Main App clear done!
+[2025-03-25 12:37:46:195] <UIMainProxy::OnUpdateSucceed> mainexe=
+[2025-03-25 12:37:46:247] <UIMainProxy::ExitApp> 结束程序
+[2025-03-25 12:37:46:262] <wWinMain> 更新程序Clear CoUninitialize
+[2025-03-25 12:37:46:263] <wWinMain> 更新程序Clear gUnify
+[2025-03-25 12:37:46:263] <wWinMain> 更新程序结束
+[2025-03-25 12:37:46:490] <wWinMain> Main facade create
+[2025-03-25 12:37:46:490] <CUnify::CUnify> create unify
+[2025-03-25 12:37:46:490] <initUI> Init UI
+[2025-03-25 12:37:46:491] <initUI> OS ver>=win10, setting native dpi aware...
+[2025-03-25 12:37:46:491] <initUI> Set UI LIB option
+[2025-03-25 12:37:46:491] <initUI> Set native dpi aware successfully!
+[2025-03-25 12:37:46:492] <CDB::CDB> create db
+[2025-03-25 12:37:46:492] <CDB::SysConfig> sysini init
+[2025-03-25 12:37:46:494] <wWinMain> Main App init, appid:6152, appver:2.1.3, system:Windows 11 Pro X64 (24H2 build 26100), cmdline:-autorun -tipver
+[2025-03-25 12:37:46:494] <wWinMain> Boot alerady：3小时46分5秒 (2025-03-25 08:51:41)
+[2025-03-25 12:37:46:494] <wWinMain> Check only one instance and try pop last main window, appid:6152
+[2025-03-25 12:37:46:495] <wWinMain> Init Frame, popMainWnd=0
+[2025-03-25 12:37:46:495] <wWinMain> Insure ahk env
+[2025-03-25 12:37:46:496] <wWinMain> Set version
+[2025-03-25 12:37:46:497] <wWinMain> OleInitialize
+[2025-03-25 12:37:46:497] <wWinMain> AsyncTask init
+[2025-03-25 12:37:46:499] <wWinMain> Create main frame window
+[2025-03-25 12:37:46:501] <CDB::MemConfig> MemConfig init
+[2025-03-25 12:37:46:511] <CEverTask::CEverTask> CEverTask Init
+[2025-03-25 12:37:46:511] <CEverTask::CEverTask> Total task types:191
+[2025-03-25 12:37:46:519] <CMainFrameWnd::InitWindow> CMainFrameWnd InitWindow
+[2025-03-25 12:37:46:519] <CMainFrameWnd::InitWindow> UI Proxy init
+[2025-03-25 12:37:46:519] <UIMainProxy::OnInit> Init Task Object
+[2025-03-25 12:37:46:520] <UIMainProxy::OnInit> on init
+[2025-03-25 12:37:46:536] <CTaskMgr::ClearTaskBackups::<lambda_a563811dbfc0307baffa65beafd671f9>::operator ()> 清理备份任务文件开始
+[2025-03-25 12:37:46:536] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:684
+[2025-03-25 12:37:46:536] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:6231
+[2025-03-25 12:37:46:536] <CTaskMgr::ClearTaskBackups::<lambda_a563811dbfc0307baffa65beafd671f9>::operator ()> 清理备份任务文件结束，耗时0ms
+[2025-03-25 12:37:46:537] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:6292
+[2025-03-25 12:37:46:537] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4962
+[2025-03-25 12:37:46:537] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:8189
+[2025-03-25 12:37:46:537] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:6025
+[2025-03-25 12:37:46:538] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4007
+[2025-03-25 12:37:46:538] 一次性任务已过期，自动停止 <简单任务:关机, 序号:0, ID:4007>
+[2025-03-25 12:37:46:538] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:1118
+[2025-03-25 12:37:46:538] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4458
+[2025-03-25 12:37:46:539] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:4867
+[2025-03-25 12:37:46:539] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:9532
+[2025-03-25 12:37:46:539] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:890
+[2025-03-25 12:37:46:539] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:2017
+[2025-03-25 12:37:46:540] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:560
+[2025-03-25 12:37:46:540] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:8643
+[2025-03-25 12:37:46:540] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:1181
+[2025-03-25 12:37:46:541] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:8178
+[2025-03-25 12:37:46:541] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:418
+[2025-03-25 12:37:46:541] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:542
+[2025-03-25 12:37:46:541] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:606
+[2025-03-25 12:37:46:542] 循环型任务已过期，重置下次运行时间 <简单任务:显示磁盘可用空间, 序号:0, ID:9532>
+[2025-03-25 12:37:46:542] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:634
+[2025-03-25 12:37:46:542] <CTaskMgr::ResetNextRunTimes> ResetNextRunTime Task:752
+[2025-03-25 12:37:46:542] 循环型任务已过期，重置下次运行时间 <简单任务:隐藏窗口到托盘, 序号:0, ID:2017>
+[2025-03-25 12:37:46:569] <CPyWorker::run> 异步加载拼音缓存开始
+[2025-03-25 12:37:46:605] <UIMainProxy::OnInit> ApplyCfg
+[2025-03-25 12:37:46:616] <Util::System::LogonStartScheduler> 
+ Task has been deleted. 
+[2025-03-25 12:37:46:621] <Util::System::LogonStartScheduler> 
+ Task has been deleted. 
+[2025-03-25 12:37:46:635] <UIMainProxy::OnInit> LoadStat
+[2025-03-25 12:37:46:644] <CToastNotifyWnd::InitWindow> CToastNotifyWnd InitWindow
+[2025-03-25 12:37:46:654] <UIMainProxy::OnInit> Beijing Time Now:2025-03-25 12:37:46 Build:2025-03-19 01:21:56
+[2025-03-25 12:37:46:654] <CMainFrameWnd::OnShow> 显示器DPI：96
+[2025-03-25 12:37:46:660] <wWinMain> Main App Setp 4, show main wnd and tray
+[2025-03-25 12:37:46:660] <wWinMain> Set mute mode=0
+[2025-03-25 12:37:46:675] <wWinMain> Main App enter msg loop
+[2025-03-25 12:37:46:801] <CPyWorker::run> 异步加载拼音缓存结束，耗时250ms
+[2025-03-25 12:37:46:801] <CPyWorker::run> 加载过期拼音缓存开始
+[2025-03-25 12:37:46:826] <CPyWorker::run> 加载过期拼音缓存结束，耗时16ms
+[2025-03-25 12:37:46:826] <CPyWorker::run> 保存拼音缓存开始
+[2025-03-25 12:37:46:827] <CPyWorker::run> 保存拼音缓存结束，耗时15ms
+[2025-03-25 12:37:52:232] <CStat::SendStat::<lambda_8031342f89b83b8a6dde6464dae806b1>::operator ()> Client stat result: 1
+[2025-03-25 12:38:06:349] <CTaskEditWnd::InitControl> TaskEdit InitControl begin
+[2025-03-25 12:38:06:349] <CTaskEditWnd::initUISounds> TaskEdit Get TTS
+[2025-03-25 12:38:06:360] <CTaskEditWnd::initUISounds> TaskEdit Get TTS tokens size:2
+[2025-03-25 12:38:06:360] <CTaskEditWnd::selectTaskPage> Edit to Show subctrl is 弹窗提醒
+[2025-03-25 12:38:06:362] <CTaskEditWnd::initUISch> TaskEdit Init battery detecter
+[2025-03-25 12:38:06:362] <CTaskEditWnd::InitControl> TaskEdit InitControl end
+[2025-03-25 12:38:14:177] <CTaskEditWnd::OnFinalMessage> delete self
+[2025-03-25 12:38:14:177] <CTaskEditWnd::~CTaskEditWnd> Try _CloseTemTasker
+[2025-03-25 12:38:14:178] <CTaskEditWnd::~CTaskEditWnd> clear time ctrls
+[2025-03-25 12:38:25:722] <UIMainProxy::ExitApp> 结束程序
+[2025-03-25 12:38:25:730] <clear> Main App clear Setp 0, CAVCapDLL Clear
+[2025-03-25 12:38:25:730] <clear> Main App clear Setp 1, unload plugs
+[2025-03-25 12:38:25:730] <clear> Main App clear Setp 2, GDIPHelper Shutdown
+[2025-03-25 12:38:25:731] <clear> Main App clear Setp 3, CoUninitialize
+[2025-03-25 12:38:25:732] <clear> Main App clear Setp 4, delete gUnify
+[2025-03-25 12:38:25:732] <CUnify::~CUnify> delete App
+[2025-03-25 12:38:25:733] <CUnify::~CUnify> delete Core
+[2025-03-25 12:38:25:733] <CCore::~CCore> delte hotkey
+[2025-03-25 12:38:25:734] <CCore::~CCore> delte timers
+[2025-03-25 12:38:25:734] <CCore::~CCore> delte events
+[2025-03-25 12:38:25:734] <CCore::~CCore> delte asynctaskObj
+[2025-03-25 12:38:25:735] <CCore::~CCore> delte mediaObj
+[2025-03-25 12:38:25:735] <CUnify::~CUnify> delete Net
+[2025-03-25 12:38:25:735] <CUnify::~CUnify> delete UI
+[2025-03-25 12:38:25:735] <CUnify::~CUnify> delete DB
+[2025-03-25 12:38:25:735] <CUnify::~CUnify> delete TaskObj

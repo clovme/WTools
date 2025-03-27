@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BANT</title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">	
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />		
+
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+			padding:0;
+			margin:0;
+			border: none;
+			outline: none;
+			text-decoration: none;
+			cursor: default;
+		}
+
+		body {
+			position: relative;	
+			overflow-x: hidden;			
+			background-color:#FFFFFF;			
+			font-family: "Segoe UI Regular", Segoe UI, Arial, sans-serif;
+			font-size:16px;
+			color:#333333;
+			line-height: 0;
+		}	
+
+		a {cursor:default;}
+		
+		.siteholder{
+			position: relative;
+			border:1px solid #0099ff;
+			border-bottom:6px solid #0099ff;			
+		}
+		
+		.spinner-overlay{
+			position: absolute;
+			display: none;			
+			left: 0px;
+			right: 0px;
+			top:40px;
+			bottom:0px;
+			text-align: center;
+			background-color: #FFFFFF;
+			line-height: normal;
+
+		}
+		
+		.spinner-content{
+			display: block;
+			margin-top:200px;
+			text-align: center;
+	
+		}
+		
+		.spinner-progress-container{
+			display: block;
+			margin: 10px auto;
+			border: 1px solid #d9d9d9;
+			height: 6px;
+			width: 202px;
+		}	
+		
+		.spinner-progress-bar{
+			display: block;
+			height: 4px;
+			background-color: #0099ff;
+			width: 0;
+		}
+		
+
+/*\
+====================
+ _  _             _ 
+| || |___ __ _ __| |
+| __ / -_) _` / _` |
+|_||_\___\__,_\__,_|
+                    
+====================
+\*/				
+			
+		#head{
+			height: 40px;
+			border-bottom:1px solid #d9d9d9;
+			overflow: hidden;
+		}
+
+		#headline{
+			padding: 5px 60px 0px 20px;
+			line-height:normal;
+			font-size: 20px;
+			white-space: nowrap;
+		}
+
+		#close{
+			position: absolute;
+			display: inline-block;
+			top:17px;
+			right:20px;
+			font-size: 26px;
+			font-family: "Segoe UI Bold", Segoe UI, Arial, sans-serif;
+			font-weight: bold;
+			color:#333333;	
+		}
+		
+		#close:hover{
+			color:#DD0000;
+		}
+
+/*\
+==========================================
+  ___         _           _     ___ _     
+ / __|___ _ _| |_ ___ _ _| |_  | __(_)_ __
+| (__/ _ \ ' \  _/ -_) ' \  _| | _|| \ \ /
+ \___\___/_||_\__\___|_||_\__| |_| |_/_\_\
+
+==========================================		
+\*/				
+
+		#content-holder{
+			padding:20px 20px 10px 20px;
+			display: inline-block; 
+			width: 550px;
+			min-width: 550px;
+		}
+
+		#content{
+
+		}
+
+		#content *{
+			line-height: normal;
+		}
+		
+		.content-name-holder{
+			padding-bottom:10px;
+		}
+	
+		.content-mail-holder, .content-textbox-holder, .content-attachment-holder{
+			padding-bottom:25px;
+		}	
+		
+		.content-input-text{
+			display: inline-block;
+			float:right;
+			clear:both;
+			min-width: 350px;
+			margin-left:5px;
+			border-bottom:1px solid #d9d9d9;
+			font-weight:normal;
+		}
+		
+		.content-input-text::-ms-clear{
+			width:0px;
+			height:0px;			
+			display:none;
+		}
+
+		.content-label{
+			display: inline-block;
+			font-size:16px;
+			min-width:100px;
+		}
+		
+		.content-label-headline{
+			display: block;
+			padding-bottom: 4px;			
+		}
+		
+		.content-textbox, .content-attachments{
+			display: block;
+			padding:5px;
+			width: 100%;
+			height: 100px;
+			border:1px solid #d9d9d9;
+			overflow-y:scroll;
+			font-family: "Segoe UI Light", Segoe UI, Arial, sans-serif;
+		}
+			
+		.content-attachment-listentry{
+			position: relative;
+			padding: 4px 0 2px;	
+			border-bottom: 1px dotted #d9d9d9;
+		}
+/*
+		.content-attachment-listentry:hover{
+			background-color: #e5f5ff;
+		}		
+*/
+
+		.content-attachment-listentry:hover .content-attachment-filename{
+			color:#0099ff;
+		}		
+		
+		.content-attachment-filename{
+			font-size:16px;
+		}
+		
+		.content-attachment-checkbox{
+			margin-right:5px;
+		}
+		
+		.content-attachment-checkbox::-ms-check{
+			padding: 1px;
+			border:1px solid #d9d9d9;			
+			color:#0099ff;
+		}		
+		
+		.content-attachment-delete{
+			position: absolute;
+			top:2px;
+			right: 0px;
+			background-color: transparent;
+			font-size: 24px;
+			color:#d9d9d9;
+		}
+		
+		.content-attachment-delete:hover{
+			color: #333333;			
+		}
+		
+		.content-attachment-btn-holder{
+			padding-top: 10px;
+			padding-left: 3px;
+		}
+		
+		.content-attachment-addbtn{
+			display: inline-block;
+			font-size: 12px;			
+/*			background-color: transparent;*/
+		}
+		
+		.content-attachment-addbtn:hover {
+			color: #0088cc;
+		}
+		
+		.content-input-text, .content-textbox{
+			font-family: "Segoe UI Light", Segoe UI, Arial, sans-serif;
+			color: #333333;
+			cursor: text;
+		}
+		
+		.content-input-text:-ms-input-placeholder, .content-textbox:-ms-input-placeholder{
+   			color: #999999; 
+		}
+		
+		
+		.content-textbox-error{
+			transition: all 500ms;
+			border-bottom: 1px solid #ff004e;
+			color: #ff004e;
+
+		}	
+		
+		.label-error{
+			transition: color 500ms;
+			color: #ff004e;
+		}
+
+/*\
+==============================
+ ___      _   _               
+| _ )_  _| |_| |_ ___ _ _  ___
+| _ \ || |  _|  _/ _ \ ' \(_-
+|___/\_,_|\__|\__\___/_||_/__/
+
+==============================			
+\*/			
+		#buttons{
+			padding: 0 20px 20px 20px;
+			white-space: nowrap;
+/*			border-bottom:6px solid #0099ff;*/
+		}
+
+		.btn-single-holder{
+			display: inline-block;
+		}			
+			
+		.btn-single-holder-left{
+			width: 50%;
+			padding-right: 5px;
+		}
+
+		.btn-single-holder-right{
+			width: 50%;
+			padding-left: 5px;
+		}
+			
+		.btn-button {
+			display: inline-block;
+			border-radius: 4px;
+			padding: 2px 10px 4px;
+			width: 100%;
+			margin:auto;
+			
+			font-family: "Segoe UI", Segoe UI, Arial, sans-serif;
+			font-weight:normal;
+			font-size: 13px;
+			text-decoration: none;
+			text-align: center;
+			line-height: normal;	
+			color: white;
+		}		
+
+		.btn-button-cta {
+			background-color: #ff004e;
+			border: 1px solid #cc003e;
+			border-bottom: 3px solid #cc003e;			
+		}
+			
+		.btn-button-cta:hover {
+			background-color: #ff6666;
+		}				
+
+		.btn-button-normal {
+			color: #333333;
+			background-color: #e7e7e7;
+			border: 1px solid #cccccc;
+			border-bottom: 3px solid #cccccc;
+		}
+			
+		.btn-button-normal:hover {
+			background-color: #ccebff;
+		}		
+	
+        
+        
+        /* Datenschutz */        
+        
+        .textlink-holder {
+            box-sizing: border-box;
+            padding: 0px 0px 20px 30px;	
+            left: 0px;
+            bottom: 0px;
+            right:0px;
+            font-size: 10px;
+            text-align: left !important;
+        }
+
+
+        .textlink-holder  a {
+            color: #0099ff;
+            text-decoration: underline;
+            cursor: pointer;
+            transition: color, 500ms;        
+        }
+
+        .textlink-holder a:hover {
+            color: #4c4c4c;
+        }
+
+        .textlink-holder .text-link-right {
+            position: absolute;
+            margin-right: 0px;
+            right: 40px;
+        }        
+
+        
+	</style>
+
+    
+    
+    
+    
+    
+<!--[if lte IE 7]>
+	<style type="text/css">
+		#close{
+			position:absolute;
+			display: inline;
+			top:0px;
+			line-height:normal;
+		}
+		
+		#content-holder{
+			display: inline;
+			padding:10px 20px 10px 20px;			
+		}	
+
+		.content-attachment-listentry{
+			padding: 2px 0 2px;	
+		}
+
+		.content-attachment-delete{
+			top:-5px;
+		}
+
+		.btn-single-holder{
+			display: inline;
+			width:auto;
+		}
+
+		.btn-button {
+			width:auto;
+		}	
+
+	</style>
+<![endif]-->
+
+
+
+</head>
+<body onload="onLoad();" onkeydown="onCloseDialog(event)">
+	<div class="siteholder">
+		<a id="close" onclick="return bant.dialog.close(this, 'cancel');" href="#">×</a>
+		<div onmousedown="bant.dialog.startDrag(this, event)" id="head">
+			<div data-localize-id="ashinet.dialog.title.report" id="headline">Contact support</div>
+		</div>
+		<div id="content-holder">
+			<div id="content">
+				<div class="content-name-holder">
+					<label class="content-label" data-localize-id="ashinet.dialog.report.user.name.label" for="user-name">Name:</label><input class="content-input-text" type="text" placeholder="Enter your name here" id="user-name" data-localize-id="ashinet.dialog.report.user.name.input" />
+				</div>
+				<div class="content-mail-holder">
+					<label class="content-label" data-localize-id="ashinet.dialog.report.user.mail.label" for="user-mail">E-Mail:</label><input data-localize-id="ashinet.dialog.report.user.mail.input" class="content-input-text" type="email" placeholder="example@email.com" id="user-mail"/>
+				</div>
+				<div class="content-textbox-holder">
+					<label class="content-label content-label-headline" data-localize-id="ashinet.dialog.report.message" for="message">Message:</label>
+					<textarea data-localize-id="ashinet.dialog.report.message.placeholder" class="content-textbox" placeholder="Enter your message here" id="message"></textarea>
+				</div>
+				<div class="content-attachment-holder">				
+					<label data-localize-id="ashinet.dialog.report.attachments" class="content-label content-label-headline">Attachments:</label>
+					<div class="content-attachments" id="attachments"></div>
+					<div class="content-attachment-btn-holder" id="attachments"><a class="content-attachment-addbtn" onclick="addFile(this)">+ <span data-localize-id="ashinet.dialog.report.attachment.add">Add File</span></a></div>
+				</div>								
+			</div>
+		</div>
+
+        <div id="buttons">
+			<span class="btn-single-holder btn-single-holder-left"><a id="btn-okay" class="btn-button btn-button-cta" data-localize-id="ashinet.button.send">Send</a></span><span class="btn-single-holder btn-single-holder-right"><a id="btn-cancel" class="btn-button btn-button-normal" data-localize-id="ashinet.button.cancel" onclick="return bant.dialog.close(this, 'cancel');">Cancel</a></span>			
+		</div>
+        
+        <div class="textlink-holder">
+            <a data-linktarget="privacypolicy" data-localize-id="t_bant_button_privacy_policy">Privacy policy</a>
+            <a data-linktarget="registrationhelp" data-localize-id="t_bant_button_help">Help</a>
+        </div>	
+        
+		<div class="spinner-overlay">
+			<div class="spinner-content" id="spinner-text"></div>
+			<div class="spinner-progress-container"><div class="spinner-progress-bar"></div></div>
+		</div>
+	</div>
+
+	
+	<script type="text/javascript" src="js/build.offline.min.js"></script>
+	<script>
+		var bantshee = new bantshee();
+		var jsonData;
+		var jsonDataFeedback;
+		var bIsDialogBlocked = false;
+		var gUserEmail = '';
+
+		function createAttachmentNode(attachment, index) {
+			var divNode = document.createElement("div");
+			divNode.className="content-attachment-listentry";
+
+			var checkBoxNode = document.createElement("input");
+			checkBoxNode.className = "content-attachment-checkbox";
+			checkBoxNode.setAttribute('data-channel-index', i);
+			checkBoxNode.onclick = function(){
+				var index = parseInt(this.getAttribute('data-channel-index'));
+				jsonData.attachments[index].checked = this.checked;
+			};
+			checkBoxNode.type = "checkbox";
+			divNode.appendChild(checkBoxNode);
+			checkBoxNode.checked = true;
+
+			var filenameNode = document.createElement("span");
+			filenameNode.className = "content-attachment-filename";		
+			filenameNode.onclick = function(){bant.execute.uri(filenameNode, attachment.uri);}
+			filenameNode.appendChild(document.createTextNode(attachment.name));
+			divNode.appendChild(filenameNode);
+
+			var deleteNode = document.createElement("button");
+			deleteNode.className = "content-attachment-delete";
+			deleteNode.appendChild(document.createTextNode('×')); //'\uE0E1'
+			deleteNode.onclick = function(){
+				jsonData.attachments.splice(index,1);
+				updateAttachements();
+			}
+			divNode.appendChild(deleteNode);		
+
+			return divNode;
+		};
+
+		function updateAttachements(element){
+			var attachmentsNode = document.getElementById("attachments");
+			attachmentsNode.innerHTML = "";
+
+			for(i=0; i<jsonData.attachments.length; i++){
+				attachment = jsonData.attachments[i];
+				attachmentsNode.appendChild(createAttachmentNode(attachment, i));
+			}
+		};
+
+		function addFile(sender) {
+			var _result = bant.utils.addFiles(sender);
+			var result;
+
+			if (typeof _result == 'string') {
+				result = JSON.parse(_result);
+			}
+			else{
+				result = _result;
+			}
+
+			// alert(JSON.stringify(result, null, 4));
+
+			if(result == null || !result.ok || !result.attachments){
+				return;
+			}
+
+			for(var i=0;i<result.attachments.length;++i){
+				jsonData.attachments.push(result.attachments[i])
+			}
+
+			updateAttachements();
+		};
+
+
+		function shortenString(){
+			var maxChars = 50;
+			var myHeadline = document.getElementById("headline");
+			var myText = myHeadline.innerText;
+			if (myText.length > maxChars){
+				var trimmedString = myText.substring(0, maxChars);
+				myHeadline.innerHTML = trimmedString + "…";
+			}
+		}		
+
+		function onLoad(){
+			jsonDataFeedback = bant.resources.get('feedback');
+			jsonData = jsonDataFeedback.feedback;
+
+			updateAttachements();
+			shortenString();
+
+			document.getElementById("user-name").value = jsonData.username;
+			document.getElementById("user-mail").value = jsonData.mail;
+			document.getElementById("message").value = jsonData.message;
+
+
+
+		};
+
+        
+        bant.callback.dialog.onShow = function(){
+			// Das aktuelle Dokument
+			bantshee.currentDialog = 'dialog.error.html';
+
+			// Linktargets klickbar machen
+			bantshee.navigate.setDataTargets();
+		}	
+        
+        
+		bant.callback.dialog.onClose = function(data){
+			jsonData.username = document.getElementById("user-name").value
+			jsonData.mail = document.getElementById("user-mail").value
+			jsonData.message = document.getElementById("message").value
+
+			bant.resources.set(jsonDataFeedback);
+
+			return true;
+		};
+
+	
+		/*
+		function sendFeedback(){
+			jsonData.username = document.getElementById("user-name").value
+			jsonData.mail = document.getElementById("user-mail").value
+			jsonData.message = document.getElementById("message").value
+
+			bant.resources.set(jsonDataFeedback);
+
+		}
+		*/
+
+		function onCloseDialog(event){
+			if(event.keyCode == 27){
+				bant.dialog.close(this, 'cancel');
+			}
+		}
+		
+		
+		$(document).ready(function(){
+							
+			bant.session.addEventListener('progress-upload', function(event){
+				// Button blockieren um Doppelklick zu vermeiden
+				bIsDialogBlocked = true;
+				
+				$('.spinner-overlay').fadeIn();
+				
+				event.onprogress = function(total, current, speed){
+					var perc = Math.round(current/total * 100);
+					
+					document.getElementById("spinner-text").innerText='Progress: ' + perc + ' / 100 %';
+					
+					$('.spinner-progress-bar').width( perc * 2 );
+					
+					return true;
+				};
+				
+				event.oncomplete = function(text, title){
+					bIsDialogBlocked = false;
+				};
+				
+				event.onerror = function(text, title){
+					bIsDialogBlocked = false;
+					$('.spinner-overlay').fadeOut();
+				};
+				
+			});			
+			
+			
+			$('#btn-okay').click(function(evt){
+				
+				evt.preventDefault();
+			
+				
+				if (bIsDialogBlocked == false ){
+//					bIsDialogBlocked = true;
+											
+					gUserEmail = $.trim($('#user-mail').val());
+				
+					if ( bantshee.utils.isCorrectMailSytax( gUserEmail ) ){
+						$('.content-mail-holder label').removeClass('label-error');
+						$('#user-mail').removeClass('content-textbox-error');
+						bant.dialog.close(this, 'ok');
+					}
+					else{
+						$('.content-mail-holder label').addClass('label-error');
+						$('#user-mail').addClass('content-textbox-error');
+					}
+				}
+				
+			});			
+			
+			
+			
+		});
+		
+		
+	</script>	
+	
+</body>
+</html>

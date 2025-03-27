@@ -1,0 +1,65 @@
+ 
+End User License Agreement (EULA)
+
+Contractual provisions:
+This EULA concerns the granting of a license for the software product to be used by you as well as any related online services by Ashampoo.
+
+1.	Definitions:
+a.	Ashampoo – refers to Ashampoo GmbH & Co. KG and its sister companies Ashampoo Technology GmbH & Co. KG, Ashampoo Development GmbH & Co. KG and Personizer GmbH & Co. KG, with its registered office at Schafjückenweg 2 | 26180 Rastede/Germany and all other companies of the group.
+b.	Terms and Conditions – means the General Terms and Conditions of Ashampoo. See www.ashampoo.com. As stated below, these terms and conditions apply in addition to and supplement the provisions of this EULA. In the event of contradictions between the two sets of rules, this EULA shall apply.
+c.	Customer – means a contractual partner of Ashampoo, i.e. both consumer and entrepreneur.
+d.	License period – begins as soon as you have activated the software or received a software key.
+e.	Multiple use – means the simultaneous storage, the simultaneous retention and any other simultaneous use of software on several digital devices as well as any use of such software for which special licenses for multiple use are granted in accordance with the respective product information.
+
+If you have any questions about the products, their services or these terms of use, please visit www.ashampoo.com or contact
+
+Ashampoo GmbH & Co. KG
+Schafjückenweg 2 | 26180 Rastede/Germany
+E-Mail: support@ashampoo.com 
+Phone: +49 4402 9739-200*
+Fax: +49 4402 9739-409
+
+2.	Grant of the License
+a.	Ashampoo grants you a non-exclusive and non-transferable right to use the software for the duration of the agreed license period, subject to any restrictions contained in this EULA or in the Terms and Conditions.
+b.	If you have agreed to an automatic renewal of your license, the license period will automatically be renewed at the then effective list price. 
+c.	The termination or expiration of the license granted under this Agreement will immediately end your right to use the software and the updates and upgrades. You must delete the software as well as all backup copies from your digital device.
+
+3.	Usage
+a.	Access to the software is only permitted via the sources provided and approved by Ashampoo. You are obligated not to access the software in an unauthorized manner, e.g. by using unlicensed software clients.
+b.	The software may be protected against digital duplication and/or license abuse. Access to the online services and features of this software may require an Internet connection, an Ashampoo account, the installation of the Connect Client software as well as the activation of a product license.
+c.	Unless otherwise contractually agreed, the use of the software is limited to one digital device. For this purpose, you can use any available digital device that meets the system requirements and for which the license has been granted. If you change the digital device, the software must be removed from the digital device on which it was previously installed before it is reinstalled on another digital device. For software whose product information provide for special licenses for multiple use, multiple use is only permitted to the extent that you have purchased the corresponding type or number of licenses and received them from Ashampoo.
+d.	The software shall not be passed on to third parties without the consent of Ashampoo. In the context of the case law on used software, consent is hereby granted under the following conditions:
+-	You transfer the software permanently.
+-	All associated files, including the installation program, must be passed on.
+-	The software must be unchanged.
+-	You may not remove any product information, copyright or other proprietary notices from Ashampoo.
+-	The recipient must in turn accept these Terms of Use.
+-	You cease using the software and do not retain any copies or other materials. Both must be permanently deleted.
+-	Each transfer of the software must include the latest update as well as all previous versions.
+-	The transfer takes place only in individual cases and not on a commercial scale.
+e.	You are not permitted to revise the software, reverse engineer it, convert it into another form of expression, decompile it, disassemble it, create any derivative work(s) of it, or otherwise attempt to discover the source code of the software.
+
+4.	Copyright
+Ashampoo hereby grants you a non-exclusive, non-transferable, non-sublicensable, non-commercial and personal license to install and/or use the software (in whole or in part)(the ‚license‘), until one of the parties terminates the contractual relationship or until its possible time limit expires. There is no transfer of ownership. This is not a sales contract. Updates, patches and similar changes may be necessary in order to continue using the software on certain hardware.
+All proprietary and ownership rights and all intellectual property rights relating to the software (including, but not limited to, all texts, graphics, music or sounds, all messages or information, names, themes, objects, effects, dialogues, slogans, places, diagrams, concepts, videos, audio-visual effects, domain names and all other elements belonging to the software, individually or in combination) and all copies thereof, are and remain the property of Ashampoo or its licensors. The software is protected by national and international laws, copyright treaties and agreements as well as other laws. This software may contain licensed materials and in this case, Ashampoo’s licensors may protect their rights in the event of a breach of this Agreement. Any duplication or reproduction of these licensed materials in any way and for any reason without the prior consent of Ashampoo and, where applicable, Ashampoo’s licensors and representatives, is prohibited. With the exception of the cases expressly provided for in this EULA, all rights not conferred on you by this Agreement are expressly reserved by Ashampoo. This license does not transfer any claims or ownership rights to the software.
+
+5.	Right of Modification
+Ashampoo reserves the right to make product changes, updates and revisions at its own discretion in order to further develop, improve and adapt the software to changing commercial and technical requirements. The equivalence of the performance/software is ensured. Modified, updated or revised software is subject to the terms of this License Agreement. There is no obligation to provide updated, modified or revised software.
+
+6.	Liability for defects
+a.	Ashampoo warrants remedy of defects that occur and are reported in a documented, verifiable form if and to the extent that the contractual or ordinary use is impaired.
+b.	If the defect cannot be remedied within a reasonable period of time, you are entitled, in accordance with the statutory provisions, to withdraw from the contract or at your discretion to reduce the purchase price and to demand compensation for damages or expenses. The defect can also be remedied by handing over a new version of the program or a work-around. If the defect does not or only insignificantly affect the functionality, Ashampoo may, to the exclusion of further claims for defects, remedy the defect by providing a new version or an update as part of its version and update planning.
+c.	Ashampoo’s obligation contained in section 6.1. does not apply if and to the extent that the reported error is due to changes or additions to the LICENSED SOFTWARE or its improper handling or installation by you and/or your customers or third parties.
+
+7.	Liability
+a.	With the exception of liability under the German Product Liability Act (“Produkthaftungsgesetz”) and on the grounds of injury to life, body or health, Ashampoo’s liability is limited or excluded as defined below.
+b.	In case of negligence, Ashampoo’s liability is limited to the compensation of the typical foreseeable damage. However, in the event of slight negligence, Ashampoo shall only be liable if an obligation is breached, whose fulfilment is a prerequisite for enabling the proper execution of the contract in the first place and, in particular taking into account the interests of both parties in the contract territory, on whose compliance you can trust.
+
+8.	Final provisions
+a.	The law of the Federal Republic of Germany applies to contracts between the provider and the customers, to the exclusion of the UN Convention on Contracts for the International Sale of Goods. The statutory provisions on the restriction of the choice of law and the applicability of mandatory regulations, in particular in the state in which the customer has his habitual residence as a consumer, remain unaffected.
+b.	If the customer is a merchant, a legal entity under public law or a special fund under public law, the place of jurisdiction for all disputes arising from contractual relationships between the customer and the provider is the provider’s registered office.
+c.	Even in case of legal ineffectiveness of individual points, the contract remains binding in its other parts. Instead of the ineffective points, the statutory provisions, if any, apply. However, to the extent that this would constitute an unreasonable hardship for one of the parties, the contract becomes ineffective in its entirety.
+
+9.	Dispute resolution:
+Disclaimer: In accordance with § 36 VSBG (law on alternative dispute resolution for consumer disputes, see directive 2013/11/EU), we hereby inform you that we will not participate in dispute settlement proceedings directed by consumer arbitration boards nor are we obligated to do so.
+Platform of the EU Commission regarding online dispute resolution	https://www.ec.europa.eu/consumers/odr

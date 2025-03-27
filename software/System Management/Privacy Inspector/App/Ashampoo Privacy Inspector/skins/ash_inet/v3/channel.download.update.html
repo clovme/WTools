@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Le Bacon</title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />	
+	
+
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+			padding:0;
+			margin:0;
+			border: none;
+			outline: none;
+			text-decoration: none;
+			cursor: default;
+		}
+
+		body {
+			position: relative;			
+			overflow:hidden;
+			min-width:100%;
+			min-height:100%;
+			background-color:#FFFFFF;			
+			font-family: "Segoe UI Regular", Segoe UI, Arial, sans-serif;
+			color:#333333;
+			line-height: 0;
+		}	
+
+		a {cursor:default;}
+
+		.siteholder{
+			position: relative;
+			border:1px solid #0099ff;
+			border-bottom:6px solid #0099ff;			
+		}
+
+/*\
+====================
+ _  _             _ 
+| || |___ __ _ __| |
+| __ / -_) _` / _` |
+|_||_\___\__,_\__,_|
+                    
+====================
+\*/				
+			
+		#head{
+			height: 45px;
+			border-bottom:1px solid #d9d9d9;	
+		}
+
+		#headline{
+			padding: 7px 60px 0px 20px;
+			line-height:normal;
+			font-size: 20px;
+		}
+
+		#close{
+			position: absolute;
+			display: inline-block;
+			top:20px;
+			right:20px;
+			font-size: 26px;
+			font-family: "Segoe UI Bold", Segoe UI, Arial, sans-serif;
+			font-weight: bold;
+			color:#333333;	
+		}
+
+		#close:hover{
+			color:#DD0000;
+		}		
+
+/*\
+==========================================
+  ___         _           _     ___ _     
+ / __|___ _ _| |_ ___ _ _| |_  | __(_)_ __
+| (__/ _ \ ' \  _/ -_) ' \  _| | _|| \ \ /
+ \___\___/_||_\__\___|_||_\__| |_| |_/_\_\
+
+==========================================		
+\*/				
+			
+		#content-holder{
+			padding:10px 20px 10px 20px;
+			display: inline-block;
+			min-width:640px;
+			width:640px;
+		}
+
+		#content{
+
+		}
+
+		#content *{
+			line-height: normal;
+		}
+		
+		/* Hack, hack, HAxx00000r H4444444444XX000000000000000000000000000000000000rrrrrrrrrrr */
+		#content font{
+			display: block;
+			line-height:50%; 
+			font-family: "Segoe UI Regular", Segoe UI, Arial, sans-serif;	
+		}
+		
+		#content font b{
+			font-size:75%;
+		}
+		
+		
+/*\
+==============================
+ ___      _   _               
+| _ )_  _| |_| |_ ___ _ _  ___
+| _ \ || |  _|  _/ _ \ ' \(_-
+|___/\_,_|\__|\__\___/_||_/__/
+
+==============================			
+\*/			
+		#buttons{
+			padding: 0 20px 20px 20px;
+			white-space: nowrap;
+/*			border-bottom:6px solid #0099ff;*/
+		}
+
+		.btn-single-holder{
+			display: inline-block;
+		}			
+			
+		.btn-single-holder-left{
+			width: 34%;
+		}
+
+		.btn-single-holder-middle{
+			width: 33%;
+			padding: 0 10px ;
+		}
+			
+		.btn-single-holder-right{
+			width: 33%;
+		}
+			
+			
+		.btn-button {
+			display: inline-block;
+			border-radius: 4px;
+			padding: 2px 10px 4px;
+			width: 100%;
+			margin:auto;
+			
+			font-family: "Segoe UI", Segoe UI, Arial, sans-serif;
+			font-weight:normal;
+			font-size: 13px;
+			text-decoration: none;
+			text-align: center;
+			line-height: normal;	
+			color: white;
+		}		
+
+		.btn-button-cta {
+			background-color: #ff004e;
+			border:1px solid #cc003e;			
+			border-bottom: 3px solid #cc003e;
+		}
+			
+		.btn-button-cta:hover {
+			background-color: #ff6666;
+		}				
+
+		.btn-button-normal {
+			color: #333333;
+			background-color: #e7e7e7;
+			border:1px solid #cccccc;			
+			border-bottom: 3px solid #cccccc;
+		}
+			
+		.btn-button-normal:hover {
+			background-color: #ccebff;
+		}		
+			
+	</style>
+
+<!--[if lte IE 7]>
+	<style type="text/css">
+		#close{
+			position:absolute;
+			display: inline;
+			top:10px;
+			line-height:normal;
+		}
+		/*
+		#content-holder{
+			display: block;
+			padding:10px 20px 10px 20px;	
+			width:100px;
+		}*/	
+
+		.btn-single-holder{
+			display: inline;
+			width:auto;
+		}
+
+		.btn-button {
+			width:auto;
+		}	
+
+	</style>
+<![endif]-->
+
+
+	<script type="text/javascript" src="js/build.offline.min.js"></script>
+	<script>
+	function shortenString(){
+		var maxChars = 35;
+		var myHeadline = document.getElementById("headline");
+		var myText = myHeadline.innerText;
+		if (myText.length > maxChars){
+			var trimmedString = myText.substring(0, maxChars);
+			myHeadline.innerHTML = trimmedString + "…";
+		}
+	}
+	
+	function onLoad(){
+		jsonData = bant.resources.get();
+		document.getElementById("content").innerHTML = jsonData.messages[0].html;
+		document.getElementById("headline").innerHTML = jsonData.messages[0].title;
+		shortenString();
+
+	};
+	
+	function onCloseDialog(event){
+		if(event.keyCode == 27){
+			bant.dialog.close(this, 'cancel');
+		}
+	}
+	</script>
+</head>
+
+<body onload="onLoad();" onkeydown="onCloseDialog(event)" >
+	<div class="siteholder">
+		<a id="close" onclick="return bant.dialog.close(this, 'cancel');" href="#">×</a>
+		<div onmousedown="bant.dialog.startDrag(this, event)" id="head">
+			<div id="headline">Update verfügbar! ###</div>
+		</div>
+		<div id="content-holder">
+			<div id="content"></div>
+		</div>
+
+		<div id="buttons">
+			<span class="btn-single-holder btn-single-holder-left"><a id="btn-testen" class="btn-button btn-button-cta" data-localize-id="ashinet.button.install" onclick="return bant.dialog.close(this, 'ok');">Install</a></span><span class="btn-single-holder btn-single-holder-middle"><a id="btn-later" class="btn-button btn-button-normal" data-localize-id="ashinet.button.remind-later" onclick="return bant.dialog.close(this, 'skip');">Remind me later</a></span><span class="btn-single-holder btn-single-holder-right"><a id="btn-nothanks" class="btn-button btn-button-normal" data-localize-id="ashinet.button.no-thanks" onclick="return bant.dialog.close(this, 'cancel');">No thanks</a></span>			
+		</div>
+	</div>
+</body>
+</html>

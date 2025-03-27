@@ -1,0 +1,2 @@
+/*! (c) Ashampoo GmbH & Co. KG */
+body{min-width:640px;min-height:430px}ash-dialog{width:640px;height:430px}section{display:none}body.status-trial section#status-trial,body.status-expired section#status-expired,body.status-purchased section#status-purchased{display:block}h1{margin:auto}.txt-restzeit{color:#0099ff;font-weight:bold}ash-button-module[type="list"]{padding:20px}ash-button-module[type="footer"]{border:none;background-color:transparent}

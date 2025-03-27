@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />	
+	
+	<title>Document</title>
+
+	<script type="text/javascript">
+			document.createElement("ash-dialog");
+			document.createElement("ash-headbar");
+			document.createElement("ash-content");
+			document.createElement("ash-close-button");
+			document.createElement("ash-button-module");
+			document.createElement("section");	
+	</script>
+			
+	<link rel="stylesheet" href="css/bant.shared.min.css" type="text/css" />
+	
+	<style>
+		body{
+			overflow:hidden;
+			min-width:100%;
+			min-height:100%;
+		}
+		
+		ash-dialog{
+			width:100%;
+			height:100%;
+		}
+		
+		ash-headbar{
+			position:static;
+			display: block;
+			box-sizing: border-box;
+			padding: 7px 20px 0;
+			height: 45px;
+			border-bottom: 1px solid #d9d9d9;
+			font-size: 20px;
+		}
+		
+		ash-content{
+			display: inline-block;
+    		position: relative;
+    		padding: 10px 20px 10px 20px;
+		}
+		
+		#servicecontent{
+			margin-bottom: 10px;
+		}
+
+		#servicecontent a{
+			border: none;		
+		}
+
+		#servicecontent a img{
+			display: block;
+			border: none;
+		}	
+	</style>
+
+</head>
+<body onload="onLoad();" onkeydown="onCloseDialog(event)">
+	
+
+	<ash-dialog>
+		<ash-headbar onmousedown="bant.dialog.startDrag(this, event)"><span data-localize-id="ashinet.service.news.title">Service message</span></ash-headbar>
+		<ash-content>
+
+
+				<div id="servicecontent">
+					<a><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAADwBAMAAACDA6BYAAAAMFBMVEX////MzMzy8vL5+fnCwsLu7u7d3d3M2f7m5ubM5c3/2//e3t7/0s3M//7N0eXM/87+dN+hAAABnElEQVR42u3cMXHDQBgF4b8xgJswEIOQSB0Q5iAKoiAKqQ3DFEIhFJKTxk6RVE9u9pJdBG/mmzlJV6jgXYrd81OhO70Uu8troRNY4DCBUQkscJjAqAQWOExgVAILHCYwKoEFDhMYlcAChwmMSmCBwwRGJbDAYQKjEljgMIFRCSxwmMCoBBY47J8BnwUWOEtgVAILHCYwKoEFDhMYlcAChwmMSmCBwwRGJbDAYX8buH231B4N+NdAGnCre8tSxAYYON1aCrlwjIHrug9ELhxi4Pq5tmlqveI1xsC1D+yVAw8O7LqTAx89qOd5Js4bY+B1H/juwMMD36478UchG2LgtrB1YOoxM8DAvrCqsAc1fmDbeB34yKOutsgvC/CB97DHDHjgadvUbtsa8KPpDB9Iu6r0LroERiWwwGECoxJY4DCBUQkscJjAqAQWOExgVAILHCYwKoEFDhMYlcAChwmMSmCBwwRGJbDAYQKjEljgMIFRCSxwmMCoBBY4TGBUAgscJjAqgQUOExiVwAKHCYxKYIHDBEYl8OGYPyP92RdqTKCGF3NHvAAAAABJRU5ErkJggg==" ></a>
+				</div>
+
+<!--
+				<ash-button-module type="list">
+					<label class="ash-button cta-button">
+						<span data-localize-id="ashinet.button.more-infos">Learn more...</span>
+						<button type="button" onclick="bant.button.click(this, 'ok')"></button>
+					</label>
+				</ash-button-module>		
+-->
+
+		</ash-content>		
+		<ash-close-button onclick="return bant.dialog.close(this, 'cancel');">×</ash-close-button>
+	</ash-dialog>
+
+	<script src="js/build.offline.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		function onLoad(data){
+			window.setTimeout(function(){
+				bant.dialog.close(this, 'cancel');
+			},30000);	
+			
+			document.getElementById("servicecontent").innerHTML = bant.resources.get('messages').messages[0].html;
+		};
+		
+		
+		function onCloseDialog(event){
+			if(event.keyCode == 27){
+				bant.dialog.close(this, 'cancel');
+			}
+		}
+		
+		$(document).ready(function(){
+			$('#servicecontent').click(function(){
+				window.open(bant.resources.get('messages').messages[0]['image-click']);
+				bant.window.close();
+				//bant.button.click(this, 'cancel');
+			});
+		});
+		
+	</script>
+	
+</body>
+</html>

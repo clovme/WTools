@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	
+	
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">	
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>license.startup.offline</title>
+	
+	<script>
+		document.createElement("ash-dialog");
+		document.createElement("ash-headbar");
+		document.createElement("ash-sidebar");
+		document.createElement("ash-content");
+		document.createElement("ash-close-button");			
+		document.createElement("ash-info");
+		document.createElement("ash-button-module");
+		document.createElement("section");
+	</script>
+	
+	<link rel="stylesheet" href="css/bant.shared.min.css" type="text/css">
+	<link rel="stylesheet" href="css/license.startup.offline.min.css" type="text/css">	
+	
+</head>
+<body class="status-trial">
+	
+	<ash-dialog type="sidebar">
+		<ash-headbar onmousedown="bant.dialog.startDrag(this, event)"></ash-headbar>
+
+		<ash-sidebar>
+			<img id="boxshot" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+			<img id="ashlogo" src="img/lgo_ashampoo.png">			
+		</ash-sidebar>
+						
+		<ash-content>
+			
+		
+			<section id="status-trial">
+				<div class="content-holder">
+
+					<h1 data-localize-id="ashinet.product.name">%APPNAME%</h1>
+					<p class="txt-restzeit" data-localize-id="ashinet.message.license.trial-days-left">%DAYSLEFT% days remaining in your trial period</p>	
+					<p data-localize-id="ashinet.message.license.you-are-offline">The program was unable to connect to the Internet. You may still enter the license key while you're offline. The program will then be activated, once an Internet connection has been established.</p>
+
+					<ash-button-module type="list">
+						<label class="ash-button cta-button">
+							<span data-localize-id="ashinet.button.enter-license-key">Enter key manually</span>
+							<button type="button" class="button-serialdialog"></button>
+						</label>
+						<label class="ash-button">
+							<span data-localize-id="ashinet.button.continue-evaluation">Continue evaluation</span>
+							<button type="button" onclick="return bant.dialog.close(this, 'ok');"></button>
+						</label>
+					</ash-button-module>
+	
+				</div>
+
+			</section>
+
+
+
+
+			<section id="status-expired">
+				<div class="content-holder">
+
+					<h1 data-localize-id="ashinet.product.name">%APPNAME%</h1>
+					<p class="txt-restzeit" data-localize-id="ashinet.title.trial-expired">Your trial period has expired.</p>
+					<p data-localize-id="ashinet.message.license.you-are-offline">The program was unable to connect to the Internet. You may still enter the license key while you're offline. The program will then be activated, once an Internet connection has been established.</p>
+				
+					<ash-button-module type="list">
+						<label class="ash-button cta-button">
+							<span data-localize-id="ashinet.button.enter-license-key">Enter key manually</span>
+							<button type="button" class="button-serialdialog"></button>
+						</label>
+						<label class="ash-button">
+							<span data-localize-id="ashinet.button.close">Close</span>
+							<button type="button" onclick="return bant.dialog.close(this, 'cancel');"></button>
+						</label>
+					</ash-button-module>
+				</div>
+				
+			</section>
+				
+
+
+			
+			<section id="status-purchased">
+				<div class="content-holder">
+
+					<h1 data-localize-id="ashinet.product.name">%APPNAME%</h1>
+					<p class="txt-restzeit" data-localize-id="ashinet.title.product-activated">Your product is activated.</p>
+					<p data-localize-id="ashinet.message.license.enjoy-the-full-version">Enjoy your full version of %APPNAME%!</p>
+					
+				</div>		
+				<ash-button-module type="footer">
+					<label class="ash-button cta-button">
+						<span data-localize-id="ashinet.button.close">Close</span>
+						<button type="button" onclick="return bant.dialog.close(this, 'ok');"></button>
+					</label>
+				</ash-button-module>
+			</section>	
+			
+
+
+		</ash-content>
+
+		<ash-close-button onclick="return bant.dialog.close(this, 'cancel');">×</ash-close-button>
+
+
+	</ash-dialog>
+	
+
+
+	<script type="text/javascript" src="js/build.offline.min.js"></script>	
+	<script type="text/javascript" src="js/license.startup.offline.min.js"></script>	
+
+			
+</body>
+</html>
