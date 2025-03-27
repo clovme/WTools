@@ -122,13 +122,6 @@
             "Count": 0
         },
         {
-            "Name": "Visual Studio 2022",
-            "TargetPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\Common7\\IDE\\devenv.exe",
-            "IconLocation": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\Common7\\IDE\\devenv.exe",
-            "Arguments": "",
-            "Count": 0
-        },
-        {
             "Name": "Android Studio",
             "TargetPath": "%rr%\\Application\\Android\\Android Studio\\bin\\studio64.exe",
             "IconLocation": "%rr%\\Application\\Android\\Android Studio\\bin\\studio64.exe",
@@ -272,7 +265,7 @@
             "TargetPath": "%rp%\\software\\System Management\\UninstallTool.exe",
             "IconLocation": "%rp%\\software\\System Management\\UninstallTool.exe",
             "Arguments": "",
-            "Count": 1
+            "Count": 2
         },
         {
             "Name": "Umi-OCR",
@@ -293,7 +286,7 @@
             "TargetPath": "%rp%\\software\\System Management\\DNSTools\\DNSTools.exe",
             "IconLocation": "%rp%\\software\\System Management\\DNSTools\\DNSTools.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 1
         },
         {
             "Name": "NETworkManager",
@@ -391,7 +384,7 @@
             "TargetPath": "%rp%\\software\\System Management\\IP\u5730\u5740\u4FEE\u6539\u5668.exe",
             "IconLocation": "%rp%\\software\\System Management\\IP\u5730\u5740\u4FEE\u6539\u5668.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 1
         },
         {
             "Name": "Hosts\u7F16\u8F91\u5668",
@@ -428,7 +421,7 @@
             "TargetPath": "%rp%\\software\\Common Software\\Pure Codec\\x64\\PotPlayerMini64.exe",
             "IconLocation": "%rp%\\software\\Common Software\\Pure Codec\\x64\\PotPlayerMini64.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 1
         },
         {
             "Name": "SZPlayer",
@@ -472,14 +465,14 @@
             "TargetPath": "%rp%\\software\\Proxy Software\\mihomo-party\\Mihomo Party.exe",
             "IconLocation": "%rp%\\software\\Proxy Software\\mihomo-party\\Mihomo Party.exe",
             "Arguments": "",
-            "Count": 1
+            "Count": 2
         },
         {
             "Name": "Oppa",
             "TargetPath": "C:\\Program Files (x86)\\Oppa\\Oppa.exe",
             "IconLocation": "C:\\Program Files (x86)\\Oppa\\Oppa.exe",
             "Arguments": "",
-            "Count": 1
+            "Count": 3
         }
     ],
     "下载工具": [
