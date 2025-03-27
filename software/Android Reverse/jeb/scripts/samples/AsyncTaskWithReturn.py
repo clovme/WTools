@@ -1,0 +1,28 @@
+#?description=Run an asynchronous interruptible task that returns a value
+#?shortcut=
+import time
+from java.lang import Thread
+from java.util.concurrent import Callable
+from com.pnfsoftware.jeb.client.api import IScript, IGraphicalClientContext
+"""
+Sample script for JEB Decompiler.
+"""
+class AsyncTaskWithReturn(IScript):
+  def run(self, ctx):
+    if not isinstance(ctx, IGraphicalClientContext):
+      print('This script must be run within a graphical client')
+      return
+    r = ctx.executeAsyncWithReturn('Counting... and returning a value', SimpleTask())
+    print r
+
+# note the use of Callable here
+class SimpleTask(Callable):
+  def call(self):
+    for i in range(5):
+      # react to user pressing Cancel
+      if Thread.interrupted():
+        print('The task was interrupted')
+        break
+      print('Counter: %d' % i)
+      time.sleep(1)
+    return 123

@@ -1,0 +1,6 @@
+Scripts in the samples folder can be overwritten when JEB updates. If a user-modification is detected,
+the updater will rename the modified script to NAME.py.bak.
+
+However, users are recommended to:
+- create their scripts in the top-level scripts/ folder (or any custom folder therein)
+- if needing to customize a sample script, fork it outside the samples/ folder and work on the copy

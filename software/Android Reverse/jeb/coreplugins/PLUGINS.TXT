@@ -1,0 +1,39 @@
+JEB Decompiler (c) PNF Software, Inc. 
+https://www.pnfsoftware.com
+
+This directory contains JEB external back-end plugins. (They are not to be confused with JEB client scripts.)
+
+Currently, there are three ways to write back-end plugins:
+
+1-  Format:     Jar files.
+    Types:      All back-end plugins may be bundled as pre-compiled jar files.
+    Capability: May contain any number of classfiles; ideal for complex/mature/stable plugins.
+    Language:   Any language compiling to Java classfiles and jar files (Java, Kotlin, etc.).
+    Extension:  .jar
+    Location:   This folder (typically, coreplugins/).
+    Enabled:    Yes, always.
+    Hot reload: No (modifications are not supported while JEB is running; a restart is required).
+
+2-  Format:     Java scripts (limited to some plugin types, see below).
+    Types:      Currently limited to dexdec IR plugins.
+    Capability: Single Java file plugin; ideal for prototyping/moderately complex plugins.
+    Language:   Java, matching the JVM executing JEB (e.g. Java 11 syntax if JEB is run using a JVM 11).
+    Extension:  .java
+    Location:   The plugins' scripts sub-folder (typically, coreplugins/scripts/).
+    Enabled:    Yes, always.
+    Hot reload: Yes (modifications are supported while JEB is running)
+
+3-  Format:     Python scripts (limited to some plugin types, see below).
+    Types:      Currently limited to dexdec IR plugins.
+    Capability: Single Python file plugin; ideal for rapid prototyping/simple plugins.
+    Language:   Python 2.7, as these plugins will be executed by a Jython 2.7 VM.
+    Extension:  .py
+    Location:   The plugins' scripts sub-folder (typically, coreplugins/scripts/).
+    Enabled:    No by default (add '.LoadPythonPlugins = true' to your JEB's bin/jeb-engines.cfg file)
+    Hot reload: Yes (modifications are supported while JEB is running)
+
+
+For more information, visit:
+- https://www.pnfsoftware.com/jeb/plugins to download free and open-source plugins
+- https://www.pnfsoftware.com/jeb/manual/dev/introducing-jeb-extensions/ to get started on writing your own plugins
+- https://www.pnfsoftware.com/jeb/apidoc/reference/com/pnfsoftware/jeb/core/IPlugin.html to see a complete list of plugins types

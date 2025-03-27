@@ -1,0 +1,101 @@
+# *** SAMPLE *** JEB Type Library configuration file
+
+# template yaml file used to configure the generation of one or more *.typelib file for JEB
+# it must contain either a single dictionary entry, e.g.:
+#
+#------------
+#hdrsrc: win32.h
+#cstsrc: win32_constants.txt
+#output: win32.typelib
+#processor: x86 
+#------------
+#
+# or a list of dict entries, e.g. 2 entries:
+#
+#------------
+#- hdrsrc: win32.h                 # mandatory, unless `cstsrc` is specified
+#  cstsrc: win32_constants.txt     # mandatory, unless `hdrsrc` is specified
+#  output: win32.typelib           # generated output file; leave empty to do a verification (no typelib gen.)
+#  processor: x86                  # one arch per entry is recommended; see ProcessorType class for legal values
+#  subsystem: windows_user         # optional; see SubsystemType class for legal values
+#  compiler: msvc                  # optional; see CompilerType class for legal values
+#  groupid: win32                  # typelib group; optional, must either be a string (see TypeLibraryService for legal values) or an int
+#  uuid: 12345                     # typelib unique id; if omitted, a uuid will be derived from `name`
+#  priority: 0.0                   # typelib priority; optional float (default is 0.0)
+#  version: 1                      # typelib version (not to be confused with the version of the library itself); optional int
+#  name: win32                     # if empty, will use the output name minus the .typelib suffix
+#  description: "win32 x86 types"  # typelib description; optional string
+#  author: "PNF Software"          # typelib author; optional string
+#  custom:                         # custom list of key-value; keys must be strings; values can be string/int/fp
+#    "a": 123
+#    "foo": "ZZ"
+#
+#- hdrsrc: libxyz.h
+#  cstsrc:
+#  output: libxyz.typelib
+#  processors: [x86, x86_64]       # note plural (processorS)
+#  subsystems: [unix, linux]       # note plural (subsystemS)
+#------------
+#
+# all fields but hdrsrc|cstsrc (either or both), output, and processor (or processors) are optional
+#
+# either hdrsrc or cstsrc must be present (both can be present)
+
+# to generate the typelib(s), open a terminal and execute: (e.g. on Windows)
+#  $ ..\..\jeb_wincon.bat -c --typelibgen=sample-typelib.cfg
+
+# NOTE: packing and alignment
+# when generating the struct binary layouts to be stored in the typelib, an initial (default) packing value is used by typelibgen:
+# the default packing value is 1, unless a MSVC is specified as a compiler, in which case, the default will be set to 8 on 64-bit platforms, and 4 on other platforms (eg, x86)
+# if the default packing does not suit your requirements, your header file should start with a "#pragma pack(N)" preprocessor directive
+
+# (mandatory if `cstsrc` is not present)
+# a single file continaing an aggregated, preprocessed, massaged header file for which the types, prototypes, exposed methods, and constants are to be extracted
+hdrsrc: smpl-header.h
+
+# (mandatory if `hdrsrc` is not present)
+# a single file containing a list of constants
+cstsrc: smpl-constants.txt
+
+# (mandatory) output typelib, must end in '.typelib'
+# IMPORTANT! once generated, this file must be moved to the <JEB>/typelibs/ folder in order for JEB to see it and load it
+output: sample.typelib
+
+# (mandatory) see com.pnfsoftware.jeb.core.units.codeobject.ProcessorType
+# e.g.: X86, X86_64, ARM, ARM64, MIPS, MIPS64
+processor: x86
+# alternative:
+# processors: [x86, x86_64]
+
+# (optional) see com.pnfsoftware.jeb.core.units.codeobject.SubsystemType
+# e.g.: UNIX, LINUX, MAC, WINDOWS_KERNEL, WINDOWS_USER, WINDOWS
+subsystem:
+# alternative:
+# subsystems: [...]
+
+# (optional) see com.pnfsoftware.jeb.core.units.codeobject.CompilerType for a complete list
+# e.g.: GCC, MSVC
+compiler:
+
+# (optional) see com.pnfsoftware.jeb.core.units.code.asm.type.TypeLibraryService for a complete list
+# eg: GROUPID_TYPELIB_POSIX, GROUPID_TYPELIB_LINUX, GROUPID_TYPELIB_LINUX_ANDROID, GROUPID_TYPELIB_WIN32, GROUPID_TYPELIB_WINDDK
+groupid: win32
+
+# (optional) floating number indicating priority order for loading
+priority:
+
+# (optional) unique identifier for your typelib; if omitted, a uuid will be derived from `name`
+uuid: 20000
+
+# (optional) integer version, start with 1 and increment# if two conflicting typelibs are present (same groupid, same uuid),
+# the one with the highest version number will be loaded
+version:
+
+# (optional) name of your type library
+name:
+
+# (optional) description string
+description:
+
+# (optional) author string
+author:

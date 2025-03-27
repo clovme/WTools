@@ -1,0 +1,8 @@
+JEB Decompiler (c) PNF Software, Inc. 
+https://www.pnfsoftware.com
+
+This directory contains native signature libraries for JEB.
+
+- Traditional signatures, relying on machine code features, are stored as *.siglib files
+  in this folder and all sub-folders except codeless/.
+- Codeless signatures are stored as *.codeless-siglib files in the codeless/ sub-folder.

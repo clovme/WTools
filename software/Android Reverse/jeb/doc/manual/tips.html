@@ -1,0 +1,1458 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for JEB Decompiler">
+      
+      
+        <link rel="canonical" href="https://www.pnfsoftware.com/jeb/manual/tips.html">
+      
+      
+        <meta name="author" content="PNF Software">
+      
+      <link rel="shortcut icon" href="img/jeb-icon.png">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.1.1">
+    
+    
+      
+        <title>Tips - JEB Decompiler</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.a676eddb.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="assets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tips-of-the-day" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://www.pnfsoftware.com/jeb/manual" title="JEB Decompiler" class="md-header-nav__button md-logo" aria-label="JEB Decompiler">
+      
+  <img src="assets/jeb_128px_white.png" srcset="assets/jeb_128px_white.png 2x" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            JEB Decompiler
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Tips
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://www.pnfsoftware.com/jeb/manual" title="JEB Decompiler" class="md-nav__button md-logo" aria-label="JEB Decompiler">
+      
+  <img src="assets/jeb_128px_white.png" srcset="assets/jeb_128px_white.png 2x" alt="logo">
+
+    </a>
+    JEB Decompiler
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="index.html" title="Getting Started" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Using JEB
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Using JEB" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Using JEB
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="workspace.html" title="Workspace" class="md-nav__link">
+      Workspace
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="actions.html" title="Actions" class="md-nav__link">
+      Actions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="views.html" title="Views" class="md-nav__link">
+      Views
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="decompiling.html" title="Decompiling" class="md-nav__link">
+      Decompiling
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="debugging.html" title="Debugging" class="md-nav__link">
+      Debugging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="android.html" title="Android Analysis" class="md-nav__link">
+      Android Analysis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="android-debugging.html" title="Android Debugging" class="md-nav__link">
+      Android Debugging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="native.html" title="Native Code Analysis" class="md-nav__link">
+      Native Code Analysis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="webassembly.html" title="WebAssembly Analysis" class="md-nav__link">
+      WebAssembly Analysis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="ethereum.html" title="Ethereum Analysis" class="md-nav__link">
+      Ethereum Analysis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="misc.html" title="Miscellaneous" class="md-nav__link">
+      Miscellaneous
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Extending JEB
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Extending JEB" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Extending JEB
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="dev/introducing-jeb-extensions.html" title="Introducing JEB Extensions" class="md-nav__link">
+      Introducing JEB Extensions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="dev/writing-client-scripts.html" title="Writing Client Scripts" class="md-nav__link">
+      Writing Client Scripts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="dev/android-scripting.html" title="Scripting for Android Reversing" class="md-nav__link">
+      Scripting for Android Reversing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3-4" type="checkbox" id="nav-3-4">
+    
+    <label class="md-nav__link" for="nav-3-4">
+      Writing Parsers (Tutorial)
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Writing Parsers (Tutorial)" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-4">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Writing Parsers (Tutorial)
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="dev/1-getting-started-with-parsers.html" title="Part 1: Getting Started with Parsers" class="md-nav__link">
+      Part 1: Getting Started with Parsers
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="dev/2-creating-simple-parser.html" title="Part 2: Creating a Simple Parser" class="md-nav__link">
+      Part 2: Creating a Simple Parser
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="dev/3-documents-delegation.html" title="Part 3: Documents and Delegation" class="md-nav__link">
+      Part 3: Documents and Delegation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="dev/4-tables-trees.html" title="Part 4: Tables and Trees" class="md-nav__link">
+      Part 4: Tables and Trees
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="dev/5-development-tips.html" title="Part 5: Development Tips" class="md-nav__link">
+      Part 5: Development Tips
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="dev/6-releasing-plugin.html" title="Part 6: Releasing a Plugin" class="md-nav__link">
+      Part 6: Releasing a Plugin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="dev/7-unit-interactivity.html" title="Part 7: Interactivity" class="md-nav__link">
+      Part 7: Interactivity
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="dev/8-more-interactivity.html" title="Part 8: More on Interactivity" class="md-nav__link">
+      Part 8: More on Interactivity
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="dev/writing-engines-plugins.html" title="Writing Engines Plugins" class="md-nav__link">
+      Writing Engines Plugins
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="dev/writing-front-ends.html" title="Writing Front-Ends" class="md-nav__link">
+      Writing Front-Ends
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="dev/other-resources.html" title="Additional Resources" class="md-nav__link">
+      Additional Resources
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Configuration
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Configuration" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Configuration
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="settings.html" title="Settings" class="md-nav__link">
+      Settings
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="client-configuration.html" title="Client Configuration" class="md-nav__link">
+      Client Configuration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="engines-configuration.html" title="Engines Configuration" class="md-nav__link">
+      Engines Configuration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="floating.html" title="Floating Controller" class="md-nav__link">
+      Floating Controller
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="faq.html" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Tips
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,9H17V7H3V9M3,13H17V11H3V13M3,17H17V15H3V17M19,17H21V15H19V17M19,7V9H21V7H19M19,13H21V11H19V13Z" /></svg>
+        </span>
+      </label>
+    
+    <a href="tips.html" title="Tips" class="md-nav__link md-nav__link--active">
+      Tips
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tips-of-the-day" class="md-nav__link">
+    Tips of the Day
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting Started
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decompiling" class="md-nav__link">
+    Decompiling
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-your-decompilers" class="md-nav__link">
+    Check your Decompilers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-omnibox" class="md-nav__link">
+    The Omnibox
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bookmarks" class="md-nav__link">
+    Bookmarks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-reversing-actions" class="md-nav__link">
+    Basic Reversing Actions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#units-and-documents" class="md-nav__link">
+    Units and Documents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#android-global-analysis" class="md-nav__link">
+    Android Global Analysis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customizing-the-emulator-used-by-the-android-global-analysis" class="md-nav__link">
+    Customizing the Emulator used by the Android Global Analysis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#android-and-side-effect-free-code" class="md-nav__link">
+    Android and Side-effect-free code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#control-flow-graph-cfg-view" class="md-nav__link">
+    Control Flow Graph (CFG) View
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multi-file-projects" class="md-nav__link">
+    Multi-file Projects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multi-format-support" class="md-nav__link">
+    Multi-format Support
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rebasing-constants" class="md-nav__link">
+    Rebasing Constants
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reopening-a-view" class="md-nav__link">
+    Reopening a View
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exotic-decompilers" class="md-nav__link">
+    Exotic Decompilers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-hierarchies" class="md-nav__link">
+    Type Hierarchies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#method-and-fields-overrides" class="md-nav__link">
+    Method and Fields Overrides
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#organize-your-code" class="md-nav__link">
+    Organize your Code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analyzing-ethereum-smart-contracts" class="md-nav__link">
+    Analyzing Ethereum smart contracts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blanket-renaming" class="md-nav__link">
+    Blanket Renaming
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#one-decompilation-one-tab" class="md-nav__link">
+    One Decompilation, One Tab
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bulk-decompilations" class="md-nav__link">
+    Bulk decompilations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notifications" class="md-nav__link">
+    Notifications
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dark-theme-vs-light-theme" class="md-nav__link">
+    Dark Theme vs Light Theme
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scripting-in-python" class="md-nav__link">
+    Scripting in Python
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-extensions-in-java" class="md-nav__link">
+    Writing extensions in Java
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#need-more-tips" class="md-nav__link">
+    Need more Tips?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#register-your-copy" class="md-nav__link">
+    Register your Copy
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-the-preview-builds" class="md-nav__link">
+    Getting the Preview builds
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-your-settings" class="md-nav__link">
+    Set your Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#native-code-analysis-settings" class="md-nav__link">
+    Native Code Analysis Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rendering-options" class="md-nav__link">
+    Rendering Options
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#signing-native-routines" class="md-nav__link">
+    Signing Native Routines
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#replacing-immediates-constants-by-field-constants" class="md-nav__link">
+    Replacing Immediates Constants by Field Constants
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#making-a-class-anonymous" class="md-nav__link">
+    Making a class anonymous
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#highlighting-interesting-code" class="md-nav__link">
+    Highlighting interesting code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reversing-simatic-s7-plc-programs" class="md-nav__link">
+    Reversing Simatic S7 PLC Programs
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tips-of-the-day" class="md-nav__link">
+    Tips of the Day
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting Started
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decompiling" class="md-nav__link">
+    Decompiling
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-your-decompilers" class="md-nav__link">
+    Check your Decompilers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-omnibox" class="md-nav__link">
+    The Omnibox
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bookmarks" class="md-nav__link">
+    Bookmarks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-reversing-actions" class="md-nav__link">
+    Basic Reversing Actions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#units-and-documents" class="md-nav__link">
+    Units and Documents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#android-global-analysis" class="md-nav__link">
+    Android Global Analysis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customizing-the-emulator-used-by-the-android-global-analysis" class="md-nav__link">
+    Customizing the Emulator used by the Android Global Analysis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#android-and-side-effect-free-code" class="md-nav__link">
+    Android and Side-effect-free code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#control-flow-graph-cfg-view" class="md-nav__link">
+    Control Flow Graph (CFG) View
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multi-file-projects" class="md-nav__link">
+    Multi-file Projects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multi-format-support" class="md-nav__link">
+    Multi-format Support
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rebasing-constants" class="md-nav__link">
+    Rebasing Constants
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reopening-a-view" class="md-nav__link">
+    Reopening a View
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exotic-decompilers" class="md-nav__link">
+    Exotic Decompilers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-hierarchies" class="md-nav__link">
+    Type Hierarchies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#method-and-fields-overrides" class="md-nav__link">
+    Method and Fields Overrides
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#organize-your-code" class="md-nav__link">
+    Organize your Code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analyzing-ethereum-smart-contracts" class="md-nav__link">
+    Analyzing Ethereum smart contracts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blanket-renaming" class="md-nav__link">
+    Blanket Renaming
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#one-decompilation-one-tab" class="md-nav__link">
+    One Decompilation, One Tab
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bulk-decompilations" class="md-nav__link">
+    Bulk decompilations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notifications" class="md-nav__link">
+    Notifications
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dark-theme-vs-light-theme" class="md-nav__link">
+    Dark Theme vs Light Theme
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scripting-in-python" class="md-nav__link">
+    Scripting in Python
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-extensions-in-java" class="md-nav__link">
+    Writing extensions in Java
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#need-more-tips" class="md-nav__link">
+    Need more Tips?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#register-your-copy" class="md-nav__link">
+    Register your Copy
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-the-preview-builds" class="md-nav__link">
+    Getting the Preview builds
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-your-settings" class="md-nav__link">
+    Set your Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#native-code-analysis-settings" class="md-nav__link">
+    Native Code Analysis Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rendering-options" class="md-nav__link">
+    Rendering Options
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#signing-native-routines" class="md-nav__link">
+    Signing Native Routines
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#replacing-immediates-constants-by-field-constants" class="md-nav__link">
+    Replacing Immediates Constants by Field Constants
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#making-a-class-anonymous" class="md-nav__link">
+    Making a class anonymous
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#highlighting-interesting-code" class="md-nav__link">
+    Highlighting interesting code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reversing-simatic-s7-plc-programs" class="md-nav__link">
+    Reversing Simatic S7 PLC Programs
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                  <h1>Tips</h1>
+                
+                <h3 id="tips-of-the-day">Tips of the Day<a class="headerlink" href="#tips-of-the-day" title="Permanent link">#</a></h3>
+<h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">#</a></h2>
+<p>Welcome! If this is your first run, you should be presented with an empty JEB workspace. Create a new project by opening a file (menu File, command <em>Open</em>) to be analyzed: it can be a PE file, an ELF file, an APK or DEX file, or anything else that your JEB build has plugin support for.<p>After an initial analysis pass, your main workspace will display an interactive disassembly listing, as well as a Project tree and a Code Hierarchy tree. You may navigate and modify your analysis via the Actions menu. If you are looking to decompile code, position yourself somewhere in the disassembly and hit the TAB key.</p>
+<p><a href="img/tips/jeb-tip-getting-started.gif"><img src="img/tips/jeb-tip-getting-started.gif" srcset="img/tips/jeb-tip-getting-started.gif 2x" /></a></p>
+<h2 id="decompiling">Decompiling<a class="headerlink" href="#decompiling" title="Permanent link">#</a></h2>
+<p>In the Disassembly view, right-click and select <em>Decompile</em>, or use the Action menu, <em>Decompile</em> command. You can navigate back to the Disassembly in a similar way.</p>
+<p><a href="img/tips/jeb-tip-how-to-decompile.gif"><img src="img/tips/jeb-tip-how-to-decompile.gif" srcset="img/tips/jeb-tip-how-to-decompile.gif 2x" /></a></p>
+<h2 id="check-your-decompilers">Check your Decompilers<a class="headerlink" href="#check-your-decompilers" title="Permanent link">#</a></h2>
+<p>JEB decompilers are plugins. Check which decompilers ship with your build by using the File menu, <em>Decompilers</em> command. JEB Community Edition bundles the x86 decompilers. JEB Android ships with everything Android. JEB Pro ships withs everything. JEB Demo as well, but with several limitations.</p>
+<p><a href="img/tips/jeb-tip-decompilers-list.gif"><img src="img/tips/jeb-tip-decompilers-list.gif" srcset="img/tips/jeb-tip-decompilers-list.gif 2x" /></a></p>
+<h2 id="the-omnibox">The Omnibox<a class="headerlink" href="#the-omnibox" title="Permanent link">#</a></h2>
+<p>The omnibox is a text input box located on the right side of the toolbar (default hotkey: F3). It allows users to search and quickly visualize (and navigate to) any type of item referenced in your JEB project. From strings to code, comments, bookmarks, command names, and text contents. Type anything you can think of in this box.</p>
+<p><a href="img/tips/jeb-tip-omnibox.gif"><img src="img/tips/jeb-tip-omnibox.gif" srcset="img/tips/jeb-tip-omnibox.gif 2x" /></a></p>
+<h2 id="bookmarks">Bookmarks<a class="headerlink" href="#bookmarks" title="Permanent link">#</a></h2>
+<p>Bookmark your favorite locations using the Control+F12 hotkey (Command+F12 on macOS). Your project-wide list of bookmarks is accessible with F12. These commands are also accessible from the Navigation menu.</p>
+<p><a href="img/tips/jeb-tip-bookmarks.gif"><img src="img/tips/jeb-tip-bookmarks.gif" srcset="img/tips/jeb-tip-bookmarks.gif 2x" /></a></p>
+<h2 id="basic-reversing-actions">Basic Reversing Actions<a class="headerlink" href="#basic-reversing-actions" title="Permanent link">#</a></h2>
+<p>Common analysis actions are located in the Action menu. They include decompiling, renaming items, viewing cross-references, adding comments, etc. Other actions, specific to a given class of files or analysis, are located in other menus (e.g. Android, Native, Debugger).</p>
+<p><a href="img/tips/jeb-tip-basic-actions.gif"><img src="img/tips/jeb-tip-basic-actions.gif" srcset="img/tips/jeb-tip-basic-actions.gif 2x" /></a></p>
+<h2 id="units-and-documents">Units and Documents<a class="headerlink" href="#units-and-documents" title="Permanent link">#</a></h2>
+<p>In JEB, the analysis of an artifact (typically, an input file) yields objects called "units". An artifact usually produces a tree of several units, including code units. Units can be rendered as documents, including text buffers, tables and trees. A code unit will generate a Disassembly document, among many other documents.</p>
+<p><a href="img/tips/jeb-tip-units-and-docs.gif"><img src="img/tips/jeb-tip-units-and-docs.gif" srcset="img/tips/jeb-tip-units-and-docs.gif 2x" /></a></p>
+<h2 id="android-global-analysis">Android Global Analysis<a class="headerlink" href="#android-global-analysis" title="Permanent link">#</a></h2>
+<p>If you are analyzing an APK or Dex file, it is usually a good idea to run a <em>Global Analysis</em> pass. This analysis will use the decompiler, emulator, and sandboxing engine to find interesting things in the code, such as encrypted strings and constants or reflected accesses.</p>
+<p><a href="img/tips/jeb-tip-android-global-analysis.gif"><img src="img/tips/jeb-tip-android-global-analysis.gif" srcset="img/tips/jeb-tip-android-global-analysis.gif 2x" /></a></p>
+<h2 id="customizing-the-emulator-used-by-the-android-global-analysis">Customizing the Emulator used by the Android Global Analysis<a class="headerlink" href="#customizing-the-emulator-used-by-the-android-global-analysis" title="Permanent link">#</a></h2>
+<p>Check out the Emulator Settings command in the Android menu to customize the emulator and sandboxing engine policies and time-outs.</p>
+<p><a href="img/tips/jeb-tip-android-emulator-settings.gif"><img src="img/tips/jeb-tip-android-emulator-settings.gif" srcset="img/tips/jeb-tip-android-emulator-settings.gif 2x" /></a></p>
+<h2 id="android-and-side-effect-free-code">Android and Side-effect-free code<a class="headerlink" href="#android-and-side-effect-free-code" title="Permanent link">#</a></h2>
+<p>This Android analysis setting allows you to specify a list of methods which are guaranteed to have no side-effect (e.g. no field update, directly or indirectly) outside of providing a return value. This list is used by some code optimizers to further enhance decompilations.</p>
+<p><a href="img/tips/jeb-tip-android-emulator-sefcode.gif"><img src="img/tips/jeb-tip-android-emulator-sefcode.gif" srcset="img/tips/jeb-tip-android-emulator-sefcode.gif 2x" /></a></p>
+<h2 id="control-flow-graph-cfg-view">Control Flow Graph (CFG) View<a class="headerlink" href="#control-flow-graph-cfg-view" title="Permanent link">#</a></h2>
+<p>When located on a disassembled method, press the Space bar to switch from a flat listing to a CFG view of the method. Press Space to switch back to the listing view.</p>
+<p><a href="img/tips/jeb-tip-cfg-view.gif"><img src="img/tips/jeb-tip-cfg-view.gif" srcset="img/tips/jeb-tip-cfg-view.gif 2x" /></a></p>
+<h2 id="multi-file-projects">Multi-file Projects<a class="headerlink" href="#multi-file-projects" title="Permanent link">#</a></h2>
+<p>JEB can handle more than one file in a single project. The first artifact will determine your project name, but other artifacts can be added whenever needed via the File menu, <em>Add an Artifact</em> command.</p>
+<p><a href="img/tips/jeb-tip-additional-artifact.gif"><img src="img/tips/jeb-tip-additional-artifact.gif" srcset="img/tips/jeb-tip-additional-artifact.gif 2x" /></a></p>
+<h2 id="multi-format-support">Multi-format Support<a class="headerlink" href="#multi-format-support" title="Permanent link">#</a></h2>
+<p>JEB handles any type of file, from raw bytes to PE to ELF to APK to DEX, but also archives, documents, etc. You can explore a file, its structure, and analyze its constituents using the Project Explorer panel.</p>
+<p><a href="img/tips/jeb-tip-multi-format-support.gif"><img src="img/tips/jeb-tip-multi-format-support.gif" srcset="img/tips/jeb-tip-multi-format-support.gif 2x" /></a></p>
+<h2 id="rebasing-constants">Rebasing Constants<a class="headerlink" href="#rebasing-constants" title="Permanent link">#</a></h2>
+<p>Immediates can be rebased using the B hotkey (or via the Action menu, <em>Convert</em> command). Depending on the code unit, different bases will be offered, including decimal, hexadecimal, octal, character, or binary string.</p>
+<p><a href="img/tips/jeb-tip-rebase.gif"><img src="img/tips/jeb-tip-rebase.gif" srcset="img/tips/jeb-tip-rebase.gif 2x" /></a></p>
+<h2 id="reopening-a-view">Reopening a View<a class="headerlink" href="#reopening-a-view" title="Permanent link">#</a></h2>
+<p>If you ever close an important view, you can always reopen it by clicking on its corresponding unit in the Project Explorer view, right-click, then <em>Open View</em> command.</p>
+<p><a href="img/tips/jeb-tip-reopen-view.gif"><img src="img/tips/jeb-tip-reopen-view.gif" srcset="img/tips/jeb-tip-reopen-view.gif 2x" /></a></p>
+<h2 id="exotic-decompilers">Exotic Decompilers<a class="headerlink" href="#exotic-decompilers" title="Permanent link">#</a></h2>
+<p>Did you know that JEB can decompile all sorts of formats? From Android dex to the classic x86 and Arm, less classic Mips, but also more exotic ones like Ethereum smart contracts compiled to EVM bytecode, or WebAssembly modules.</p>
+<p><a href="img/tips/jeb-tip-list-parsers.gif"><img src="img/tips/jeb-tip-list-parsers.gif" srcset="img/tips/jeb-tip-list-parsers.gif 2x" /></a></p>
+<h2 id="type-hierarchies">Type Hierarchies<a class="headerlink" href="#type-hierarchies" title="Permanent link">#</a></h2>
+<p>When on a type object (class or interface), use the Action, <em>Type Hierarchy</em> command (hotkey H) to view the selected type hierarchy, such as super-types, sub-types, and implemented interfaces.</p>
+<p><a href="img/tips/jeb-tip-type-hierarchies.gif"><img src="img/tips/jeb-tip-type-hierarchies.gif" srcset="img/tips/jeb-tip-type-hierarchies.gif 2x" /></a></p>
+<h2 id="method-and-fields-overrides">Method and Fields Overrides<a class="headerlink" href="#method-and-fields-overrides" title="Permanent link">#</a></h2>
+<p>When on a method object, use the Action, <em>Overrides</em> command to check the implementations in sub-classes, as well as parent implementations in super types. The command also works for fields to see overrides (by name) in sub-classes.</p>
+<p><a href="img/tips/jeb-tip-method-overrides.gif"><img src="img/tips/jeb-tip-method-overrides.gif" srcset="img/tips/jeb-tip-method-overrides.gif 2x" /></a></p>
+<h2 id="organize-your-code">Organize your Code<a class="headerlink" href="#organize-your-code" title="Permanent link">#</a></h2>
+<p>JEB supports packages and namespaces. Create packages, move code objects (methods, classes, etc.) to them by drag-and-dropping inside the Code Hierarchy panel, or use the Action menu, <em>Create a Package / Move to a Package</em> commands. <p>This command, like all actions located in the Actions menu, is available for native code as well as dex code.</p>
+<p><a href="img/tips/jeb-tip-organize-code.gif"><img src="img/tips/jeb-tip-organize-code.gif" srcset="img/tips/jeb-tip-organize-code.gif 2x" /></a></p>
+<h2 id="analyzing-ethereum-smart-contracts">Analyzing Ethereum smart contracts<a class="headerlink" href="#analyzing-ethereum-smart-contracts" title="Permanent link">#</a></h2>
+<p>The Ethereum plugins currently support the analysis of EVM bytecode contracts (ewasm contracts are also supported, with the help of the wasm plugins for JEB). Open a contract using the File menu, Open Smart Contract command. The contract node will be named "DecompiledContract".</p>
+<p><a href="img/tips/jeb-tip-decompiling-ethereum.gif"><img src="img/tips/jeb-tip-decompiling-ethereum.gif" srcset="img/tips/jeb-tip-decompiling-ethereum.gif 2x" /></a></p>
+<h2 id="blanket-renaming">Blanket Renaming<a class="headerlink" href="#blanket-renaming" title="Permanent link">#</a></h2>
+<p>The action "Auto-Rename All" allows the renaming of all or a selection of the items in a project. This action is very handy when analyzing an obfuscated file whose meaningless names create confusion.</p>
+<p><a href="img/tips/jeb-tip-auto-rename-all.gif"><img src="img/tips/jeb-tip-auto-rename-all.gif" srcset="img/tips/jeb-tip-auto-rename-all.gif 2x" /></a></p>
+<h2 id="one-decompilation-one-tab">One Decompilation, One Tab<a class="headerlink" href="#one-decompilation-one-tab" title="Permanent link">#</a></h2>
+<p>The "Do not replace Views" command, located in the Navigation menu, instructs the GUI client to keep tabs holding a similar view type to stay open when a different view of the same type is opened (else, the tab contents would simply be updated). It is handy when you need to have multiple decompilations opened in separate views.</p>
+<p><a href="img/tips/jeb-tip-do-not-replace-views.gif"><img src="img/tips/jeb-tip-do-not-replace-views.gif" srcset="img/tips/jeb-tip-do-not-replace-views.gif 2x" /></a></p>
+<h2 id="bulk-decompilations">Bulk decompilations<a class="headerlink" href="#bulk-decompilations" title="Permanent link">#</a></h2>
+<p>If you need to decompile all code and export it to disk, check the File menu, Export Decompilation command. You will be able to select which part of your project should be decompiled and where it should be written to.</p>
+<p><a href="img/tips/jeb-tip-export-bulk-decompilation.gif"><img src="img/tips/jeb-tip-export-bulk-decompilation.gif" srcset="img/tips/jeb-tip-export-bulk-decompilation.gif 2x" /></a></p>
+<h2 id="notifications">Notifications<a class="headerlink" href="#notifications" title="Permanent link">#</a></h2>
+<p>All plugins can issue sticky notifications that will be saved in the project (as opposed to pure log messages, which are not persisted). The notifications dialog can be opened from the toolbar or File menu. Double-click an entry or click Navigate to jump to the appropriate unit document and address (if the notification has an address attached to it).</p>
+<p><a href="img/tips/jeb-tip-notifications.gif"><img src="img/tips/jeb-tip-notifications.gif" srcset="img/tips/jeb-tip-notifications.gif 2x" /></a></p>
+<h2 id="dark-theme-vs-light-theme">Dark Theme vs Light Theme<a class="headerlink" href="#dark-theme-vs-light-theme" title="Permanent link">#</a></h2>
+<p>Use the <em>Switch Theme</em> command (in the Edit menu) to switch from your system-recommended theme to a Dark theme or Light (sepia) theme.</p>
+<p><a href="img/tips/jeb-tip-switch-theme.gif"><img src="img/tips/jeb-tip-switch-theme.gif" srcset="img/tips/jeb-tip-switch-theme.gif 2x" /></a></p>
+<h2 id="scripting-in-python">Scripting in Python<a class="headerlink" href="#scripting-in-python" title="Permanent link">#</a></h2>
+<p>The JEB API is a comprehensive application programming interface used by JEB clients (including the main GUI program) to communicate with the back-end. Power-users can write JEB extensions that make use of the API to script tasks, have custom plugins, etc. <p>To get accustomed to the API, it is best to start writing Python script (2.7 syntax) doing relatively simple things. JEB ships with many samples, located in the scripts/samples/ folder. Bring up the Scripts selector dialog with F2. You can execute, create, or edit existing scripts. <p>In the example below, the UI API is used to create a custom graph object showing relationship between various code items in a code object.</p>
+<p><a href="img/tips/jeb-tip-python-scripts.gif"><img src="img/tips/jeb-tip-python-scripts.gif" srcset="img/tips/jeb-tip-python-scripts.gif 2x" /></a></p>
+<h2 id="writing-extensions-in-java">Writing extensions in Java<a class="headerlink" href="#writing-extensions-in-java" title="Permanent link">#</a></h2>
+<p>The JEB API is a comprehensive application programming interface used by JEB clients (including the main GUI program) to communicate with the back-end. Power-users can write JEB extensions that make use of the API to script tasks, have custom plugins, etc. <p>Unlike JEB Python scripts (see the previous tip), extensions written in Java can be loaded as full JEB plugins, that will live alongside other JEB plugins for as long as needed. Our GitHub repository provides several open-source plugins, such as a diem VM (move) decompiler or PDF parser.</p>
+<p><a href="img/tips/jeb-tip-java-plugins.gif"><img src="img/tips/jeb-tip-java-plugins.gif" srcset="img/tips/jeb-tip-java-plugins.gif 2x" /></a></p>
+<h2 id="need-more-tips">Need more Tips?<a class="headerlink" href="#need-more-tips" title="Permanent link">#</a></h2>
+<p>Press F1 at any time to consult the full Manual, either offline (it is bundled along with the API reference in your JEB's doc folder) or <a href="https://www.pnfsoftware.com/jeb/manual">online</a> if your workstation is connected to the Internet.</p>
+<p><a href="img/tips/jeb-tip-dialog-tips.gif"><img src="img/tips/jeb-tip-dialog-tips.gif" srcset="img/tips/jeb-tip-dialog-tips.gif 2x" /></a></p>
+<h2 id="register-your-copy">Register your Copy<a class="headerlink" href="#register-your-copy" title="Permanent link">#</a></h2>
+<p>If you want to receive individual software update emails, make sure to register your software. The only piece of information we'll be storing is an email address. See the Help menu, Register command. (If your licensed build is an indivudual build, e.g. JEB Pro single-user, you may not need to register since you will be receiving email updates automatically.)</p>
+<p><a href="img/tips/jeb-tip-register-software.gif"><img src="img/tips/jeb-tip-register-software.gif" srcset="img/tips/jeb-tip-register-software.gif 2x" /></a></p>
+<h2 id="getting-the-preview-builds">Getting the Preview builds<a class="headerlink" href="#getting-the-preview-builds" title="Permanent link">#</a></h2>
+<p>We sometimes publish Release Preview builds, such as Beta builds, that will contain early fixes or features. If you wish to receive them, make sure to switch to the BETA or ALPHA update channel (located in the Help menu, <em>Update Channel</em> sub-menu).</p>
+<p><a href="img/tips/jeb-tip-update-channel.gif"><img src="img/tips/jeb-tip-update-channel.gif" srcset="img/tips/jeb-tip-update-channel.gif 2x" /></a></p>
+<h2 id="set-your-settings">Set your Settings<a class="headerlink" href="#set-your-settings" title="Permanent link">#</a></h2>
+<p>When you open a file for analysis, a Core Settings panel will open up. Advanced users should get familiar with that panel as it allows customizing many settings before kicking in the analysis of the file. The initially-selected tree node depend on your input file type, but you may customize any other settings.</p>
+<p><a href="img/tips/jeb-tip-analysis-settings.gif"><img src="img/tips/jeb-tip-analysis-settings.gif" srcset="img/tips/jeb-tip-analysis-settings.gif 2x" /></a></p>
+<h2 id="native-code-analysis-settings">Native Code Analysis Settings<a class="headerlink" href="#native-code-analysis-settings" title="Permanent link">#</a></h2>
+<p>When analyzing native executables, you can customize JEB processing through "Engine Properties" panel. For example, you can provide a specific memory base address, or select which tail calls' detection method should be used.</p>
+<p><a href="img/tips/jeb-tip-native-settings.gif"><img src="img/tips/jeb-tip-native-settings.gif" srcset="img/tips/jeb-tip-native-settings.gif 2x" /></a></p>
+<h2 id="rendering-options">Rendering Options<a class="headerlink" href="#rendering-options" title="Permanent link">#</a></h2>
+<p>In JEB's code views (assembly code, C code, ...) you can customize many rendering options on the fly with "Rendering Options" widget (available from "Edit" menu, or from contextual menu).</p>
+<p><a href="img/tips/jeb-tip-rendering.gif"><img src="img/tips/jeb-tip-rendering.gif" srcset="img/tips/jeb-tip-rendering.gif 2x" /></a></p>
+<h2 id="signing-native-routines">Signing Native Routines<a class="headerlink" href="#signing-native-routines" title="Permanent link">#</a></h2>
+<p>You can create signatures for native routines you analyzed, such that they will be automatically identified when you encounter them again (by loading the corresponding signature package). All modifications you made to the original routines will then be imported (names, comments, labels). Such signatures can be created from "Native" menu, or using default shortcut "S".</p>
+<p><a href="img/tips/jeb-tip-native-sig-creation.gif"><img src="img/tips/jeb-tip-native-sig-creation.gif" srcset="img/tips/jeb-tip-native-sig-creation.gif 2x" /></a></p>
+<h2 id="replacing-immediates-constants-by-field-constants">Replacing Immediates Constants by Field Constants<a class="headerlink" href="#replacing-immediates-constants-by-field-constants" title="Permanent link">#</a></h2>
+<p>Immediate can be replaced by fields using Action, Replace... You may use existing field constants, or create or attach values to existing fields.</p>
+<p><a href="img/tips/jeb-tip-replace-imm-by-fields.gif"><img src="img/tips/jeb-tip-replace-imm-by-fields.gif" srcset="img/tips/jeb-tip-replace-imm-by-fields.gif 2x" /></a></p>
+<h2 id="making-a-class-anonymous">Making a class anonymous<a class="headerlink" href="#making-a-class-anonymous" title="Permanent link">#</a></h2>
+<p>Often times, obfuscators remove annotations and other hints indicating that a class is an anonymous member of a method. Dex units support manually anonymizing classes, either via scripting or using the GUI client. <p>To make a class anonymous using the GUI client: in the code hierarchy, drag the class item node and drop it onto the target method item node. If it is deemed possible, the class will be made anonymous. Make sure to redecompile the target method (or its containing class) to see the updated result in decompiled code.</p>
+<p><a href="img/tips/jeb-tip-making-class-anonymous.gif"><img src="img/tips/jeb-tip-making-class-anonymous.gif" srcset="img/tips/jeb-tip-making-class-anonymous.gif 2x" /></a></p>
+<h2 id="highlighting-interesting-code">Highlighting interesting code<a class="headerlink" href="#highlighting-interesting-code" title="Permanent link">#</a></h2>
+<p>Use the Action menu, <em>Toggle Highlight</em> command (hotkey: Ctrl+M on Windows/Linux, Command+M on macOS) to toggle line highlights on and off. Like everything else, highlights can also be accessed programmatically (they are stored in unit metadata groups) and can be set via scripts, e.g. to automatically highlight areas of interest and make them pop-out during a quick visual pass.</p>
+<p><a href="img/tips/jeb-tip-highlights.gif"><img src="img/tips/jeb-tip-highlights.gif" srcset="img/tips/jeb-tip-highlights.gif 2x" /></a></p>
+<h2 id="reversing-simatic-s7-plc-programs">Reversing Simatic S7 PLC Programs<a class="headerlink" href="#reversing-simatic-s7-plc-programs" title="Permanent link">#</a></h2>
+<p>JEB Pro ships with extensions to acquire, analyze, disassemble, and decompile S7-300/S7-400 PLC programs. Acquire blocks via <i>File, Acquire Simatic S7 Blocks</i> or pack PLC blocks in a zip archive with the '.s7zip' extension. We encourage users to visit our blog to read up on reverse-engineering S7 blocks and learn about how to use this JEB extension: https://www.pnfsoftware.com/blog/reversing-simatic-s7-plc-programs</p>
+<p><a href="img/tips/jeb-tip-plc-s7-decompilation.png"><img src="img/tips/jeb-tip-plc-s7-decompilation.png" srcset="img/tips/jeb-tip-plc-s7-decompilation.png 2x" /></a></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="faq.html" title="FAQ" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                FAQ
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2015 - 2022 PNF Software
+          </div>
+        
+        <span>Generated with Material for MkDocs</span>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/vendor.c51dfa35.min.js"></script>
+      <script src="assets/javascripts/bundle.eaaa3931.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: ".",
+          features: [],
+          search: Object.assign({
+            worker: "assets/javascripts/worker/search.58d22e8e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

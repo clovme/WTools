@@ -1,0 +1,1 @@
+This folder contains material showing how to create a custom *.typelib binary file.
