@@ -98,7 +98,7 @@
             "TargetPath": "%rr%\\Application\\JetBrains\\GoLand\\bin\\goland64.exe",
             "IconLocation": "%rr%\\Application\\JetBrains\\GoLand\\bin\\goland64.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 1
         },
         {
             "Name": "WebStorm",
@@ -272,7 +272,7 @@
             "TargetPath": "%rp%\\software\\System Management\\UninstallTool.exe",
             "IconLocation": "%rp%\\software\\System Management\\UninstallTool.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 1
         },
         {
             "Name": "Umi-OCR",
@@ -472,7 +472,7 @@
             "TargetPath": "%rp%\\software\\Proxy Software\\Clash.for.Windows\\Clash for Windows.exe",
             "IconLocation": "%rp%\\software\\Proxy Software\\Clash.for.Windows\\Clash for Windows.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 1
         },
         {
             "Name": "Mihomo Party",
@@ -486,7 +486,7 @@
             "TargetPath": "C:\\Program Files (x86)\\Oppa\\Oppa.exe",
             "IconLocation": "C:\\Program Files (x86)\\Oppa\\Oppa.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 1
         }
     ],
     "下载工具": [
