@@ -1,0 +1,522 @@
+{
+    "常用软件": [
+        {
+            "Name": "QQ",
+            "TargetPath": "C:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+            "IconLocation": "C:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "\u5FAE\u4FE1",
+            "TargetPath": "C:\\Program Files\\Tencent\\WeChat\\WeChat.exe",
+            "IconLocation": "C:\\Program Files\\Tencent\\WeChat\\WeChat.exe",
+            "Arguments": "",
+            "Count": 4
+        },
+        {
+            "Name": "Typora",
+            "TargetPath": "C:\\Program Files\\Typora\\Typora.exe",
+            "IconLocation": "C:\\Program Files\\Typora\\Typora.exe",
+            "Arguments": "",
+            "Count": 2
+        },
+        {
+            "Name": "Microsoft Edge",
+            "TargetPath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "IconLocation": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Word",
+            "TargetPath": "C:\\Program Files\\Office2024\\root\\Office16\\WINWORD.EXE",
+            "IconLocation": "C:\\Program Files\\Office2024\\root\\Office16\\WINWORD.EXE",
+            "Arguments": "/q",
+            "Count": 0
+        },
+        {
+            "Name": "Excel",
+            "TargetPath": "C:\\Program Files\\Office2024\\root\\Office16\\EXCEL.EXE",
+            "IconLocation": "C:\\Program Files\\Office2024\\root\\Office16\\EXCEL.EXE",
+            "Arguments": "",
+            "Count": 1
+        },
+        {
+            "Name": "PowerPoint",
+            "TargetPath": "C:\\Program Files\\Office2024\\root\\Office16\\POWERPNT.EXE",
+            "IconLocation": "C:\\Program Files\\Office2024\\root\\Office16\\POWERPNT.EXE",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Notepad++",
+            "TargetPath": "C:\\Program Files\\Notepad++\\notepad++.exe",
+            "IconLocation": "C:\\Program Files\\Notepad++\\notepad++.exe",
+            "Arguments": "",
+            "Count": 3
+        },
+        {
+            "Name": "\u4E2A\u4EBA\u7B80\u5386",
+            "TargetPath": "%rp%\\software\\Common Software\\resume\\resume.exe",
+            "IconLocation": "%rp%\\software\\Common Software\\resume\\resume.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "ChatGPT",
+            "TargetPath": "%rp%\\software\\Common Software\\ChatGPT.exe",
+            "IconLocation": "%rp%\\software\\Common Software\\ChatGPT.exe",
+            "Arguments": "",
+            "Count": 3
+        },
+        {
+            "Name": "MFC\u7C7B\u5E93\u4E2D\u6587\u624B\u518C",
+            "TargetPath": "%rp%\\software\\VC++\u4E4BMFC\u7C7B\u5E93\u4E2D\u6587\u624B\u518C\uFF08\u4E00\u6000\u53BB\u610F\uFF09.chm",
+            "IconLocation": "%rp%\\software\\VC++\u4E4BMFC\u7C7B\u5E93\u4E2D\u6587\u624B\u518C\uFF08\u4E00\u6000\u53BB\u610F\uFF09.chm",
+            "Arguments": "",
+            "Count": 0
+        }
+    ],
+    "编程软件": [
+        {
+            "Name": "IntelliJ IDEA",
+            "TargetPath": "%rr%\\Application\\JetBrains\\IntelliJ IDEA\\bin\\idea64.exe",
+            "IconLocation": "%rr%\\Application\\JetBrains\\IntelliJ IDEA\\bin\\idea64.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "PyCharm",
+            "TargetPath": "%rr%\\Application\\JetBrains\\PyCharm\\bin\\pycharm64.exe",
+            "IconLocation": "%rr%\\Application\\JetBrains\\PyCharm\\bin\\pycharm64.exe",
+            "Arguments": "",
+            "Count": 6
+        },
+        {
+            "Name": "GoLand",
+            "TargetPath": "%rr%\\Application\\JetBrains\\GoLand\\bin\\goland64.exe",
+            "IconLocation": "%rr%\\Application\\JetBrains\\GoLand\\bin\\goland64.exe",
+            "Arguments": "",
+            "Count": 4
+        },
+        {
+            "Name": "WebStorm",
+            "TargetPath": "%rr%\\Application\\JetBrains\\WebStorm\\bin\\webstorm64.exe",
+            "IconLocation": "%rr%\\Application\\JetBrains\\WebStorm\\bin\\webstorm64.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "CLion",
+            "TargetPath": "%rr%\\Application\\JetBrains\\CLion\\bin\\clion64.exe",
+            "IconLocation": "%rr%\\Application\\JetBrains\\CLion\\bin\\clion64.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Navicat Premium 17",
+            "TargetPath": "%rr%\\Application\\Navicat Premium 17\\navicat.exe",
+            "IconLocation": "%rr%\\Application\\Navicat Premium 17\\navicat.exe",
+            "Arguments": "",
+            "Count": 1
+        },
+        {
+            "Name": "Visual Studio 2022",
+            "TargetPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\Common7\\IDE\\devenv.exe",
+            "IconLocation": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\Common7\\IDE\\devenv.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Android Studio",
+            "TargetPath": "%rr%\\Application\\Android\\Android Studio\\bin\\studio64.exe",
+            "IconLocation": "%rr%\\Application\\Android\\Android Studio\\bin\\studio64.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "MSYS2 MINGW64",
+            "TargetPath": "%rr%\\Application\\msys64\\mingw64.exe",
+            "IconLocation": "%rr%\\Application\\msys64\\mingw64.exe",
+            "Arguments": "",
+            "Count": 0
+        }
+    ],
+    "安卓逆向": [
+        {
+            "Name": "Jadx",
+            "TargetPath": "%rp%\\software\\Android Reverse\\jadx\\jadx-gui-1.5.1.exe",
+            "IconLocation": "%rp%\\software\\Android Reverse\\jadx\\jadx-gui-1.5.1.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "JEB",
+            "TargetPath": "%rp%\\software\\Android Reverse\\jeb\\bin\\jeb.exe",
+            "IconLocation": "%rp%\\software\\Android Reverse\\jeb\\bin\\jeb.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "QtScrcpy",
+            "TargetPath": "%rp%\\software\\Android Reverse\\QtScrcpy\\QtScrcpy.exe",
+            "IconLocation": "%rp%\\software\\Android Reverse\\QtScrcpy\\QtScrcpy.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "\u591C\u795E\u6A21\u62DF\u5668",
+            "TargetPath": "%rr%\\Application\\Nox\\bin\\MultiPlayerManager.exe",
+            "IconLocation": "%rr%\\Application\\Nox\\bin\\MultiPlayerManager.exe",
+            "Arguments": "",
+            "Count": 0
+        }
+    ],
+    "逆向破解": [
+        {
+            "Name": "BIOSEDIT",
+            "TargetPath": "%rp%\\software\\Reverse Cracking\\BIOS Editor\\BIOSEDIT.exe",
+            "IconLocation": "%rp%\\software\\Reverse Cracking\\BIOS Editor\\BIOSEDIT.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Cheat Engine",
+            "TargetPath": "%rp%\\software\\Reverse Cracking\\Cheat Engine 7.5\\Cheat Engine.exe",
+            "IconLocation": "%rp%\\software\\Reverse Cracking\\Cheat Engine 7.5\\Cheat Engine.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Cutter 2.3.4 \u53CD\u6C47\u7F16\u9006\u5411\u8C03\u8BD5",
+            "TargetPath": "%rp%\\software\\Reverse Cracking\\Cutter 2.3.4\\cutter.exe",
+            "IconLocation": "%rp%\\software\\Reverse Cracking\\Cutter 2.3.4\\cutter.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "DbgPlugin6.11\u65B0\u5546\u4E1A\u7248",
+            "TargetPath": "%rp%\\software\\Reverse Cracking\\DbgPlugin6.11\\DbgPlugin.exe",
+            "IconLocation": "%rp%\\software\\Reverse Cracking\\DbgPlugin6.11\\DbgPlugin.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "DbgPlugin\u4E13\u7528\u7248OD",
+            "TargetPath": "%rp%\\software\\Reverse Cracking\\DbgPlugin OD\\loaddll.exe",
+            "IconLocation": "%rp%\\software\\Reverse Cracking\\DbgPlugin OD\\loaddll.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "ExeinfoPE",
+            "TargetPath": "%rp%\\software\\Reverse Cracking\\ExeinfoPE\\exeinfope.exe",
+            "IconLocation": "%rp%\\software\\Reverse Cracking\\ExeinfoPE\\exeinfope.exe",
+            "Arguments": "",
+            "Count": 1
+        },
+        {
+            "Name": "InstDrv",
+            "TargetPath": "%rp%\\software\\Reverse Cracking\\InstDrv.exe",
+            "IconLocation": "%rp%\\software\\Reverse Cracking\\InstDrv.exe",
+            "Arguments": "",
+            "Count": 1
+        },
+        {
+            "Name": "OpenArk64",
+            "TargetPath": "%rp%\\software\\Reverse Cracking\\OpenArk64.exe",
+            "IconLocation": "%rp%\\software\\Reverse Cracking\\OpenArk64.exe",
+            "Arguments": "",
+            "Count": 1
+        },
+        {
+            "Name": "WinHex",
+            "TargetPath": "%rp%\\software\\Reverse Cracking\\WinHex.exe",
+            "IconLocation": "%rp%\\software\\Reverse Cracking\\WinHex.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "x64dbg",
+            "TargetPath": "%rp%\\software\\Reverse Cracking\\x64dbg\\x64\\x64dbg.exe",
+            "IconLocation": "%rp%\\software\\Reverse Cracking\\x64dbg\\x64\\x64dbg.exe",
+            "Arguments": "",
+            "Count": 3
+        },
+        {
+            "Name": "IDA Pro 9.0",
+            "TargetPath": "%rp%\\software\\Reverse Cracking\\IDA Professional 9.0\\ida.exe",
+            "IconLocation": "%rp%\\software\\Reverse Cracking\\IDA Professional 9.0\\ida.exe",
+            "Arguments": "",
+            "Count": 2
+        },
+        {
+            "Name": "ResourceHacker",
+            "TargetPath": "%rp%\\software\\Reverse Cracking\\ResourceHacker-5.2.7.427.exe",
+            "IconLocation": "%rp%\\software\\Reverse Cracking\\ResourceHacker-5.2.7.427.exe",
+            "Arguments": "",
+            "Count": 2
+        },
+        {
+            "Name": "\u67E5\u58F3\u7A0B\u5E8F",
+            "TargetPath": "%rp%\\software\\Reverse Cracking\\die\\die.exe",
+            "IconLocation": "%rp%\\software\\Reverse Cracking\\die\\die.exe",
+            "Arguments": "",
+            "Count": 0
+        }
+    ],
+    "系统管理": [
+        {
+            "Name": "UninstallTool",
+            "TargetPath": "%rp%\\software\\System Management\\UninstallTool.exe",
+            "IconLocation": "%rp%\\software\\System Management\\UninstallTool.exe",
+            "Arguments": "",
+            "Count": 7
+        },
+        {
+            "Name": "Umi-OCR",
+            "TargetPath": "%rp%\\software\\System Management\\Umi-OCR\\Umi-OCR.exe",
+            "IconLocation": "%rp%\\software\\System Management\\Umi-OCR\\Umi-OCR.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "\u671B\u8A00OCR",
+            "TargetPath": "C:\\Program Files\\\u671B\u8A00OCR\\\u671B\u8A00OCR.exe",
+            "IconLocation": "C:\\Program Files\\\u671B\u8A00OCR\\\u671B\u8A00OCR.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "DNSTools",
+            "TargetPath": "%rp%\\software\\System Management\\DNSTools\\DNSTools.exe",
+            "IconLocation": "%rp%\\software\\System Management\\DNSTools\\DNSTools.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "NETworkManager",
+            "TargetPath": "%rp%\\software\\System Management\\NETworkManager\\NETworkManager.exe",
+            "IconLocation": "%rp%\\software\\System Management\\NETworkManager\\NETworkManager.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "DriverEasy",
+            "TargetPath": "%rp%\\software\\System Management\\DriverEasy\\DriverEasy.exe",
+            "IconLocation": "%rp%\\software\\System Management\\DriverEasy\\DriverEasy.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "ClickShow",
+            "TargetPath": "%rp%\\software\\System Management\\ClickShow\\ClickShow.exe",
+            "IconLocation": "%rp%\\software\\System Management\\ClickShow\\ClickShow.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Ashampoo Privacy Inspector",
+            "TargetPath": "%rp%\\software\\System Management\\Privacy Inspector\\Ashampoo Privacy Inspector.exe",
+            "IconLocation": "%rp%\\software\\System Management\\Privacy Inspector\\Ashampoo Privacy Inspector.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Wise Care 365 Pro",
+            "TargetPath": "%rp%\\software\\System Management\\Wise Care\\Wise Care 365 Pro 6.7.2.646.exe",
+            "IconLocation": "%rp%\\software\\System Management\\Wise Care\\Wise Care 365 Pro 6.7.2.646.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "CompactGUI",
+            "TargetPath": "%rp%\\software\\System Management\\CompactGUI.exe",
+            "IconLocation": "%rp%\\software\\System Management\\CompactGUI.exe",
+            "Arguments": "",
+            "Count": 3
+        },
+        {
+            "Name": "Windows11\u8F7B\u677E\u8BBE\u7F6E",
+            "TargetPath": "%rp%\\software\\System Management\\Windows11Setting\\Windows11\u8F7B\u677E\u8BBE\u7F6E.exe",
+            "IconLocation": "%rp%\\software\\System Management\\Windows11Setting\\Windows11\u8F7B\u677E\u8BBE\u7F6E.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "ProcessExplorer",
+            "TargetPath": "%rp%\\software\\System Management\\ProcessExplorer.exe",
+            "IconLocation": "%rp%\\software\\System Management\\ProcessExplorer.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "PC_Cleaner",
+            "TargetPath": "%rp%\\software\\System Management\\PC_Cleaner.exe",
+            "IconLocation": "%rp%\\software\\System Management\\PC_Cleaner.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Windows\u7CFB\u7EDF\u8C03\u6821",
+            "TargetPath": "%rp%\\software\\System Management\\Windows\u7CFB\u7EDF\u8C03\u6821.exe",
+            "IconLocation": "%rp%\\software\\System Management\\Windows\u7CFB\u7EDF\u8C03\u6821.exe",
+            "Arguments": "",
+            "Count": 1
+        },
+        {
+            "Name": "OpenArk64",
+            "TargetPath": "%rp%\\software\\System Management\\OpenArk64.exe",
+            "IconLocation": "%rp%\\software\\System Management\\OpenArk64.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "\u542F\u52A8\u9879\u76EE\u7BA1\u7406(Autoruns)",
+            "TargetPath": "%rp%\\software\\System Management\\\u542F\u52A8\u9879\u76EE\u7BA1\u7406.exe",
+            "IconLocation": "%rp%\\software\\System Management\\\u542F\u52A8\u9879\u76EE\u7BA1\u7406.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "\u81EA\u52A8\u5316\u4EFB\u52A1",
+            "TargetPath": "%rp%\\software\\System Management\\zTasker\\zTasker.exe",
+            "IconLocation": "%rp%\\software\\System Management\\zTasker\\zTasker.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "IP\u5730\u5740\u4FEE\u6539\u5668",
+            "TargetPath": "%rp%\\software\\System Management\\IP\u5730\u5740\u4FEE\u6539\u5668.exe",
+            "IconLocation": "%rp%\\software\\System Management\\IP\u5730\u5740\u4FEE\u6539\u5668.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Hosts\u7F16\u8F91\u5668",
+            "TargetPath": "%rp%\\software\\System Management\\Hosts\u7F16\u8F91\u5668.exe",
+            "IconLocation": "%rp%\\software\\System Management\\Hosts\u7F16\u8F91\u5668.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "\u9690\u79C1\u8BBE\u7F6E",
+            "TargetPath": "%rp%\\software\\System Management\\OOSU10\\OOSU10.exe",
+            "IconLocation": "%rp%\\software\\System Management\\OOSU10\\OOSU10.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "\u9690\u79C1\u8BBE\u7F6E",
+            "TargetPath": "%rp%\\software\\System Management\\DoNotSpy11.exe",
+            "IconLocation": "%rp%\\software\\System Management\\DoNotSpy11.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Edge\u914D\u7F6E\u767E\u79D1",
+            "TargetPath": "%rp%\\software\\System Management\\EdgeTools.exe",
+            "IconLocation": "%rp%\\software\\System Management\\EdgeTools.exe",
+            "Arguments": "",
+            "Count": 0
+        }
+    ],
+    "媒体娱乐": [
+        {
+            "Name": "\u5B8C\u7F8E\u89E3\u7801",
+            "TargetPath": "%rp%\\software\\Common Software\\Pure Codec\\x64\\PotPlayerMini64.exe",
+            "IconLocation": "%rp%\\software\\Common Software\\Pure Codec\\x64\\PotPlayerMini64.exe",
+            "Arguments": "",
+            "Count": 5
+        },
+        {
+            "Name": "SZPlayer",
+            "TargetPath": "%rr%\\Application\\SZPlayer\\MainPlayer.exe",
+            "IconLocation": "%rr%\\Application\\SZPlayer\\MainPlayer.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Steam",
+            "TargetPath": "C:\\Program Files (x86)\\Steam\\Steam.exe",
+            "IconLocation": "C:\\Program Files (x86)\\Steam\\Steam.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "zyfun",
+            "TargetPath": "%rp%\\software\\Common Software\\zyplayer\\zyfun.exe",
+            "IconLocation": "%rp%\\software\\Common Software\\zyplayer\\zyfun.exe",
+            "Arguments": "",
+            "Count": 3
+        }
+    ],
+    "代理软件": [
+        {
+            "Name": "Charles",
+            "TargetPath": "%rp%\\software\\Proxy Software\\Charles\\Charles.exe",
+            "IconLocation": "%rp%\\software\\Proxy Software\\Charles\\Charles.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "FastGithub",
+            "TargetPath": "%rp%\\software\\Proxy Software\\FastGithub\\FastGithub.UI.exe",
+            "IconLocation": "%rp%\\software\\Proxy Software\\FastGithub\\FastGithub.UI.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Clash for Windows",
+            "TargetPath": "%rp%\\software\\Proxy Software\\Clash.for.Windows\\Clash for Windows.exe",
+            "IconLocation": "%rp%\\software\\Proxy Software\\Clash.for.Windows\\Clash for Windows.exe",
+            "Arguments": "",
+            "Count": 1
+        },
+        {
+            "Name": "Mihomo Party",
+            "TargetPath": "%rp%\\software\\Proxy Software\\mihomo-party\\Mihomo Party.exe",
+            "IconLocation": "%rp%\\software\\Proxy Software\\mihomo-party\\Mihomo Party.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Oppa",
+            "TargetPath": "C:\\Program Files (x86)\\Oppa\\Oppa.exe",
+            "IconLocation": "C:\\Program Files (x86)\\Oppa\\Oppa.exe",
+            "Arguments": "",
+            "Count": 7
+        }
+    ],
+    "下载工具": [
+        {
+            "Name": "HitomiDownloader",
+            "TargetPath": "%rp%\\software\\Download Tools\\HitomiDownloader\\HitomiDownloader.exe",
+            "IconLocation": "%rp%\\software\\Download Tools\\HitomiDownloader\\HitomiDownloader.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Office Installer Plus",
+            "TargetPath": "%rp%\\software\\Download Tools\\Office Installer Plus\\Office Installer Plus.exe",
+            "IconLocation": "%rp%\\software\\Download Tools\\Office Installer Plus\\Office Installer Plus.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "DownKyi",
+            "TargetPath": "%rp%\\software\\Download Tools\\DownKyi\\DownKyi.exe",
+            "IconLocation": "%rp%\\software\\Download Tools\\DownKyi\\DownKyi.exe",
+            "Arguments": "",
+            "Count": 0
+        },
+        {
+            "Name": "Bili23",
+            "TargetPath": "%rp%\\software\\Download Tools\\Bili23_Downloader\\GUI.exe",
+            "IconLocation": "%rp%\\software\\Download Tools\\Bili23_Downloader\\GUI.exe",
+            "Arguments": "",
+            "Count": 0
+        }
+    ]
+}
