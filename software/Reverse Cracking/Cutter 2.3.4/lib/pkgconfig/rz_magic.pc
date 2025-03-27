@@ -1,0 +1,12 @@
+prefix=D:/a/cutter/cutter/build
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+datdir=share
+
+Name: rz_magic
+Description: rizin foundation libraries
+Version: 0.7.1
+Requires: rz_util
+Libs: -L${libdir} -lrz_magic
+Cflags: -I${includedir}/librz

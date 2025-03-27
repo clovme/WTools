@@ -1,0 +1,14 @@
+prefix=D:/a/cutter/cutter/build
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+plugindir=lib\\rizin\\plugins
+datdir=share
+
+Name: rz_io
+Description: rizin foundation libraries
+Version: 0.7.1
+Requires: rz_util, rz_socket, rz_hash, rz_crypto, rz_cons
+Libs: -L${libdir} -lrz_io
+Libs.private: -ladvapi32 -lbcrypt -lws2_32 -lwininet -lpsapi
+Cflags: -I${includedir}/librz

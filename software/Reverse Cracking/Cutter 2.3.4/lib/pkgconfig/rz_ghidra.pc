@@ -1,0 +1,13 @@
+prefix="D:/a/cutter/cutter/build/_CPack_Packages/win64/ZIP/Cutter-v2.3.4-Windows-x86_64"
+exec_prefix="${prefix}"
+includedir="${prefix}/include"
+
+Name: RzGhidra
+Description: RzGhidra Rizin plugin library
+URL: https://github.com/rizinorg/rz-ghidra
+Version: 
+Requires: rz_core
+Requires.private: rz_core
+Cflags: -I"${includedir}"
+Libs: -L"${prefix}/D:/a/cutter/cutter/build/_CPack_Packages/win64/ZIP/Cutter-v2.3.4-Windows-x86_64/lib/rizin/plugins" -l:core_ghidra.dll
+Libs.private: -L"${prefix}/D:/a/cutter/cutter/build/_CPack_Packages/win64/ZIP/Cutter-v2.3.4-Windows-x86_64/lib/rizin/plugins" -l:core_ghidra.dll

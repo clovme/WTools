@@ -1,0 +1,13 @@
+prefix=D:/a/cutter/cutter/build
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+datdir=share
+
+Name: rz_socket
+Description: rizin foundation libraries
+Version: 0.7.1
+Requires: rz_util
+Libs: -L${libdir} -lrz_socket
+Libs.private: -lws2_32 -lwininet -lpsapi
+Cflags: -I${includedir}/librz

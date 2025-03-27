@@ -1,0 +1,140 @@
+bcpMiserCSFeatsStruc STRUC      ; Miser Chipset Features
+  header        bcpHeader  <'BCPMCF', 1, 1, SIZEOF bcpMiserCSFeatsStruc>
+
+;
+; idleSMIEnable contains Enable bits for Events that can cause an SMI
+;  to be generated while in the idle state.
+;
+; NOTE:  It is no longer possible to enable the RTC, RI, USB or
+;        legacy USB SMI events via the pmEnableSMICauses routine
+;        since they are configured by special purpose routines
+;        and we don't want to accidentally modify them.
+;
+  idleSMIEnable         DW      bcpiIdleSMIEnable
+;    BCP_RTC_EN         EQU     0000000000000001b
+    BCP_PWRBTN_EN       EQU     0000000000000010b
+    BCP_LID_EN          EQU     0000000000000100b
+;    BCP_RI_EN          EQU     0000000000001000b
+
+    BCP_GPI_EN          EQU     0000000000010000b
+;    BCP_USB_EN         EQU     0000000000100000b
+    BCP_THRM_EN         EQU     0000000001000000b
+    BCP_EXTSMI_EN       EQU     0000000010000000b
+
+    BCP_SINT_RSM_EN     EQU     0000000100000000b
+    BCP_GSTBY_EN        EQU     0000001000000000b
+    BCP_P4MA_EN         EQU     0000010000000000b
+    BCP_BM_TRP_EN       EQU     0000100000000000b
+
+;    BCP_LEGACY_USB_EN  EQU     0001000000000000b
+    BCP_KYBC_MS_EN      EQU     0010000000000000b
+
+  idleBreak             DW      bcpiIdleBreak
+    BCP_BRLD_EN_IRQ8    EQU     0000000000000001b
+    BCP_BRLD_EN_IRQ     EQU     0000000000000010b
+    BCP_BRLD_EN_IRQ0    EQU     0000000000000100b
+    BCP_BRLD_EN_BM      EQU     0000000000001000b
+    BCP_BRLD_EN_KYBC_MS EQU     0000000000010000b
+;
+; standbySMIEnable contains Enable bits for Events that can cause an SMI
+;  to be generated while in the standby state.
+;
+  standbySMIEnable      DW      bcpiStandbySMIEnable
+  standbyBreak          DW      bcpiStandbyBreak
+  standbyGPISMIEnable	  DW	    bcpiStandbyGPISMIEnable
+;
+; posSMIEnable contains Enable bits for Events that can cause an SMI
+;  to be generated while in the Power On Suspend state.
+;
+; BCP_P4MA_EN and BCP_LEGACY_USB_EN do not generate SMIs in the POS state.
+;
+  posSMIEnable          DW      bcpiPOSSMIEnable
+  posBreak              DW      bcpiPosBreak
+  posResume             DW      bcpiPosResume
+    BCP_RSM_IRQ_RSM_EN  EQU     0000000000000001b
+    BCP_RSM_SINT_RSM_EN EQU     0000000000000010b
+    BCP_RSM_ALERT_EN    EQU     0000000000000100b
+    BCP_RSM_SLV_EN      EQU     0000000000001000b
+    BCP_RSM_SHDW1_EN    EQU     0000000000010000b
+    BCP_RSM_SHDW2_EN    EQU     0000000000100000b
+;
+; stdSMIEnable contains Enable bits for Events that can cause an SMI
+;  to be generated while in the Save to Disk/Save to Ram state.
+;
+  stdSMIEnable  DW      bcpiS2DSMIEnable
+
+;
+; fullOnSMIEnable contains Enable bits for Events that can cause an SMI
+;  to be generated while in the On state.
+;
+  fullOnSMIEnable       DW      bcpiFullOnSMIEnable
+;
+; ProcessorControl contains enable bits for processor control features.
+;
+  processorControl      DB      bcpiProcessorControl
+    BCP_CLKRUN_EN       EQU     00000001b
+    BCP_BST_EN          EQU     00000010b
+
+;
+; //////////////////////////////////////////////////////////////////////
+; NOTE:  In the PIIX4 BIOS Spec Update dated 10/25/96, spec change S10
+; indicates that L3 bursting should not be used if bus masters (PCI or
+; ISA) are in the system.
+; //////////////////////////////////////////////////////////////////////
+;
+
+  burstControl          DB      bcpiBurstControl
+    BCP_L2_BURST_EN     EQU     00000001b
+    BCP_L3_BURST_EN     EQU     00000010b
+;
+; TimerReloadEnable contains enable bits for events that reload the
+;  Global Standby Timer.
+;
+  timerReloadEnable     DW      bcpiTimerReloadEnable
+    BCP_GRLD_EN_DEV0    EQU     0000000000000001b
+    BCP_GRLD_EN_DEV1    EQU     0000000000000010b
+    BCP_GRLD_EN_DEV2    EQU     0000000000000100b
+    BCP_GRLD_EN_DEV3    EQU     0000000000001000b
+    BCP_GRLD_EN_DEV4    EQU     0000000000010000b
+    BCP_GRLD_EN_DEV5    EQU     0000000000100000b
+    BCP_GRLD_EN_DEV6    EQU     0000000001000000b
+    BCP_GRLD_EN_DEV7    EQU     0000000010000000b
+    BCP_GRLD_EN_DEV8    EQU     0000000100000000b
+    BCP_GRLD_EN_DEV9    EQU     0000001000000000b
+    BCP_GRLD_EN_DEV10   EQU     0000010000000000b
+    BCP_GRLD_EN_DEV11   EQU     0000100000000000b
+    BCP_GRLD_EN_DEV12   EQU     0001000000000000b
+    BCP_GRLD_EN_DEV13   EQU     0010000000000000b
+    BCP_GRLD_EN_KBC_MS  EQU     0100000000000000b
+    BCP_GRLD_EN_IRQ     EQU     1000000000000000b
+
+;
+; signalPolarity contains bits to indicate the polarity of the LID and THRM
+; signals.   NOTE:  These bits are not used in the desktop implementation
+; of PIIX4 MISER.  The default settings for the polarity should be set in
+; the register table.
+;
+  signalPolarity        DB      bcpiSignalPolarity
+    BCP_LID_POL_HIGH    EQU     00000001b
+    BCP_LID_POL_LOW     EQU     00000000b
+    BCP_THRM_POL_HIGH   EQU     00000010b
+    BCP_THRM_POL_LOW    EQU     00000000b
+;
+; This is the Miser Standard Time value to be used for the auto save
+; to disk timeout
+;
+  autoS2DTimeout        DB      bcpiAutoS2DTimeout
+
+;
+; softOffSMIEnable contains Enable bits for Events that can cause an SMI
+;  to be generated while in the Soft Off state.
+;
+  softOffSMIEnable      DW      bcpiSoftOffSMIEnable
+  softOffGPISMIEnable	  DW	    bcpiSoftOffGPISMIEnable
+  GPiSMIEnable		      DW	    bcpiGPiSMIEnable
+  GPIOInvertReq 	      DW	    bcpiGpioInv
+  DevTrapEnable         DW      bcpiDevTrapEn
+  SIOWakeupDevice       DW      bcpiSIOWakeupDev
+  TCO_TIMER_HALT	      DB    	bcpiTcoTimerHalt
+  
+bcpMiserCSFeatsStruc ENDS

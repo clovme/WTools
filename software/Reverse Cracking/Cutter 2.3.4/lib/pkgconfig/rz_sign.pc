@@ -1,0 +1,12 @@
+prefix=D:/a/cutter/cutter/build
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+datdir=share
+
+Name: rz_sign
+Description: rizin foundation libraries
+Version: 0.7.1
+Requires: rz_util, rz_analysis, rz_diff, rz_hash, rz_type, rz_search, rz_flag
+Libs: -L${libdir} -lrz_sign
+Cflags: -I${includedir}/librz

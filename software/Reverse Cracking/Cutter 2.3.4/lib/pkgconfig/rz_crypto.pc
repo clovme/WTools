@@ -1,0 +1,13 @@
+prefix=D:/a/cutter/cutter/build
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+plugindir=lib\\rizin\\plugins
+datdir=share
+
+Name: rz_crypto
+Description: rizin foundation libraries
+Version: 0.7.1
+Requires: rz_util
+Libs: -L${libdir} -lrz_crypto
+Cflags: -I${includedir}/librz

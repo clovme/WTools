@@ -1,0 +1,14 @@
+prefix=D:/a/cutter/cutter/build
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+plugindir=lib\\rizin\\plugins
+datdir=share
+
+Name: rz_bin
+Description: rizin foundation libraries
+Version: 0.7.1
+Requires: rz_magic, rz_util, rz_io, rz_socket, rz_syscall, rz_type
+Requires.private: rz_demangler, rz_hash, rz_cons
+Libs: -L${libdir} -lrz_bin
+Cflags: -I${includedir}/librz

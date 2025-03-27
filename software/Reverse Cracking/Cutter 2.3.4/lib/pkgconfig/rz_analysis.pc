@@ -1,0 +1,13 @@
+prefix=D:/a/cutter/cutter/build
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+plugindir=lib\\rizin\\plugins
+datdir=share
+
+Name: rz_analysis
+Description: rizin foundation libraries
+Version: 0.7.1
+Requires: rz_util, rz_crypto, rz_reg, rz_syscall, rz_search, rz_cons, rz_flag, rz_hash, rz_diff, rz_parse, rz_asm, rz_bin, rz_type, rz_il
+Libs: -L${libdir} -lrz_analysis
+Cflags: -I${includedir}/librz

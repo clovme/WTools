@@ -1,0 +1,13 @@
+prefix=D:/a/cutter/cutter/build
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+datdir=share
+
+Name: rz_main
+Description: rizin foundation libraries
+Version: 0.7.1
+Requires: rz_core, rz_demangler, rz_asm, rz_sign, rz_diff, rz_syscall
+Requires.private: rz_util, rz_magic, rz_socket, rz_flag, rz_cons, rz_hash, rz_crypto, rz_il, rz_io, rz_reg, rz_bp, rz_parse, rz_egg, rz_search, rz_analysis, rz_debug, rz_config, rz_bin
+Libs: -L${libdir} -lrz_main
+Cflags: -I${includedir}/librz

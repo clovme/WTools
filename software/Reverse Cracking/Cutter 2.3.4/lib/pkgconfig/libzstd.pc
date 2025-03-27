@@ -1,0 +1,10 @@
+prefix=D:/a/cutter/cutter/build
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libzstd
+Description: fast lossless compression algorithm library
+URL: https://facebook.github.io/zstd/
+Version: 1.5.5
+Libs: -L${libdir} -lzstd
+Cflags: -I${includedir}
