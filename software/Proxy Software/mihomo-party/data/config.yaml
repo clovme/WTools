@@ -9,7 +9,7 @@ connectionDirection: asc
 connectionOrderBy: time
 useSubStore: true
 proxyDisplayMode: full
-proxyDisplayOrder: default
+proxyDisplayOrder: delay
 autoCheckUpdate: false
 autoCloseConnection: true
 useNameserverPolicy: false
@@ -38,7 +38,7 @@ language: zh-CN
 autoQuitWithoutCore: false
 envType:
   - cmd
-showFloatingWindow: true
+showFloatingWindow: false
 showTraffic: false
 subStoreHost: 127.0.0.1
 sysproxyCardStatus: col-span-1
