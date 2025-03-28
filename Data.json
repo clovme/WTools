@@ -12,7 +12,7 @@
             "TargetPath": "C:\\Program Files\\Tencent\\WeChat\\WeChat.exe",
             "IconLocation": "C:\\Program Files\\Tencent\\WeChat\\WeChat.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 1
         },
         {
             "Name": "Typora",
@@ -68,7 +68,7 @@
             "TargetPath": "%rp%\\software\\Common Software\\ChatGPT.exe",
             "IconLocation": "%rp%\\software\\Common Software\\ChatGPT.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 5
         },
         {
             "Name": "MFC\u7C7B\u5E93\u4E2D\u6587\u624B\u518C",
@@ -91,21 +91,21 @@
             "TargetPath": "%rr%\\Application\\JetBrains\\PyCharm\\bin\\pycharm64.exe",
             "IconLocation": "%rr%\\Application\\JetBrains\\PyCharm\\bin\\pycharm64.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 1
         },
         {
             "Name": "GoLand",
             "TargetPath": "%rr%\\Application\\JetBrains\\GoLand\\bin\\goland64.exe",
             "IconLocation": "%rr%\\Application\\JetBrains\\GoLand\\bin\\goland64.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 4
         },
         {
             "Name": "WebStorm",
             "TargetPath": "%rr%\\Application\\JetBrains\\WebStorm\\bin\\webstorm64.exe",
             "IconLocation": "%rr%\\Application\\JetBrains\\WebStorm\\bin\\webstorm64.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 2
         },
         {
             "Name": "CLion",
@@ -265,7 +265,7 @@
             "TargetPath": "%rp%\\software\\System Management\\UninstallTool.exe",
             "IconLocation": "%rp%\\software\\System Management\\UninstallTool.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 2
         },
         {
             "Name": "Umi-OCR",
@@ -286,7 +286,7 @@
             "TargetPath": "%rp%\\software\\System Management\\DNSTools\\DNSTools.exe",
             "IconLocation": "%rp%\\software\\System Management\\DNSTools\\DNSTools.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 2
         },
         {
             "Name": "NETworkManager",
@@ -384,7 +384,7 @@
             "TargetPath": "%rp%\\software\\System Management\\IP\u5730\u5740\u4FEE\u6539\u5668.exe",
             "IconLocation": "%rp%\\software\\System Management\\IP\u5730\u5740\u4FEE\u6539\u5668.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 3
         },
         {
             "Name": "Hosts\u7F16\u8F91\u5668",
@@ -413,6 +413,13 @@
             "IconLocation": "%rp%\\software\\System Management\\EdgeTools.exe",
             "Arguments": "",
             "Count": 0
+        },
+        {
+            "Name": "Windows 11 Fixer",
+            "TargetPath": "%rp%\\software\\System Management\\Windows 11 Fixer\\Windows 11 Fixer.exe",
+            "IconLocation": "%rp%\\software\\System Management\\Windows 11 Fixer\\Windows 11 Fixer.exe",
+            "Arguments": "",
+            "Count": 0
         }
     ],
     "媒体娱乐": [
@@ -421,7 +428,7 @@
             "TargetPath": "%rp%\\software\\Common Software\\Pure Codec\\x64\\PotPlayerMini64.exe",
             "IconLocation": "%rp%\\software\\Common Software\\Pure Codec\\x64\\PotPlayerMini64.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 1
         },
         {
             "Name": "SZPlayer",
@@ -465,14 +472,14 @@
             "TargetPath": "%rp%\\software\\Proxy Software\\mihomo-party\\Mihomo Party.exe",
             "IconLocation": "%rp%\\software\\Proxy Software\\mihomo-party\\Mihomo Party.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 6
         },
         {
             "Name": "Oppa",
             "TargetPath": "C:\\Program Files (x86)\\Oppa\\Oppa.exe",
             "IconLocation": "C:\\Program Files (x86)\\Oppa\\Oppa.exe",
             "Arguments": "",
-            "Count": 0
+            "Count": 4
         }
     ],
     "下载工具": [
