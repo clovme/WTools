@@ -32,7 +32,7 @@ siderOrder:
   - substore
 siderWidth: 250
 sysProxy:
-  enable: false
+  enable: true
   mode: manual
 language: zh-CN
 autoQuitWithoutCore: false
