@@ -68,7 +68,7 @@
             "TargetPath": "%rp%\\software\\Common Software\\ChatGPT.exe",
             "IconLocation": "%rp%\\software\\Common Software\\ChatGPT.exe",
             "Arguments": "",
-            "Count": 1
+            "Count": 3
         },
         {
             "Name": "MFC\u7C7B\u5E93\u4E2D\u6587\u624B\u518C",
@@ -98,7 +98,7 @@
             "TargetPath": "%rr%\\Application\\JetBrains\\GoLand\\bin\\goland64.exe",
             "IconLocation": "%rr%\\Application\\JetBrains\\GoLand\\bin\\goland64.exe",
             "Arguments": "",
-            "Count": 1
+            "Count": 4
         },
         {
             "Name": "WebStorm",
@@ -286,7 +286,7 @@
             "TargetPath": "%rp%\\software\\System Management\\DNSTools\\DNSTools.exe",
             "IconLocation": "%rp%\\software\\System Management\\DNSTools\\DNSTools.exe",
             "Arguments": "",
-            "Count": 1
+            "Count": 2
         },
         {
             "Name": "NETworkManager",
@@ -384,7 +384,7 @@
             "TargetPath": "%rp%\\software\\System Management\\IP\u5730\u5740\u4FEE\u6539\u5668.exe",
             "IconLocation": "%rp%\\software\\System Management\\IP\u5730\u5740\u4FEE\u6539\u5668.exe",
             "Arguments": "",
-            "Count": 2
+            "Count": 3
         },
         {
             "Name": "Hosts\u7F16\u8F91\u5668",
@@ -465,7 +465,7 @@
             "TargetPath": "%rp%\\software\\Proxy Software\\mihomo-party\\Mihomo Party.exe",
             "IconLocation": "%rp%\\software\\Proxy Software\\mihomo-party\\Mihomo Party.exe",
             "Arguments": "",
-            "Count": 5
+            "Count": 6
         },
         {
             "Name": "Oppa",

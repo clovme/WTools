@@ -8521,7 +8521,7 @@ authentication: []
 skip-auth-prefixes:
   - 127.0.0.1/32
 tun:
-  enable: true
+  enable: false
   device: Mihomo
   stack: mixed
   auto-route: true
